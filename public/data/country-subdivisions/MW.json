@@ -1,0 +1,126 @@
+[
+  {
+    "label": "MW-BA: Balaka",
+    "value": "MW-BA"
+  },
+  {
+    "label": "MW-BL: Blantyre",
+    "value": "MW-BL"
+  },
+  {
+    "label": "MW-C: Central Region; Chapakati",
+    "value": "MW-C"
+  },
+  {
+    "label": "MW-CK: Chikwawa",
+    "value": "MW-CK"
+  },
+  {
+    "label": "MW-CR: Chiradzulu",
+    "value": "MW-CR"
+  },
+  {
+    "label": "MW-CT: Chitipa",
+    "value": "MW-CT"
+  },
+  {
+    "label": "MW-DE: Dedza",
+    "value": "MW-DE"
+  },
+  {
+    "label": "MW-DO: Dowa",
+    "value": "MW-DO"
+  },
+  {
+    "label": "MW-KR: Karonga",
+    "value": "MW-KR"
+  },
+  {
+    "label": "MW-KS: Kasungu",
+    "value": "MW-KS"
+  },
+  {
+    "label": "MW-LI: Lilongwe",
+    "value": "MW-LI"
+  },
+  {
+    "label": "MW-LK: Likoma",
+    "value": "MW-LK"
+  },
+  {
+    "label": "MW-MC: Mchinji",
+    "value": "MW-MC"
+  },
+  {
+    "label": "MW-MG: Mangochi",
+    "value": "MW-MG"
+  },
+  {
+    "label": "MW-MH: Machinga",
+    "value": "MW-MH"
+  },
+  {
+    "label": "MW-MU: Mulanje",
+    "value": "MW-MU"
+  },
+  {
+    "label": "MW-MW: Mwanza",
+    "value": "MW-MW"
+  },
+  {
+    "label": "MW-MZ: Mzimba",
+    "value": "MW-MZ"
+  },
+  {
+    "label": "MW-N: Chakumpoto; Northern Region",
+    "value": "MW-N"
+  },
+  {
+    "label": "MW-NB: Nkhata Bay",
+    "value": "MW-NB"
+  },
+  {
+    "label": "MW-NE: Neno",
+    "value": "MW-NE"
+  },
+  {
+    "label": "MW-NI: Ntchisi",
+    "value": "MW-NI"
+  },
+  {
+    "label": "MW-NK: Nkhotakota",
+    "value": "MW-NK"
+  },
+  {
+    "label": "MW-NS: Nsanje",
+    "value": "MW-NS"
+  },
+  {
+    "label": "MW-NU: Ntcheu",
+    "value": "MW-NU"
+  },
+  {
+    "label": "MW-PH: Phalombe",
+    "value": "MW-PH"
+  },
+  {
+    "label": "MW-RU: Rumphi",
+    "value": "MW-RU"
+  },
+  {
+    "label": "MW-S: Chakumwera; Southern Region",
+    "value": "MW-S"
+  },
+  {
+    "label": "MW-SA: Salima",
+    "value": "MW-SA"
+  },
+  {
+    "label": "MW-TH: Thyolo",
+    "value": "MW-TH"
+  },
+  {
+    "label": "MW-ZO: Zomba",
+    "value": "MW-ZO"
+  }
+]

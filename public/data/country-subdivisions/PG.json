@@ -1,0 +1,90 @@
+[
+  {
+    "label": "PG-CPK: Chimbu",
+    "value": "PG-CPK"
+  },
+  {
+    "label": "PG-CPM: Central",
+    "value": "PG-CPM"
+  },
+  {
+    "label": "PG-EBR: East New Britain",
+    "value": "PG-EBR"
+  },
+  {
+    "label": "PG-EHG: Eastern Highlands",
+    "value": "PG-EHG"
+  },
+  {
+    "label": "PG-EPW: Enga",
+    "value": "PG-EPW"
+  },
+  {
+    "label": "PG-ESW: East Sepik",
+    "value": "PG-ESW"
+  },
+  {
+    "label": "PG-GPK: Gulf",
+    "value": "PG-GPK"
+  },
+  {
+    "label": "PG-HLA: Hela",
+    "value": "PG-HLA"
+  },
+  {
+    "label": "PG-JWK: Jiwaka",
+    "value": "PG-JWK"
+  },
+  {
+    "label": "PG-MBA: Milne Bay",
+    "value": "PG-MBA"
+  },
+  {
+    "label": "PG-MPL: Morobe",
+    "value": "PG-MPL"
+  },
+  {
+    "label": "PG-MPM: Madang",
+    "value": "PG-MPM"
+  },
+  {
+    "label": "PG-MRL: Manus",
+    "value": "PG-MRL"
+  },
+  {
+    "label": "PG-NCD: National Capital District",
+    "value": "PG-NCD"
+  },
+  {
+    "label": "PG-NIK: New Ireland",
+    "value": "PG-NIK"
+  },
+  {
+    "label": "PG-NPP: Northern",
+    "value": "PG-NPP"
+  },
+  {
+    "label": "PG-NSB: Bougainville",
+    "value": "PG-NSB"
+  },
+  {
+    "label": "PG-SAN: West Sepik",
+    "value": "PG-SAN"
+  },
+  {
+    "label": "PG-SHM: Southern Highlands",
+    "value": "PG-SHM"
+  },
+  {
+    "label": "PG-WBK: West New Britain",
+    "value": "PG-WBK"
+  },
+  {
+    "label": "PG-WHM: Western Highlands",
+    "value": "PG-WHM"
+  },
+  {
+    "label": "PG-WPD: Western",
+    "value": "PG-WPD"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "label": "AT-1: Burgenland",
+    "value": "AT-1"
+  },
+  {
+    "label": "AT-2: Kärnten",
+    "value": "AT-2"
+  },
+  {
+    "label": "AT-3: Niederösterreich",
+    "value": "AT-3"
+  },
+  {
+    "label": "AT-4: Oberösterreich",
+    "value": "AT-4"
+  },
+  {
+    "label": "AT-5: Salzburg",
+    "value": "AT-5"
+  },
+  {
+    "label": "AT-6: Steiermark",
+    "value": "AT-6"
+  },
+  {
+    "label": "AT-7: Tirol",
+    "value": "AT-7"
+  },
+  {
+    "label": "AT-8: Vorarlberg",
+    "value": "AT-8"
+  },
+  {
+    "label": "AT-9: Wien",
+    "value": "AT-9"
+  }
+]

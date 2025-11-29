@@ -1,0 +1,138 @@
+[
+  {
+    "label": "AF-BAL: Balkh",
+    "value": "AF-BAL"
+  },
+  {
+    "label": "AF-BAM: Bāmyān",
+    "value": "AF-BAM"
+  },
+  {
+    "label": "AF-BDG: Bādghīs",
+    "value": "AF-BDG"
+  },
+  {
+    "label": "AF-BDS: Badakhshān",
+    "value": "AF-BDS"
+  },
+  {
+    "label": "AF-BGL: Baghlān",
+    "value": "AF-BGL"
+  },
+  {
+    "label": "AF-DAY: Dāykundī",
+    "value": "AF-DAY"
+  },
+  {
+    "label": "AF-FRA: Farāh",
+    "value": "AF-FRA"
+  },
+  {
+    "label": "AF-FYB: Fāryāb",
+    "value": "AF-FYB"
+  },
+  {
+    "label": "AF-GHA: Ghaznī",
+    "value": "AF-GHA"
+  },
+  {
+    "label": "AF-GHO: Ghōr",
+    "value": "AF-GHO"
+  },
+  {
+    "label": "AF-HEL: Helmand",
+    "value": "AF-HEL"
+  },
+  {
+    "label": "AF-HER: Herāt",
+    "value": "AF-HER"
+  },
+  {
+    "label": "AF-JOW: Jowzjān",
+    "value": "AF-JOW"
+  },
+  {
+    "label": "AF-KAB: Kābul",
+    "value": "AF-KAB"
+  },
+  {
+    "label": "AF-KAN: Kandahār",
+    "value": "AF-KAN"
+  },
+  {
+    "label": "AF-KAP: Kāpīsā",
+    "value": "AF-KAP"
+  },
+  {
+    "label": "AF-KDZ: Kunduz",
+    "value": "AF-KDZ"
+  },
+  {
+    "label": "AF-KHO: Khōst",
+    "value": "AF-KHO"
+  },
+  {
+    "label": "AF-KNR: Kunaṟ",
+    "value": "AF-KNR"
+  },
+  {
+    "label": "AF-LAG: Laghmān",
+    "value": "AF-LAG"
+  },
+  {
+    "label": "AF-LOG: Lōgar",
+    "value": "AF-LOG"
+  },
+  {
+    "label": "AF-NAN: Nangarhār",
+    "value": "AF-NAN"
+  },
+  {
+    "label": "AF-NIM: Nīmrōz",
+    "value": "AF-NIM"
+  },
+  {
+    "label": "AF-NUR: Nūristān",
+    "value": "AF-NUR"
+  },
+  {
+    "label": "AF-PAN: Panjshayr",
+    "value": "AF-PAN"
+  },
+  {
+    "label": "AF-PAR: Parwān",
+    "value": "AF-PAR"
+  },
+  {
+    "label": "AF-PIA: Paktiyā",
+    "value": "AF-PIA"
+  },
+  {
+    "label": "AF-PKA: Paktīkā",
+    "value": "AF-PKA"
+  },
+  {
+    "label": "AF-SAM: Samangān",
+    "value": "AF-SAM"
+  },
+  {
+    "label": "AF-SAR: Sar-e Pul",
+    "value": "AF-SAR"
+  },
+  {
+    "label": "AF-TAK: Takhār",
+    "value": "AF-TAK"
+  },
+  {
+    "label": "AF-URU: Uruzgān",
+    "value": "AF-URU"
+  },
+  {
+    "label": "AF-WAR: Wardak",
+    "value": "AF-WAR"
+  },
+  {
+    "label": "AF-ZAB: Zābul",
+    "value": "AF-ZAB"
+  }
+]

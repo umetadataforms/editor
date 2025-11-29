@@ -1,0 +1,170 @@
+[
+  {
+    "label": "RO-AB: Alba",
+    "value": "RO-AB"
+  },
+  {
+    "label": "RO-AG: Argeș",
+    "value": "RO-AG"
+  },
+  {
+    "label": "RO-AR: Arad",
+    "value": "RO-AR"
+  },
+  {
+    "label": "RO-B: București",
+    "value": "RO-B"
+  },
+  {
+    "label": "RO-BC: Bacău",
+    "value": "RO-BC"
+  },
+  {
+    "label": "RO-BH: Bihor",
+    "value": "RO-BH"
+  },
+  {
+    "label": "RO-BN: Bistrița-Năsăud",
+    "value": "RO-BN"
+  },
+  {
+    "label": "RO-BR: Brăila",
+    "value": "RO-BR"
+  },
+  {
+    "label": "RO-BT: Botoșani",
+    "value": "RO-BT"
+  },
+  {
+    "label": "RO-BV: Brașov",
+    "value": "RO-BV"
+  },
+  {
+    "label": "RO-BZ: Buzău",
+    "value": "RO-BZ"
+  },
+  {
+    "label": "RO-CJ: Cluj",
+    "value": "RO-CJ"
+  },
+  {
+    "label": "RO-CL: Călărași",
+    "value": "RO-CL"
+  },
+  {
+    "label": "RO-CS: Caraș-Severin",
+    "value": "RO-CS"
+  },
+  {
+    "label": "RO-CT: Constanța",
+    "value": "RO-CT"
+  },
+  {
+    "label": "RO-CV: Covasna",
+    "value": "RO-CV"
+  },
+  {
+    "label": "RO-DB: Dâmbovița",
+    "value": "RO-DB"
+  },
+  {
+    "label": "RO-DJ: Dolj",
+    "value": "RO-DJ"
+  },
+  {
+    "label": "RO-GJ: Gorj",
+    "value": "RO-GJ"
+  },
+  {
+    "label": "RO-GL: Galați",
+    "value": "RO-GL"
+  },
+  {
+    "label": "RO-GR: Giurgiu",
+    "value": "RO-GR"
+  },
+  {
+    "label": "RO-HD: Hunedoara",
+    "value": "RO-HD"
+  },
+  {
+    "label": "RO-HR: Harghita",
+    "value": "RO-HR"
+  },
+  {
+    "label": "RO-IF: Ilfov",
+    "value": "RO-IF"
+  },
+  {
+    "label": "RO-IL: Ialomița",
+    "value": "RO-IL"
+  },
+  {
+    "label": "RO-IS: Iași",
+    "value": "RO-IS"
+  },
+  {
+    "label": "RO-MH: Mehedinți",
+    "value": "RO-MH"
+  },
+  {
+    "label": "RO-MM: Maramureș",
+    "value": "RO-MM"
+  },
+  {
+    "label": "RO-MS: Mureș",
+    "value": "RO-MS"
+  },
+  {
+    "label": "RO-NT: Neamț",
+    "value": "RO-NT"
+  },
+  {
+    "label": "RO-OT: Olt",
+    "value": "RO-OT"
+  },
+  {
+    "label": "RO-PH: Prahova",
+    "value": "RO-PH"
+  },
+  {
+    "label": "RO-SB: Sibiu",
+    "value": "RO-SB"
+  },
+  {
+    "label": "RO-SJ: Sălaj",
+    "value": "RO-SJ"
+  },
+  {
+    "label": "RO-SM: Satu Mare",
+    "value": "RO-SM"
+  },
+  {
+    "label": "RO-SV: Suceava",
+    "value": "RO-SV"
+  },
+  {
+    "label": "RO-TL: Tulcea",
+    "value": "RO-TL"
+  },
+  {
+    "label": "RO-TM: Timiș",
+    "value": "RO-TM"
+  },
+  {
+    "label": "RO-TR: Teleorman",
+    "value": "RO-TR"
+  },
+  {
+    "label": "RO-VL: Vâlcea",
+    "value": "RO-VL"
+  },
+  {
+    "label": "RO-VN: Vrancea",
+    "value": "RO-VN"
+  },
+  {
+    "label": "RO-VS: Vaslui",
+    "value": "RO-VS"
+  }
+]

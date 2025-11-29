@@ -1,0 +1,42 @@
+[
+  {
+    "label": "GQ-AN: Annobon; Annobón; Ano Bom",
+    "value": "GQ-AN"
+  },
+  {
+    "label": "GQ-BN: Bioko Nord; Bioko Norte",
+    "value": "GQ-BN"
+  },
+  {
+    "label": "GQ-BS: Bioko Sud; Bioko Sul; Bioko Sur",
+    "value": "GQ-BS"
+  },
+  {
+    "label": "GQ-C: Região Continental; Región Continental; Région Continentale",
+    "value": "GQ-C"
+  },
+  {
+    "label": "GQ-CS: Centro Sud; Centro Sul; Centro Sur",
+    "value": "GQ-CS"
+  },
+  {
+    "label": "GQ-DJ: Djibloho",
+    "value": "GQ-DJ"
+  },
+  {
+    "label": "GQ-I: Região Insular; Región Insular; Région Insulaire",
+    "value": "GQ-I"
+  },
+  {
+    "label": "GQ-KN: Kié-Ntem",
+    "value": "GQ-KN"
+  },
+  {
+    "label": "GQ-LI: Litoral; Littoral",
+    "value": "GQ-LI"
+  },
+  {
+    "label": "GQ-WN: Wele-Nzas",
+    "value": "GQ-WN"
+  }
+]

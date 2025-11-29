@@ -1,0 +1,34 @@
+[
+  {
+    "label": "AU-ACT: Australian Capital Territory",
+    "value": "AU-ACT"
+  },
+  {
+    "label": "AU-NSW: New South Wales",
+    "value": "AU-NSW"
+  },
+  {
+    "label": "AU-NT: Northern Territory",
+    "value": "AU-NT"
+  },
+  {
+    "label": "AU-QLD: Queensland",
+    "value": "AU-QLD"
+  },
+  {
+    "label": "AU-SA: South Australia",
+    "value": "AU-SA"
+  },
+  {
+    "label": "AU-TAS: Tasmania",
+    "value": "AU-TAS"
+  },
+  {
+    "label": "AU-VIC: Victoria",
+    "value": "AU-VIC"
+  },
+  {
+    "label": "AU-WA: Western Australia",
+    "value": "AU-WA"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "label": "SG-01: Central Singapore",
+    "value": "SG-01"
+  },
+  {
+    "label": "SG-02: North East",
+    "value": "SG-02"
+  },
+  {
+    "label": "SG-03: North West",
+    "value": "SG-03"
+  },
+  {
+    "label": "SG-04: South East",
+    "value": "SG-04"
+  },
+  {
+    "label": "SG-05: South West",
+    "value": "SG-05"
+  }
+]

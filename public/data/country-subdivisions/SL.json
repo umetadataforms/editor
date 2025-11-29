@@ -1,0 +1,22 @@
+[
+  {
+    "label": "SL-E: Eastern",
+    "value": "SL-E"
+  },
+  {
+    "label": "SL-N: Northern",
+    "value": "SL-N"
+  },
+  {
+    "label": "SL-NW: North Western",
+    "value": "SL-NW"
+  },
+  {
+    "label": "SL-S: Southern",
+    "value": "SL-S"
+  },
+  {
+    "label": "SL-W: Western Area",
+    "value": "SL-W"
+  }
+]

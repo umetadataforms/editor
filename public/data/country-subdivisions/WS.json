@@ -1,0 +1,46 @@
+[
+  {
+    "label": "WS-AA: A'ana",
+    "value": "WS-AA"
+  },
+  {
+    "label": "WS-AL: Aiga-i-le-Tai",
+    "value": "WS-AL"
+  },
+  {
+    "label": "WS-AT: Atua",
+    "value": "WS-AT"
+  },
+  {
+    "label": "WS-FA: Fa'asaleleaga",
+    "value": "WS-FA"
+  },
+  {
+    "label": "WS-GE: Gaga'emauga",
+    "value": "WS-GE"
+  },
+  {
+    "label": "WS-GI: Gagaifomauga",
+    "value": "WS-GI"
+  },
+  {
+    "label": "WS-PA: Palauli",
+    "value": "WS-PA"
+  },
+  {
+    "label": "WS-SA: Satupa'itea",
+    "value": "WS-SA"
+  },
+  {
+    "label": "WS-TU: Tuamasaga",
+    "value": "WS-TU"
+  },
+  {
+    "label": "WS-VF: Va'a-o-Fonoti",
+    "value": "WS-VF"
+  },
+  {
+    "label": "WS-VS: Vaisigano",
+    "value": "WS-VS"
+  }
+]

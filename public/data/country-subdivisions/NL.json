@@ -1,0 +1,74 @@
+[
+  {
+    "label": "NL-AW: Aruba",
+    "value": "NL-AW"
+  },
+  {
+    "label": "NL-BQ1: Bonaire",
+    "value": "NL-BQ1"
+  },
+  {
+    "label": "NL-BQ2: Saba",
+    "value": "NL-BQ2"
+  },
+  {
+    "label": "NL-BQ3: Sint Eustatius",
+    "value": "NL-BQ3"
+  },
+  {
+    "label": "NL-CW: Curaçao",
+    "value": "NL-CW"
+  },
+  {
+    "label": "NL-DR: Drenthe",
+    "value": "NL-DR"
+  },
+  {
+    "label": "NL-FL: Flevoland",
+    "value": "NL-FL"
+  },
+  {
+    "label": "NL-FR: Fryslân",
+    "value": "NL-FR"
+  },
+  {
+    "label": "NL-GE: Gelderland",
+    "value": "NL-GE"
+  },
+  {
+    "label": "NL-GR: Groningen",
+    "value": "NL-GR"
+  },
+  {
+    "label": "NL-LI: Limburg",
+    "value": "NL-LI"
+  },
+  {
+    "label": "NL-NB: Noord-Brabant",
+    "value": "NL-NB"
+  },
+  {
+    "label": "NL-NH: Noord-Holland",
+    "value": "NL-NH"
+  },
+  {
+    "label": "NL-OV: Overijssel",
+    "value": "NL-OV"
+  },
+  {
+    "label": "NL-SX: Sint Maarten",
+    "value": "NL-SX"
+  },
+  {
+    "label": "NL-UT: Utrecht",
+    "value": "NL-UT"
+  },
+  {
+    "label": "NL-ZE: Zeeland",
+    "value": "NL-ZE"
+  },
+  {
+    "label": "NL-ZH: Zuid-Holland",
+    "value": "NL-ZH"
+  }
+]

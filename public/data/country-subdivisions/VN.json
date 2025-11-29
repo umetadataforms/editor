@@ -1,0 +1,254 @@
+[
+  {
+    "label": "VN-01: Lai Châu",
+    "value": "VN-01"
+  },
+  {
+    "label": "VN-02: Lào Cai",
+    "value": "VN-02"
+  },
+  {
+    "label": "VN-03: Hà Giang",
+    "value": "VN-03"
+  },
+  {
+    "label": "VN-04: Cao Bằng",
+    "value": "VN-04"
+  },
+  {
+    "label": "VN-05: Sơn La",
+    "value": "VN-05"
+  },
+  {
+    "label": "VN-06: Yên Bái",
+    "value": "VN-06"
+  },
+  {
+    "label": "VN-07: Tuyên Quang",
+    "value": "VN-07"
+  },
+  {
+    "label": "VN-09: Lạng Sơn",
+    "value": "VN-09"
+  },
+  {
+    "label": "VN-13: Quảng Ninh",
+    "value": "VN-13"
+  },
+  {
+    "label": "VN-14: Hòa Bình",
+    "value": "VN-14"
+  },
+  {
+    "label": "VN-18: Ninh Bình",
+    "value": "VN-18"
+  },
+  {
+    "label": "VN-20: Thái Bình",
+    "value": "VN-20"
+  },
+  {
+    "label": "VN-21: Thanh Hóa",
+    "value": "VN-21"
+  },
+  {
+    "label": "VN-22: Nghệ An",
+    "value": "VN-22"
+  },
+  {
+    "label": "VN-23: Hà Tĩnh",
+    "value": "VN-23"
+  },
+  {
+    "label": "VN-24: Quảng Bình",
+    "value": "VN-24"
+  },
+  {
+    "label": "VN-25: Quảng Trị",
+    "value": "VN-25"
+  },
+  {
+    "label": "VN-26: Thừa Thiên-Huế",
+    "value": "VN-26"
+  },
+  {
+    "label": "VN-27: Quảng Nam",
+    "value": "VN-27"
+  },
+  {
+    "label": "VN-28: Kon Tum",
+    "value": "VN-28"
+  },
+  {
+    "label": "VN-29: Quảng Ngãi",
+    "value": "VN-29"
+  },
+  {
+    "label": "VN-30: Gia Lai",
+    "value": "VN-30"
+  },
+  {
+    "label": "VN-31: Bình Định",
+    "value": "VN-31"
+  },
+  {
+    "label": "VN-32: Phú Yên",
+    "value": "VN-32"
+  },
+  {
+    "label": "VN-33: Đắk Lắk",
+    "value": "VN-33"
+  },
+  {
+    "label": "VN-34: Khánh Hòa",
+    "value": "VN-34"
+  },
+  {
+    "label": "VN-35: Lâm Đồng",
+    "value": "VN-35"
+  },
+  {
+    "label": "VN-36: Ninh Thuận",
+    "value": "VN-36"
+  },
+  {
+    "label": "VN-37: Tây Ninh",
+    "value": "VN-37"
+  },
+  {
+    "label": "VN-39: Đồng Nai",
+    "value": "VN-39"
+  },
+  {
+    "label": "VN-40: Bình Thuận",
+    "value": "VN-40"
+  },
+  {
+    "label": "VN-41: Long An",
+    "value": "VN-41"
+  },
+  {
+    "label": "VN-43: Bà Rịa - Vũng Tàu",
+    "value": "VN-43"
+  },
+  {
+    "label": "VN-44: An Giang",
+    "value": "VN-44"
+  },
+  {
+    "label": "VN-45: Đồng Tháp",
+    "value": "VN-45"
+  },
+  {
+    "label": "VN-46: Tiền Giang",
+    "value": "VN-46"
+  },
+  {
+    "label": "VN-47: Kiến Giang",
+    "value": "VN-47"
+  },
+  {
+    "label": "VN-49: Vĩnh Long",
+    "value": "VN-49"
+  },
+  {
+    "label": "VN-50: Bến Tre",
+    "value": "VN-50"
+  },
+  {
+    "label": "VN-51: Trà Vinh",
+    "value": "VN-51"
+  },
+  {
+    "label": "VN-52: Sóc Trăng",
+    "value": "VN-52"
+  },
+  {
+    "label": "VN-53: Bắc Kạn",
+    "value": "VN-53"
+  },
+  {
+    "label": "VN-54: Bắc Giang",
+    "value": "VN-54"
+  },
+  {
+    "label": "VN-55: Bạc Liêu",
+    "value": "VN-55"
+  },
+  {
+    "label": "VN-56: Bắc Ninh",
+    "value": "VN-56"
+  },
+  {
+    "label": "VN-57: Bình Dương",
+    "value": "VN-57"
+  },
+  {
+    "label": "VN-58: Bình Phước",
+    "value": "VN-58"
+  },
+  {
+    "label": "VN-59: Cà Mau",
+    "value": "VN-59"
+  },
+  {
+    "label": "VN-61: Hải Dương",
+    "value": "VN-61"
+  },
+  {
+    "label": "VN-63: Hà Nam",
+    "value": "VN-63"
+  },
+  {
+    "label": "VN-66: Hưng Yên",
+    "value": "VN-66"
+  },
+  {
+    "label": "VN-67: Nam Định",
+    "value": "VN-67"
+  },
+  {
+    "label": "VN-68: Phú Thọ",
+    "value": "VN-68"
+  },
+  {
+    "label": "VN-69: Thái Nguyên",
+    "value": "VN-69"
+  },
+  {
+    "label": "VN-70: Vĩnh Phúc",
+    "value": "VN-70"
+  },
+  {
+    "label": "VN-71: Điện Biên",
+    "value": "VN-71"
+  },
+  {
+    "label": "VN-72: Đắk Nông",
+    "value": "VN-72"
+  },
+  {
+    "label": "VN-73: Hậu Giang",
+    "value": "VN-73"
+  },
+  {
+    "label": "VN-CT: Cần Thơ",
+    "value": "VN-CT"
+  },
+  {
+    "label": "VN-DN: Đà Nẵng",
+    "value": "VN-DN"
+  },
+  {
+    "label": "VN-HN: Hà Nội",
+    "value": "VN-HN"
+  },
+  {
+    "label": "VN-HP: Hải Phòng",
+    "value": "VN-HP"
+  },
+  {
+    "label": "VN-SG: Hồ Chí Minh",
+    "value": "VN-SG"
+  }
+]

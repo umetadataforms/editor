@@ -1,0 +1,78 @@
+[
+  {
+    "label": "FI-01: Ahvenanmaan maakunta; Landskapet Åland",
+    "value": "FI-01"
+  },
+  {
+    "label": "FI-02: Etelä-Karjala; Södra Karelen",
+    "value": "FI-02"
+  },
+  {
+    "label": "FI-03: Etelä-Pohjanmaa; Södra Österbotten",
+    "value": "FI-03"
+  },
+  {
+    "label": "FI-04: Etelä-Savo; Södra Savolax",
+    "value": "FI-04"
+  },
+  {
+    "label": "FI-05: Kainuu; Kajanaland",
+    "value": "FI-05"
+  },
+  {
+    "label": "FI-06: Egentliga Tavastland; Kanta-Häme",
+    "value": "FI-06"
+  },
+  {
+    "label": "FI-07: Keski-Pohjanmaa; Mellersta Österbotten",
+    "value": "FI-07"
+  },
+  {
+    "label": "FI-08: Keski-Suomi; Mellersta Finland",
+    "value": "FI-08"
+  },
+  {
+    "label": "FI-09: Kymenlaakso; Kymmenedalen",
+    "value": "FI-09"
+  },
+  {
+    "label": "FI-10: Lappi; Lappland",
+    "value": "FI-10"
+  },
+  {
+    "label": "FI-11: Birkaland; Pirkanmaa",
+    "value": "FI-11"
+  },
+  {
+    "label": "FI-12: Pohjanmaa; Österbotten",
+    "value": "FI-12"
+  },
+  {
+    "label": "FI-13: Norra Karelen; Pohjois-Karjala",
+    "value": "FI-13"
+  },
+  {
+    "label": "FI-14: Norra Österbotten; Pohjois-Pohjanmaa",
+    "value": "FI-14"
+  },
+  {
+    "label": "FI-15: Norra Savolax; Pohjois-Savo",
+    "value": "FI-15"
+  },
+  {
+    "label": "FI-16: Päijänne-Tavastland; Päijät-Häme",
+    "value": "FI-16"
+  },
+  {
+    "label": "FI-17: Satakunta",
+    "value": "FI-17"
+  },
+  {
+    "label": "FI-18: Nyland; Uusimaa",
+    "value": "FI-18"
+  },
+  {
+    "label": "FI-19: Egentliga Finland; Varsinais-Suomi",
+    "value": "FI-19"
+  }
+]

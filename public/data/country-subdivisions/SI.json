@@ -1,0 +1,850 @@
+[
+  {
+    "label": "SI-001: Ajdovščina",
+    "value": "SI-001"
+  },
+  {
+    "label": "SI-002: Beltinci",
+    "value": "SI-002"
+  },
+  {
+    "label": "SI-003: Bled",
+    "value": "SI-003"
+  },
+  {
+    "label": "SI-004: Bohinj",
+    "value": "SI-004"
+  },
+  {
+    "label": "SI-005: Borovnica",
+    "value": "SI-005"
+  },
+  {
+    "label": "SI-006: Bovec",
+    "value": "SI-006"
+  },
+  {
+    "label": "SI-007: Brda",
+    "value": "SI-007"
+  },
+  {
+    "label": "SI-008: Brezovica",
+    "value": "SI-008"
+  },
+  {
+    "label": "SI-009: Brežice",
+    "value": "SI-009"
+  },
+  {
+    "label": "SI-010: Tišina",
+    "value": "SI-010"
+  },
+  {
+    "label": "SI-011: Celje",
+    "value": "SI-011"
+  },
+  {
+    "label": "SI-012: Cerklje na Gorenjskem",
+    "value": "SI-012"
+  },
+  {
+    "label": "SI-013: Cerknica",
+    "value": "SI-013"
+  },
+  {
+    "label": "SI-014: Cerkno",
+    "value": "SI-014"
+  },
+  {
+    "label": "SI-015: Črenšovci",
+    "value": "SI-015"
+  },
+  {
+    "label": "SI-016: Črna na Koroškem",
+    "value": "SI-016"
+  },
+  {
+    "label": "SI-017: Črnomelj",
+    "value": "SI-017"
+  },
+  {
+    "label": "SI-018: Destrnik",
+    "value": "SI-018"
+  },
+  {
+    "label": "SI-019: Divača",
+    "value": "SI-019"
+  },
+  {
+    "label": "SI-020: Dobrepolje",
+    "value": "SI-020"
+  },
+  {
+    "label": "SI-021: Dobrova-Polhov Gradec",
+    "value": "SI-021"
+  },
+  {
+    "label": "SI-022: Dol pri Ljubljani",
+    "value": "SI-022"
+  },
+  {
+    "label": "SI-023: Domžale",
+    "value": "SI-023"
+  },
+  {
+    "label": "SI-024: Dornava",
+    "value": "SI-024"
+  },
+  {
+    "label": "SI-025: Dravograd",
+    "value": "SI-025"
+  },
+  {
+    "label": "SI-026: Duplek",
+    "value": "SI-026"
+  },
+  {
+    "label": "SI-027: Gorenja vas-Poljane",
+    "value": "SI-027"
+  },
+  {
+    "label": "SI-028: Gorišnica",
+    "value": "SI-028"
+  },
+  {
+    "label": "SI-029: Gornja Radgona",
+    "value": "SI-029"
+  },
+  {
+    "label": "SI-030: Gornji Grad",
+    "value": "SI-030"
+  },
+  {
+    "label": "SI-031: Gornji Petrovci",
+    "value": "SI-031"
+  },
+  {
+    "label": "SI-032: Grosuplje",
+    "value": "SI-032"
+  },
+  {
+    "label": "SI-033: Šalovci",
+    "value": "SI-033"
+  },
+  {
+    "label": "SI-034: Hrastnik",
+    "value": "SI-034"
+  },
+  {
+    "label": "SI-035: Hrpelje-Kozina",
+    "value": "SI-035"
+  },
+  {
+    "label": "SI-036: Idrija",
+    "value": "SI-036"
+  },
+  {
+    "label": "SI-037: Ig",
+    "value": "SI-037"
+  },
+  {
+    "label": "SI-038: Ilirska Bistrica",
+    "value": "SI-038"
+  },
+  {
+    "label": "SI-039: Ivančna Gorica",
+    "value": "SI-039"
+  },
+  {
+    "label": "SI-040: Izola",
+    "value": "SI-040"
+  },
+  {
+    "label": "SI-041: Jesenice",
+    "value": "SI-041"
+  },
+  {
+    "label": "SI-042: Juršinci",
+    "value": "SI-042"
+  },
+  {
+    "label": "SI-043: Kamnik",
+    "value": "SI-043"
+  },
+  {
+    "label": "SI-044: Kanal ob Soči",
+    "value": "SI-044"
+  },
+  {
+    "label": "SI-045: Kidričevo",
+    "value": "SI-045"
+  },
+  {
+    "label": "SI-046: Kobarid",
+    "value": "SI-046"
+  },
+  {
+    "label": "SI-047: Kobilje",
+    "value": "SI-047"
+  },
+  {
+    "label": "SI-048: Kočevje",
+    "value": "SI-048"
+  },
+  {
+    "label": "SI-049: Komen",
+    "value": "SI-049"
+  },
+  {
+    "label": "SI-050: Koper",
+    "value": "SI-050"
+  },
+  {
+    "label": "SI-051: Kozje",
+    "value": "SI-051"
+  },
+  {
+    "label": "SI-052: Kranj",
+    "value": "SI-052"
+  },
+  {
+    "label": "SI-053: Kranjska Gora",
+    "value": "SI-053"
+  },
+  {
+    "label": "SI-054: Krško",
+    "value": "SI-054"
+  },
+  {
+    "label": "SI-055: Kungota",
+    "value": "SI-055"
+  },
+  {
+    "label": "SI-056: Kuzma",
+    "value": "SI-056"
+  },
+  {
+    "label": "SI-057: Laško",
+    "value": "SI-057"
+  },
+  {
+    "label": "SI-058: Lenart",
+    "value": "SI-058"
+  },
+  {
+    "label": "SI-059: Lendava",
+    "value": "SI-059"
+  },
+  {
+    "label": "SI-060: Litija",
+    "value": "SI-060"
+  },
+  {
+    "label": "SI-061: Ljubljana",
+    "value": "SI-061"
+  },
+  {
+    "label": "SI-062: Ljubno",
+    "value": "SI-062"
+  },
+  {
+    "label": "SI-063: Ljutomer",
+    "value": "SI-063"
+  },
+  {
+    "label": "SI-064: Logatec",
+    "value": "SI-064"
+  },
+  {
+    "label": "SI-065: Loška dolina",
+    "value": "SI-065"
+  },
+  {
+    "label": "SI-066: Loški Potok",
+    "value": "SI-066"
+  },
+  {
+    "label": "SI-067: Luče",
+    "value": "SI-067"
+  },
+  {
+    "label": "SI-068: Lukovica",
+    "value": "SI-068"
+  },
+  {
+    "label": "SI-069: Majšperk",
+    "value": "SI-069"
+  },
+  {
+    "label": "SI-070: Maribor",
+    "value": "SI-070"
+  },
+  {
+    "label": "SI-071: Medvode",
+    "value": "SI-071"
+  },
+  {
+    "label": "SI-072: Mengeš",
+    "value": "SI-072"
+  },
+  {
+    "label": "SI-073: Metlika",
+    "value": "SI-073"
+  },
+  {
+    "label": "SI-074: Mežica",
+    "value": "SI-074"
+  },
+  {
+    "label": "SI-075: Miren-Kostanjevica",
+    "value": "SI-075"
+  },
+  {
+    "label": "SI-076: Mislinja",
+    "value": "SI-076"
+  },
+  {
+    "label": "SI-077: Moravče",
+    "value": "SI-077"
+  },
+  {
+    "label": "SI-078: Moravske Toplice",
+    "value": "SI-078"
+  },
+  {
+    "label": "SI-079: Mozirje",
+    "value": "SI-079"
+  },
+  {
+    "label": "SI-080: Murska Sobota",
+    "value": "SI-080"
+  },
+  {
+    "label": "SI-081: Muta",
+    "value": "SI-081"
+  },
+  {
+    "label": "SI-082: Naklo",
+    "value": "SI-082"
+  },
+  {
+    "label": "SI-083: Nazarje",
+    "value": "SI-083"
+  },
+  {
+    "label": "SI-084: Nova Gorica",
+    "value": "SI-084"
+  },
+  {
+    "label": "SI-085: Novo Mesto",
+    "value": "SI-085"
+  },
+  {
+    "label": "SI-086: Odranci",
+    "value": "SI-086"
+  },
+  {
+    "label": "SI-087: Ormož",
+    "value": "SI-087"
+  },
+  {
+    "label": "SI-088: Osilnica",
+    "value": "SI-088"
+  },
+  {
+    "label": "SI-089: Pesnica",
+    "value": "SI-089"
+  },
+  {
+    "label": "SI-090: Piran",
+    "value": "SI-090"
+  },
+  {
+    "label": "SI-091: Pivka",
+    "value": "SI-091"
+  },
+  {
+    "label": "SI-092: Podčetrtek",
+    "value": "SI-092"
+  },
+  {
+    "label": "SI-093: Podvelka",
+    "value": "SI-093"
+  },
+  {
+    "label": "SI-094: Postojna",
+    "value": "SI-094"
+  },
+  {
+    "label": "SI-095: Preddvor",
+    "value": "SI-095"
+  },
+  {
+    "label": "SI-096: Ptuj",
+    "value": "SI-096"
+  },
+  {
+    "label": "SI-097: Puconci",
+    "value": "SI-097"
+  },
+  {
+    "label": "SI-098: Rače-Fram",
+    "value": "SI-098"
+  },
+  {
+    "label": "SI-099: Radeče",
+    "value": "SI-099"
+  },
+  {
+    "label": "SI-100: Radenci",
+    "value": "SI-100"
+  },
+  {
+    "label": "SI-101: Radlje ob Dravi",
+    "value": "SI-101"
+  },
+  {
+    "label": "SI-102: Radovljica",
+    "value": "SI-102"
+  },
+  {
+    "label": "SI-103: Ravne na Koroškem",
+    "value": "SI-103"
+  },
+  {
+    "label": "SI-104: Ribnica",
+    "value": "SI-104"
+  },
+  {
+    "label": "SI-105: Rogašovci",
+    "value": "SI-105"
+  },
+  {
+    "label": "SI-106: Rogaška Slatina",
+    "value": "SI-106"
+  },
+  {
+    "label": "SI-107: Rogatec",
+    "value": "SI-107"
+  },
+  {
+    "label": "SI-108: Ruše",
+    "value": "SI-108"
+  },
+  {
+    "label": "SI-109: Semič",
+    "value": "SI-109"
+  },
+  {
+    "label": "SI-110: Sevnica",
+    "value": "SI-110"
+  },
+  {
+    "label": "SI-111: Sežana",
+    "value": "SI-111"
+  },
+  {
+    "label": "SI-112: Slovenj Gradec",
+    "value": "SI-112"
+  },
+  {
+    "label": "SI-113: Slovenska Bistrica",
+    "value": "SI-113"
+  },
+  {
+    "label": "SI-114: Slovenske Konjice",
+    "value": "SI-114"
+  },
+  {
+    "label": "SI-115: Starše",
+    "value": "SI-115"
+  },
+  {
+    "label": "SI-116: Sveti Jurij ob Ščavnici",
+    "value": "SI-116"
+  },
+  {
+    "label": "SI-117: Šenčur",
+    "value": "SI-117"
+  },
+  {
+    "label": "SI-118: Šentilj",
+    "value": "SI-118"
+  },
+  {
+    "label": "SI-119: Šentjernej",
+    "value": "SI-119"
+  },
+  {
+    "label": "SI-120: Šentjur",
+    "value": "SI-120"
+  },
+  {
+    "label": "SI-121: Škocjan",
+    "value": "SI-121"
+  },
+  {
+    "label": "SI-122: Škofja Loka",
+    "value": "SI-122"
+  },
+  {
+    "label": "SI-123: Škofljica",
+    "value": "SI-123"
+  },
+  {
+    "label": "SI-124: Šmarje pri Jelšah",
+    "value": "SI-124"
+  },
+  {
+    "label": "SI-125: Šmartno ob Paki",
+    "value": "SI-125"
+  },
+  {
+    "label": "SI-126: Šoštanj",
+    "value": "SI-126"
+  },
+  {
+    "label": "SI-127: Štore",
+    "value": "SI-127"
+  },
+  {
+    "label": "SI-128: Tolmin",
+    "value": "SI-128"
+  },
+  {
+    "label": "SI-129: Trbovlje",
+    "value": "SI-129"
+  },
+  {
+    "label": "SI-130: Trebnje",
+    "value": "SI-130"
+  },
+  {
+    "label": "SI-131: Tržič",
+    "value": "SI-131"
+  },
+  {
+    "label": "SI-132: Turnišče",
+    "value": "SI-132"
+  },
+  {
+    "label": "SI-133: Velenje",
+    "value": "SI-133"
+  },
+  {
+    "label": "SI-134: Velike Lašče",
+    "value": "SI-134"
+  },
+  {
+    "label": "SI-135: Videm",
+    "value": "SI-135"
+  },
+  {
+    "label": "SI-136: Vipava",
+    "value": "SI-136"
+  },
+  {
+    "label": "SI-137: Vitanje",
+    "value": "SI-137"
+  },
+  {
+    "label": "SI-138: Vodice",
+    "value": "SI-138"
+  },
+  {
+    "label": "SI-139: Vojnik",
+    "value": "SI-139"
+  },
+  {
+    "label": "SI-140: Vrhnika",
+    "value": "SI-140"
+  },
+  {
+    "label": "SI-141: Vuzenica",
+    "value": "SI-141"
+  },
+  {
+    "label": "SI-142: Zagorje ob Savi",
+    "value": "SI-142"
+  },
+  {
+    "label": "SI-143: Zavrč",
+    "value": "SI-143"
+  },
+  {
+    "label": "SI-144: Zreče",
+    "value": "SI-144"
+  },
+  {
+    "label": "SI-146: Železniki",
+    "value": "SI-146"
+  },
+  {
+    "label": "SI-147: Žiri",
+    "value": "SI-147"
+  },
+  {
+    "label": "SI-148: Benedikt",
+    "value": "SI-148"
+  },
+  {
+    "label": "SI-149: Bistrica ob Sotli",
+    "value": "SI-149"
+  },
+  {
+    "label": "SI-150: Bloke",
+    "value": "SI-150"
+  },
+  {
+    "label": "SI-151: Braslovče",
+    "value": "SI-151"
+  },
+  {
+    "label": "SI-152: Cankova",
+    "value": "SI-152"
+  },
+  {
+    "label": "SI-153: Cerkvenjak",
+    "value": "SI-153"
+  },
+  {
+    "label": "SI-154: Dobje",
+    "value": "SI-154"
+  },
+  {
+    "label": "SI-155: Dobrna",
+    "value": "SI-155"
+  },
+  {
+    "label": "SI-156: Dobrovnik",
+    "value": "SI-156"
+  },
+  {
+    "label": "SI-157: Dolenjske Toplice",
+    "value": "SI-157"
+  },
+  {
+    "label": "SI-158: Grad",
+    "value": "SI-158"
+  },
+  {
+    "label": "SI-159: Hajdina",
+    "value": "SI-159"
+  },
+  {
+    "label": "SI-160: Hoče-Slivnica",
+    "value": "SI-160"
+  },
+  {
+    "label": "SI-161: Hodoš",
+    "value": "SI-161"
+  },
+  {
+    "label": "SI-162: Horjul",
+    "value": "SI-162"
+  },
+  {
+    "label": "SI-163: Jezersko",
+    "value": "SI-163"
+  },
+  {
+    "label": "SI-164: Komenda",
+    "value": "SI-164"
+  },
+  {
+    "label": "SI-165: Kostel",
+    "value": "SI-165"
+  },
+  {
+    "label": "SI-166: Križevci",
+    "value": "SI-166"
+  },
+  {
+    "label": "SI-167: Lovrenc na Pohorju",
+    "value": "SI-167"
+  },
+  {
+    "label": "SI-168: Markovci",
+    "value": "SI-168"
+  },
+  {
+    "label": "SI-169: Miklavž na Dravskem polju",
+    "value": "SI-169"
+  },
+  {
+    "label": "SI-170: Mirna Peč",
+    "value": "SI-170"
+  },
+  {
+    "label": "SI-171: Oplotnica",
+    "value": "SI-171"
+  },
+  {
+    "label": "SI-172: Podlehnik",
+    "value": "SI-172"
+  },
+  {
+    "label": "SI-173: Polzela",
+    "value": "SI-173"
+  },
+  {
+    "label": "SI-174: Prebold",
+    "value": "SI-174"
+  },
+  {
+    "label": "SI-175: Prevalje",
+    "value": "SI-175"
+  },
+  {
+    "label": "SI-176: Razkrižje",
+    "value": "SI-176"
+  },
+  {
+    "label": "SI-177: Ribnica na Pohorju",
+    "value": "SI-177"
+  },
+  {
+    "label": "SI-178: Selnica ob Dravi",
+    "value": "SI-178"
+  },
+  {
+    "label": "SI-179: Sodražica",
+    "value": "SI-179"
+  },
+  {
+    "label": "SI-180: Solčava",
+    "value": "SI-180"
+  },
+  {
+    "label": "SI-181: Sveta Ana",
+    "value": "SI-181"
+  },
+  {
+    "label": "SI-182: Sveti Andraž v Slovenskih goricah",
+    "value": "SI-182"
+  },
+  {
+    "label": "SI-183: Šempeter-Vrtojba",
+    "value": "SI-183"
+  },
+  {
+    "label": "SI-184: Tabor",
+    "value": "SI-184"
+  },
+  {
+    "label": "SI-185: Trnovska Vas",
+    "value": "SI-185"
+  },
+  {
+    "label": "SI-186: Trzin",
+    "value": "SI-186"
+  },
+  {
+    "label": "SI-187: Velika Polana",
+    "value": "SI-187"
+  },
+  {
+    "label": "SI-188: Veržej",
+    "value": "SI-188"
+  },
+  {
+    "label": "SI-189: Vransko",
+    "value": "SI-189"
+  },
+  {
+    "label": "SI-190: Žalec",
+    "value": "SI-190"
+  },
+  {
+    "label": "SI-191: Žetale",
+    "value": "SI-191"
+  },
+  {
+    "label": "SI-192: Žirovnica",
+    "value": "SI-192"
+  },
+  {
+    "label": "SI-193: Žužemberk",
+    "value": "SI-193"
+  },
+  {
+    "label": "SI-194: Šmartno pri Litiji",
+    "value": "SI-194"
+  },
+  {
+    "label": "SI-195: Apače",
+    "value": "SI-195"
+  },
+  {
+    "label": "SI-196: Cirkulane",
+    "value": "SI-196"
+  },
+  {
+    "label": "SI-197: Kostanjevica na Krki",
+    "value": "SI-197"
+  },
+  {
+    "label": "SI-198: Makole",
+    "value": "SI-198"
+  },
+  {
+    "label": "SI-199: Mokronog-Trebelno",
+    "value": "SI-199"
+  },
+  {
+    "label": "SI-200: Poljčane",
+    "value": "SI-200"
+  },
+  {
+    "label": "SI-201: Renče-Vogrsko",
+    "value": "SI-201"
+  },
+  {
+    "label": "SI-202: Središče ob Dravi",
+    "value": "SI-202"
+  },
+  {
+    "label": "SI-203: Straža",
+    "value": "SI-203"
+  },
+  {
+    "label": "SI-204: Sveta Trojica v Slovenskih goricah",
+    "value": "SI-204"
+  },
+  {
+    "label": "SI-205: Sveti Tomaž",
+    "value": "SI-205"
+  },
+  {
+    "label": "SI-206: Šmarješke Toplice",
+    "value": "SI-206"
+  },
+  {
+    "label": "SI-207: Gorje",
+    "value": "SI-207"
+  },
+  {
+    "label": "SI-208: Log-Dragomer",
+    "value": "SI-208"
+  },
+  {
+    "label": "SI-209: Rečica ob Savinji",
+    "value": "SI-209"
+  },
+  {
+    "label": "SI-210: Sveti Jurij v Slovenskih goricah",
+    "value": "SI-210"
+  },
+  {
+    "label": "SI-211: Šentrupert",
+    "value": "SI-211"
+  },
+  {
+    "label": "SI-212: Mirna",
+    "value": "SI-212"
+  },
+  {
+    "label": "SI-213: Ankaran",
+    "value": "SI-213"
+  }
+]

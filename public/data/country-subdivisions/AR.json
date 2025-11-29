@@ -1,0 +1,98 @@
+[
+  {
+    "label": "AR-A: Salta",
+    "value": "AR-A"
+  },
+  {
+    "label": "AR-B: Buenos Aires",
+    "value": "AR-B"
+  },
+  {
+    "label": "AR-C: Ciudad Autónoma de Buenos Aires",
+    "value": "AR-C"
+  },
+  {
+    "label": "AR-D: San Luis",
+    "value": "AR-D"
+  },
+  {
+    "label": "AR-E: Entre Ríos",
+    "value": "AR-E"
+  },
+  {
+    "label": "AR-F: La Rioja",
+    "value": "AR-F"
+  },
+  {
+    "label": "AR-G: Santiago del Estero",
+    "value": "AR-G"
+  },
+  {
+    "label": "AR-H: Chaco",
+    "value": "AR-H"
+  },
+  {
+    "label": "AR-J: San Juan",
+    "value": "AR-J"
+  },
+  {
+    "label": "AR-K: Catamarca",
+    "value": "AR-K"
+  },
+  {
+    "label": "AR-L: La Pampa",
+    "value": "AR-L"
+  },
+  {
+    "label": "AR-M: Mendoza",
+    "value": "AR-M"
+  },
+  {
+    "label": "AR-N: Misiones",
+    "value": "AR-N"
+  },
+  {
+    "label": "AR-P: Formosa",
+    "value": "AR-P"
+  },
+  {
+    "label": "AR-Q: Neuquén",
+    "value": "AR-Q"
+  },
+  {
+    "label": "AR-R: Río Negro",
+    "value": "AR-R"
+  },
+  {
+    "label": "AR-S: Santa Fe",
+    "value": "AR-S"
+  },
+  {
+    "label": "AR-T: Tucumán",
+    "value": "AR-T"
+  },
+  {
+    "label": "AR-U: Chubut",
+    "value": "AR-U"
+  },
+  {
+    "label": "AR-V: Tierra del Fuego",
+    "value": "AR-V"
+  },
+  {
+    "label": "AR-W: Corrientes",
+    "value": "AR-W"
+  },
+  {
+    "label": "AR-X: Córdoba",
+    "value": "AR-X"
+  },
+  {
+    "label": "AR-Y: Jujuy",
+    "value": "AR-Y"
+  },
+  {
+    "label": "AR-Z: Santa Cruz",
+    "value": "AR-Z"
+  }
+]

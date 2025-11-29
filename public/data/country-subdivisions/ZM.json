@@ -1,0 +1,42 @@
+[
+  {
+    "label": "ZM-01: Western",
+    "value": "ZM-01"
+  },
+  {
+    "label": "ZM-02: Central",
+    "value": "ZM-02"
+  },
+  {
+    "label": "ZM-03: Eastern",
+    "value": "ZM-03"
+  },
+  {
+    "label": "ZM-04: Luapula",
+    "value": "ZM-04"
+  },
+  {
+    "label": "ZM-05: Northern",
+    "value": "ZM-05"
+  },
+  {
+    "label": "ZM-06: North-Western",
+    "value": "ZM-06"
+  },
+  {
+    "label": "ZM-07: Southern",
+    "value": "ZM-07"
+  },
+  {
+    "label": "ZM-08: Copperbelt",
+    "value": "ZM-08"
+  },
+  {
+    "label": "ZM-09: Lusaka",
+    "value": "ZM-09"
+  },
+  {
+    "label": "ZM-10: Muchinga",
+    "value": "ZM-10"
+  }
+]

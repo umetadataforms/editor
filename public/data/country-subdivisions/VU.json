@@ -1,0 +1,26 @@
+[
+  {
+    "label": "VU-MAP: Malampa",
+    "value": "VU-MAP"
+  },
+  {
+    "label": "VU-PAM: Pénama",
+    "value": "VU-PAM"
+  },
+  {
+    "label": "VU-SAM: Sanma",
+    "value": "VU-SAM"
+  },
+  {
+    "label": "VU-SEE: Shéfa",
+    "value": "VU-SEE"
+  },
+  {
+    "label": "VU-TAE: Taféa",
+    "value": "VU-TAE"
+  },
+  {
+    "label": "VU-TOB: Torba",
+    "value": "VU-TOB"
+  }
+]

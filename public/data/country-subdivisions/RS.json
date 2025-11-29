@@ -1,0 +1,130 @@
+[
+  {
+    "label": "RS-00: Beograd",
+    "value": "RS-00"
+  },
+  {
+    "label": "RS-01: Severnobački okrug",
+    "value": "RS-01"
+  },
+  {
+    "label": "RS-02: Srednjebanatski okrug",
+    "value": "RS-02"
+  },
+  {
+    "label": "RS-03: Severnobanatski okrug",
+    "value": "RS-03"
+  },
+  {
+    "label": "RS-04: Južnobanatski okrug",
+    "value": "RS-04"
+  },
+  {
+    "label": "RS-05: Zapadnobački okrug",
+    "value": "RS-05"
+  },
+  {
+    "label": "RS-06: Južnobački okrug",
+    "value": "RS-06"
+  },
+  {
+    "label": "RS-07: Sremski okrug",
+    "value": "RS-07"
+  },
+  {
+    "label": "RS-08: Mačvanski okrug",
+    "value": "RS-08"
+  },
+  {
+    "label": "RS-09: Kolubarski okrug",
+    "value": "RS-09"
+  },
+  {
+    "label": "RS-10: Podunavski okrug",
+    "value": "RS-10"
+  },
+  {
+    "label": "RS-11: Braničevski okrug",
+    "value": "RS-11"
+  },
+  {
+    "label": "RS-12: Šumadijski okrug",
+    "value": "RS-12"
+  },
+  {
+    "label": "RS-13: Pomoravski okrug",
+    "value": "RS-13"
+  },
+  {
+    "label": "RS-14: Borski okrug",
+    "value": "RS-14"
+  },
+  {
+    "label": "RS-15: Zaječarski okrug",
+    "value": "RS-15"
+  },
+  {
+    "label": "RS-16: Zlatiborski okrug",
+    "value": "RS-16"
+  },
+  {
+    "label": "RS-17: Moravički okrug",
+    "value": "RS-17"
+  },
+  {
+    "label": "RS-18: Raški okrug",
+    "value": "RS-18"
+  },
+  {
+    "label": "RS-19: Rasinski okrug",
+    "value": "RS-19"
+  },
+  {
+    "label": "RS-20: Nišavski okrug",
+    "value": "RS-20"
+  },
+  {
+    "label": "RS-21: Toplički okrug",
+    "value": "RS-21"
+  },
+  {
+    "label": "RS-22: Pirotski okrug",
+    "value": "RS-22"
+  },
+  {
+    "label": "RS-23: Jablanički okrug",
+    "value": "RS-23"
+  },
+  {
+    "label": "RS-24: Pčinjski okrug",
+    "value": "RS-24"
+  },
+  {
+    "label": "RS-25: Kosovski okrug",
+    "value": "RS-25"
+  },
+  {
+    "label": "RS-26: Pećki okrug",
+    "value": "RS-26"
+  },
+  {
+    "label": "RS-27: Prizrenski okrug",
+    "value": "RS-27"
+  },
+  {
+    "label": "RS-28: Kosovsko-Mitrovački okrug",
+    "value": "RS-28"
+  },
+  {
+    "label": "RS-29: Kosovsko-Pomoravski okrug",
+    "value": "RS-29"
+  },
+  {
+    "label": "RS-KM: Kosovo-Metohija",
+    "value": "RS-KM"
+  },
+  {
+    "label": "RS-VO: Vojvodina",
+    "value": "RS-VO"
+  }
+]

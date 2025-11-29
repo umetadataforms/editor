@@ -1,0 +1,82 @@
+[
+  {
+    "label": "KZ-10: Abajskaja oblast’; Abay oblysy; Abayskaya oblast’",
+    "value": "KZ-10"
+  },
+  {
+    "label": "KZ-11: Akmolinskaja oblast'; Akmolinskaya oblast'; Aqmola oblysy",
+    "value": "KZ-11"
+  },
+  {
+    "label": "KZ-15: Aktjubinskaja oblast'; Aktyubinskaya oblast'; Aqtöbe oblysy",
+    "value": "KZ-15"
+  },
+  {
+    "label": "KZ-19: Almatinskaja oblast'; Almatinskaya oblast'; Almaty oblysy",
+    "value": "KZ-19"
+  },
+  {
+    "label": "KZ-23: Atyrauskaja oblast'; Atyrauskaya oblast'; Atyraū oblysy",
+    "value": "KZ-23"
+  },
+  {
+    "label": "KZ-27: Batys Qazaqstan oblysy; Zapadno-Kazahstanskaja oblast'; Zapadno-Kazakhstanskaya oblast'",
+    "value": "KZ-27"
+  },
+  {
+    "label": "KZ-31: Zhambyl oblysy; Zhambylskaya oblast'; Žambylskaja oblast'",
+    "value": "KZ-31"
+  },
+  {
+    "label": "KZ-33: Zhetisū oblysy; Zhetysuskaya oblast’; Žetysuskaja oblast’",
+    "value": "KZ-33"
+  },
+  {
+    "label": "KZ-35: Karagandinskaja oblast'; Karagandinskaya oblast'; Qaraghandy oblysy",
+    "value": "KZ-35"
+  },
+  {
+    "label": "KZ-39: Kostanajskaja oblast'; Kostanayskaya oblast'; Qostanay oblysy",
+    "value": "KZ-39"
+  },
+  {
+    "label": "KZ-43: Kyzylordinskaja oblast'; Kyzylordinskaya oblast'; Qyzylorda oblysy",
+    "value": "KZ-43"
+  },
+  {
+    "label": "KZ-47: Mangghystaū oblysy; Mangistauskaya oblast'; Mangystauskaja oblast'",
+    "value": "KZ-47"
+  },
+  {
+    "label": "KZ-55: Pavlodar oblysy; Pavlodarskaja oblast'; Pavlodarskaya oblast'",
+    "value": "KZ-55"
+  },
+  {
+    "label": "KZ-59: Severo-Kazahstanskaja oblast'; Severo-Kazakhstanskaya oblast'; Soltüstik Qazaqstan oblysy",
+    "value": "KZ-59"
+  },
+  {
+    "label": "KZ-61: Turkestankaya oblast'; Turkestanskaja oblast'; Türkistan oblysy",
+    "value": "KZ-61"
+  },
+  {
+    "label": "KZ-62: Ulytauskaja oblast’; Ulytauskaya oblast’; Ulytaū oblysy",
+    "value": "KZ-62"
+  },
+  {
+    "label": "KZ-63: Shyghys Qazaqstan oblysy; Vostochno-Kazakhstanskaya oblast'; Vostočno-Kazahstanskaja oblast'",
+    "value": "KZ-63"
+  },
+  {
+    "label": "KZ-71: Astana",
+    "value": "KZ-71"
+  },
+  {
+    "label": "KZ-75: Almaty",
+    "value": "KZ-75"
+  },
+  {
+    "label": "KZ-79: Shymkent; Šimkent",
+    "value": "KZ-79"
+  }
+]

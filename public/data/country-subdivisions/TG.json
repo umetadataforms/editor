@@ -1,0 +1,22 @@
+[
+  {
+    "label": "TG-C: Centrale",
+    "value": "TG-C"
+  },
+  {
+    "label": "TG-K: Kara",
+    "value": "TG-K"
+  },
+  {
+    "label": "TG-M: Maritime",
+    "value": "TG-M"
+  },
+  {
+    "label": "TG-P: Plateaux",
+    "value": "TG-P"
+  },
+  {
+    "label": "TG-S: Savanes",
+    "value": "TG-S"
+  }
+]

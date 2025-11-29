@@ -1,0 +1,110 @@
+[
+  {
+    "label": "BR-AC: Acre",
+    "value": "BR-AC"
+  },
+  {
+    "label": "BR-AL: Alagoas",
+    "value": "BR-AL"
+  },
+  {
+    "label": "BR-AM: Amazonas",
+    "value": "BR-AM"
+  },
+  {
+    "label": "BR-AP: Amapá",
+    "value": "BR-AP"
+  },
+  {
+    "label": "BR-BA: Bahia",
+    "value": "BR-BA"
+  },
+  {
+    "label": "BR-CE: Ceará",
+    "value": "BR-CE"
+  },
+  {
+    "label": "BR-DF: Distrito Federal",
+    "value": "BR-DF"
+  },
+  {
+    "label": "BR-ES: Espírito Santo",
+    "value": "BR-ES"
+  },
+  {
+    "label": "BR-GO: Goiás",
+    "value": "BR-GO"
+  },
+  {
+    "label": "BR-MA: Maranhão",
+    "value": "BR-MA"
+  },
+  {
+    "label": "BR-MG: Minas Gerais",
+    "value": "BR-MG"
+  },
+  {
+    "label": "BR-MS: Mato Grosso do Sul",
+    "value": "BR-MS"
+  },
+  {
+    "label": "BR-MT: Mato Grosso",
+    "value": "BR-MT"
+  },
+  {
+    "label": "BR-PA: Pará",
+    "value": "BR-PA"
+  },
+  {
+    "label": "BR-PB: Paraíba",
+    "value": "BR-PB"
+  },
+  {
+    "label": "BR-PE: Pernambuco",
+    "value": "BR-PE"
+  },
+  {
+    "label": "BR-PI: Piauí",
+    "value": "BR-PI"
+  },
+  {
+    "label": "BR-PR: Paraná",
+    "value": "BR-PR"
+  },
+  {
+    "label": "BR-RJ: Rio de Janeiro",
+    "value": "BR-RJ"
+  },
+  {
+    "label": "BR-RN: Rio Grande do Norte",
+    "value": "BR-RN"
+  },
+  {
+    "label": "BR-RO: Rondônia",
+    "value": "BR-RO"
+  },
+  {
+    "label": "BR-RR: Roraima",
+    "value": "BR-RR"
+  },
+  {
+    "label": "BR-RS: Rio Grande do Sul",
+    "value": "BR-RS"
+  },
+  {
+    "label": "BR-SC: Santa Catarina",
+    "value": "BR-SC"
+  },
+  {
+    "label": "BR-SE: Sergipe",
+    "value": "BR-SE"
+  },
+  {
+    "label": "BR-SP: São Paulo",
+    "value": "BR-SP"
+  },
+  {
+    "label": "BR-TO: Tocantins",
+    "value": "BR-TO"
+  }
+]

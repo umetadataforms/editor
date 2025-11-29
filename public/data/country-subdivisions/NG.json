@@ -1,0 +1,150 @@
+[
+  {
+    "label": "NG-AB: Abia",
+    "value": "NG-AB"
+  },
+  {
+    "label": "NG-AD: Adamawa",
+    "value": "NG-AD"
+  },
+  {
+    "label": "NG-AK: Akwa Ibom",
+    "value": "NG-AK"
+  },
+  {
+    "label": "NG-AN: Anambra",
+    "value": "NG-AN"
+  },
+  {
+    "label": "NG-BA: Bauchi",
+    "value": "NG-BA"
+  },
+  {
+    "label": "NG-BE: Benue",
+    "value": "NG-BE"
+  },
+  {
+    "label": "NG-BO: Borno",
+    "value": "NG-BO"
+  },
+  {
+    "label": "NG-BY: Bayelsa",
+    "value": "NG-BY"
+  },
+  {
+    "label": "NG-CR: Cross River",
+    "value": "NG-CR"
+  },
+  {
+    "label": "NG-DE: Delta",
+    "value": "NG-DE"
+  },
+  {
+    "label": "NG-EB: Ebonyi",
+    "value": "NG-EB"
+  },
+  {
+    "label": "NG-ED: Edo",
+    "value": "NG-ED"
+  },
+  {
+    "label": "NG-EK: Ekiti",
+    "value": "NG-EK"
+  },
+  {
+    "label": "NG-EN: Enugu",
+    "value": "NG-EN"
+  },
+  {
+    "label": "NG-FC: Abuja Federal Capital Territory",
+    "value": "NG-FC"
+  },
+  {
+    "label": "NG-GO: Gombe",
+    "value": "NG-GO"
+  },
+  {
+    "label": "NG-IM: Imo",
+    "value": "NG-IM"
+  },
+  {
+    "label": "NG-JI: Jigawa",
+    "value": "NG-JI"
+  },
+  {
+    "label": "NG-KD: Kaduna",
+    "value": "NG-KD"
+  },
+  {
+    "label": "NG-KE: Kebbi",
+    "value": "NG-KE"
+  },
+  {
+    "label": "NG-KN: Kano",
+    "value": "NG-KN"
+  },
+  {
+    "label": "NG-KO: Kogi",
+    "value": "NG-KO"
+  },
+  {
+    "label": "NG-KT: Katsina",
+    "value": "NG-KT"
+  },
+  {
+    "label": "NG-KW: Kwara",
+    "value": "NG-KW"
+  },
+  {
+    "label": "NG-LA: Lagos",
+    "value": "NG-LA"
+  },
+  {
+    "label": "NG-NA: Nasarawa",
+    "value": "NG-NA"
+  },
+  {
+    "label": "NG-NI: Niger",
+    "value": "NG-NI"
+  },
+  {
+    "label": "NG-OG: Ogun",
+    "value": "NG-OG"
+  },
+  {
+    "label": "NG-ON: Ondo",
+    "value": "NG-ON"
+  },
+  {
+    "label": "NG-OS: Osun",
+    "value": "NG-OS"
+  },
+  {
+    "label": "NG-OY: Oyo",
+    "value": "NG-OY"
+  },
+  {
+    "label": "NG-PL: Plateau",
+    "value": "NG-PL"
+  },
+  {
+    "label": "NG-RI: Rivers",
+    "value": "NG-RI"
+  },
+  {
+    "label": "NG-SO: Sokoto",
+    "value": "NG-SO"
+  },
+  {
+    "label": "NG-TA: Taraba",
+    "value": "NG-TA"
+  },
+  {
+    "label": "NG-YO: Yobe",
+    "value": "NG-YO"
+  },
+  {
+    "label": "NG-ZA: Zamfara",
+    "value": "NG-ZA"
+  }
+]

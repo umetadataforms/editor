@@ -1,0 +1,126 @@
+[
+  {
+    "label": "TZ-01: Arusha",
+    "value": "TZ-01"
+  },
+  {
+    "label": "TZ-02: Dar es Salaam",
+    "value": "TZ-02"
+  },
+  {
+    "label": "TZ-03: Dodoma",
+    "value": "TZ-03"
+  },
+  {
+    "label": "TZ-04: Iringa",
+    "value": "TZ-04"
+  },
+  {
+    "label": "TZ-05: Kagera",
+    "value": "TZ-05"
+  },
+  {
+    "label": "TZ-06: Kaskazini Pemba; Pemba North",
+    "value": "TZ-06"
+  },
+  {
+    "label": "TZ-07: Kaskazini Unguja; Zanzibar North",
+    "value": "TZ-07"
+  },
+  {
+    "label": "TZ-08: Kigoma",
+    "value": "TZ-08"
+  },
+  {
+    "label": "TZ-09: Kilimanjaro",
+    "value": "TZ-09"
+  },
+  {
+    "label": "TZ-10: Kusini Pemba; Pemba South",
+    "value": "TZ-10"
+  },
+  {
+    "label": "TZ-11: Kusini Unguja; Zanzibar South",
+    "value": "TZ-11"
+  },
+  {
+    "label": "TZ-12: Lindi",
+    "value": "TZ-12"
+  },
+  {
+    "label": "TZ-13: Mara",
+    "value": "TZ-13"
+  },
+  {
+    "label": "TZ-14: Mbeya",
+    "value": "TZ-14"
+  },
+  {
+    "label": "TZ-15: Mjini Magharibi; Zanzibar West",
+    "value": "TZ-15"
+  },
+  {
+    "label": "TZ-16: Morogoro",
+    "value": "TZ-16"
+  },
+  {
+    "label": "TZ-17: Mtwara",
+    "value": "TZ-17"
+  },
+  {
+    "label": "TZ-18: Mwanza",
+    "value": "TZ-18"
+  },
+  {
+    "label": "TZ-19: Coast; Pwani",
+    "value": "TZ-19"
+  },
+  {
+    "label": "TZ-20: Rukwa",
+    "value": "TZ-20"
+  },
+  {
+    "label": "TZ-21: Ruvuma",
+    "value": "TZ-21"
+  },
+  {
+    "label": "TZ-22: Shinyanga",
+    "value": "TZ-22"
+  },
+  {
+    "label": "TZ-23: Singida",
+    "value": "TZ-23"
+  },
+  {
+    "label": "TZ-24: Tabora",
+    "value": "TZ-24"
+  },
+  {
+    "label": "TZ-25: Tanga",
+    "value": "TZ-25"
+  },
+  {
+    "label": "TZ-26: Manyara",
+    "value": "TZ-26"
+  },
+  {
+    "label": "TZ-27: Geita",
+    "value": "TZ-27"
+  },
+  {
+    "label": "TZ-28: Katavi",
+    "value": "TZ-28"
+  },
+  {
+    "label": "TZ-29: Njombe",
+    "value": "TZ-29"
+  },
+  {
+    "label": "TZ-30: Simiyu",
+    "value": "TZ-30"
+  },
+  {
+    "label": "TZ-31: Songwe",
+    "value": "TZ-31"
+  }
+]

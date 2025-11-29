@@ -1,0 +1,66 @@
+[
+  {
+    "label": "MY-01: Johor",
+    "value": "MY-01"
+  },
+  {
+    "label": "MY-02: Kedah",
+    "value": "MY-02"
+  },
+  {
+    "label": "MY-03: Kelantan",
+    "value": "MY-03"
+  },
+  {
+    "label": "MY-04: Melaka",
+    "value": "MY-04"
+  },
+  {
+    "label": "MY-05: Negeri Sembilan",
+    "value": "MY-05"
+  },
+  {
+    "label": "MY-06: Pahang",
+    "value": "MY-06"
+  },
+  {
+    "label": "MY-07: Pulau Pinang",
+    "value": "MY-07"
+  },
+  {
+    "label": "MY-08: Perak",
+    "value": "MY-08"
+  },
+  {
+    "label": "MY-09: Perlis",
+    "value": "MY-09"
+  },
+  {
+    "label": "MY-10: Selangor",
+    "value": "MY-10"
+  },
+  {
+    "label": "MY-11: Terengganu",
+    "value": "MY-11"
+  },
+  {
+    "label": "MY-12: Sabah",
+    "value": "MY-12"
+  },
+  {
+    "label": "MY-13: Sarawak",
+    "value": "MY-13"
+  },
+  {
+    "label": "MY-14: Wilayah Persekutuan Kuala Lumpur",
+    "value": "MY-14"
+  },
+  {
+    "label": "MY-15: Wilayah Persekutuan Labuan",
+    "value": "MY-15"
+  },
+  {
+    "label": "MY-16: Wilayah Persekutuan Putrajaya",
+    "value": "MY-16"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "label": "MK-101: Veles",
+    "value": "MK-101"
+  },
+  {
+    "label": "MK-102: Gradsko",
+    "value": "MK-102"
+  },
+  {
+    "label": "MK-103: Demir Kapija",
+    "value": "MK-103"
+  },
+  {
+    "label": "MK-104: Kavadarci",
+    "value": "MK-104"
+  },
+  {
+    "label": "MK-105: Lozovo",
+    "value": "MK-105"
+  },
+  {
+    "label": "MK-106: Negotino",
+    "value": "MK-106"
+  },
+  {
+    "label": "MK-107: Rosoman",
+    "value": "MK-107"
+  },
+  {
+    "label": "MK-108: Sveti Nikole",
+    "value": "MK-108"
+  },
+  {
+    "label": "MK-109: Čaška",
+    "value": "MK-109"
+  },
+  {
+    "label": "MK-201: Berovo",
+    "value": "MK-201"
+  },
+  {
+    "label": "MK-202: Vinica",
+    "value": "MK-202"
+  },
+  {
+    "label": "MK-203: Delčevo",
+    "value": "MK-203"
+  },
+  {
+    "label": "MK-204: Zrnovci",
+    "value": "MK-204"
+  },
+  {
+    "label": "MK-205: Karbinci",
+    "value": "MK-205"
+  },
+  {
+    "label": "MK-206: Kočani",
+    "value": "MK-206"
+  },
+  {
+    "label": "MK-207: Makedonska Kamenica",
+    "value": "MK-207"
+  },
+  {
+    "label": "MK-208: Pehčevo",
+    "value": "MK-208"
+  },
+  {
+    "label": "MK-209: Probištip",
+    "value": "MK-209"
+  },
+  {
+    "label": "MK-210: Češinovo-Obleševo",
+    "value": "MK-210"
+  },
+  {
+    "label": "MK-211: Štip",
+    "value": "MK-211"
+  },
+  {
+    "label": "MK-301: Vevčani",
+    "value": "MK-301"
+  },
+  {
+    "label": "MK-303: Debar",
+    "value": "MK-303"
+  },
+  {
+    "label": "MK-304: Debrca",
+    "value": "MK-304"
+  },
+  {
+    "label": "MK-307: Kičevo",
+    "value": "MK-307"
+  },
+  {
+    "label": "MK-308: Makedonski Brod",
+    "value": "MK-308"
+  },
+  {
+    "label": "MK-310: Ohrid",
+    "value": "MK-310"
+  },
+  {
+    "label": "MK-311: Plasnica",
+    "value": "MK-311"
+  },
+  {
+    "label": "MK-312: Struga",
+    "value": "MK-312"
+  },
+  {
+    "label": "MK-313: Centar Župa",
+    "value": "MK-313"
+  },
+  {
+    "label": "MK-401: Bogdanci",
+    "value": "MK-401"
+  },
+  {
+    "label": "MK-402: Bosilovo",
+    "value": "MK-402"
+  },
+  {
+    "label": "MK-403: Valandovo",
+    "value": "MK-403"
+  },
+  {
+    "label": "MK-404: Vasilevo",
+    "value": "MK-404"
+  },
+  {
+    "label": "MK-405: Gevgelija",
+    "value": "MK-405"
+  },
+  {
+    "label": "MK-406: Dojran",
+    "value": "MK-406"
+  },
+  {
+    "label": "MK-407: Konče",
+    "value": "MK-407"
+  },
+  {
+    "label": "MK-408: Novo Selo",
+    "value": "MK-408"
+  },
+  {
+    "label": "MK-409: Radoviš",
+    "value": "MK-409"
+  },
+  {
+    "label": "MK-410: Strumica",
+    "value": "MK-410"
+  },
+  {
+    "label": "MK-501: Bitola",
+    "value": "MK-501"
+  },
+  {
+    "label": "MK-502: Demir Hisar",
+    "value": "MK-502"
+  },
+  {
+    "label": "MK-503: Dolneni",
+    "value": "MK-503"
+  },
+  {
+    "label": "MK-504: Krivogaštani",
+    "value": "MK-504"
+  },
+  {
+    "label": "MK-505: Kruševo",
+    "value": "MK-505"
+  },
+  {
+    "label": "MK-506: Mogila",
+    "value": "MK-506"
+  },
+  {
+    "label": "MK-507: Novaci",
+    "value": "MK-507"
+  },
+  {
+    "label": "MK-508: Prilep",
+    "value": "MK-508"
+  },
+  {
+    "label": "MK-509: Resen",
+    "value": "MK-509"
+  },
+  {
+    "label": "MK-601: Bogovinje",
+    "value": "MK-601"
+  },
+  {
+    "label": "MK-602: Brvenica",
+    "value": "MK-602"
+  },
+  {
+    "label": "MK-603: Vrapčište",
+    "value": "MK-603"
+  },
+  {
+    "label": "MK-604: Gostivar",
+    "value": "MK-604"
+  },
+  {
+    "label": "MK-605: Želino",
+    "value": "MK-605"
+  },
+  {
+    "label": "MK-606: Jegunovce",
+    "value": "MK-606"
+  },
+  {
+    "label": "MK-607: Mavrovo i Rostuše",
+    "value": "MK-607"
+  },
+  {
+    "label": "MK-608: Tearce",
+    "value": "MK-608"
+  },
+  {
+    "label": "MK-609: Tetovo",
+    "value": "MK-609"
+  },
+  {
+    "label": "MK-701: Kratovo",
+    "value": "MK-701"
+  },
+  {
+    "label": "MK-702: Kriva Palanka",
+    "value": "MK-702"
+  },
+  {
+    "label": "MK-703: Kumanovo",
+    "value": "MK-703"
+  },
+  {
+    "label": "MK-704: Lipkovo",
+    "value": "MK-704"
+  },
+  {
+    "label": "MK-705: Rankovce",
+    "value": "MK-705"
+  },
+  {
+    "label": "MK-706: Staro Nagoričane",
+    "value": "MK-706"
+  },
+  {
+    "label": "MK-801: Aerodrom †",
+    "value": "MK-801"
+  },
+  {
+    "label": "MK-802: Aračinovo",
+    "value": "MK-802"
+  },
+  {
+    "label": "MK-803: Butel †",
+    "value": "MK-803"
+  },
+  {
+    "label": "MK-804: Gazi Baba †",
+    "value": "MK-804"
+  },
+  {
+    "label": "MK-805: Gjorče Petrov †",
+    "value": "MK-805"
+  },
+  {
+    "label": "MK-806: Zelenikovo",
+    "value": "MK-806"
+  },
+  {
+    "label": "MK-807: Ilinden",
+    "value": "MK-807"
+  },
+  {
+    "label": "MK-808: Karpoš †",
+    "value": "MK-808"
+  },
+  {
+    "label": "MK-809: Kisela Voda †",
+    "value": "MK-809"
+  },
+  {
+    "label": "MK-810: Petrovec",
+    "value": "MK-810"
+  },
+  {
+    "label": "MK-811: Saraj †",
+    "value": "MK-811"
+  },
+  {
+    "label": "MK-812: Sopište",
+    "value": "MK-812"
+  },
+  {
+    "label": "MK-813: Studeničani",
+    "value": "MK-813"
+  },
+  {
+    "label": "MK-814: Centar †",
+    "value": "MK-814"
+  },
+  {
+    "label": "MK-815: Čair †",
+    "value": "MK-815"
+  },
+  {
+    "label": "MK-816: Čučer-Sandevo",
+    "value": "MK-816"
+  },
+  {
+    "label": "MK-817: Šuto Orizari †",
+    "value": "MK-817"
+  }
+]

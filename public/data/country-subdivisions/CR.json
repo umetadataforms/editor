@@ -1,0 +1,30 @@
+[
+  {
+    "label": "CR-A: Alajuela",
+    "value": "CR-A"
+  },
+  {
+    "label": "CR-C: Cartago",
+    "value": "CR-C"
+  },
+  {
+    "label": "CR-G: Guanacaste",
+    "value": "CR-G"
+  },
+  {
+    "label": "CR-H: Heredia",
+    "value": "CR-H"
+  },
+  {
+    "label": "CR-L: Limón",
+    "value": "CR-L"
+  },
+  {
+    "label": "CR-P: Puntarenas",
+    "value": "CR-P"
+  },
+  {
+    "label": "CR-SJ: San José",
+    "value": "CR-SJ"
+  }
+]

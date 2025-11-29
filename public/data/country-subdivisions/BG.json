@@ -1,0 +1,114 @@
+[
+  {
+    "label": "BG-01: Blagoevgrad",
+    "value": "BG-01"
+  },
+  {
+    "label": "BG-02: Burgas",
+    "value": "BG-02"
+  },
+  {
+    "label": "BG-03: Varna",
+    "value": "BG-03"
+  },
+  {
+    "label": "BG-04: Veliko Tarnovo",
+    "value": "BG-04"
+  },
+  {
+    "label": "BG-05: Vidin",
+    "value": "BG-05"
+  },
+  {
+    "label": "BG-06: Vratsa",
+    "value": "BG-06"
+  },
+  {
+    "label": "BG-07: Gabrovo",
+    "value": "BG-07"
+  },
+  {
+    "label": "BG-08: Dobrich",
+    "value": "BG-08"
+  },
+  {
+    "label": "BG-09: Kardzhali",
+    "value": "BG-09"
+  },
+  {
+    "label": "BG-10: Kyustendil",
+    "value": "BG-10"
+  },
+  {
+    "label": "BG-11: Lovech",
+    "value": "BG-11"
+  },
+  {
+    "label": "BG-12: Montana",
+    "value": "BG-12"
+  },
+  {
+    "label": "BG-13: Pazardzhik",
+    "value": "BG-13"
+  },
+  {
+    "label": "BG-14: Pernik",
+    "value": "BG-14"
+  },
+  {
+    "label": "BG-15: Pleven",
+    "value": "BG-15"
+  },
+  {
+    "label": "BG-16: Plovdiv",
+    "value": "BG-16"
+  },
+  {
+    "label": "BG-17: Razgrad",
+    "value": "BG-17"
+  },
+  {
+    "label": "BG-18: Ruse",
+    "value": "BG-18"
+  },
+  {
+    "label": "BG-19: Silistra",
+    "value": "BG-19"
+  },
+  {
+    "label": "BG-20: Sliven",
+    "value": "BG-20"
+  },
+  {
+    "label": "BG-21: Smolyan",
+    "value": "BG-21"
+  },
+  {
+    "label": "BG-22: Sofia",
+    "value": "BG-22"
+  },
+  {
+    "label": "BG-23: Sofia",
+    "value": "BG-23"
+  },
+  {
+    "label": "BG-24: Stara Zagora",
+    "value": "BG-24"
+  },
+  {
+    "label": "BG-25: Targovishte",
+    "value": "BG-25"
+  },
+  {
+    "label": "BG-26: Haskovo",
+    "value": "BG-26"
+  },
+  {
+    "label": "BG-27: Shumen",
+    "value": "BG-27"
+  },
+  {
+    "label": "BG-28: Yambol",
+    "value": "BG-28"
+  }
+]

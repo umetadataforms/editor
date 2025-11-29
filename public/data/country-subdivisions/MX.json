@@ -1,0 +1,130 @@
+[
+  {
+    "label": "MX-AGU: Aguascalientes",
+    "value": "MX-AGU"
+  },
+  {
+    "label": "MX-BCN: Baja California",
+    "value": "MX-BCN"
+  },
+  {
+    "label": "MX-BCS: Baja California Sur",
+    "value": "MX-BCS"
+  },
+  {
+    "label": "MX-CAM: Campeche",
+    "value": "MX-CAM"
+  },
+  {
+    "label": "MX-CHH: Chihuahua",
+    "value": "MX-CHH"
+  },
+  {
+    "label": "MX-CHP: Chiapas",
+    "value": "MX-CHP"
+  },
+  {
+    "label": "MX-CMX: Ciudad de México",
+    "value": "MX-CMX"
+  },
+  {
+    "label": "MX-COA: Coahuila de Zaragoza",
+    "value": "MX-COA"
+  },
+  {
+    "label": "MX-COL: Colima",
+    "value": "MX-COL"
+  },
+  {
+    "label": "MX-DUR: Durango",
+    "value": "MX-DUR"
+  },
+  {
+    "label": "MX-GRO: Guerrero",
+    "value": "MX-GRO"
+  },
+  {
+    "label": "MX-GUA: Guanajuato",
+    "value": "MX-GUA"
+  },
+  {
+    "label": "MX-HID: Hidalgo",
+    "value": "MX-HID"
+  },
+  {
+    "label": "MX-JAL: Jalisco",
+    "value": "MX-JAL"
+  },
+  {
+    "label": "MX-MEX: México",
+    "value": "MX-MEX"
+  },
+  {
+    "label": "MX-MIC: Michoacán de Ocampo",
+    "value": "MX-MIC"
+  },
+  {
+    "label": "MX-MOR: Morelos",
+    "value": "MX-MOR"
+  },
+  {
+    "label": "MX-NAY: Nayarit",
+    "value": "MX-NAY"
+  },
+  {
+    "label": "MX-NLE: Nuevo León",
+    "value": "MX-NLE"
+  },
+  {
+    "label": "MX-OAX: Oaxaca",
+    "value": "MX-OAX"
+  },
+  {
+    "label": "MX-PUE: Puebla",
+    "value": "MX-PUE"
+  },
+  {
+    "label": "MX-QUE: Querétaro",
+    "value": "MX-QUE"
+  },
+  {
+    "label": "MX-ROO: Quintana Roo",
+    "value": "MX-ROO"
+  },
+  {
+    "label": "MX-SIN: Sinaloa",
+    "value": "MX-SIN"
+  },
+  {
+    "label": "MX-SLP: San Luis Potosí",
+    "value": "MX-SLP"
+  },
+  {
+    "label": "MX-SON: Sonora",
+    "value": "MX-SON"
+  },
+  {
+    "label": "MX-TAB: Tabasco",
+    "value": "MX-TAB"
+  },
+  {
+    "label": "MX-TAM: Tamaulipas",
+    "value": "MX-TAM"
+  },
+  {
+    "label": "MX-TLA: Tlaxcala",
+    "value": "MX-TLA"
+  },
+  {
+    "label": "MX-VER: Veracruz de Ignacio de la Llave",
+    "value": "MX-VER"
+  },
+  {
+    "label": "MX-YUC: Yucatán",
+    "value": "MX-YUC"
+  },
+  {
+    "label": "MX-ZAC: Zacatecas",
+    "value": "MX-ZAC"
+  }
+]

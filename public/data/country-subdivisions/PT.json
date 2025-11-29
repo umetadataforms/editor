@@ -1,0 +1,82 @@
+[
+  {
+    "label": "PT-01: Aveiro",
+    "value": "PT-01"
+  },
+  {
+    "label": "PT-02: Beja",
+    "value": "PT-02"
+  },
+  {
+    "label": "PT-03: Braga",
+    "value": "PT-03"
+  },
+  {
+    "label": "PT-04: Bragança",
+    "value": "PT-04"
+  },
+  {
+    "label": "PT-05: Castelo Branco",
+    "value": "PT-05"
+  },
+  {
+    "label": "PT-06: Coimbra",
+    "value": "PT-06"
+  },
+  {
+    "label": "PT-07: Évora",
+    "value": "PT-07"
+  },
+  {
+    "label": "PT-08: Faro",
+    "value": "PT-08"
+  },
+  {
+    "label": "PT-09: Guarda",
+    "value": "PT-09"
+  },
+  {
+    "label": "PT-10: Leiria",
+    "value": "PT-10"
+  },
+  {
+    "label": "PT-11: Lisboa",
+    "value": "PT-11"
+  },
+  {
+    "label": "PT-12: Portalegre",
+    "value": "PT-12"
+  },
+  {
+    "label": "PT-13: Porto",
+    "value": "PT-13"
+  },
+  {
+    "label": "PT-14: Santarém",
+    "value": "PT-14"
+  },
+  {
+    "label": "PT-15: Setúbal",
+    "value": "PT-15"
+  },
+  {
+    "label": "PT-16: Viana do Castelo",
+    "value": "PT-16"
+  },
+  {
+    "label": "PT-17: Vila Real",
+    "value": "PT-17"
+  },
+  {
+    "label": "PT-18: Viseu",
+    "value": "PT-18"
+  },
+  {
+    "label": "PT-20: Região Autónoma dos Açores",
+    "value": "PT-20"
+  },
+  {
+    "label": "PT-30: Região Autónoma da Madeira",
+    "value": "PT-30"
+  }
+]

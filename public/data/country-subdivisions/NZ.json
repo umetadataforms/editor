@@ -1,0 +1,70 @@
+[
+  {
+    "label": "NZ-AUK: Auckland; Tāmaki-Makaurau",
+    "value": "NZ-AUK"
+  },
+  {
+    "label": "NZ-BOP: Bay of Plenty; Toi Moana",
+    "value": "NZ-BOP"
+  },
+  {
+    "label": "NZ-CAN: Canterbury; Waitaha",
+    "value": "NZ-CAN"
+  },
+  {
+    "label": "NZ-CIT: Chatham Islands Territory; Wharekauri",
+    "value": "NZ-CIT"
+  },
+  {
+    "label": "NZ-GIS: Gisborne; Te Tairāwhiti",
+    "value": "NZ-GIS"
+  },
+  {
+    "label": "NZ-HKB: Hawke's Bay; Te Matau-a-Māui",
+    "value": "NZ-HKB"
+  },
+  {
+    "label": "NZ-MBH: Marlborough",
+    "value": "NZ-MBH"
+  },
+  {
+    "label": "NZ-MWT: Manawatū Whanganui; Manawatū-Whanganui",
+    "value": "NZ-MWT"
+  },
+  {
+    "label": "NZ-NSN: Nelson; Whakatū",
+    "value": "NZ-NSN"
+  },
+  {
+    "label": "NZ-NTL: Northland; Te Taitokerau",
+    "value": "NZ-NTL"
+  },
+  {
+    "label": "NZ-OTA: Otago; Ō Tākou",
+    "value": "NZ-OTA"
+  },
+  {
+    "label": "NZ-STL: Southland; Te Taiao Tonga",
+    "value": "NZ-STL"
+  },
+  {
+    "label": "NZ-TAS: Tasman; Te tai o Aorere",
+    "value": "NZ-TAS"
+  },
+  {
+    "label": "NZ-TKI: Taranaki",
+    "value": "NZ-TKI"
+  },
+  {
+    "label": "NZ-WGN: Greater Wellington; Te Pane Matua Taiao",
+    "value": "NZ-WGN"
+  },
+  {
+    "label": "NZ-WKO: Waikato",
+    "value": "NZ-WKO"
+  },
+  {
+    "label": "NZ-WTC: Te Tai o Poutini; West Coast",
+    "value": "NZ-WTC"
+  }
+]

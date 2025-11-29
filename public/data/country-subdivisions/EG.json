@@ -1,0 +1,110 @@
+[
+  {
+    "label": "EG-ALX: Al Iskandarīyah",
+    "value": "EG-ALX"
+  },
+  {
+    "label": "EG-ASN: Aswān",
+    "value": "EG-ASN"
+  },
+  {
+    "label": "EG-AST: Asyūţ",
+    "value": "EG-AST"
+  },
+  {
+    "label": "EG-BA: Al Baḩr al Aḩmar",
+    "value": "EG-BA"
+  },
+  {
+    "label": "EG-BH: Al Buḩayrah",
+    "value": "EG-BH"
+  },
+  {
+    "label": "EG-BNS: Banī Suwayf",
+    "value": "EG-BNS"
+  },
+  {
+    "label": "EG-C: Al Qāhirah",
+    "value": "EG-C"
+  },
+  {
+    "label": "EG-DK: Ad Daqahlīyah",
+    "value": "EG-DK"
+  },
+  {
+    "label": "EG-DT: Dumyāţ",
+    "value": "EG-DT"
+  },
+  {
+    "label": "EG-FYM: Al Fayyūm",
+    "value": "EG-FYM"
+  },
+  {
+    "label": "EG-GH: Al Gharbīyah",
+    "value": "EG-GH"
+  },
+  {
+    "label": "EG-GZ: Al Jīzah",
+    "value": "EG-GZ"
+  },
+  {
+    "label": "EG-IS: Al Ismā'īlīyah",
+    "value": "EG-IS"
+  },
+  {
+    "label": "EG-JS: Janūb Sīnā'",
+    "value": "EG-JS"
+  },
+  {
+    "label": "EG-KB: Al Qalyūbīyah",
+    "value": "EG-KB"
+  },
+  {
+    "label": "EG-KFS: Kafr ash Shaykh",
+    "value": "EG-KFS"
+  },
+  {
+    "label": "EG-KN: Qinā",
+    "value": "EG-KN"
+  },
+  {
+    "label": "EG-LX: Al Uqşur",
+    "value": "EG-LX"
+  },
+  {
+    "label": "EG-MN: Al Minyā",
+    "value": "EG-MN"
+  },
+  {
+    "label": "EG-MNF: Al Minūfīyah",
+    "value": "EG-MNF"
+  },
+  {
+    "label": "EG-MT: Maţrūḩ",
+    "value": "EG-MT"
+  },
+  {
+    "label": "EG-PTS: Būr Sa‘īd",
+    "value": "EG-PTS"
+  },
+  {
+    "label": "EG-SHG: Sūhāj",
+    "value": "EG-SHG"
+  },
+  {
+    "label": "EG-SHR: Ash Sharqīyah",
+    "value": "EG-SHR"
+  },
+  {
+    "label": "EG-SIN: Shamāl Sīnā'",
+    "value": "EG-SIN"
+  },
+  {
+    "label": "EG-SUZ: As Suways",
+    "value": "EG-SUZ"
+  },
+  {
+    "label": "EG-WAD: Al Wādī al Jadīd",
+    "value": "EG-WAD"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "label": "DM-02: Saint Andrew",
+    "value": "DM-02"
+  },
+  {
+    "label": "DM-03: Saint David",
+    "value": "DM-03"
+  },
+  {
+    "label": "DM-04: Saint George",
+    "value": "DM-04"
+  },
+  {
+    "label": "DM-05: Saint John",
+    "value": "DM-05"
+  },
+  {
+    "label": "DM-06: Saint Joseph",
+    "value": "DM-06"
+  },
+  {
+    "label": "DM-07: Saint Luke",
+    "value": "DM-07"
+  },
+  {
+    "label": "DM-08: Saint Mark",
+    "value": "DM-08"
+  },
+  {
+    "label": "DM-09: Saint Patrick",
+    "value": "DM-09"
+  },
+  {
+    "label": "DM-10: Saint Paul",
+    "value": "DM-10"
+  },
+  {
+    "label": "DM-11: Saint Peter",
+    "value": "DM-11"
+  }
+]

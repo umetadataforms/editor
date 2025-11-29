@@ -1,0 +1,86 @@
+[
+  {
+    "label": "HR-01: Zagrebačka županija",
+    "value": "HR-01"
+  },
+  {
+    "label": "HR-02: Krapinsko-zagorska županija",
+    "value": "HR-02"
+  },
+  {
+    "label": "HR-03: Sisačko-moslavačka županija",
+    "value": "HR-03"
+  },
+  {
+    "label": "HR-04: Karlovačka županija",
+    "value": "HR-04"
+  },
+  {
+    "label": "HR-05: Varaždinska županija",
+    "value": "HR-05"
+  },
+  {
+    "label": "HR-06: Koprivničko-križevačka županija",
+    "value": "HR-06"
+  },
+  {
+    "label": "HR-07: Bjelovarsko-bilogorska županija",
+    "value": "HR-07"
+  },
+  {
+    "label": "HR-08: Primorsko-goranska županija",
+    "value": "HR-08"
+  },
+  {
+    "label": "HR-09: Ličko-senjska županija",
+    "value": "HR-09"
+  },
+  {
+    "label": "HR-10: Virovitičko-podravska županija",
+    "value": "HR-10"
+  },
+  {
+    "label": "HR-11: Požeško-slavonska županija",
+    "value": "HR-11"
+  },
+  {
+    "label": "HR-12: Brodsko-posavska županija",
+    "value": "HR-12"
+  },
+  {
+    "label": "HR-13: Zadarska županija",
+    "value": "HR-13"
+  },
+  {
+    "label": "HR-14: Osječko-baranjska županija",
+    "value": "HR-14"
+  },
+  {
+    "label": "HR-15: Šibensko-kninska županija",
+    "value": "HR-15"
+  },
+  {
+    "label": "HR-16: Vukovarsko-srijemska županija",
+    "value": "HR-16"
+  },
+  {
+    "label": "HR-17: Splitsko-dalmatinska županija",
+    "value": "HR-17"
+  },
+  {
+    "label": "HR-18: Istarska županija",
+    "value": "HR-18"
+  },
+  {
+    "label": "HR-19: Dubrovačko-neretvanska županija",
+    "value": "HR-19"
+  },
+  {
+    "label": "HR-20: Međimurska županija",
+    "value": "HR-20"
+  },
+  {
+    "label": "HR-21: Grad Zagreb",
+    "value": "HR-21"
+  }
+]

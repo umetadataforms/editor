@@ -1,0 +1,350 @@
+[
+  {
+    "label": "MA-01: Tanger-Tétouan-Al Hoceïma",
+    "value": "MA-01"
+  },
+  {
+    "label": "MA-02: L'Oriental",
+    "value": "MA-02"
+  },
+  {
+    "label": "MA-03: Fès-Meknès",
+    "value": "MA-03"
+  },
+  {
+    "label": "MA-04: Rabat-Salé-Kénitra",
+    "value": "MA-04"
+  },
+  {
+    "label": "MA-05: Béni Mellal-Khénifra",
+    "value": "MA-05"
+  },
+  {
+    "label": "MA-06: Casablanca-Settat",
+    "value": "MA-06"
+  },
+  {
+    "label": "MA-07: Marrakech-Safi",
+    "value": "MA-07"
+  },
+  {
+    "label": "MA-08: Drâa-Tafilalet",
+    "value": "MA-08"
+  },
+  {
+    "label": "MA-09: Souss-Massa",
+    "value": "MA-09"
+  },
+  {
+    "label": "MA-10: Guelmim-Oued Noun",
+    "value": "MA-10"
+  },
+  {
+    "label": "MA-11: Laâyoune-Sakia El Hamra",
+    "value": "MA-11"
+  },
+  {
+    "label": "MA-12: Dakhla-Oued Ed-Dahab",
+    "value": "MA-12"
+  },
+  {
+    "label": "MA-AGD: Agadir-Ida-Ou-Tanane",
+    "value": "MA-AGD"
+  },
+  {
+    "label": "MA-AOU: Aousserd",
+    "value": "MA-AOU"
+  },
+  {
+    "label": "MA-ASZ: Assa-Zag",
+    "value": "MA-ASZ"
+  },
+  {
+    "label": "MA-AZI: Azilal",
+    "value": "MA-AZI"
+  },
+  {
+    "label": "MA-BEM: Béni Mellal",
+    "value": "MA-BEM"
+  },
+  {
+    "label": "MA-BER: Berkane",
+    "value": "MA-BER"
+  },
+  {
+    "label": "MA-BES: Benslimane",
+    "value": "MA-BES"
+  },
+  {
+    "label": "MA-BOD: Boujdour",
+    "value": "MA-BOD"
+  },
+  {
+    "label": "MA-BOM: Boulemane",
+    "value": "MA-BOM"
+  },
+  {
+    "label": "MA-BRR: Berrechid",
+    "value": "MA-BRR"
+  },
+  {
+    "label": "MA-CAS: Casablanca",
+    "value": "MA-CAS"
+  },
+  {
+    "label": "MA-CHE: Chefchaouen",
+    "value": "MA-CHE"
+  },
+  {
+    "label": "MA-CHI: Chichaoua",
+    "value": "MA-CHI"
+  },
+  {
+    "label": "MA-CHT: Chtouka-Ait Baha",
+    "value": "MA-CHT"
+  },
+  {
+    "label": "MA-DRI: Driouch",
+    "value": "MA-DRI"
+  },
+  {
+    "label": "MA-ERR: Errachidia",
+    "value": "MA-ERR"
+  },
+  {
+    "label": "MA-ESI: Essaouira",
+    "value": "MA-ESI"
+  },
+  {
+    "label": "MA-ESM: Es-Semara",
+    "value": "MA-ESM"
+  },
+  {
+    "label": "MA-FAH: Fahs-Anjra",
+    "value": "MA-FAH"
+  },
+  {
+    "label": "MA-FES: Fès",
+    "value": "MA-FES"
+  },
+  {
+    "label": "MA-FIG: Figuig",
+    "value": "MA-FIG"
+  },
+  {
+    "label": "MA-FQH: Fquih Ben Salah",
+    "value": "MA-FQH"
+  },
+  {
+    "label": "MA-GUE: Guelmim",
+    "value": "MA-GUE"
+  },
+  {
+    "label": "MA-GUF: Guercif",
+    "value": "MA-GUF"
+  },
+  {
+    "label": "MA-HAJ: El Hajeb",
+    "value": "MA-HAJ"
+  },
+  {
+    "label": "MA-HAO: Al Haouz",
+    "value": "MA-HAO"
+  },
+  {
+    "label": "MA-HOC: Al Hoceïma",
+    "value": "MA-HOC"
+  },
+  {
+    "label": "MA-IFR: Ifrane",
+    "value": "MA-IFR"
+  },
+  {
+    "label": "MA-INE: Inezgane-Ait Melloul",
+    "value": "MA-INE"
+  },
+  {
+    "label": "MA-JDI: El Jadida",
+    "value": "MA-JDI"
+  },
+  {
+    "label": "MA-JRA: Jerada",
+    "value": "MA-JRA"
+  },
+  {
+    "label": "MA-KEN: Kénitra",
+    "value": "MA-KEN"
+  },
+  {
+    "label": "MA-KES: El Kelâa des Sraghna",
+    "value": "MA-KES"
+  },
+  {
+    "label": "MA-KHE: Khémisset",
+    "value": "MA-KHE"
+  },
+  {
+    "label": "MA-KHN: Khénifra",
+    "value": "MA-KHN"
+  },
+  {
+    "label": "MA-KHO: Khouribga",
+    "value": "MA-KHO"
+  },
+  {
+    "label": "MA-LAA: Laâyoune",
+    "value": "MA-LAA"
+  },
+  {
+    "label": "MA-LAR: Larache",
+    "value": "MA-LAR"
+  },
+  {
+    "label": "MA-MAR: Marrakech",
+    "value": "MA-MAR"
+  },
+  {
+    "label": "MA-MDF: M’diq-Fnideq",
+    "value": "MA-MDF"
+  },
+  {
+    "label": "MA-MED: Médiouna",
+    "value": "MA-MED"
+  },
+  {
+    "label": "MA-MEK: Meknès",
+    "value": "MA-MEK"
+  },
+  {
+    "label": "MA-MID: Midelt",
+    "value": "MA-MID"
+  },
+  {
+    "label": "MA-MOH: Mohammadia",
+    "value": "MA-MOH"
+  },
+  {
+    "label": "MA-MOU: Moulay Yacoub",
+    "value": "MA-MOU"
+  },
+  {
+    "label": "MA-NAD: Nador",
+    "value": "MA-NAD"
+  },
+  {
+    "label": "MA-NOU: Nouaceur",
+    "value": "MA-NOU"
+  },
+  {
+    "label": "MA-OUA: Ouarzazate",
+    "value": "MA-OUA"
+  },
+  {
+    "label": "MA-OUD: Oued Ed-Dahab",
+    "value": "MA-OUD"
+  },
+  {
+    "label": "MA-OUJ: Oujda-Angad",
+    "value": "MA-OUJ"
+  },
+  {
+    "label": "MA-OUZ: Ouezzane",
+    "value": "MA-OUZ"
+  },
+  {
+    "label": "MA-RAB: Rabat",
+    "value": "MA-RAB"
+  },
+  {
+    "label": "MA-REH: Rehamna",
+    "value": "MA-REH"
+  },
+  {
+    "label": "MA-SAF: Safi",
+    "value": "MA-SAF"
+  },
+  {
+    "label": "MA-SAL: Salé",
+    "value": "MA-SAL"
+  },
+  {
+    "label": "MA-SEF: Sefrou",
+    "value": "MA-SEF"
+  },
+  {
+    "label": "MA-SET: Settat",
+    "value": "MA-SET"
+  },
+  {
+    "label": "MA-SIB: Sidi Bennour",
+    "value": "MA-SIB"
+  },
+  {
+    "label": "MA-SIF: Sidi Ifni",
+    "value": "MA-SIF"
+  },
+  {
+    "label": "MA-SIK: Sidi Kacem",
+    "value": "MA-SIK"
+  },
+  {
+    "label": "MA-SIL: Sidi Slimane",
+    "value": "MA-SIL"
+  },
+  {
+    "label": "MA-SKH: Skhirate-Témara",
+    "value": "MA-SKH"
+  },
+  {
+    "label": "MA-TAF: Tarfaya",
+    "value": "MA-TAF"
+  },
+  {
+    "label": "MA-TAI: Taourirt",
+    "value": "MA-TAI"
+  },
+  {
+    "label": "MA-TAO: Taounate",
+    "value": "MA-TAO"
+  },
+  {
+    "label": "MA-TAR: Taroudannt",
+    "value": "MA-TAR"
+  },
+  {
+    "label": "MA-TAT: Tata",
+    "value": "MA-TAT"
+  },
+  {
+    "label": "MA-TAZ: Taza",
+    "value": "MA-TAZ"
+  },
+  {
+    "label": "MA-TET: Tétouan",
+    "value": "MA-TET"
+  },
+  {
+    "label": "MA-TIN: Tinghir",
+    "value": "MA-TIN"
+  },
+  {
+    "label": "MA-TIZ: Tiznit",
+    "value": "MA-TIZ"
+  },
+  {
+    "label": "MA-TNG: Tanger-Assilah",
+    "value": "MA-TNG"
+  },
+  {
+    "label": "MA-TNT: Tan-Tan",
+    "value": "MA-TNT"
+  },
+  {
+    "label": "MA-YUS: Youssoufia",
+    "value": "MA-YUS"
+  },
+  {
+    "label": "MA-ZAG: Zagora",
+    "value": "MA-ZAG"
+  }
+]

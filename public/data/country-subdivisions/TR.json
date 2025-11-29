@@ -1,0 +1,326 @@
+[
+  {
+    "label": "TR-01: Adana",
+    "value": "TR-01"
+  },
+  {
+    "label": "TR-02: Adıyaman",
+    "value": "TR-02"
+  },
+  {
+    "label": "TR-03: Afyonkarahisar",
+    "value": "TR-03"
+  },
+  {
+    "label": "TR-04: Ağrı",
+    "value": "TR-04"
+  },
+  {
+    "label": "TR-05: Amasya",
+    "value": "TR-05"
+  },
+  {
+    "label": "TR-06: Ankara",
+    "value": "TR-06"
+  },
+  {
+    "label": "TR-07: Antalya",
+    "value": "TR-07"
+  },
+  {
+    "label": "TR-08: Artvin",
+    "value": "TR-08"
+  },
+  {
+    "label": "TR-09: Aydın",
+    "value": "TR-09"
+  },
+  {
+    "label": "TR-10: Balıkesir",
+    "value": "TR-10"
+  },
+  {
+    "label": "TR-11: Bilecik",
+    "value": "TR-11"
+  },
+  {
+    "label": "TR-12: Bingöl",
+    "value": "TR-12"
+  },
+  {
+    "label": "TR-13: Bitlis",
+    "value": "TR-13"
+  },
+  {
+    "label": "TR-14: Bolu",
+    "value": "TR-14"
+  },
+  {
+    "label": "TR-15: Burdur",
+    "value": "TR-15"
+  },
+  {
+    "label": "TR-16: Bursa",
+    "value": "TR-16"
+  },
+  {
+    "label": "TR-17: Çanakkale",
+    "value": "TR-17"
+  },
+  {
+    "label": "TR-18: Çankırı",
+    "value": "TR-18"
+  },
+  {
+    "label": "TR-19: Çorum",
+    "value": "TR-19"
+  },
+  {
+    "label": "TR-20: Denizli",
+    "value": "TR-20"
+  },
+  {
+    "label": "TR-21: Diyarbakır",
+    "value": "TR-21"
+  },
+  {
+    "label": "TR-22: Edirne",
+    "value": "TR-22"
+  },
+  {
+    "label": "TR-23: Elazığ",
+    "value": "TR-23"
+  },
+  {
+    "label": "TR-24: Erzincan",
+    "value": "TR-24"
+  },
+  {
+    "label": "TR-25: Erzurum",
+    "value": "TR-25"
+  },
+  {
+    "label": "TR-26: Eskişehir",
+    "value": "TR-26"
+  },
+  {
+    "label": "TR-27: Gaziantep",
+    "value": "TR-27"
+  },
+  {
+    "label": "TR-28: Giresun",
+    "value": "TR-28"
+  },
+  {
+    "label": "TR-29: Gümüşhane",
+    "value": "TR-29"
+  },
+  {
+    "label": "TR-30: Hakkâri",
+    "value": "TR-30"
+  },
+  {
+    "label": "TR-31: Hatay",
+    "value": "TR-31"
+  },
+  {
+    "label": "TR-32: Isparta",
+    "value": "TR-32"
+  },
+  {
+    "label": "TR-33: Mersin",
+    "value": "TR-33"
+  },
+  {
+    "label": "TR-34: İstanbul",
+    "value": "TR-34"
+  },
+  {
+    "label": "TR-35: İzmir",
+    "value": "TR-35"
+  },
+  {
+    "label": "TR-36: Kars",
+    "value": "TR-36"
+  },
+  {
+    "label": "TR-37: Kastamonu",
+    "value": "TR-37"
+  },
+  {
+    "label": "TR-38: Kayseri",
+    "value": "TR-38"
+  },
+  {
+    "label": "TR-39: Kırklareli",
+    "value": "TR-39"
+  },
+  {
+    "label": "TR-40: Kırşehir",
+    "value": "TR-40"
+  },
+  {
+    "label": "TR-41: Kocaeli",
+    "value": "TR-41"
+  },
+  {
+    "label": "TR-42: Konya",
+    "value": "TR-42"
+  },
+  {
+    "label": "TR-43: Kütahya",
+    "value": "TR-43"
+  },
+  {
+    "label": "TR-44: Malatya",
+    "value": "TR-44"
+  },
+  {
+    "label": "TR-45: Manisa",
+    "value": "TR-45"
+  },
+  {
+    "label": "TR-46: Kahramanmaraş",
+    "value": "TR-46"
+  },
+  {
+    "label": "TR-47: Mardin",
+    "value": "TR-47"
+  },
+  {
+    "label": "TR-48: Muğla",
+    "value": "TR-48"
+  },
+  {
+    "label": "TR-49: Muş",
+    "value": "TR-49"
+  },
+  {
+    "label": "TR-50: Nevşehir",
+    "value": "TR-50"
+  },
+  {
+    "label": "TR-51: Niğde",
+    "value": "TR-51"
+  },
+  {
+    "label": "TR-52: Ordu",
+    "value": "TR-52"
+  },
+  {
+    "label": "TR-53: Rize",
+    "value": "TR-53"
+  },
+  {
+    "label": "TR-54: Sakarya",
+    "value": "TR-54"
+  },
+  {
+    "label": "TR-55: Samsun",
+    "value": "TR-55"
+  },
+  {
+    "label": "TR-56: Siirt",
+    "value": "TR-56"
+  },
+  {
+    "label": "TR-57: Sinop",
+    "value": "TR-57"
+  },
+  {
+    "label": "TR-58: Sivas",
+    "value": "TR-58"
+  },
+  {
+    "label": "TR-59: Tekirdağ",
+    "value": "TR-59"
+  },
+  {
+    "label": "TR-60: Tokat",
+    "value": "TR-60"
+  },
+  {
+    "label": "TR-61: Trabzon",
+    "value": "TR-61"
+  },
+  {
+    "label": "TR-62: Tunceli",
+    "value": "TR-62"
+  },
+  {
+    "label": "TR-63: Şanlıurfa",
+    "value": "TR-63"
+  },
+  {
+    "label": "TR-64: Uşak",
+    "value": "TR-64"
+  },
+  {
+    "label": "TR-65: Van",
+    "value": "TR-65"
+  },
+  {
+    "label": "TR-66: Yozgat",
+    "value": "TR-66"
+  },
+  {
+    "label": "TR-67: Zonguldak",
+    "value": "TR-67"
+  },
+  {
+    "label": "TR-68: Aksaray",
+    "value": "TR-68"
+  },
+  {
+    "label": "TR-69: Bayburt",
+    "value": "TR-69"
+  },
+  {
+    "label": "TR-70: Karaman",
+    "value": "TR-70"
+  },
+  {
+    "label": "TR-71: Kırıkkale",
+    "value": "TR-71"
+  },
+  {
+    "label": "TR-72: Batman",
+    "value": "TR-72"
+  },
+  {
+    "label": "TR-73: Şırnak",
+    "value": "TR-73"
+  },
+  {
+    "label": "TR-74: Bartın",
+    "value": "TR-74"
+  },
+  {
+    "label": "TR-75: Ardahan",
+    "value": "TR-75"
+  },
+  {
+    "label": "TR-76: Iğdır",
+    "value": "TR-76"
+  },
+  {
+    "label": "TR-77: Yalova",
+    "value": "TR-77"
+  },
+  {
+    "label": "TR-78: Karabük",
+    "value": "TR-78"
+  },
+  {
+    "label": "TR-79: Kilis",
+    "value": "TR-79"
+  },
+  {
+    "label": "TR-80: Osmaniye",
+    "value": "TR-80"
+  },
+  {
+    "label": "TR-81: Düzce",
+    "value": "TR-81"
+  }
+]

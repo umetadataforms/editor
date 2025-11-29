@@ -1,0 +1,74 @@
+[
+  {
+    "label": "HN-AT: Atlántida",
+    "value": "HN-AT"
+  },
+  {
+    "label": "HN-CH: Choluteca",
+    "value": "HN-CH"
+  },
+  {
+    "label": "HN-CL: Colón",
+    "value": "HN-CL"
+  },
+  {
+    "label": "HN-CM: Comayagua",
+    "value": "HN-CM"
+  },
+  {
+    "label": "HN-CP: Copán",
+    "value": "HN-CP"
+  },
+  {
+    "label": "HN-CR: Cortés",
+    "value": "HN-CR"
+  },
+  {
+    "label": "HN-EP: El Paraíso",
+    "value": "HN-EP"
+  },
+  {
+    "label": "HN-FM: Francisco Morazán",
+    "value": "HN-FM"
+  },
+  {
+    "label": "HN-GD: Gracias a Dios",
+    "value": "HN-GD"
+  },
+  {
+    "label": "HN-IB: Islas de la Bahía",
+    "value": "HN-IB"
+  },
+  {
+    "label": "HN-IN: Intibucá",
+    "value": "HN-IN"
+  },
+  {
+    "label": "HN-LE: Lempira",
+    "value": "HN-LE"
+  },
+  {
+    "label": "HN-LP: La Paz",
+    "value": "HN-LP"
+  },
+  {
+    "label": "HN-OC: Ocotepeque",
+    "value": "HN-OC"
+  },
+  {
+    "label": "HN-OL: Olancho",
+    "value": "HN-OL"
+  },
+  {
+    "label": "HN-SB: Santa Bárbara",
+    "value": "HN-SB"
+  },
+  {
+    "label": "HN-VA: Valle",
+    "value": "HN-VA"
+  },
+  {
+    "label": "HN-YO: Yoro",
+    "value": "HN-YO"
+  }
+]

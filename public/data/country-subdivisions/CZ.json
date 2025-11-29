@@ -1,0 +1,362 @@
+[
+  {
+    "label": "CZ-10: Praha",
+    "value": "CZ-10"
+  },
+  {
+    "label": "CZ-20: Středočeský kraj",
+    "value": "CZ-20"
+  },
+  {
+    "label": "CZ-201: Benešov",
+    "value": "CZ-201"
+  },
+  {
+    "label": "CZ-202: Beroun",
+    "value": "CZ-202"
+  },
+  {
+    "label": "CZ-203: Kladno",
+    "value": "CZ-203"
+  },
+  {
+    "label": "CZ-204: Kolín",
+    "value": "CZ-204"
+  },
+  {
+    "label": "CZ-205: Kutná Hora",
+    "value": "CZ-205"
+  },
+  {
+    "label": "CZ-206: Mělník",
+    "value": "CZ-206"
+  },
+  {
+    "label": "CZ-207: Mladá Boleslav",
+    "value": "CZ-207"
+  },
+  {
+    "label": "CZ-208: Nymburk",
+    "value": "CZ-208"
+  },
+  {
+    "label": "CZ-209: Praha-východ",
+    "value": "CZ-209"
+  },
+  {
+    "label": "CZ-20A: Praha-západ",
+    "value": "CZ-20A"
+  },
+  {
+    "label": "CZ-20B: Příbram",
+    "value": "CZ-20B"
+  },
+  {
+    "label": "CZ-20C: Rakovník",
+    "value": "CZ-20C"
+  },
+  {
+    "label": "CZ-31: Jihočeský kraj",
+    "value": "CZ-31"
+  },
+  {
+    "label": "CZ-311: České Budějovice",
+    "value": "CZ-311"
+  },
+  {
+    "label": "CZ-312: Český Krumlov",
+    "value": "CZ-312"
+  },
+  {
+    "label": "CZ-313: Jindřichův Hradec",
+    "value": "CZ-313"
+  },
+  {
+    "label": "CZ-314: Písek",
+    "value": "CZ-314"
+  },
+  {
+    "label": "CZ-315: Prachatice",
+    "value": "CZ-315"
+  },
+  {
+    "label": "CZ-316: Strakonice",
+    "value": "CZ-316"
+  },
+  {
+    "label": "CZ-317: Tábor",
+    "value": "CZ-317"
+  },
+  {
+    "label": "CZ-32: Plzeňský kraj",
+    "value": "CZ-32"
+  },
+  {
+    "label": "CZ-321: Domažlice",
+    "value": "CZ-321"
+  },
+  {
+    "label": "CZ-322: Klatovy",
+    "value": "CZ-322"
+  },
+  {
+    "label": "CZ-323: Plzeň-město",
+    "value": "CZ-323"
+  },
+  {
+    "label": "CZ-324: Plzeň-jih",
+    "value": "CZ-324"
+  },
+  {
+    "label": "CZ-325: Plzeň-sever",
+    "value": "CZ-325"
+  },
+  {
+    "label": "CZ-326: Rokycany",
+    "value": "CZ-326"
+  },
+  {
+    "label": "CZ-327: Tachov",
+    "value": "CZ-327"
+  },
+  {
+    "label": "CZ-41: Karlovarský kraj",
+    "value": "CZ-41"
+  },
+  {
+    "label": "CZ-411: Cheb",
+    "value": "CZ-411"
+  },
+  {
+    "label": "CZ-412: Karlovy Vary",
+    "value": "CZ-412"
+  },
+  {
+    "label": "CZ-413: Sokolov",
+    "value": "CZ-413"
+  },
+  {
+    "label": "CZ-42: Ústecký kraj",
+    "value": "CZ-42"
+  },
+  {
+    "label": "CZ-421: Děčín",
+    "value": "CZ-421"
+  },
+  {
+    "label": "CZ-422: Chomutov",
+    "value": "CZ-422"
+  },
+  {
+    "label": "CZ-423: Litoměřice",
+    "value": "CZ-423"
+  },
+  {
+    "label": "CZ-424: Louny",
+    "value": "CZ-424"
+  },
+  {
+    "label": "CZ-425: Most",
+    "value": "CZ-425"
+  },
+  {
+    "label": "CZ-426: Teplice",
+    "value": "CZ-426"
+  },
+  {
+    "label": "CZ-427: Ústí nad Labem",
+    "value": "CZ-427"
+  },
+  {
+    "label": "CZ-51: Liberecký kraj",
+    "value": "CZ-51"
+  },
+  {
+    "label": "CZ-511: Česká Lípa",
+    "value": "CZ-511"
+  },
+  {
+    "label": "CZ-512: Jablonec nad Nisou",
+    "value": "CZ-512"
+  },
+  {
+    "label": "CZ-513: Liberec",
+    "value": "CZ-513"
+  },
+  {
+    "label": "CZ-514: Semily",
+    "value": "CZ-514"
+  },
+  {
+    "label": "CZ-52: Královéhradecký kraj",
+    "value": "CZ-52"
+  },
+  {
+    "label": "CZ-521: Hradec Králové",
+    "value": "CZ-521"
+  },
+  {
+    "label": "CZ-522: Jičín",
+    "value": "CZ-522"
+  },
+  {
+    "label": "CZ-523: Náchod",
+    "value": "CZ-523"
+  },
+  {
+    "label": "CZ-524: Rychnov nad Kněžnou",
+    "value": "CZ-524"
+  },
+  {
+    "label": "CZ-525: Trutnov",
+    "value": "CZ-525"
+  },
+  {
+    "label": "CZ-53: Pardubický kraj",
+    "value": "CZ-53"
+  },
+  {
+    "label": "CZ-531: Chrudim",
+    "value": "CZ-531"
+  },
+  {
+    "label": "CZ-532: Pardubice",
+    "value": "CZ-532"
+  },
+  {
+    "label": "CZ-533: Svitavy",
+    "value": "CZ-533"
+  },
+  {
+    "label": "CZ-534: Ústí nad Orlicí",
+    "value": "CZ-534"
+  },
+  {
+    "label": "CZ-63: Kraj Vysočina",
+    "value": "CZ-63"
+  },
+  {
+    "label": "CZ-631: Havlíčkův Brod",
+    "value": "CZ-631"
+  },
+  {
+    "label": "CZ-632: Jihlava",
+    "value": "CZ-632"
+  },
+  {
+    "label": "CZ-633: Pelhřimov",
+    "value": "CZ-633"
+  },
+  {
+    "label": "CZ-634: Třebíč",
+    "value": "CZ-634"
+  },
+  {
+    "label": "CZ-635: Žďár nad Sázavou",
+    "value": "CZ-635"
+  },
+  {
+    "label": "CZ-64: Jihomoravský kraj",
+    "value": "CZ-64"
+  },
+  {
+    "label": "CZ-641: Blansko",
+    "value": "CZ-641"
+  },
+  {
+    "label": "CZ-642: Brno-město",
+    "value": "CZ-642"
+  },
+  {
+    "label": "CZ-643: Brno-venkov",
+    "value": "CZ-643"
+  },
+  {
+    "label": "CZ-644: Břeclav",
+    "value": "CZ-644"
+  },
+  {
+    "label": "CZ-645: Hodonín",
+    "value": "CZ-645"
+  },
+  {
+    "label": "CZ-646: Vyškov",
+    "value": "CZ-646"
+  },
+  {
+    "label": "CZ-647: Znojmo",
+    "value": "CZ-647"
+  },
+  {
+    "label": "CZ-71: Olomoucký kraj",
+    "value": "CZ-71"
+  },
+  {
+    "label": "CZ-711: Jeseník",
+    "value": "CZ-711"
+  },
+  {
+    "label": "CZ-712: Olomouc",
+    "value": "CZ-712"
+  },
+  {
+    "label": "CZ-713: Prostějov",
+    "value": "CZ-713"
+  },
+  {
+    "label": "CZ-714: Přerov",
+    "value": "CZ-714"
+  },
+  {
+    "label": "CZ-715: Šumperk",
+    "value": "CZ-715"
+  },
+  {
+    "label": "CZ-72: Zlínský kraj",
+    "value": "CZ-72"
+  },
+  {
+    "label": "CZ-721: Kroměříž",
+    "value": "CZ-721"
+  },
+  {
+    "label": "CZ-722: Uherské Hradiště",
+    "value": "CZ-722"
+  },
+  {
+    "label": "CZ-723: Vsetín",
+    "value": "CZ-723"
+  },
+  {
+    "label": "CZ-724: Zlín",
+    "value": "CZ-724"
+  },
+  {
+    "label": "CZ-80: Moravskoslezský kraj",
+    "value": "CZ-80"
+  },
+  {
+    "label": "CZ-801: Bruntál",
+    "value": "CZ-801"
+  },
+  {
+    "label": "CZ-802: Frýdek-Místek",
+    "value": "CZ-802"
+  },
+  {
+    "label": "CZ-803: Karviná",
+    "value": "CZ-803"
+  },
+  {
+    "label": "CZ-804: Nový Jičín",
+    "value": "CZ-804"
+  },
+  {
+    "label": "CZ-805: Opava",
+    "value": "CZ-805"
+  },
+  {
+    "label": "CZ-806: Ostrava-město",
+    "value": "CZ-806"
+  }
+]
