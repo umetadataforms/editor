@@ -1,0 +1,190 @@
+[
+  {
+    "label": "JP-01: Hokkaido; Hokkaidô",
+    "value": "JP-01"
+  },
+  {
+    "label": "JP-02: Aomori",
+    "value": "JP-02"
+  },
+  {
+    "label": "JP-03: Iwate",
+    "value": "JP-03"
+  },
+  {
+    "label": "JP-04: Miyagi",
+    "value": "JP-04"
+  },
+  {
+    "label": "JP-05: Akita",
+    "value": "JP-05"
+  },
+  {
+    "label": "JP-06: Yamagata",
+    "value": "JP-06"
+  },
+  {
+    "label": "JP-07: Fukushima; Hukusima",
+    "value": "JP-07"
+  },
+  {
+    "label": "JP-08: Ibaraki",
+    "value": "JP-08"
+  },
+  {
+    "label": "JP-09: Tochigi; Totigi",
+    "value": "JP-09"
+  },
+  {
+    "label": "JP-10: Gunma",
+    "value": "JP-10"
+  },
+  {
+    "label": "JP-11: Saitama",
+    "value": "JP-11"
+  },
+  {
+    "label": "JP-12: Chiba; Tiba",
+    "value": "JP-12"
+  },
+  {
+    "label": "JP-13: Tokyo; Tôkyô",
+    "value": "JP-13"
+  },
+  {
+    "label": "JP-14: Kanagawa",
+    "value": "JP-14"
+  },
+  {
+    "label": "JP-15: Niigata",
+    "value": "JP-15"
+  },
+  {
+    "label": "JP-16: Toyama",
+    "value": "JP-16"
+  },
+  {
+    "label": "JP-17: Ishikawa; Isikawa",
+    "value": "JP-17"
+  },
+  {
+    "label": "JP-18: Fukui; Hukui",
+    "value": "JP-18"
+  },
+  {
+    "label": "JP-19: Yamanashi; Yamanasi",
+    "value": "JP-19"
+  },
+  {
+    "label": "JP-20: Nagano",
+    "value": "JP-20"
+  },
+  {
+    "label": "JP-21: Gifu; Gihu",
+    "value": "JP-21"
+  },
+  {
+    "label": "JP-22: Shizuoka; Sizuoka",
+    "value": "JP-22"
+  },
+  {
+    "label": "JP-23: Aichi; Aiti",
+    "value": "JP-23"
+  },
+  {
+    "label": "JP-24: Mie",
+    "value": "JP-24"
+  },
+  {
+    "label": "JP-25: Shiga; Siga",
+    "value": "JP-25"
+  },
+  {
+    "label": "JP-26: Kyoto; Kyôto",
+    "value": "JP-26"
+  },
+  {
+    "label": "JP-27: Osaka; Ôsaka",
+    "value": "JP-27"
+  },
+  {
+    "label": "JP-28: Hyogo; Hyôgo",
+    "value": "JP-28"
+  },
+  {
+    "label": "JP-29: Nara",
+    "value": "JP-29"
+  },
+  {
+    "label": "JP-30: Wakayama",
+    "value": "JP-30"
+  },
+  {
+    "label": "JP-31: Tottori",
+    "value": "JP-31"
+  },
+  {
+    "label": "JP-32: Shimane; Simane",
+    "value": "JP-32"
+  },
+  {
+    "label": "JP-33: Okayama",
+    "value": "JP-33"
+  },
+  {
+    "label": "JP-34: Hiroshima; Hirosima",
+    "value": "JP-34"
+  },
+  {
+    "label": "JP-35: Yamaguchi; Yamaguti",
+    "value": "JP-35"
+  },
+  {
+    "label": "JP-36: Tokushima; Tokusima",
+    "value": "JP-36"
+  },
+  {
+    "label": "JP-37: Kagawa",
+    "value": "JP-37"
+  },
+  {
+    "label": "JP-38: Ehime",
+    "value": "JP-38"
+  },
+  {
+    "label": "JP-39: Kochi; Kôti",
+    "value": "JP-39"
+  },
+  {
+    "label": "JP-40: Fukuoka; Hukuoka",
+    "value": "JP-40"
+  },
+  {
+    "label": "JP-41: Saga",
+    "value": "JP-41"
+  },
+  {
+    "label": "JP-42: Nagasaki",
+    "value": "JP-42"
+  },
+  {
+    "label": "JP-43: Kumamoto",
+    "value": "JP-43"
+  },
+  {
+    "label": "JP-44: Oita; Ôita",
+    "value": "JP-44"
+  },
+  {
+    "label": "JP-45: Miyazaki",
+    "value": "JP-45"
+  },
+  {
+    "label": "JP-46: Kagoshima; Kagosima",
+    "value": "JP-46"
+  },
+  {
+    "label": "JP-47: Okinawa",
+    "value": "JP-47"
+  }
+]

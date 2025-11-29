@@ -1,0 +1,42 @@
+[
+  {
+    "label": "SR-BR: Brokopondo",
+    "value": "SR-BR"
+  },
+  {
+    "label": "SR-CM: Commewijne",
+    "value": "SR-CM"
+  },
+  {
+    "label": "SR-CR: Coronie",
+    "value": "SR-CR"
+  },
+  {
+    "label": "SR-MA: Marowijne",
+    "value": "SR-MA"
+  },
+  {
+    "label": "SR-NI: Nickerie",
+    "value": "SR-NI"
+  },
+  {
+    "label": "SR-PM: Paramaribo",
+    "value": "SR-PM"
+  },
+  {
+    "label": "SR-PR: Para",
+    "value": "SR-PR"
+  },
+  {
+    "label": "SR-SA: Saramacca",
+    "value": "SR-SA"
+  },
+  {
+    "label": "SR-SI: Sipaliwini",
+    "value": "SR-SI"
+  },
+  {
+    "label": "SR-WA: Wanica",
+    "value": "SR-WA"
+  }
+]

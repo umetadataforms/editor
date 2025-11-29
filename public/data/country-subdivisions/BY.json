@@ -1,0 +1,30 @@
+[
+  {
+    "label": "BY-BR: Bresckaja voblasć; Brestskaja oblast'; Brestskaya oblast'; Brestskaya voblasts'",
+    "value": "BY-BR"
+  },
+  {
+    "label": "BY-HM: Gorod Minsk; Horad Minsk",
+    "value": "BY-HM"
+  },
+  {
+    "label": "BY-HO: Gomel'skaja oblast'; Gomel'skaya oblast'; Homieĺskaja voblasć; Homyel'skaya voblasts'",
+    "value": "BY-HO"
+  },
+  {
+    "label": "BY-HR: Grodnenskaja oblast'; Grodnenskaya oblast'; Hrodzienskaja voblasć; Hrodzyenskaya voblasts'",
+    "value": "BY-HR"
+  },
+  {
+    "label": "BY-MA: Mahilioŭskaja voblasć; Mahilyowskaya voblasts'; Mogilevskaja oblast'; Mogilevskaya oblast'",
+    "value": "BY-MA"
+  },
+  {
+    "label": "BY-MI: Minskaja oblast'; Minskaja voblasć; Minskaya oblast'; Minskaya voblasts'",
+    "value": "BY-MI"
+  },
+  {
+    "label": "BY-VI: Viciebskaja voblasć; Vitebskaja oblast'; Vitebskaya oblast'; Vitsyebskaya voblasts'",
+    "value": "BY-VI"
+  }
+]

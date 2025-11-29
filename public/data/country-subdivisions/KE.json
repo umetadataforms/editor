@@ -1,0 +1,190 @@
+[
+  {
+    "label": "KE-01: Baringo",
+    "value": "KE-01"
+  },
+  {
+    "label": "KE-02: Bomet",
+    "value": "KE-02"
+  },
+  {
+    "label": "KE-03: Bungoma",
+    "value": "KE-03"
+  },
+  {
+    "label": "KE-04: Busia",
+    "value": "KE-04"
+  },
+  {
+    "label": "KE-05: Elgeyo/Marakwet",
+    "value": "KE-05"
+  },
+  {
+    "label": "KE-06: Embu",
+    "value": "KE-06"
+  },
+  {
+    "label": "KE-07: Garissa",
+    "value": "KE-07"
+  },
+  {
+    "label": "KE-08: Homa Bay",
+    "value": "KE-08"
+  },
+  {
+    "label": "KE-09: Isiolo",
+    "value": "KE-09"
+  },
+  {
+    "label": "KE-10: Kajiado",
+    "value": "KE-10"
+  },
+  {
+    "label": "KE-11: Kakamega",
+    "value": "KE-11"
+  },
+  {
+    "label": "KE-12: Kericho",
+    "value": "KE-12"
+  },
+  {
+    "label": "KE-13: Kiambu",
+    "value": "KE-13"
+  },
+  {
+    "label": "KE-14: Kilifi",
+    "value": "KE-14"
+  },
+  {
+    "label": "KE-15: Kirinyaga",
+    "value": "KE-15"
+  },
+  {
+    "label": "KE-16: Kisii",
+    "value": "KE-16"
+  },
+  {
+    "label": "KE-17: Kisumu",
+    "value": "KE-17"
+  },
+  {
+    "label": "KE-18: Kitui",
+    "value": "KE-18"
+  },
+  {
+    "label": "KE-19: Kwale",
+    "value": "KE-19"
+  },
+  {
+    "label": "KE-20: Laikipia",
+    "value": "KE-20"
+  },
+  {
+    "label": "KE-21: Lamu",
+    "value": "KE-21"
+  },
+  {
+    "label": "KE-22: Machakos",
+    "value": "KE-22"
+  },
+  {
+    "label": "KE-23: Makueni",
+    "value": "KE-23"
+  },
+  {
+    "label": "KE-24: Mandera",
+    "value": "KE-24"
+  },
+  {
+    "label": "KE-25: Marsabit",
+    "value": "KE-25"
+  },
+  {
+    "label": "KE-26: Meru",
+    "value": "KE-26"
+  },
+  {
+    "label": "KE-27: Migori",
+    "value": "KE-27"
+  },
+  {
+    "label": "KE-28: Mombasa",
+    "value": "KE-28"
+  },
+  {
+    "label": "KE-29: Murang'a",
+    "value": "KE-29"
+  },
+  {
+    "label": "KE-30: Nairobi City",
+    "value": "KE-30"
+  },
+  {
+    "label": "KE-31: Nakuru",
+    "value": "KE-31"
+  },
+  {
+    "label": "KE-32: Nandi",
+    "value": "KE-32"
+  },
+  {
+    "label": "KE-33: Narok",
+    "value": "KE-33"
+  },
+  {
+    "label": "KE-34: Nyamira",
+    "value": "KE-34"
+  },
+  {
+    "label": "KE-35: Nyandarua",
+    "value": "KE-35"
+  },
+  {
+    "label": "KE-36: Nyeri",
+    "value": "KE-36"
+  },
+  {
+    "label": "KE-37: Samburu",
+    "value": "KE-37"
+  },
+  {
+    "label": "KE-38: Siaya",
+    "value": "KE-38"
+  },
+  {
+    "label": "KE-39: Taita/Taveta",
+    "value": "KE-39"
+  },
+  {
+    "label": "KE-40: Tana River",
+    "value": "KE-40"
+  },
+  {
+    "label": "KE-41: Tharaka-Nithi",
+    "value": "KE-41"
+  },
+  {
+    "label": "KE-42: Trans Nzoia",
+    "value": "KE-42"
+  },
+  {
+    "label": "KE-43: Turkana",
+    "value": "KE-43"
+  },
+  {
+    "label": "KE-44: Uasin Gishu",
+    "value": "KE-44"
+  },
+  {
+    "label": "KE-45: Vihiga",
+    "value": "KE-45"
+  },
+  {
+    "label": "KE-46: Wajir",
+    "value": "KE-46"
+  },
+  {
+    "label": "KE-47: West Pokot",
+    "value": "KE-47"
+  }
+]

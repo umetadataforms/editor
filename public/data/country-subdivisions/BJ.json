@@ -1,0 +1,50 @@
+[
+  {
+    "label": "BJ-AK: Atacora",
+    "value": "BJ-AK"
+  },
+  {
+    "label": "BJ-AL: Alibori",
+    "value": "BJ-AL"
+  },
+  {
+    "label": "BJ-AQ: Atlantique",
+    "value": "BJ-AQ"
+  },
+  {
+    "label": "BJ-BO: Borgou",
+    "value": "BJ-BO"
+  },
+  {
+    "label": "BJ-CO: Collines",
+    "value": "BJ-CO"
+  },
+  {
+    "label": "BJ-DO: Donga",
+    "value": "BJ-DO"
+  },
+  {
+    "label": "BJ-KO: Couffo",
+    "value": "BJ-KO"
+  },
+  {
+    "label": "BJ-LI: Littoral",
+    "value": "BJ-LI"
+  },
+  {
+    "label": "BJ-MO: Mono",
+    "value": "BJ-MO"
+  },
+  {
+    "label": "BJ-OU: Ouémé",
+    "value": "BJ-OU"
+  },
+  {
+    "label": "BJ-PL: Plateau",
+    "value": "BJ-PL"
+  },
+  {
+    "label": "BJ-ZO: Zou",
+    "value": "BJ-ZO"
+  }
+]

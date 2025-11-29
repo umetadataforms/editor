@@ -1,0 +1,70 @@
+[
+  {
+    "label": "NI-AN: Costa Caribe Norte",
+    "value": "NI-AN"
+  },
+  {
+    "label": "NI-AS: Costa Caribe Sur",
+    "value": "NI-AS"
+  },
+  {
+    "label": "NI-BO: Boaco",
+    "value": "NI-BO"
+  },
+  {
+    "label": "NI-CA: Carazo",
+    "value": "NI-CA"
+  },
+  {
+    "label": "NI-CI: Chinandega",
+    "value": "NI-CI"
+  },
+  {
+    "label": "NI-CO: Chontales",
+    "value": "NI-CO"
+  },
+  {
+    "label": "NI-ES: Estelí",
+    "value": "NI-ES"
+  },
+  {
+    "label": "NI-GR: Granada",
+    "value": "NI-GR"
+  },
+  {
+    "label": "NI-JI: Jinotega",
+    "value": "NI-JI"
+  },
+  {
+    "label": "NI-LE: León",
+    "value": "NI-LE"
+  },
+  {
+    "label": "NI-MD: Madriz",
+    "value": "NI-MD"
+  },
+  {
+    "label": "NI-MN: Managua",
+    "value": "NI-MN"
+  },
+  {
+    "label": "NI-MS: Masaya",
+    "value": "NI-MS"
+  },
+  {
+    "label": "NI-MT: Matagalpa",
+    "value": "NI-MT"
+  },
+  {
+    "label": "NI-NS: Nueva Segovia",
+    "value": "NI-NS"
+  },
+  {
+    "label": "NI-RI: Rivas",
+    "value": "NI-RI"
+  },
+  {
+    "label": "NI-SJ: Río San Juan",
+    "value": "NI-SJ"
+  }
+]

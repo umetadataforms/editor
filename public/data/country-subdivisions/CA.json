@@ -1,0 +1,54 @@
+[
+  {
+    "label": "CA-AB: Alberta",
+    "value": "CA-AB"
+  },
+  {
+    "label": "CA-BC: British Columbia; Colombie-Britannique",
+    "value": "CA-BC"
+  },
+  {
+    "label": "CA-MB: Manitoba",
+    "value": "CA-MB"
+  },
+  {
+    "label": "CA-NB: New Brunswick; Nouveau-Brunswick",
+    "value": "CA-NB"
+  },
+  {
+    "label": "CA-NL: Newfoundland and Labrador; Terre-Neuve-et-Labrador",
+    "value": "CA-NL"
+  },
+  {
+    "label": "CA-NS: Nouvelle-Écosse; Nova Scotia",
+    "value": "CA-NS"
+  },
+  {
+    "label": "CA-NT: Northwest Territories; Territoires du Nord-Ouest",
+    "value": "CA-NT"
+  },
+  {
+    "label": "CA-NU: Nunavut",
+    "value": "CA-NU"
+  },
+  {
+    "label": "CA-ON: Ontario",
+    "value": "CA-ON"
+  },
+  {
+    "label": "CA-PE: Prince Edward Island; Île-du-Prince-Édouard",
+    "value": "CA-PE"
+  },
+  {
+    "label": "CA-QC: Quebec; Québec",
+    "value": "CA-QC"
+  },
+  {
+    "label": "CA-SK: Saskatchewan",
+    "value": "CA-SK"
+  },
+  {
+    "label": "CA-YT: Yukon",
+    "value": "CA-YT"
+  }
+]

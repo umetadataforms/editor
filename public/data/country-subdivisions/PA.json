@@ -1,0 +1,58 @@
+[
+  {
+    "label": "PA-1: Bocas del Toro",
+    "value": "PA-1"
+  },
+  {
+    "label": "PA-10: Panamá Oeste",
+    "value": "PA-10"
+  },
+  {
+    "label": "PA-2: Coclé",
+    "value": "PA-2"
+  },
+  {
+    "label": "PA-3: Colón",
+    "value": "PA-3"
+  },
+  {
+    "label": "PA-4: Chiriquí",
+    "value": "PA-4"
+  },
+  {
+    "label": "PA-5: Darién",
+    "value": "PA-5"
+  },
+  {
+    "label": "PA-6: Herrera",
+    "value": "PA-6"
+  },
+  {
+    "label": "PA-7: Los Santos",
+    "value": "PA-7"
+  },
+  {
+    "label": "PA-8: Panamá",
+    "value": "PA-8"
+  },
+  {
+    "label": "PA-9: Veraguas",
+    "value": "PA-9"
+  },
+  {
+    "label": "PA-EM: Emberá",
+    "value": "PA-EM"
+  },
+  {
+    "label": "PA-KY: Guna Yala",
+    "value": "PA-KY"
+  },
+  {
+    "label": "PA-NB: Ngäbe-Buglé",
+    "value": "PA-NB"
+  },
+  {
+    "label": "PA-NT: Naso Tjër Di",
+    "value": "PA-NT"
+  }
+]

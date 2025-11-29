@@ -1,0 +1,378 @@
+[
+  {
+    "label": "EE-130: Alutaguse",
+    "value": "EE-130"
+  },
+  {
+    "label": "EE-141: Anija",
+    "value": "EE-141"
+  },
+  {
+    "label": "EE-142: Antsla",
+    "value": "EE-142"
+  },
+  {
+    "label": "EE-171: Elva",
+    "value": "EE-171"
+  },
+  {
+    "label": "EE-184: Haapsalu",
+    "value": "EE-184"
+  },
+  {
+    "label": "EE-191: Haljala",
+    "value": "EE-191"
+  },
+  {
+    "label": "EE-198: Harku",
+    "value": "EE-198"
+  },
+  {
+    "label": "EE-205: Hiiumaa",
+    "value": "EE-205"
+  },
+  {
+    "label": "EE-214: Häädemeeste",
+    "value": "EE-214"
+  },
+  {
+    "label": "EE-245: Jõelähtme",
+    "value": "EE-245"
+  },
+  {
+    "label": "EE-247: Jõgeva",
+    "value": "EE-247"
+  },
+  {
+    "label": "EE-251: Jõhvi",
+    "value": "EE-251"
+  },
+  {
+    "label": "EE-255: Järva",
+    "value": "EE-255"
+  },
+  {
+    "label": "EE-272: Kadrina",
+    "value": "EE-272"
+  },
+  {
+    "label": "EE-283: Kambja",
+    "value": "EE-283"
+  },
+  {
+    "label": "EE-284: Kanepi",
+    "value": "EE-284"
+  },
+  {
+    "label": "EE-291: Kastre",
+    "value": "EE-291"
+  },
+  {
+    "label": "EE-293: Kehtna",
+    "value": "EE-293"
+  },
+  {
+    "label": "EE-296: Keila",
+    "value": "EE-296"
+  },
+  {
+    "label": "EE-303: Kihnu",
+    "value": "EE-303"
+  },
+  {
+    "label": "EE-305: Kiili",
+    "value": "EE-305"
+  },
+  {
+    "label": "EE-317: Kohila",
+    "value": "EE-317"
+  },
+  {
+    "label": "EE-321: Kohtla-Järve",
+    "value": "EE-321"
+  },
+  {
+    "label": "EE-338: Kose",
+    "value": "EE-338"
+  },
+  {
+    "label": "EE-353: Kuusalu",
+    "value": "EE-353"
+  },
+  {
+    "label": "EE-37: Harjumaa",
+    "value": "EE-37"
+  },
+  {
+    "label": "EE-39: Hiiumaa",
+    "value": "EE-39"
+  },
+  {
+    "label": "EE-424: Loksa",
+    "value": "EE-424"
+  },
+  {
+    "label": "EE-430: Lääneranna",
+    "value": "EE-430"
+  },
+  {
+    "label": "EE-431: Lääne-Harju",
+    "value": "EE-431"
+  },
+  {
+    "label": "EE-432: Luunja",
+    "value": "EE-432"
+  },
+  {
+    "label": "EE-441: Lääne-Nigula",
+    "value": "EE-441"
+  },
+  {
+    "label": "EE-442: Lüganuse",
+    "value": "EE-442"
+  },
+  {
+    "label": "EE-446: Maardu",
+    "value": "EE-446"
+  },
+  {
+    "label": "EE-45: Ida-Virumaa",
+    "value": "EE-45"
+  },
+  {
+    "label": "EE-478: Muhu",
+    "value": "EE-478"
+  },
+  {
+    "label": "EE-480: Mulgi",
+    "value": "EE-480"
+  },
+  {
+    "label": "EE-486: Mustvee",
+    "value": "EE-486"
+  },
+  {
+    "label": "EE-50: Jõgevamaa",
+    "value": "EE-50"
+  },
+  {
+    "label": "EE-503: Märjamaa",
+    "value": "EE-503"
+  },
+  {
+    "label": "EE-511: Narva",
+    "value": "EE-511"
+  },
+  {
+    "label": "EE-514: Narva-Jõesuu",
+    "value": "EE-514"
+  },
+  {
+    "label": "EE-52: Järvamaa",
+    "value": "EE-52"
+  },
+  {
+    "label": "EE-528: Nõo",
+    "value": "EE-528"
+  },
+  {
+    "label": "EE-557: Otepää",
+    "value": "EE-557"
+  },
+  {
+    "label": "EE-56: Läänemaa",
+    "value": "EE-56"
+  },
+  {
+    "label": "EE-567: Paide",
+    "value": "EE-567"
+  },
+  {
+    "label": "EE-586: Peipsiääre",
+    "value": "EE-586"
+  },
+  {
+    "label": "EE-60: Lääne-Virumaa",
+    "value": "EE-60"
+  },
+  {
+    "label": "EE-615: Põhja-Sakala",
+    "value": "EE-615"
+  },
+  {
+    "label": "EE-618: Põltsamaa",
+    "value": "EE-618"
+  },
+  {
+    "label": "EE-622: Põlva",
+    "value": "EE-622"
+  },
+  {
+    "label": "EE-624: Pärnu",
+    "value": "EE-624"
+  },
+  {
+    "label": "EE-638: Põhja-Pärnumaa",
+    "value": "EE-638"
+  },
+  {
+    "label": "EE-64: Põlvamaa",
+    "value": "EE-64"
+  },
+  {
+    "label": "EE-651: Raasiku",
+    "value": "EE-651"
+  },
+  {
+    "label": "EE-653: Rae",
+    "value": "EE-653"
+  },
+  {
+    "label": "EE-661: Rakvere",
+    "value": "EE-661"
+  },
+  {
+    "label": "EE-663: Rakvere",
+    "value": "EE-663"
+  },
+  {
+    "label": "EE-668: Rapla",
+    "value": "EE-668"
+  },
+  {
+    "label": "EE-68: Pärnumaa",
+    "value": "EE-68"
+  },
+  {
+    "label": "EE-689: Ruhnu",
+    "value": "EE-689"
+  },
+  {
+    "label": "EE-698: Rõuge",
+    "value": "EE-698"
+  },
+  {
+    "label": "EE-708: Räpina",
+    "value": "EE-708"
+  },
+  {
+    "label": "EE-71: Raplamaa",
+    "value": "EE-71"
+  },
+  {
+    "label": "EE-712: Saarde",
+    "value": "EE-712"
+  },
+  {
+    "label": "EE-714: Saaremaa",
+    "value": "EE-714"
+  },
+  {
+    "label": "EE-719: Saku",
+    "value": "EE-719"
+  },
+  {
+    "label": "EE-726: Saue",
+    "value": "EE-726"
+  },
+  {
+    "label": "EE-732: Setomaa",
+    "value": "EE-732"
+  },
+  {
+    "label": "EE-735: Sillamäe",
+    "value": "EE-735"
+  },
+  {
+    "label": "EE-74: Saaremaa",
+    "value": "EE-74"
+  },
+  {
+    "label": "EE-784: Tallinn",
+    "value": "EE-784"
+  },
+  {
+    "label": "EE-79: Tartumaa",
+    "value": "EE-79"
+  },
+  {
+    "label": "EE-792: Tapa",
+    "value": "EE-792"
+  },
+  {
+    "label": "EE-793: Tartu",
+    "value": "EE-793"
+  },
+  {
+    "label": "EE-796: Tartu",
+    "value": "EE-796"
+  },
+  {
+    "label": "EE-803: Toila",
+    "value": "EE-803"
+  },
+  {
+    "label": "EE-809: Tori",
+    "value": "EE-809"
+  },
+  {
+    "label": "EE-81: Valgamaa",
+    "value": "EE-81"
+  },
+  {
+    "label": "EE-824: Tõrva",
+    "value": "EE-824"
+  },
+  {
+    "label": "EE-834: Türi",
+    "value": "EE-834"
+  },
+  {
+    "label": "EE-84: Viljandimaa",
+    "value": "EE-84"
+  },
+  {
+    "label": "EE-855: Valga",
+    "value": "EE-855"
+  },
+  {
+    "label": "EE-87: Võrumaa",
+    "value": "EE-87"
+  },
+  {
+    "label": "EE-890: Viimsi",
+    "value": "EE-890"
+  },
+  {
+    "label": "EE-897: Viljandi",
+    "value": "EE-897"
+  },
+  {
+    "label": "EE-899: Viljandi",
+    "value": "EE-899"
+  },
+  {
+    "label": "EE-901: Vinni",
+    "value": "EE-901"
+  },
+  {
+    "label": "EE-903: Viru-Nigula",
+    "value": "EE-903"
+  },
+  {
+    "label": "EE-907: Vormsi",
+    "value": "EE-907"
+  },
+  {
+    "label": "EE-917: Võru",
+    "value": "EE-917"
+  },
+  {
+    "label": "EE-919: Võru",
+    "value": "EE-919"
+  },
+  {
+    "label": "EE-928: Väike-Maarja",
+    "value": "EE-928"
+  }
+]

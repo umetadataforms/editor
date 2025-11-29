@@ -1,0 +1,174 @@
+[
+  {
+    "label": "LV-002: Aizkraukles novads",
+    "value": "LV-002"
+  },
+  {
+    "label": "LV-007: Alūksnes novads",
+    "value": "LV-007"
+  },
+  {
+    "label": "LV-011: Ādažu novads",
+    "value": "LV-011"
+  },
+  {
+    "label": "LV-015: Balvu novads",
+    "value": "LV-015"
+  },
+  {
+    "label": "LV-016: Bauskas novads",
+    "value": "LV-016"
+  },
+  {
+    "label": "LV-022: Cēsu novads",
+    "value": "LV-022"
+  },
+  {
+    "label": "LV-026: Dobeles novads",
+    "value": "LV-026"
+  },
+  {
+    "label": "LV-033: Gulbenes novads",
+    "value": "LV-033"
+  },
+  {
+    "label": "LV-041: Jelgavas novads",
+    "value": "LV-041"
+  },
+  {
+    "label": "LV-042: Jēkabpils novads",
+    "value": "LV-042"
+  },
+  {
+    "label": "LV-047: Krāslavas novads",
+    "value": "LV-047"
+  },
+  {
+    "label": "LV-050: Kuldīgas novads",
+    "value": "LV-050"
+  },
+  {
+    "label": "LV-052: Ķekavas novads",
+    "value": "LV-052"
+  },
+  {
+    "label": "LV-054: Limbažu novads",
+    "value": "LV-054"
+  },
+  {
+    "label": "LV-056: Līvānu novads",
+    "value": "LV-056"
+  },
+  {
+    "label": "LV-058: Ludzas novads",
+    "value": "LV-058"
+  },
+  {
+    "label": "LV-059: Madonas novads",
+    "value": "LV-059"
+  },
+  {
+    "label": "LV-062: Mārupes novads",
+    "value": "LV-062"
+  },
+  {
+    "label": "LV-067: Ogres novads",
+    "value": "LV-067"
+  },
+  {
+    "label": "LV-068: Olaines novads",
+    "value": "LV-068"
+  },
+  {
+    "label": "LV-073: Preiļu novads",
+    "value": "LV-073"
+  },
+  {
+    "label": "LV-077: Rēzeknes novads",
+    "value": "LV-077"
+  },
+  {
+    "label": "LV-080: Ropažu novads",
+    "value": "LV-080"
+  },
+  {
+    "label": "LV-087: Salaspils novads",
+    "value": "LV-087"
+  },
+  {
+    "label": "LV-088: Saldus novads",
+    "value": "LV-088"
+  },
+  {
+    "label": "LV-089: Saulkrastu novads",
+    "value": "LV-089"
+  },
+  {
+    "label": "LV-091: Siguldas novads",
+    "value": "LV-091"
+  },
+  {
+    "label": "LV-094: Smiltenes novads",
+    "value": "LV-094"
+  },
+  {
+    "label": "LV-097: Talsu novads",
+    "value": "LV-097"
+  },
+  {
+    "label": "LV-099: Tukuma novads",
+    "value": "LV-099"
+  },
+  {
+    "label": "LV-101: Valkas novads",
+    "value": "LV-101"
+  },
+  {
+    "label": "LV-102: Varakļānu novads",
+    "value": "LV-102"
+  },
+  {
+    "label": "LV-106: Ventspils novads",
+    "value": "LV-106"
+  },
+  {
+    "label": "LV-111: Augšdaugavas novads",
+    "value": "LV-111"
+  },
+  {
+    "label": "LV-112: Dienvidkurzemes Novads",
+    "value": "LV-112"
+  },
+  {
+    "label": "LV-113: Valmieras Novads",
+    "value": "LV-113"
+  },
+  {
+    "label": "LV-DGV: Daugavpils",
+    "value": "LV-DGV"
+  },
+  {
+    "label": "LV-JEL: Jelgava",
+    "value": "LV-JEL"
+  },
+  {
+    "label": "LV-JUR: Jūrmala",
+    "value": "LV-JUR"
+  },
+  {
+    "label": "LV-LPX: Liepāja",
+    "value": "LV-LPX"
+  },
+  {
+    "label": "LV-REZ: Rēzekne",
+    "value": "LV-REZ"
+  },
+  {
+    "label": "LV-RIX: Rīga",
+    "value": "LV-RIX"
+  },
+  {
+    "label": "LV-VEN: Ventspils",
+    "value": "LV-VEN"
+  }
+]

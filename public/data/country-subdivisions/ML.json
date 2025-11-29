@@ -1,0 +1,46 @@
+[
+  {
+    "label": "ML-1: Kayes",
+    "value": "ML-1"
+  },
+  {
+    "label": "ML-10: Taoudénit",
+    "value": "ML-10"
+  },
+  {
+    "label": "ML-2: Koulikoro",
+    "value": "ML-2"
+  },
+  {
+    "label": "ML-3: Sikasso",
+    "value": "ML-3"
+  },
+  {
+    "label": "ML-4: Ségou",
+    "value": "ML-4"
+  },
+  {
+    "label": "ML-5: Mopti",
+    "value": "ML-5"
+  },
+  {
+    "label": "ML-6: Tombouctou",
+    "value": "ML-6"
+  },
+  {
+    "label": "ML-7: Gao",
+    "value": "ML-7"
+  },
+  {
+    "label": "ML-8: Kidal",
+    "value": "ML-8"
+  },
+  {
+    "label": "ML-9: Ménaka",
+    "value": "ML-9"
+  },
+  {
+    "label": "ML-BKO: Bamako",
+    "value": "ML-BKO"
+  }
+]

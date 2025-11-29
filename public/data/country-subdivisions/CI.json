@@ -1,0 +1,58 @@
+[
+  {
+    "label": "CI-AB: Abidjan",
+    "value": "CI-AB"
+  },
+  {
+    "label": "CI-BS: Bas-Sassandra",
+    "value": "CI-BS"
+  },
+  {
+    "label": "CI-CM: Comoé",
+    "value": "CI-CM"
+  },
+  {
+    "label": "CI-DN: Denguélé",
+    "value": "CI-DN"
+  },
+  {
+    "label": "CI-GD: Gôh-Djiboua",
+    "value": "CI-GD"
+  },
+  {
+    "label": "CI-LC: Lacs",
+    "value": "CI-LC"
+  },
+  {
+    "label": "CI-LG: Lagunes",
+    "value": "CI-LG"
+  },
+  {
+    "label": "CI-MG: Montagnes",
+    "value": "CI-MG"
+  },
+  {
+    "label": "CI-SM: Sassandra-Marahoué",
+    "value": "CI-SM"
+  },
+  {
+    "label": "CI-SV: Savanes",
+    "value": "CI-SV"
+  },
+  {
+    "label": "CI-VB: Vallée du Bandama",
+    "value": "CI-VB"
+  },
+  {
+    "label": "CI-WR: Woroba",
+    "value": "CI-WR"
+  },
+  {
+    "label": "CI-YM: Yamoussoukro",
+    "value": "CI-YM"
+  },
+  {
+    "label": "CI-ZZ: Zanzan",
+    "value": "CI-ZZ"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "label": "UA-05: Vinnytska oblast",
+    "value": "UA-05"
+  },
+  {
+    "label": "UA-07: Volynska oblast",
+    "value": "UA-07"
+  },
+  {
+    "label": "UA-09: Luhanska oblast",
+    "value": "UA-09"
+  },
+  {
+    "label": "UA-12: Dnipropetrovska oblast",
+    "value": "UA-12"
+  },
+  {
+    "label": "UA-14: Donetska oblast",
+    "value": "UA-14"
+  },
+  {
+    "label": "UA-18: Zhytomyrska oblast",
+    "value": "UA-18"
+  },
+  {
+    "label": "UA-21: Zakarpatska oblast",
+    "value": "UA-21"
+  },
+  {
+    "label": "UA-23: Zaporizka oblast",
+    "value": "UA-23"
+  },
+  {
+    "label": "UA-26: Ivano-Frankivska oblast",
+    "value": "UA-26"
+  },
+  {
+    "label": "UA-30: Kyiv",
+    "value": "UA-30"
+  },
+  {
+    "label": "UA-32: Kyivska oblast",
+    "value": "UA-32"
+  },
+  {
+    "label": "UA-35: Kirovohradska oblast",
+    "value": "UA-35"
+  },
+  {
+    "label": "UA-40: Sevastopol",
+    "value": "UA-40"
+  },
+  {
+    "label": "UA-43: Avtonomna Respublika Krym",
+    "value": "UA-43"
+  },
+  {
+    "label": "UA-46: Lvivska oblast",
+    "value": "UA-46"
+  },
+  {
+    "label": "UA-48: Mykolaivska oblast",
+    "value": "UA-48"
+  },
+  {
+    "label": "UA-51: Odeska oblast",
+    "value": "UA-51"
+  },
+  {
+    "label": "UA-53: Poltavska oblast",
+    "value": "UA-53"
+  },
+  {
+    "label": "UA-56: Rivnenska oblast",
+    "value": "UA-56"
+  },
+  {
+    "label": "UA-59: Sumska oblast",
+    "value": "UA-59"
+  },
+  {
+    "label": "UA-61: Ternopilska oblast",
+    "value": "UA-61"
+  },
+  {
+    "label": "UA-63: Kharkivska oblast",
+    "value": "UA-63"
+  },
+  {
+    "label": "UA-65: Khersonska oblast",
+    "value": "UA-65"
+  },
+  {
+    "label": "UA-68: Khmelnytska oblast",
+    "value": "UA-68"
+  },
+  {
+    "label": "UA-71: Cherkaska oblast",
+    "value": "UA-71"
+  },
+  {
+    "label": "UA-74: Chernihivska oblast",
+    "value": "UA-74"
+  },
+  {
+    "label": "UA-77: Chernivetska oblast",
+    "value": "UA-77"
+  }
+]

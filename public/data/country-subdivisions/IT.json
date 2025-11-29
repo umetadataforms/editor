@@ -1,0 +1,506 @@
+[
+  {
+    "label": "IT-21: Piemonte",
+    "value": "IT-21"
+  },
+  {
+    "label": "IT-23: Val d'Aoste; Valle d'Aosta",
+    "value": "IT-23"
+  },
+  {
+    "label": "IT-25: Lombardia",
+    "value": "IT-25"
+  },
+  {
+    "label": "IT-32: Trentino-Alto Adige; Trentino-Südtirol",
+    "value": "IT-32"
+  },
+  {
+    "label": "IT-34: Veneto",
+    "value": "IT-34"
+  },
+  {
+    "label": "IT-36: Friuli Venezia Giulia",
+    "value": "IT-36"
+  },
+  {
+    "label": "IT-42: Liguria",
+    "value": "IT-42"
+  },
+  {
+    "label": "IT-45: Emilia-Romagna",
+    "value": "IT-45"
+  },
+  {
+    "label": "IT-52: Toscana",
+    "value": "IT-52"
+  },
+  {
+    "label": "IT-55: Umbria",
+    "value": "IT-55"
+  },
+  {
+    "label": "IT-57: Marche",
+    "value": "IT-57"
+  },
+  {
+    "label": "IT-62: Lazio",
+    "value": "IT-62"
+  },
+  {
+    "label": "IT-65: Abruzzo",
+    "value": "IT-65"
+  },
+  {
+    "label": "IT-67: Molise",
+    "value": "IT-67"
+  },
+  {
+    "label": "IT-72: Campania",
+    "value": "IT-72"
+  },
+  {
+    "label": "IT-75: Puglia",
+    "value": "IT-75"
+  },
+  {
+    "label": "IT-77: Basilicata",
+    "value": "IT-77"
+  },
+  {
+    "label": "IT-78: Calabria",
+    "value": "IT-78"
+  },
+  {
+    "label": "IT-82: Sicilia",
+    "value": "IT-82"
+  },
+  {
+    "label": "IT-88: Sardegna",
+    "value": "IT-88"
+  },
+  {
+    "label": "IT-AG: Agrigento",
+    "value": "IT-AG"
+  },
+  {
+    "label": "IT-AL: Alessandria",
+    "value": "IT-AL"
+  },
+  {
+    "label": "IT-AN: Ancona",
+    "value": "IT-AN"
+  },
+  {
+    "label": "IT-AP: Ascoli Piceno",
+    "value": "IT-AP"
+  },
+  {
+    "label": "IT-AQ: L'Aquila",
+    "value": "IT-AQ"
+  },
+  {
+    "label": "IT-AR: Arezzo",
+    "value": "IT-AR"
+  },
+  {
+    "label": "IT-AT: Asti",
+    "value": "IT-AT"
+  },
+  {
+    "label": "IT-AV: Avellino",
+    "value": "IT-AV"
+  },
+  {
+    "label": "IT-BA: Bari",
+    "value": "IT-BA"
+  },
+  {
+    "label": "IT-BG: Bergamo",
+    "value": "IT-BG"
+  },
+  {
+    "label": "IT-BI: Biella",
+    "value": "IT-BI"
+  },
+  {
+    "label": "IT-BL: Belluno",
+    "value": "IT-BL"
+  },
+  {
+    "label": "IT-BN: Benevento",
+    "value": "IT-BN"
+  },
+  {
+    "label": "IT-BO: Bologna",
+    "value": "IT-BO"
+  },
+  {
+    "label": "IT-BR: Brindisi",
+    "value": "IT-BR"
+  },
+  {
+    "label": "IT-BS: Brescia",
+    "value": "IT-BS"
+  },
+  {
+    "label": "IT-BT: Barletta-Andria-Trani",
+    "value": "IT-BT"
+  },
+  {
+    "label": "IT-BZ: Bolzano; Bozen",
+    "value": "IT-BZ"
+  },
+  {
+    "label": "IT-CA: Cagliari",
+    "value": "IT-CA"
+  },
+  {
+    "label": "IT-CB: Campobasso",
+    "value": "IT-CB"
+  },
+  {
+    "label": "IT-CE: Caserta",
+    "value": "IT-CE"
+  },
+  {
+    "label": "IT-CH: Chieti",
+    "value": "IT-CH"
+  },
+  {
+    "label": "IT-CL: Caltanissetta",
+    "value": "IT-CL"
+  },
+  {
+    "label": "IT-CN: Cuneo",
+    "value": "IT-CN"
+  },
+  {
+    "label": "IT-CO: Como",
+    "value": "IT-CO"
+  },
+  {
+    "label": "IT-CR: Cremona",
+    "value": "IT-CR"
+  },
+  {
+    "label": "IT-CS: Cosenza",
+    "value": "IT-CS"
+  },
+  {
+    "label": "IT-CT: Catania",
+    "value": "IT-CT"
+  },
+  {
+    "label": "IT-CZ: Catanzaro",
+    "value": "IT-CZ"
+  },
+  {
+    "label": "IT-EN: Enna",
+    "value": "IT-EN"
+  },
+  {
+    "label": "IT-FC: Forlì-Cesena",
+    "value": "IT-FC"
+  },
+  {
+    "label": "IT-FE: Ferrara",
+    "value": "IT-FE"
+  },
+  {
+    "label": "IT-FG: Foggia",
+    "value": "IT-FG"
+  },
+  {
+    "label": "IT-FI: Firenze",
+    "value": "IT-FI"
+  },
+  {
+    "label": "IT-FM: Fermo",
+    "value": "IT-FM"
+  },
+  {
+    "label": "IT-FR: Frosinone",
+    "value": "IT-FR"
+  },
+  {
+    "label": "IT-GE: Genova",
+    "value": "IT-GE"
+  },
+  {
+    "label": "IT-GO: Gorizia",
+    "value": "IT-GO"
+  },
+  {
+    "label": "IT-GR: Grosseto",
+    "value": "IT-GR"
+  },
+  {
+    "label": "IT-IM: Imperia",
+    "value": "IT-IM"
+  },
+  {
+    "label": "IT-IS: Isernia",
+    "value": "IT-IS"
+  },
+  {
+    "label": "IT-KR: Crotone",
+    "value": "IT-KR"
+  },
+  {
+    "label": "IT-LC: Lecco",
+    "value": "IT-LC"
+  },
+  {
+    "label": "IT-LE: Lecce",
+    "value": "IT-LE"
+  },
+  {
+    "label": "IT-LI: Livorno",
+    "value": "IT-LI"
+  },
+  {
+    "label": "IT-LO: Lodi",
+    "value": "IT-LO"
+  },
+  {
+    "label": "IT-LT: Latina",
+    "value": "IT-LT"
+  },
+  {
+    "label": "IT-LU: Lucca",
+    "value": "IT-LU"
+  },
+  {
+    "label": "IT-MB: Monza e Brianza",
+    "value": "IT-MB"
+  },
+  {
+    "label": "IT-MC: Macerata",
+    "value": "IT-MC"
+  },
+  {
+    "label": "IT-ME: Messina",
+    "value": "IT-ME"
+  },
+  {
+    "label": "IT-MI: Milano",
+    "value": "IT-MI"
+  },
+  {
+    "label": "IT-MN: Mantova",
+    "value": "IT-MN"
+  },
+  {
+    "label": "IT-MO: Modena",
+    "value": "IT-MO"
+  },
+  {
+    "label": "IT-MS: Massa-Carrara",
+    "value": "IT-MS"
+  },
+  {
+    "label": "IT-MT: Matera",
+    "value": "IT-MT"
+  },
+  {
+    "label": "IT-NA: Napoli",
+    "value": "IT-NA"
+  },
+  {
+    "label": "IT-NO: Novara",
+    "value": "IT-NO"
+  },
+  {
+    "label": "IT-NU: Nuoro",
+    "value": "IT-NU"
+  },
+  {
+    "label": "IT-OR: Oristano",
+    "value": "IT-OR"
+  },
+  {
+    "label": "IT-PA: Palermo",
+    "value": "IT-PA"
+  },
+  {
+    "label": "IT-PC: Piacenza",
+    "value": "IT-PC"
+  },
+  {
+    "label": "IT-PD: Padova",
+    "value": "IT-PD"
+  },
+  {
+    "label": "IT-PE: Pescara",
+    "value": "IT-PE"
+  },
+  {
+    "label": "IT-PG: Perugia",
+    "value": "IT-PG"
+  },
+  {
+    "label": "IT-PI: Pisa",
+    "value": "IT-PI"
+  },
+  {
+    "label": "IT-PN: Pordenone",
+    "value": "IT-PN"
+  },
+  {
+    "label": "IT-PO: Prato",
+    "value": "IT-PO"
+  },
+  {
+    "label": "IT-PR: Parma",
+    "value": "IT-PR"
+  },
+  {
+    "label": "IT-PT: Pistoia",
+    "value": "IT-PT"
+  },
+  {
+    "label": "IT-PU: Pesaro e Urbino",
+    "value": "IT-PU"
+  },
+  {
+    "label": "IT-PV: Pavia",
+    "value": "IT-PV"
+  },
+  {
+    "label": "IT-PZ: Potenza",
+    "value": "IT-PZ"
+  },
+  {
+    "label": "IT-RA: Ravenna",
+    "value": "IT-RA"
+  },
+  {
+    "label": "IT-RC: Reggio Calabria",
+    "value": "IT-RC"
+  },
+  {
+    "label": "IT-RE: Reggio Emilia",
+    "value": "IT-RE"
+  },
+  {
+    "label": "IT-RG: Ragusa",
+    "value": "IT-RG"
+  },
+  {
+    "label": "IT-RI: Rieti",
+    "value": "IT-RI"
+  },
+  {
+    "label": "IT-RM: Roma",
+    "value": "IT-RM"
+  },
+  {
+    "label": "IT-RN: Rimini",
+    "value": "IT-RN"
+  },
+  {
+    "label": "IT-RO: Rovigo",
+    "value": "IT-RO"
+  },
+  {
+    "label": "IT-SA: Salerno",
+    "value": "IT-SA"
+  },
+  {
+    "label": "IT-SI: Siena",
+    "value": "IT-SI"
+  },
+  {
+    "label": "IT-SO: Sondrio",
+    "value": "IT-SO"
+  },
+  {
+    "label": "IT-SP: La Spezia",
+    "value": "IT-SP"
+  },
+  {
+    "label": "IT-SR: Siracusa",
+    "value": "IT-SR"
+  },
+  {
+    "label": "IT-SS: Sassari",
+    "value": "IT-SS"
+  },
+  {
+    "label": "IT-SU: Sud Sardegna",
+    "value": "IT-SU"
+  },
+  {
+    "label": "IT-SV: Savona",
+    "value": "IT-SV"
+  },
+  {
+    "label": "IT-TA: Taranto",
+    "value": "IT-TA"
+  },
+  {
+    "label": "IT-TE: Teramo",
+    "value": "IT-TE"
+  },
+  {
+    "label": "IT-TN: Trento",
+    "value": "IT-TN"
+  },
+  {
+    "label": "IT-TO: Torino",
+    "value": "IT-TO"
+  },
+  {
+    "label": "IT-TP: Trapani",
+    "value": "IT-TP"
+  },
+  {
+    "label": "IT-TR: Terni",
+    "value": "IT-TR"
+  },
+  {
+    "label": "IT-TS: Trieste",
+    "value": "IT-TS"
+  },
+  {
+    "label": "IT-TV: Treviso",
+    "value": "IT-TV"
+  },
+  {
+    "label": "IT-UD: Udine",
+    "value": "IT-UD"
+  },
+  {
+    "label": "IT-VA: Varese",
+    "value": "IT-VA"
+  },
+  {
+    "label": "IT-VB: Verbano-Cusio-Ossola",
+    "value": "IT-VB"
+  },
+  {
+    "label": "IT-VC: Vercelli",
+    "value": "IT-VC"
+  },
+  {
+    "label": "IT-VE: Venezia",
+    "value": "IT-VE"
+  },
+  {
+    "label": "IT-VI: Vicenza",
+    "value": "IT-VI"
+  },
+  {
+    "label": "IT-VR: Verona",
+    "value": "IT-VR"
+  },
+  {
+    "label": "IT-VT: Viterbo",
+    "value": "IT-VT"
+  },
+  {
+    "label": "IT-VV: Vibo Valentia",
+    "value": "IT-VV"
+  }
+]

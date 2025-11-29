@@ -1,0 +1,138 @@
+[
+  {
+    "label": "CN-AH: Anhui Sheng",
+    "value": "CN-AH"
+  },
+  {
+    "label": "CN-BJ: Beijing Shi",
+    "value": "CN-BJ"
+  },
+  {
+    "label": "CN-CQ: Chongqing Shi",
+    "value": "CN-CQ"
+  },
+  {
+    "label": "CN-FJ: Fujian Sheng",
+    "value": "CN-FJ"
+  },
+  {
+    "label": "CN-GD: Guangdong Sheng",
+    "value": "CN-GD"
+  },
+  {
+    "label": "CN-GS: Gansu Sheng",
+    "value": "CN-GS"
+  },
+  {
+    "label": "CN-GX: Guangxi Zhuangzu Zizhiqu",
+    "value": "CN-GX"
+  },
+  {
+    "label": "CN-GZ: Guizhou Sheng",
+    "value": "CN-GZ"
+  },
+  {
+    "label": "CN-HA: Henan Sheng",
+    "value": "CN-HA"
+  },
+  {
+    "label": "CN-HB: Hubei Sheng",
+    "value": "CN-HB"
+  },
+  {
+    "label": "CN-HE: Hebei Sheng",
+    "value": "CN-HE"
+  },
+  {
+    "label": "CN-HI: Hainan Sheng",
+    "value": "CN-HI"
+  },
+  {
+    "label": "CN-HK: Hong Kong SAR; Xianggang Tebiexingzhengqu",
+    "value": "CN-HK"
+  },
+  {
+    "label": "CN-HL: Heilongjiang Sheng",
+    "value": "CN-HL"
+  },
+  {
+    "label": "CN-HN: Hunan Sheng",
+    "value": "CN-HN"
+  },
+  {
+    "label": "CN-JL: Jilin Sheng",
+    "value": "CN-JL"
+  },
+  {
+    "label": "CN-JS: Jiangsu Sheng",
+    "value": "CN-JS"
+  },
+  {
+    "label": "CN-JX: Jiangxi Sheng",
+    "value": "CN-JX"
+  },
+  {
+    "label": "CN-LN: Liaoning Sheng",
+    "value": "CN-LN"
+  },
+  {
+    "label": "CN-MO: Aomen Tebiexingzhengqu; Macao SAR; Macau SAR",
+    "value": "CN-MO"
+  },
+  {
+    "label": "CN-NM: Nei Mongol Zizhiqu",
+    "value": "CN-NM"
+  },
+  {
+    "label": "CN-NX: Ningxia Huizu Zizhiqu",
+    "value": "CN-NX"
+  },
+  {
+    "label": "CN-QH: Qinghai Sheng",
+    "value": "CN-QH"
+  },
+  {
+    "label": "CN-SC: Sichuan Sheng",
+    "value": "CN-SC"
+  },
+  {
+    "label": "CN-SD: Shandong Sheng",
+    "value": "CN-SD"
+  },
+  {
+    "label": "CN-SH: Shanghai Shi",
+    "value": "CN-SH"
+  },
+  {
+    "label": "CN-SN: Shaanxi Sheng",
+    "value": "CN-SN"
+  },
+  {
+    "label": "CN-SX: Shanxi Sheng",
+    "value": "CN-SX"
+  },
+  {
+    "label": "CN-TJ: Tianjin Shi",
+    "value": "CN-TJ"
+  },
+  {
+    "label": "CN-TW: Taiwan Sheng",
+    "value": "CN-TW"
+  },
+  {
+    "label": "CN-XJ: Xinjiang Uygur Zizhiqu",
+    "value": "CN-XJ"
+  },
+  {
+    "label": "CN-XZ: Xizang Zizhiqu",
+    "value": "CN-XZ"
+  },
+  {
+    "label": "CN-YN: Yunnan Sheng",
+    "value": "CN-YN"
+  },
+  {
+    "label": "CN-ZJ: Zhejiang Sheng",
+    "value": "CN-ZJ"
+  }
+]

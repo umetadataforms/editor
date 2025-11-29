@@ -1,0 +1,274 @@
+[
+  {
+    "label": "MT-01: Attard",
+    "value": "MT-01"
+  },
+  {
+    "label": "MT-02: Balzan",
+    "value": "MT-02"
+  },
+  {
+    "label": "MT-03: Birgu",
+    "value": "MT-03"
+  },
+  {
+    "label": "MT-04: Birkirkara",
+    "value": "MT-04"
+  },
+  {
+    "label": "MT-05: Birżebbuġa",
+    "value": "MT-05"
+  },
+  {
+    "label": "MT-06: Bormla",
+    "value": "MT-06"
+  },
+  {
+    "label": "MT-07: Dingli",
+    "value": "MT-07"
+  },
+  {
+    "label": "MT-08: Fgura",
+    "value": "MT-08"
+  },
+  {
+    "label": "MT-09: Floriana",
+    "value": "MT-09"
+  },
+  {
+    "label": "MT-10: Fontana",
+    "value": "MT-10"
+  },
+  {
+    "label": "MT-11: Gudja",
+    "value": "MT-11"
+  },
+  {
+    "label": "MT-12: Gżira",
+    "value": "MT-12"
+  },
+  {
+    "label": "MT-13: Għajnsielem",
+    "value": "MT-13"
+  },
+  {
+    "label": "MT-14: Għarb",
+    "value": "MT-14"
+  },
+  {
+    "label": "MT-15: Għargħur",
+    "value": "MT-15"
+  },
+  {
+    "label": "MT-16: Għasri",
+    "value": "MT-16"
+  },
+  {
+    "label": "MT-17: Għaxaq",
+    "value": "MT-17"
+  },
+  {
+    "label": "MT-18: Ħamrun",
+    "value": "MT-18"
+  },
+  {
+    "label": "MT-19: Iklin",
+    "value": "MT-19"
+  },
+  {
+    "label": "MT-20: Isla",
+    "value": "MT-20"
+  },
+  {
+    "label": "MT-21: Kalkara",
+    "value": "MT-21"
+  },
+  {
+    "label": "MT-22: Kerċem",
+    "value": "MT-22"
+  },
+  {
+    "label": "MT-23: Kirkop",
+    "value": "MT-23"
+  },
+  {
+    "label": "MT-24: Lija",
+    "value": "MT-24"
+  },
+  {
+    "label": "MT-25: Luqa",
+    "value": "MT-25"
+  },
+  {
+    "label": "MT-26: Marsa",
+    "value": "MT-26"
+  },
+  {
+    "label": "MT-27: Marsaskala",
+    "value": "MT-27"
+  },
+  {
+    "label": "MT-28: Marsaxlokk",
+    "value": "MT-28"
+  },
+  {
+    "label": "MT-29: Mdina",
+    "value": "MT-29"
+  },
+  {
+    "label": "MT-30: Mellieħa",
+    "value": "MT-30"
+  },
+  {
+    "label": "MT-31: Mġarr",
+    "value": "MT-31"
+  },
+  {
+    "label": "MT-32: Mosta",
+    "value": "MT-32"
+  },
+  {
+    "label": "MT-33: Mqabba",
+    "value": "MT-33"
+  },
+  {
+    "label": "MT-34: Msida",
+    "value": "MT-34"
+  },
+  {
+    "label": "MT-35: Mtarfa",
+    "value": "MT-35"
+  },
+  {
+    "label": "MT-36: Munxar",
+    "value": "MT-36"
+  },
+  {
+    "label": "MT-37: Nadur",
+    "value": "MT-37"
+  },
+  {
+    "label": "MT-38: Naxxar",
+    "value": "MT-38"
+  },
+  {
+    "label": "MT-39: Paola",
+    "value": "MT-39"
+  },
+  {
+    "label": "MT-40: Pembroke",
+    "value": "MT-40"
+  },
+  {
+    "label": "MT-41: Pietà",
+    "value": "MT-41"
+  },
+  {
+    "label": "MT-42: Qala",
+    "value": "MT-42"
+  },
+  {
+    "label": "MT-43: Qormi",
+    "value": "MT-43"
+  },
+  {
+    "label": "MT-44: Qrendi",
+    "value": "MT-44"
+  },
+  {
+    "label": "MT-45: Rabat Gozo; Rabat Għawdex",
+    "value": "MT-45"
+  },
+  {
+    "label": "MT-46: Rabat Malta",
+    "value": "MT-46"
+  },
+  {
+    "label": "MT-47: Safi",
+    "value": "MT-47"
+  },
+  {
+    "label": "MT-48: Saint Julian's; San Ġiljan",
+    "value": "MT-48"
+  },
+  {
+    "label": "MT-49: Saint John; San Ġwann",
+    "value": "MT-49"
+  },
+  {
+    "label": "MT-50: Saint Lawrence; San Lawrenz",
+    "value": "MT-50"
+  },
+  {
+    "label": "MT-51: Saint Paul's Bay; San Pawl il-Baħar",
+    "value": "MT-51"
+  },
+  {
+    "label": "MT-52: Sannat",
+    "value": "MT-52"
+  },
+  {
+    "label": "MT-53: Saint Lucia's; Santa Luċija",
+    "value": "MT-53"
+  },
+  {
+    "label": "MT-54: Santa Venera",
+    "value": "MT-54"
+  },
+  {
+    "label": "MT-55: Siġġiewi",
+    "value": "MT-55"
+  },
+  {
+    "label": "MT-56: Sliema",
+    "value": "MT-56"
+  },
+  {
+    "label": "MT-57: Swieqi",
+    "value": "MT-57"
+  },
+  {
+    "label": "MT-58: Ta' Xbiex",
+    "value": "MT-58"
+  },
+  {
+    "label": "MT-59: Tarxien",
+    "value": "MT-59"
+  },
+  {
+    "label": "MT-60: Valletta",
+    "value": "MT-60"
+  },
+  {
+    "label": "MT-61: Xagħra",
+    "value": "MT-61"
+  },
+  {
+    "label": "MT-62: Xewkija",
+    "value": "MT-62"
+  },
+  {
+    "label": "MT-63: Xgħajra",
+    "value": "MT-63"
+  },
+  {
+    "label": "MT-64: Żabbar",
+    "value": "MT-64"
+  },
+  {
+    "label": "MT-65: Żebbuġ Gozo; Żebbuġ Għawdex",
+    "value": "MT-65"
+  },
+  {
+    "label": "MT-66: Żebbuġ Malta",
+    "value": "MT-66"
+  },
+  {
+    "label": "MT-67: Żejtun",
+    "value": "MT-67"
+  },
+  {
+    "label": "MT-68: Żurrieq",
+    "value": "MT-68"
+  }
+]

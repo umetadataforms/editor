@@ -1,0 +1,50 @@
+[
+  {
+    "label": "GE-AB: Abkhazia",
+    "value": "GE-AB"
+  },
+  {
+    "label": "GE-AJ: Ajaria",
+    "value": "GE-AJ"
+  },
+  {
+    "label": "GE-GU: Guria",
+    "value": "GE-GU"
+  },
+  {
+    "label": "GE-IM: Imereti",
+    "value": "GE-IM"
+  },
+  {
+    "label": "GE-KA: K'akheti",
+    "value": "GE-KA"
+  },
+  {
+    "label": "GE-KK: Kvemo Kartli",
+    "value": "GE-KK"
+  },
+  {
+    "label": "GE-MM: Mtskheta-Mtianeti",
+    "value": "GE-MM"
+  },
+  {
+    "label": "GE-RL: Rach'a-Lechkhumi-Kvemo Svaneti",
+    "value": "GE-RL"
+  },
+  {
+    "label": "GE-SJ: Samtskhe-Javakheti",
+    "value": "GE-SJ"
+  },
+  {
+    "label": "GE-SK: Shida Kartli",
+    "value": "GE-SK"
+  },
+  {
+    "label": "GE-SZ: Samegrelo-Zemo Svaneti",
+    "value": "GE-SZ"
+  },
+  {
+    "label": "GE-TB: Tbilisi",
+    "value": "GE-TB"
+  }
+]

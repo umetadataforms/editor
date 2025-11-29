@@ -1,0 +1,498 @@
+[
+  {
+    "label": "FR-01: Ain",
+    "value": "FR-01"
+  },
+  {
+    "label": "FR-02: Aisne",
+    "value": "FR-02"
+  },
+  {
+    "label": "FR-03: Allier",
+    "value": "FR-03"
+  },
+  {
+    "label": "FR-04: Alpes-de-Haute-Provence",
+    "value": "FR-04"
+  },
+  {
+    "label": "FR-05: Hautes-Alpes",
+    "value": "FR-05"
+  },
+  {
+    "label": "FR-06: Alpes-Maritimes",
+    "value": "FR-06"
+  },
+  {
+    "label": "FR-07: Ardèche",
+    "value": "FR-07"
+  },
+  {
+    "label": "FR-08: Ardennes",
+    "value": "FR-08"
+  },
+  {
+    "label": "FR-09: Ariège",
+    "value": "FR-09"
+  },
+  {
+    "label": "FR-10: Aube",
+    "value": "FR-10"
+  },
+  {
+    "label": "FR-11: Aude",
+    "value": "FR-11"
+  },
+  {
+    "label": "FR-12: Aveyron",
+    "value": "FR-12"
+  },
+  {
+    "label": "FR-13: Bouches-du-Rhône",
+    "value": "FR-13"
+  },
+  {
+    "label": "FR-14: Calvados",
+    "value": "FR-14"
+  },
+  {
+    "label": "FR-15: Cantal",
+    "value": "FR-15"
+  },
+  {
+    "label": "FR-16: Charente",
+    "value": "FR-16"
+  },
+  {
+    "label": "FR-17: Charente-Maritime",
+    "value": "FR-17"
+  },
+  {
+    "label": "FR-18: Cher",
+    "value": "FR-18"
+  },
+  {
+    "label": "FR-19: Corrèze",
+    "value": "FR-19"
+  },
+  {
+    "label": "FR-20R: Corse",
+    "value": "FR-20R"
+  },
+  {
+    "label": "FR-21: Côte-d'Or",
+    "value": "FR-21"
+  },
+  {
+    "label": "FR-22: Côtes-d'Armor",
+    "value": "FR-22"
+  },
+  {
+    "label": "FR-23: Creuse",
+    "value": "FR-23"
+  },
+  {
+    "label": "FR-24: Dordogne",
+    "value": "FR-24"
+  },
+  {
+    "label": "FR-25: Doubs",
+    "value": "FR-25"
+  },
+  {
+    "label": "FR-26: Drôme",
+    "value": "FR-26"
+  },
+  {
+    "label": "FR-27: Eure",
+    "value": "FR-27"
+  },
+  {
+    "label": "FR-28: Eure-et-Loir",
+    "value": "FR-28"
+  },
+  {
+    "label": "FR-29: Finistère",
+    "value": "FR-29"
+  },
+  {
+    "label": "FR-2A: Corse-du-Sud",
+    "value": "FR-2A"
+  },
+  {
+    "label": "FR-2B: Haute-Corse",
+    "value": "FR-2B"
+  },
+  {
+    "label": "FR-30: Gard",
+    "value": "FR-30"
+  },
+  {
+    "label": "FR-31: Haute-Garonne",
+    "value": "FR-31"
+  },
+  {
+    "label": "FR-32: Gers",
+    "value": "FR-32"
+  },
+  {
+    "label": "FR-33: Gironde",
+    "value": "FR-33"
+  },
+  {
+    "label": "FR-34: Hérault",
+    "value": "FR-34"
+  },
+  {
+    "label": "FR-35: Ille-et-Vilaine",
+    "value": "FR-35"
+  },
+  {
+    "label": "FR-36: Indre",
+    "value": "FR-36"
+  },
+  {
+    "label": "FR-37: Indre-et-Loire",
+    "value": "FR-37"
+  },
+  {
+    "label": "FR-38: Isère",
+    "value": "FR-38"
+  },
+  {
+    "label": "FR-39: Jura",
+    "value": "FR-39"
+  },
+  {
+    "label": "FR-40: Landes",
+    "value": "FR-40"
+  },
+  {
+    "label": "FR-41: Loir-et-Cher",
+    "value": "FR-41"
+  },
+  {
+    "label": "FR-42: Loire",
+    "value": "FR-42"
+  },
+  {
+    "label": "FR-43: Haute-Loire",
+    "value": "FR-43"
+  },
+  {
+    "label": "FR-44: Loire-Atlantique",
+    "value": "FR-44"
+  },
+  {
+    "label": "FR-45: Loiret",
+    "value": "FR-45"
+  },
+  {
+    "label": "FR-46: Lot",
+    "value": "FR-46"
+  },
+  {
+    "label": "FR-47: Lot-et-Garonne",
+    "value": "FR-47"
+  },
+  {
+    "label": "FR-48: Lozère",
+    "value": "FR-48"
+  },
+  {
+    "label": "FR-49: Maine-et-Loire",
+    "value": "FR-49"
+  },
+  {
+    "label": "FR-50: Manche",
+    "value": "FR-50"
+  },
+  {
+    "label": "FR-51: Marne",
+    "value": "FR-51"
+  },
+  {
+    "label": "FR-52: Haute-Marne",
+    "value": "FR-52"
+  },
+  {
+    "label": "FR-53: Mayenne",
+    "value": "FR-53"
+  },
+  {
+    "label": "FR-54: Meurthe-et-Moselle",
+    "value": "FR-54"
+  },
+  {
+    "label": "FR-55: Meuse",
+    "value": "FR-55"
+  },
+  {
+    "label": "FR-56: Morbihan",
+    "value": "FR-56"
+  },
+  {
+    "label": "FR-57: Moselle",
+    "value": "FR-57"
+  },
+  {
+    "label": "FR-58: Nièvre",
+    "value": "FR-58"
+  },
+  {
+    "label": "FR-59: Nord",
+    "value": "FR-59"
+  },
+  {
+    "label": "FR-60: Oise",
+    "value": "FR-60"
+  },
+  {
+    "label": "FR-61: Orne",
+    "value": "FR-61"
+  },
+  {
+    "label": "FR-62: Pas-de-Calais",
+    "value": "FR-62"
+  },
+  {
+    "label": "FR-63: Puy-de-Dôme",
+    "value": "FR-63"
+  },
+  {
+    "label": "FR-64: Pyrénées-Atlantiques",
+    "value": "FR-64"
+  },
+  {
+    "label": "FR-65: Hautes-Pyrénées",
+    "value": "FR-65"
+  },
+  {
+    "label": "FR-66: Pyrénées-Orientales",
+    "value": "FR-66"
+  },
+  {
+    "label": "FR-67: Bas-Rhin",
+    "value": "FR-67"
+  },
+  {
+    "label": "FR-68: Haut-Rhin",
+    "value": "FR-68"
+  },
+  {
+    "label": "FR-69: Rhône",
+    "value": "FR-69"
+  },
+  {
+    "label": "FR-69M: Métropole de Lyon",
+    "value": "FR-69M"
+  },
+  {
+    "label": "FR-6AE: Alsace",
+    "value": "FR-6AE"
+  },
+  {
+    "label": "FR-70: Haute-Saône",
+    "value": "FR-70"
+  },
+  {
+    "label": "FR-71: Saône-et-Loire",
+    "value": "FR-71"
+  },
+  {
+    "label": "FR-72: Sarthe",
+    "value": "FR-72"
+  },
+  {
+    "label": "FR-73: Savoie",
+    "value": "FR-73"
+  },
+  {
+    "label": "FR-74: Haute-Savoie",
+    "value": "FR-74"
+  },
+  {
+    "label": "FR-75C: Paris",
+    "value": "FR-75C"
+  },
+  {
+    "label": "FR-76: Seine-Maritime",
+    "value": "FR-76"
+  },
+  {
+    "label": "FR-77: Seine-et-Marne",
+    "value": "FR-77"
+  },
+  {
+    "label": "FR-78: Yvelines",
+    "value": "FR-78"
+  },
+  {
+    "label": "FR-79: Deux-Sèvres",
+    "value": "FR-79"
+  },
+  {
+    "label": "FR-80: Somme",
+    "value": "FR-80"
+  },
+  {
+    "label": "FR-81: Tarn",
+    "value": "FR-81"
+  },
+  {
+    "label": "FR-82: Tarn-et-Garonne",
+    "value": "FR-82"
+  },
+  {
+    "label": "FR-83: Var",
+    "value": "FR-83"
+  },
+  {
+    "label": "FR-84: Vaucluse",
+    "value": "FR-84"
+  },
+  {
+    "label": "FR-85: Vendée",
+    "value": "FR-85"
+  },
+  {
+    "label": "FR-86: Vienne",
+    "value": "FR-86"
+  },
+  {
+    "label": "FR-87: Haute-Vienne",
+    "value": "FR-87"
+  },
+  {
+    "label": "FR-88: Vosges",
+    "value": "FR-88"
+  },
+  {
+    "label": "FR-89: Yonne",
+    "value": "FR-89"
+  },
+  {
+    "label": "FR-90: Territoire de Belfort",
+    "value": "FR-90"
+  },
+  {
+    "label": "FR-91: Essonne",
+    "value": "FR-91"
+  },
+  {
+    "label": "FR-92: Hauts-de-Seine",
+    "value": "FR-92"
+  },
+  {
+    "label": "FR-93: Seine-Saint-Denis",
+    "value": "FR-93"
+  },
+  {
+    "label": "FR-94: Val-de-Marne",
+    "value": "FR-94"
+  },
+  {
+    "label": "FR-95: Val-d'Oise",
+    "value": "FR-95"
+  },
+  {
+    "label": "FR-971: Guadeloupe",
+    "value": "FR-971"
+  },
+  {
+    "label": "FR-972: Martinique",
+    "value": "FR-972"
+  },
+  {
+    "label": "FR-973: Guyane",
+    "value": "FR-973"
+  },
+  {
+    "label": "FR-974: La Réunion",
+    "value": "FR-974"
+  },
+  {
+    "label": "FR-976: Mayotte",
+    "value": "FR-976"
+  },
+  {
+    "label": "FR-ARA: Auvergne-Rhône-Alpes",
+    "value": "FR-ARA"
+  },
+  {
+    "label": "FR-BFC: Bourgogne-Franche-Comté",
+    "value": "FR-BFC"
+  },
+  {
+    "label": "FR-BL: Saint-Barthélemy",
+    "value": "FR-BL"
+  },
+  {
+    "label": "FR-BRE: Bretagne",
+    "value": "FR-BRE"
+  },
+  {
+    "label": "FR-CP: Clipperton",
+    "value": "FR-CP"
+  },
+  {
+    "label": "FR-CVL: Centre-Val de Loire",
+    "value": "FR-CVL"
+  },
+  {
+    "label": "FR-GES: Grand-Est",
+    "value": "FR-GES"
+  },
+  {
+    "label": "FR-HDF: Hauts-de-France",
+    "value": "FR-HDF"
+  },
+  {
+    "label": "FR-IDF: Île-de-France",
+    "value": "FR-IDF"
+  },
+  {
+    "label": "FR-MF: Saint-Martin",
+    "value": "FR-MF"
+  },
+  {
+    "label": "FR-NAQ: Nouvelle-Aquitaine",
+    "value": "FR-NAQ"
+  },
+  {
+    "label": "FR-NC: Nouvelle-Calédonie",
+    "value": "FR-NC"
+  },
+  {
+    "label": "FR-NOR: Normandie",
+    "value": "FR-NOR"
+  },
+  {
+    "label": "FR-OCC: Occitanie",
+    "value": "FR-OCC"
+  },
+  {
+    "label": "FR-PAC: Provence-Alpes-Côte-d’Azur",
+    "value": "FR-PAC"
+  },
+  {
+    "label": "FR-PDL: Pays-de-la-Loire",
+    "value": "FR-PDL"
+  },
+  {
+    "label": "FR-PF: Polynésie française",
+    "value": "FR-PF"
+  },
+  {
+    "label": "FR-PM: Saint-Pierre-et-Miquelon",
+    "value": "FR-PM"
+  },
+  {
+    "label": "FR-TF: Terres australes françaises",
+    "value": "FR-TF"
+  },
+  {
+    "label": "FR-WF: Wallis-et-Futuna",
+    "value": "FR-WF"
+  }
+]

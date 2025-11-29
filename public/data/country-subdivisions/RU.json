@@ -1,0 +1,334 @@
+[
+  {
+    "label": "RU-AD: Adygeja; Adygeya",
+    "value": "RU-AD"
+  },
+  {
+    "label": "RU-AL: Altaj; Altay",
+    "value": "RU-AL"
+  },
+  {
+    "label": "RU-ALT: Altajskij kraj; Altayskiy kray",
+    "value": "RU-ALT"
+  },
+  {
+    "label": "RU-AMU: Amurskaja oblast'; Amurskaya oblast'",
+    "value": "RU-AMU"
+  },
+  {
+    "label": "RU-ARK: Arhangel'skaja oblast'; Arkhangel'skaya oblast'",
+    "value": "RU-ARK"
+  },
+  {
+    "label": "RU-AST: Astrahanskaja oblast'; Astrakhanskaya oblast'",
+    "value": "RU-AST"
+  },
+  {
+    "label": "RU-BA: Bashkortostan; Baškortostan",
+    "value": "RU-BA"
+  },
+  {
+    "label": "RU-BEL: Belgorodskaja oblast'; Belgorodskaya oblast'",
+    "value": "RU-BEL"
+  },
+  {
+    "label": "RU-BRY: Brjanskaja oblast'; Bryanskaya oblast'",
+    "value": "RU-BRY"
+  },
+  {
+    "label": "RU-BU: Burjatija; Buryatiya",
+    "value": "RU-BU"
+  },
+  {
+    "label": "RU-CE: Chechenskaya Respublika; Čečenskaja Respublika",
+    "value": "RU-CE"
+  },
+  {
+    "label": "RU-CHE: Chelyabinskaya oblast'; Čeljabinskaja oblast'",
+    "value": "RU-CHE"
+  },
+  {
+    "label": "RU-CHU: Chukotskiy avtonomnyy okrug; Čukotskij avtonomnyj okrug",
+    "value": "RU-CHU"
+  },
+  {
+    "label": "RU-CU: Chuvashskaya Respublika; Čuvašskaja Respublika",
+    "value": "RU-CU"
+  },
+  {
+    "label": "RU-DA: Dagestan",
+    "value": "RU-DA"
+  },
+  {
+    "label": "RU-IN: Ingushetiya; Ingušetija",
+    "value": "RU-IN"
+  },
+  {
+    "label": "RU-IRK: Irkutskaja oblast'; Irkutskaya oblast'",
+    "value": "RU-IRK"
+  },
+  {
+    "label": "RU-IVA: Ivanovskaja oblast'; Ivanovskaya oblast'",
+    "value": "RU-IVA"
+  },
+  {
+    "label": "RU-KAM: Kamchatskiy kray; Kamčatskij kraj",
+    "value": "RU-KAM"
+  },
+  {
+    "label": "RU-KB: Kabardino-Balkarskaja Respublika; Kabardino-Balkarskaya Respublika",
+    "value": "RU-KB"
+  },
+  {
+    "label": "RU-KC: Karachayevo-Cherkesskaya Respublika; Karačaevo-Čerkesskaja Respublika",
+    "value": "RU-KC"
+  },
+  {
+    "label": "RU-KDA: Krasnodarskij kraj; Krasnodarskiy kray",
+    "value": "RU-KDA"
+  },
+  {
+    "label": "RU-KEM: Kemerovskaja oblast'; Kemerovskaya oblast'",
+    "value": "RU-KEM"
+  },
+  {
+    "label": "RU-KGD: Kaliningradskaja oblast'; Kaliningradskaya oblast'",
+    "value": "RU-KGD"
+  },
+  {
+    "label": "RU-KGN: Kurganskaja oblast'; Kurganskaya oblast'",
+    "value": "RU-KGN"
+  },
+  {
+    "label": "RU-KHA: Habarovskij kraj; Khabarovskiy kray",
+    "value": "RU-KHA"
+  },
+  {
+    "label": "RU-KHM: Hanty-Mansijskij avtonomnyj okrug; Khanty-Mansiyskiy avtonomnyy okrug",
+    "value": "RU-KHM"
+  },
+  {
+    "label": "RU-KIR: Kirovskaja oblast'; Kirovskaya oblast'",
+    "value": "RU-KIR"
+  },
+  {
+    "label": "RU-KK: Hakasija; Khakasiya",
+    "value": "RU-KK"
+  },
+  {
+    "label": "RU-KL: Kalmykija; Kalmykiya",
+    "value": "RU-KL"
+  },
+  {
+    "label": "RU-KLU: Kaluzhskaya oblast'; Kalužskaja oblast'",
+    "value": "RU-KLU"
+  },
+  {
+    "label": "RU-KO: Komi",
+    "value": "RU-KO"
+  },
+  {
+    "label": "RU-KOS: Kostromskaja oblast'; Kostromskaya oblast'",
+    "value": "RU-KOS"
+  },
+  {
+    "label": "RU-KR: Karelija; Kareliya",
+    "value": "RU-KR"
+  },
+  {
+    "label": "RU-KRS: Kurskaja oblast'; Kurskaya oblast'",
+    "value": "RU-KRS"
+  },
+  {
+    "label": "RU-KYA: Krasnojarskij kraj; Krasnoyarskiy kray",
+    "value": "RU-KYA"
+  },
+  {
+    "label": "RU-LEN: Leningradskaja oblast'; Leningradskaya oblast'",
+    "value": "RU-LEN"
+  },
+  {
+    "label": "RU-LIP: Lipeckaja oblast'; Lipetskaya oblast'",
+    "value": "RU-LIP"
+  },
+  {
+    "label": "RU-MAG: Magadanskaja oblast'; Magadanskaya oblast'",
+    "value": "RU-MAG"
+  },
+  {
+    "label": "RU-ME: Marij Èl; Mariy El",
+    "value": "RU-ME"
+  },
+  {
+    "label": "RU-MO: Mordovija; Mordoviya",
+    "value": "RU-MO"
+  },
+  {
+    "label": "RU-MOS: Moskovskaja oblast'; Moskovskaya oblast'",
+    "value": "RU-MOS"
+  },
+  {
+    "label": "RU-MOW: Moskva",
+    "value": "RU-MOW"
+  },
+  {
+    "label": "RU-MUR: Murmanskaja oblast'; Murmanskaya oblast'",
+    "value": "RU-MUR"
+  },
+  {
+    "label": "RU-NEN: Neneckij avtonomnyj okrug; Nenetskiy avtonomnyy okrug",
+    "value": "RU-NEN"
+  },
+  {
+    "label": "RU-NGR: Novgorodskaja oblast'; Novgorodskaya oblast'",
+    "value": "RU-NGR"
+  },
+  {
+    "label": "RU-NIZ: Nizhegorodskaya oblast'; Nižegorodskaja oblast'",
+    "value": "RU-NIZ"
+  },
+  {
+    "label": "RU-NVS: Novosibirskaja oblast'; Novosibirskaya oblast'",
+    "value": "RU-NVS"
+  },
+  {
+    "label": "RU-OMS: Omskaja oblast'; Omskaya oblast'",
+    "value": "RU-OMS"
+  },
+  {
+    "label": "RU-ORE: Orenburgskaja oblast'; Orenburgskaya oblast'",
+    "value": "RU-ORE"
+  },
+  {
+    "label": "RU-ORL: Orlovskaja oblast'; Orlovskaya oblast'",
+    "value": "RU-ORL"
+  },
+  {
+    "label": "RU-PER: Permskij kraj; Permskiy kray",
+    "value": "RU-PER"
+  },
+  {
+    "label": "RU-PNZ: Penzenskaja oblast'; Penzenskaya oblast'",
+    "value": "RU-PNZ"
+  },
+  {
+    "label": "RU-PRI: Primorskij kraj; Primorskiy kray",
+    "value": "RU-PRI"
+  },
+  {
+    "label": "RU-PSK: Pskovskaja oblast'; Pskovskaya oblast'",
+    "value": "RU-PSK"
+  },
+  {
+    "label": "RU-ROS: Rostovskaja oblast'; Rostovskaya oblast'",
+    "value": "RU-ROS"
+  },
+  {
+    "label": "RU-RYA: Rjazanskaja oblast'; Ryazanskaya oblast'",
+    "value": "RU-RYA"
+  },
+  {
+    "label": "RU-SA: Saha; Sakha",
+    "value": "RU-SA"
+  },
+  {
+    "label": "RU-SAK: Sahalinskaja oblast'; Sakhalinskaya oblast'",
+    "value": "RU-SAK"
+  },
+  {
+    "label": "RU-SAM: Samarskaja oblast'; Samarskaya oblast'",
+    "value": "RU-SAM"
+  },
+  {
+    "label": "RU-SAR: Saratovskaja oblast'; Saratovskaya oblast'",
+    "value": "RU-SAR"
+  },
+  {
+    "label": "RU-SE: Severnaja Osetija; Severnaya Osetiya",
+    "value": "RU-SE"
+  },
+  {
+    "label": "RU-SMO: Smolenskaja oblast'; Smolenskaya oblast'",
+    "value": "RU-SMO"
+  },
+  {
+    "label": "RU-SPE: Sankt-Peterburg",
+    "value": "RU-SPE"
+  },
+  {
+    "label": "RU-STA: Stavropol'skij kraj; Stavropol'skiy kray",
+    "value": "RU-STA"
+  },
+  {
+    "label": "RU-SVE: Sverdlovskaja oblast'; Sverdlovskaya oblast'",
+    "value": "RU-SVE"
+  },
+  {
+    "label": "RU-TA: Tatarstan",
+    "value": "RU-TA"
+  },
+  {
+    "label": "RU-TAM: Tambovskaja oblast'; Tambovskaya oblast'",
+    "value": "RU-TAM"
+  },
+  {
+    "label": "RU-TOM: Tomskaja oblast'; Tomskaya oblast'",
+    "value": "RU-TOM"
+  },
+  {
+    "label": "RU-TUL: Tul'skaja oblast'; Tul'skaya oblast'",
+    "value": "RU-TUL"
+  },
+  {
+    "label": "RU-TVE: Tverskaja oblast'; Tverskaya oblast'",
+    "value": "RU-TVE"
+  },
+  {
+    "label": "RU-TY: Tyva",
+    "value": "RU-TY"
+  },
+  {
+    "label": "RU-TYU: Tjumenskaja oblast'; Tyumenskaya oblast'",
+    "value": "RU-TYU"
+  },
+  {
+    "label": "RU-UD: Udmurtskaja Respublika; Udmurtskaya Respublika",
+    "value": "RU-UD"
+  },
+  {
+    "label": "RU-ULY: Ul'janovskaja oblast'; Ul'yanovskaya oblast'",
+    "value": "RU-ULY"
+  },
+  {
+    "label": "RU-VGG: Volgogradskaja oblast'; Volgogradskaya oblast'",
+    "value": "RU-VGG"
+  },
+  {
+    "label": "RU-VLA: Vladimirskaja oblast'; Vladimirskaya oblast'",
+    "value": "RU-VLA"
+  },
+  {
+    "label": "RU-VLG: Vologodskaja oblast'; Vologodskaya oblast'",
+    "value": "RU-VLG"
+  },
+  {
+    "label": "RU-VOR: Voronezhskaya oblast'; Voronežskaja oblast'",
+    "value": "RU-VOR"
+  },
+  {
+    "label": "RU-YAN: Jamalo-Neneckij avtonomnyj okrug; Yamalo-Nenetskiy avtonomnyy okrug",
+    "value": "RU-YAN"
+  },
+  {
+    "label": "RU-YAR: Jaroslavskaja oblast'; Yaroslavskaya oblast'",
+    "value": "RU-YAR"
+  },
+  {
+    "label": "RU-YEV: Evrejskaja avtonomnaja oblast'; Yevreyskaya avtonomnaya oblast'",
+    "value": "RU-YEV"
+  },
+  {
+    "label": "RU-ZAB: Zabajkal'skij kraj; Zabaykal'skiy kray",
+    "value": "RU-ZAB"
+  }
+]

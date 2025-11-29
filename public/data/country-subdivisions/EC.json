@@ -1,0 +1,98 @@
+[
+  {
+    "label": "EC-A: Azuay",
+    "value": "EC-A"
+  },
+  {
+    "label": "EC-B: Bolívar",
+    "value": "EC-B"
+  },
+  {
+    "label": "EC-C: Carchi",
+    "value": "EC-C"
+  },
+  {
+    "label": "EC-D: Orellana",
+    "value": "EC-D"
+  },
+  {
+    "label": "EC-E: Esmeraldas",
+    "value": "EC-E"
+  },
+  {
+    "label": "EC-F: Cañar",
+    "value": "EC-F"
+  },
+  {
+    "label": "EC-G: Guayas",
+    "value": "EC-G"
+  },
+  {
+    "label": "EC-H: Chimborazo",
+    "value": "EC-H"
+  },
+  {
+    "label": "EC-I: Imbabura",
+    "value": "EC-I"
+  },
+  {
+    "label": "EC-L: Loja",
+    "value": "EC-L"
+  },
+  {
+    "label": "EC-M: Manabí",
+    "value": "EC-M"
+  },
+  {
+    "label": "EC-N: Napo",
+    "value": "EC-N"
+  },
+  {
+    "label": "EC-O: El Oro",
+    "value": "EC-O"
+  },
+  {
+    "label": "EC-P: Pichincha",
+    "value": "EC-P"
+  },
+  {
+    "label": "EC-R: Los Ríos",
+    "value": "EC-R"
+  },
+  {
+    "label": "EC-S: Morona Santiago",
+    "value": "EC-S"
+  },
+  {
+    "label": "EC-SD: Santo Domingo de los Tsáchilas",
+    "value": "EC-SD"
+  },
+  {
+    "label": "EC-SE: Santa Elena",
+    "value": "EC-SE"
+  },
+  {
+    "label": "EC-T: Tungurahua",
+    "value": "EC-T"
+  },
+  {
+    "label": "EC-U: Sucumbíos",
+    "value": "EC-U"
+  },
+  {
+    "label": "EC-W: Galápagos",
+    "value": "EC-W"
+  },
+  {
+    "label": "EC-X: Cotopaxi",
+    "value": "EC-X"
+  },
+  {
+    "label": "EC-Y: Pastaza",
+    "value": "EC-Y"
+  },
+  {
+    "label": "EC-Z: Zamora Chinchipe",
+    "value": "EC-Z"
+  }
+]

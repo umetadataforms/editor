@@ -1,0 +1,62 @@
+[
+  {
+    "label": "MM-01: Sagaing",
+    "value": "MM-01"
+  },
+  {
+    "label": "MM-02: Bago",
+    "value": "MM-02"
+  },
+  {
+    "label": "MM-03: Magway",
+    "value": "MM-03"
+  },
+  {
+    "label": "MM-04: Mandalay",
+    "value": "MM-04"
+  },
+  {
+    "label": "MM-05: Tanintharyi",
+    "value": "MM-05"
+  },
+  {
+    "label": "MM-06: Yangon",
+    "value": "MM-06"
+  },
+  {
+    "label": "MM-07: Ayeyarwady",
+    "value": "MM-07"
+  },
+  {
+    "label": "MM-11: Kachin",
+    "value": "MM-11"
+  },
+  {
+    "label": "MM-12: Kayah",
+    "value": "MM-12"
+  },
+  {
+    "label": "MM-13: Kayin",
+    "value": "MM-13"
+  },
+  {
+    "label": "MM-14: Chin",
+    "value": "MM-14"
+  },
+  {
+    "label": "MM-15: Mon",
+    "value": "MM-15"
+  },
+  {
+    "label": "MM-16: Rakhine",
+    "value": "MM-16"
+  },
+  {
+    "label": "MM-17: Shan",
+    "value": "MM-17"
+  },
+  {
+    "label": "MM-18: Nay Pyi Taw",
+    "value": "MM-18"
+  }
+]

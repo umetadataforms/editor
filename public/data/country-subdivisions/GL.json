@@ -1,0 +1,22 @@
+[
+  {
+    "label": "GL-AV: Avannaata Kommunia",
+    "value": "GL-AV"
+  },
+  {
+    "label": "GL-KU: Kommune Kujalleq",
+    "value": "GL-KU"
+  },
+  {
+    "label": "GL-QE: Qeqqata Kommunia",
+    "value": "GL-QE"
+  },
+  {
+    "label": "GL-QT: Kommune Qeqertalik",
+    "value": "GL-QT"
+  },
+  {
+    "label": "GL-SM: Kommuneqarfik Sermersooq",
+    "value": "GL-SM"
+  }
+]

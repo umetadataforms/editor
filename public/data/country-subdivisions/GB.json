@@ -1,0 +1,886 @@
+[
+  {
+    "label": "GB-ABC: Armagh City",
+    "value": "GB-ABC"
+  },
+  {
+    "label": "GB-ABD: Aberdeenshire",
+    "value": "GB-ABD"
+  },
+  {
+    "label": "GB-ABE: Aberdeen City",
+    "value": "GB-ABE"
+  },
+  {
+    "label": "GB-AGB: Argyll and Bute",
+    "value": "GB-AGB"
+  },
+  {
+    "label": "GB-AGY: Isle of Anglesey",
+    "value": "GB-AGY"
+  },
+  {
+    "label": "GB-AND: Ards and North Down",
+    "value": "GB-AND"
+  },
+  {
+    "label": "GB-ANN: Antrim and Newtownabbey",
+    "value": "GB-ANN"
+  },
+  {
+    "label": "GB-ANS: Angus",
+    "value": "GB-ANS"
+  },
+  {
+    "label": "GB-BAS: Bath and North East Somerset",
+    "value": "GB-BAS"
+  },
+  {
+    "label": "GB-BBD: Blackburn with Darwen",
+    "value": "GB-BBD"
+  },
+  {
+    "label": "GB-BCP: Bournemouth",
+    "value": "GB-BCP"
+  },
+  {
+    "label": "GB-BDF: Bedford",
+    "value": "GB-BDF"
+  },
+  {
+    "label": "GB-BDG: Barking and Dagenham",
+    "value": "GB-BDG"
+  },
+  {
+    "label": "GB-BEN: Brent",
+    "value": "GB-BEN"
+  },
+  {
+    "label": "GB-BEX: Bexley",
+    "value": "GB-BEX"
+  },
+  {
+    "label": "GB-BFS: Belfast City",
+    "value": "GB-BFS"
+  },
+  {
+    "label": "GB-BGE: Bridgend",
+    "value": "GB-BGE"
+  },
+  {
+    "label": "GB-BGW: Blaenau Gwent",
+    "value": "GB-BGW"
+  },
+  {
+    "label": "GB-BIR: Birmingham",
+    "value": "GB-BIR"
+  },
+  {
+    "label": "GB-BKM: Buckinghamshire",
+    "value": "GB-BKM"
+  },
+  {
+    "label": "GB-BNE: Barnet",
+    "value": "GB-BNE"
+  },
+  {
+    "label": "GB-BNH: Brighton and Hove",
+    "value": "GB-BNH"
+  },
+  {
+    "label": "GB-BNS: Barnsley",
+    "value": "GB-BNS"
+  },
+  {
+    "label": "GB-BOL: Bolton",
+    "value": "GB-BOL"
+  },
+  {
+    "label": "GB-BPL: Blackpool",
+    "value": "GB-BPL"
+  },
+  {
+    "label": "GB-BRC: Bracknell Forest",
+    "value": "GB-BRC"
+  },
+  {
+    "label": "GB-BRD: Bradford",
+    "value": "GB-BRD"
+  },
+  {
+    "label": "GB-BRY: Bromley",
+    "value": "GB-BRY"
+  },
+  {
+    "label": "GB-BST: Bristol",
+    "value": "GB-BST"
+  },
+  {
+    "label": "GB-BUR: Bury",
+    "value": "GB-BUR"
+  },
+  {
+    "label": "GB-CAM: Cambridgeshire",
+    "value": "GB-CAM"
+  },
+  {
+    "label": "GB-CAY: Caerphilly",
+    "value": "GB-CAY"
+  },
+  {
+    "label": "GB-CBF: Central Bedfordshire",
+    "value": "GB-CBF"
+  },
+  {
+    "label": "GB-CCG: Causeway Coast and Glens",
+    "value": "GB-CCG"
+  },
+  {
+    "label": "GB-CGN: Ceredigion",
+    "value": "GB-CGN"
+  },
+  {
+    "label": "GB-CHE: Cheshire East",
+    "value": "GB-CHE"
+  },
+  {
+    "label": "GB-CHW: Cheshire West and Chester",
+    "value": "GB-CHW"
+  },
+  {
+    "label": "GB-CLD: Calderdale",
+    "value": "GB-CLD"
+  },
+  {
+    "label": "GB-CLK: Clackmannanshire",
+    "value": "GB-CLK"
+  },
+  {
+    "label": "GB-CMA: Cumbria",
+    "value": "GB-CMA"
+  },
+  {
+    "label": "GB-CMD: Camden",
+    "value": "GB-CMD"
+  },
+  {
+    "label": "GB-CMN: Carmarthenshire",
+    "value": "GB-CMN"
+  },
+  {
+    "label": "GB-CON: Cornwall",
+    "value": "GB-CON"
+  },
+  {
+    "label": "GB-COV: Coventry",
+    "value": "GB-COV"
+  },
+  {
+    "label": "GB-CRF: Cardiff",
+    "value": "GB-CRF"
+  },
+  {
+    "label": "GB-CRY: Croydon",
+    "value": "GB-CRY"
+  },
+  {
+    "label": "GB-CWY: Conwy",
+    "value": "GB-CWY"
+  },
+  {
+    "label": "GB-DAL: Darlington",
+    "value": "GB-DAL"
+  },
+  {
+    "label": "GB-DBY: Derbyshire",
+    "value": "GB-DBY"
+  },
+  {
+    "label": "GB-DEN: Denbighshire",
+    "value": "GB-DEN"
+  },
+  {
+    "label": "GB-DER: Derby",
+    "value": "GB-DER"
+  },
+  {
+    "label": "GB-DEV: Devon",
+    "value": "GB-DEV"
+  },
+  {
+    "label": "GB-DGY: Dumfries and Galloway",
+    "value": "GB-DGY"
+  },
+  {
+    "label": "GB-DNC: Doncaster",
+    "value": "GB-DNC"
+  },
+  {
+    "label": "GB-DND: Dundee City",
+    "value": "GB-DND"
+  },
+  {
+    "label": "GB-DOR: Dorset",
+    "value": "GB-DOR"
+  },
+  {
+    "label": "GB-DRS: Derry and Strabane",
+    "value": "GB-DRS"
+  },
+  {
+    "label": "GB-DUD: Dudley",
+    "value": "GB-DUD"
+  },
+  {
+    "label": "GB-DUR: Durham",
+    "value": "GB-DUR"
+  },
+  {
+    "label": "GB-EAL: Ealing",
+    "value": "GB-EAL"
+  },
+  {
+    "label": "GB-EAY: East Ayrshire",
+    "value": "GB-EAY"
+  },
+  {
+    "label": "GB-EDH: Edinburgh",
+    "value": "GB-EDH"
+  },
+  {
+    "label": "GB-EDU: East Dunbartonshire",
+    "value": "GB-EDU"
+  },
+  {
+    "label": "GB-ELN: East Lothian",
+    "value": "GB-ELN"
+  },
+  {
+    "label": "GB-ELS: Eilean Siar",
+    "value": "GB-ELS"
+  },
+  {
+    "label": "GB-ENF: Enfield",
+    "value": "GB-ENF"
+  },
+  {
+    "label": "GB-ENG: England",
+    "value": "GB-ENG"
+  },
+  {
+    "label": "GB-ERW: East Renfrewshire",
+    "value": "GB-ERW"
+  },
+  {
+    "label": "GB-ERY: East Riding of Yorkshire",
+    "value": "GB-ERY"
+  },
+  {
+    "label": "GB-ESS: Essex",
+    "value": "GB-ESS"
+  },
+  {
+    "label": "GB-ESX: East Sussex",
+    "value": "GB-ESX"
+  },
+  {
+    "label": "GB-FAL: Falkirk",
+    "value": "GB-FAL"
+  },
+  {
+    "label": "GB-FIF: Fife",
+    "value": "GB-FIF"
+  },
+  {
+    "label": "GB-FLN: Flintshire",
+    "value": "GB-FLN"
+  },
+  {
+    "label": "GB-FMO: Fermanagh and Omagh",
+    "value": "GB-FMO"
+  },
+  {
+    "label": "GB-GAT: Gateshead",
+    "value": "GB-GAT"
+  },
+  {
+    "label": "GB-GLG: Glasgow City",
+    "value": "GB-GLG"
+  },
+  {
+    "label": "GB-GLS: Gloucestershire",
+    "value": "GB-GLS"
+  },
+  {
+    "label": "GB-GRE: Greenwich",
+    "value": "GB-GRE"
+  },
+  {
+    "label": "GB-GWN: Gwynedd",
+    "value": "GB-GWN"
+  },
+  {
+    "label": "GB-HAL: Halton",
+    "value": "GB-HAL"
+  },
+  {
+    "label": "GB-HAM: Hampshire",
+    "value": "GB-HAM"
+  },
+  {
+    "label": "GB-HAV: Havering",
+    "value": "GB-HAV"
+  },
+  {
+    "label": "GB-HCK: Hackney",
+    "value": "GB-HCK"
+  },
+  {
+    "label": "GB-HEF: Herefordshire",
+    "value": "GB-HEF"
+  },
+  {
+    "label": "GB-HIL: Hillingdon",
+    "value": "GB-HIL"
+  },
+  {
+    "label": "GB-HLD: Highland",
+    "value": "GB-HLD"
+  },
+  {
+    "label": "GB-HMF: Hammersmith and Fulham",
+    "value": "GB-HMF"
+  },
+  {
+    "label": "GB-HNS: Hounslow",
+    "value": "GB-HNS"
+  },
+  {
+    "label": "GB-HPL: Hartlepool",
+    "value": "GB-HPL"
+  },
+  {
+    "label": "GB-HRT: Hertfordshire",
+    "value": "GB-HRT"
+  },
+  {
+    "label": "GB-HRW: Harrow",
+    "value": "GB-HRW"
+  },
+  {
+    "label": "GB-HRY: Haringey",
+    "value": "GB-HRY"
+  },
+  {
+    "label": "GB-IOS: Isles of Scilly",
+    "value": "GB-IOS"
+  },
+  {
+    "label": "GB-IOW: Isle of Wight",
+    "value": "GB-IOW"
+  },
+  {
+    "label": "GB-ISL: Islington",
+    "value": "GB-ISL"
+  },
+  {
+    "label": "GB-IVC: Inverclyde",
+    "value": "GB-IVC"
+  },
+  {
+    "label": "GB-KEC: Kensington and Chelsea",
+    "value": "GB-KEC"
+  },
+  {
+    "label": "GB-KEN: Kent",
+    "value": "GB-KEN"
+  },
+  {
+    "label": "GB-KHL: Kingston upon Hull",
+    "value": "GB-KHL"
+  },
+  {
+    "label": "GB-KIR: Kirklees",
+    "value": "GB-KIR"
+  },
+  {
+    "label": "GB-KTT: Kingston upon Thames",
+    "value": "GB-KTT"
+  },
+  {
+    "label": "GB-KWL: Knowsley",
+    "value": "GB-KWL"
+  },
+  {
+    "label": "GB-LAN: Lancashire",
+    "value": "GB-LAN"
+  },
+  {
+    "label": "GB-LBC: Lisburn and Castlereagh",
+    "value": "GB-LBC"
+  },
+  {
+    "label": "GB-LBH: Lambeth",
+    "value": "GB-LBH"
+  },
+  {
+    "label": "GB-LCE: Leicester",
+    "value": "GB-LCE"
+  },
+  {
+    "label": "GB-LDS: Leeds",
+    "value": "GB-LDS"
+  },
+  {
+    "label": "GB-LEC: Leicestershire",
+    "value": "GB-LEC"
+  },
+  {
+    "label": "GB-LEW: Lewisham",
+    "value": "GB-LEW"
+  },
+  {
+    "label": "GB-LIN: Lincolnshire",
+    "value": "GB-LIN"
+  },
+  {
+    "label": "GB-LIV: Liverpool",
+    "value": "GB-LIV"
+  },
+  {
+    "label": "GB-LND: London",
+    "value": "GB-LND"
+  },
+  {
+    "label": "GB-LUT: Luton",
+    "value": "GB-LUT"
+  },
+  {
+    "label": "GB-MAN: Manchester",
+    "value": "GB-MAN"
+  },
+  {
+    "label": "GB-MDB: Middlesbrough",
+    "value": "GB-MDB"
+  },
+  {
+    "label": "GB-MDW: Medway",
+    "value": "GB-MDW"
+  },
+  {
+    "label": "GB-MEA: Mid and East Antrim",
+    "value": "GB-MEA"
+  },
+  {
+    "label": "GB-MIK: Milton Keynes",
+    "value": "GB-MIK"
+  },
+  {
+    "label": "GB-MLN: Midlothian",
+    "value": "GB-MLN"
+  },
+  {
+    "label": "GB-MON: Monmouthshire",
+    "value": "GB-MON"
+  },
+  {
+    "label": "GB-MRT: Merton",
+    "value": "GB-MRT"
+  },
+  {
+    "label": "GB-MRY: Moray",
+    "value": "GB-MRY"
+  },
+  {
+    "label": "GB-MTY: Merthyr Tydfil",
+    "value": "GB-MTY"
+  },
+  {
+    "label": "GB-MUL: Mid-Ulster",
+    "value": "GB-MUL"
+  },
+  {
+    "label": "GB-NAY: North Ayrshire",
+    "value": "GB-NAY"
+  },
+  {
+    "label": "GB-NBL: Northumberland",
+    "value": "GB-NBL"
+  },
+  {
+    "label": "GB-NEL: North East Lincolnshire",
+    "value": "GB-NEL"
+  },
+  {
+    "label": "GB-NET: Newcastle upon Tyne",
+    "value": "GB-NET"
+  },
+  {
+    "label": "GB-NFK: Norfolk",
+    "value": "GB-NFK"
+  },
+  {
+    "label": "GB-NGM: Nottingham",
+    "value": "GB-NGM"
+  },
+  {
+    "label": "GB-NIR: Northern Ireland",
+    "value": "GB-NIR"
+  },
+  {
+    "label": "GB-NLK: North Lanarkshire",
+    "value": "GB-NLK"
+  },
+  {
+    "label": "GB-NLN: North Lincolnshire",
+    "value": "GB-NLN"
+  },
+  {
+    "label": "GB-NMD: Newry",
+    "value": "GB-NMD"
+  },
+  {
+    "label": "GB-NNH: North Northamptonshire",
+    "value": "GB-NNH"
+  },
+  {
+    "label": "GB-NSM: North Somerset",
+    "value": "GB-NSM"
+  },
+  {
+    "label": "GB-NTL: Neath Port Talbot",
+    "value": "GB-NTL"
+  },
+  {
+    "label": "GB-NTT: Nottinghamshire",
+    "value": "GB-NTT"
+  },
+  {
+    "label": "GB-NTY: North Tyneside",
+    "value": "GB-NTY"
+  },
+  {
+    "label": "GB-NWM: Newham",
+    "value": "GB-NWM"
+  },
+  {
+    "label": "GB-NWP: Newport",
+    "value": "GB-NWP"
+  },
+  {
+    "label": "GB-NYK: North Yorkshire",
+    "value": "GB-NYK"
+  },
+  {
+    "label": "GB-OLD: Oldham",
+    "value": "GB-OLD"
+  },
+  {
+    "label": "GB-ORK: Orkney Islands",
+    "value": "GB-ORK"
+  },
+  {
+    "label": "GB-OXF: Oxfordshire",
+    "value": "GB-OXF"
+  },
+  {
+    "label": "GB-PEM: Pembrokeshire",
+    "value": "GB-PEM"
+  },
+  {
+    "label": "GB-PKN: Perth and Kinross",
+    "value": "GB-PKN"
+  },
+  {
+    "label": "GB-PLY: Plymouth",
+    "value": "GB-PLY"
+  },
+  {
+    "label": "GB-POR: Portsmouth",
+    "value": "GB-POR"
+  },
+  {
+    "label": "GB-POW: Powys",
+    "value": "GB-POW"
+  },
+  {
+    "label": "GB-PTE: Peterborough",
+    "value": "GB-PTE"
+  },
+  {
+    "label": "GB-RCC: Redcar and Cleveland",
+    "value": "GB-RCC"
+  },
+  {
+    "label": "GB-RCH: Rochdale",
+    "value": "GB-RCH"
+  },
+  {
+    "label": "GB-RCT: Rhondda Cynon Taff",
+    "value": "GB-RCT"
+  },
+  {
+    "label": "GB-RDB: Redbridge",
+    "value": "GB-RDB"
+  },
+  {
+    "label": "GB-RDG: Reading",
+    "value": "GB-RDG"
+  },
+  {
+    "label": "GB-RFW: Renfrewshire",
+    "value": "GB-RFW"
+  },
+  {
+    "label": "GB-RIC: Richmond upon Thames",
+    "value": "GB-RIC"
+  },
+  {
+    "label": "GB-ROT: Rotherham",
+    "value": "GB-ROT"
+  },
+  {
+    "label": "GB-RUT: Rutland",
+    "value": "GB-RUT"
+  },
+  {
+    "label": "GB-SAW: Sandwell",
+    "value": "GB-SAW"
+  },
+  {
+    "label": "GB-SAY: South Ayrshire",
+    "value": "GB-SAY"
+  },
+  {
+    "label": "GB-SCB: Scottish Borders",
+    "value": "GB-SCB"
+  },
+  {
+    "label": "GB-SCT: Scotland",
+    "value": "GB-SCT"
+  },
+  {
+    "label": "GB-SFK: Suffolk",
+    "value": "GB-SFK"
+  },
+  {
+    "label": "GB-SFT: Sefton",
+    "value": "GB-SFT"
+  },
+  {
+    "label": "GB-SGC: South Gloucestershire",
+    "value": "GB-SGC"
+  },
+  {
+    "label": "GB-SHF: Sheffield",
+    "value": "GB-SHF"
+  },
+  {
+    "label": "GB-SHN: St. Helens",
+    "value": "GB-SHN"
+  },
+  {
+    "label": "GB-SHR: Shropshire",
+    "value": "GB-SHR"
+  },
+  {
+    "label": "GB-SKP: Stockport",
+    "value": "GB-SKP"
+  },
+  {
+    "label": "GB-SLF: Salford",
+    "value": "GB-SLF"
+  },
+  {
+    "label": "GB-SLG: Slough",
+    "value": "GB-SLG"
+  },
+  {
+    "label": "GB-SLK: South Lanarkshire",
+    "value": "GB-SLK"
+  },
+  {
+    "label": "GB-SND: Sunderland",
+    "value": "GB-SND"
+  },
+  {
+    "label": "GB-SOL: Solihull",
+    "value": "GB-SOL"
+  },
+  {
+    "label": "GB-SOM: Somerset",
+    "value": "GB-SOM"
+  },
+  {
+    "label": "GB-SOS: Southend-on-Sea",
+    "value": "GB-SOS"
+  },
+  {
+    "label": "GB-SRY: Surrey",
+    "value": "GB-SRY"
+  },
+  {
+    "label": "GB-STE: Stoke-on-Trent",
+    "value": "GB-STE"
+  },
+  {
+    "label": "GB-STG: Stirling",
+    "value": "GB-STG"
+  },
+  {
+    "label": "GB-STH: Southampton",
+    "value": "GB-STH"
+  },
+  {
+    "label": "GB-STN: Sutton",
+    "value": "GB-STN"
+  },
+  {
+    "label": "GB-STS: Staffordshire",
+    "value": "GB-STS"
+  },
+  {
+    "label": "GB-STT: Stockton-on-Tees",
+    "value": "GB-STT"
+  },
+  {
+    "label": "GB-STY: South Tyneside",
+    "value": "GB-STY"
+  },
+  {
+    "label": "GB-SWA: Swansea",
+    "value": "GB-SWA"
+  },
+  {
+    "label": "GB-SWD: Swindon",
+    "value": "GB-SWD"
+  },
+  {
+    "label": "GB-SWK: Southwark",
+    "value": "GB-SWK"
+  },
+  {
+    "label": "GB-TAM: Tameside",
+    "value": "GB-TAM"
+  },
+  {
+    "label": "GB-TFW: Telford and Wrekin",
+    "value": "GB-TFW"
+  },
+  {
+    "label": "GB-THR: Thurrock",
+    "value": "GB-THR"
+  },
+  {
+    "label": "GB-TOB: Torbay",
+    "value": "GB-TOB"
+  },
+  {
+    "label": "GB-TOF: Torfaen",
+    "value": "GB-TOF"
+  },
+  {
+    "label": "GB-TRF: Trafford",
+    "value": "GB-TRF"
+  },
+  {
+    "label": "GB-TWH: Tower Hamlets",
+    "value": "GB-TWH"
+  },
+  {
+    "label": "GB-VGL: Vale of Glamorgan",
+    "value": "GB-VGL"
+  },
+  {
+    "label": "GB-WAR: Warwickshire",
+    "value": "GB-WAR"
+  },
+  {
+    "label": "GB-WBK: West Berkshire",
+    "value": "GB-WBK"
+  },
+  {
+    "label": "GB-WDU: West Dunbartonshire",
+    "value": "GB-WDU"
+  },
+  {
+    "label": "GB-WFT: Waltham Forest",
+    "value": "GB-WFT"
+  },
+  {
+    "label": "GB-WGN: Wigan",
+    "value": "GB-WGN"
+  },
+  {
+    "label": "GB-WIL: Wiltshire",
+    "value": "GB-WIL"
+  },
+  {
+    "label": "GB-WKF: Wakefield",
+    "value": "GB-WKF"
+  },
+  {
+    "label": "GB-WLL: Walsall",
+    "value": "GB-WLL"
+  },
+  {
+    "label": "GB-WLN: West Lothian",
+    "value": "GB-WLN"
+  },
+  {
+    "label": "GB-WLS: Wales",
+    "value": "GB-WLS"
+  },
+  {
+    "label": "GB-WLV: Wolverhampton",
+    "value": "GB-WLV"
+  },
+  {
+    "label": "GB-WND: Wandsworth",
+    "value": "GB-WND"
+  },
+  {
+    "label": "GB-WNH: West Northamptonshire",
+    "value": "GB-WNH"
+  },
+  {
+    "label": "GB-WNM: Windsor and Maidenhead",
+    "value": "GB-WNM"
+  },
+  {
+    "label": "GB-WOK: Wokingham",
+    "value": "GB-WOK"
+  },
+  {
+    "label": "GB-WOR: Worcestershire",
+    "value": "GB-WOR"
+  },
+  {
+    "label": "GB-WRL: Wirral",
+    "value": "GB-WRL"
+  },
+  {
+    "label": "GB-WRT: Warrington",
+    "value": "GB-WRT"
+  },
+  {
+    "label": "GB-WRX: Wrexham",
+    "value": "GB-WRX"
+  },
+  {
+    "label": "GB-WSM: Westminster",
+    "value": "GB-WSM"
+  },
+  {
+    "label": "GB-WSX: West Sussex",
+    "value": "GB-WSX"
+  },
+  {
+    "label": "GB-YOR: York",
+    "value": "GB-YOR"
+  },
+  {
+    "label": "GB-ZET: Shetland Islands",
+    "value": "GB-ZET"
+  }
+]

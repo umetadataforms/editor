@@ -1,0 +1,94 @@
+[
+  {
+    "label": "TD-BA: Al Baţḩā’; Batha",
+    "value": "TD-BA"
+  },
+  {
+    "label": "TD-BG: Bahr el Ghazal; Baḩr al Ghazāl",
+    "value": "TD-BG"
+  },
+  {
+    "label": "TD-BO: Borkou; Būrkū",
+    "value": "TD-BO"
+  },
+  {
+    "label": "TD-CB: Chari-Baguirmi; Shārī Bāqirmī",
+    "value": "TD-CB"
+  },
+  {
+    "label": "TD-EE: Ennedi-Est; Inīdī ash Sharqī",
+    "value": "TD-EE"
+  },
+  {
+    "label": "TD-EO: Ennedi-Ouest; Inīdī al Gharbī",
+    "value": "TD-EO"
+  },
+  {
+    "label": "TD-GR: Guéra; Qīrā",
+    "value": "TD-GR"
+  },
+  {
+    "label": "TD-HL: Hadjer Lamis; Ḩajjar Lamīs",
+    "value": "TD-HL"
+  },
+  {
+    "label": "TD-KA: Kanem; Kānim",
+    "value": "TD-KA"
+  },
+  {
+    "label": "TD-LC: Al Buḩayrah; Lac",
+    "value": "TD-LC"
+  },
+  {
+    "label": "TD-LO: Logone-Occidental; Lūghūn al Gharbī",
+    "value": "TD-LO"
+  },
+  {
+    "label": "TD-LR: Logone-Oriental; Lūghūn ash Sharqī",
+    "value": "TD-LR"
+  },
+  {
+    "label": "TD-MA: Mandoul; Māndūl",
+    "value": "TD-MA"
+  },
+  {
+    "label": "TD-MC: Moyen-Chari; Shārī al Awsaţ",
+    "value": "TD-MC"
+  },
+  {
+    "label": "TD-ME: Mayo-Kebbi-Est; Māyū Kībbī ash Sharqī",
+    "value": "TD-ME"
+  },
+  {
+    "label": "TD-MO: Mayo-Kebbi-Ouest; Māyū Kībbī al Gharbī",
+    "value": "TD-MO"
+  },
+  {
+    "label": "TD-ND: Madīnat Injamīnā; Ville de Ndjamena",
+    "value": "TD-ND"
+  },
+  {
+    "label": "TD-OD: Ouaddaï; Waddāy",
+    "value": "TD-OD"
+  },
+  {
+    "label": "TD-SA: Salamat; Salāmāt",
+    "value": "TD-SA"
+  },
+  {
+    "label": "TD-SI: Sila; Sīlā",
+    "value": "TD-SI"
+  },
+  {
+    "label": "TD-TA: Tandjilé; Tānjīlī",
+    "value": "TD-TA"
+  },
+  {
+    "label": "TD-TI: Tibastī; Tibesti",
+    "value": "TD-TI"
+  },
+  {
+    "label": "TD-WF: Wadi Fira; Wādī Fīrā’",
+    "value": "TD-WF"
+  }
+]

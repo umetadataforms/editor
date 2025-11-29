@@ -1,0 +1,102 @@
+[
+  {
+    "label": "ME-01: Andrijevica",
+    "value": "ME-01"
+  },
+  {
+    "label": "ME-02: Bar",
+    "value": "ME-02"
+  },
+  {
+    "label": "ME-03: Berane",
+    "value": "ME-03"
+  },
+  {
+    "label": "ME-04: Bijelo Polje",
+    "value": "ME-04"
+  },
+  {
+    "label": "ME-05: Budva",
+    "value": "ME-05"
+  },
+  {
+    "label": "ME-06: Cetinje",
+    "value": "ME-06"
+  },
+  {
+    "label": "ME-07: Danilovgrad",
+    "value": "ME-07"
+  },
+  {
+    "label": "ME-08: Herceg-Novi",
+    "value": "ME-08"
+  },
+  {
+    "label": "ME-09: Kolašin",
+    "value": "ME-09"
+  },
+  {
+    "label": "ME-10: Kotor",
+    "value": "ME-10"
+  },
+  {
+    "label": "ME-11: Mojkovac",
+    "value": "ME-11"
+  },
+  {
+    "label": "ME-12: Nikšić",
+    "value": "ME-12"
+  },
+  {
+    "label": "ME-13: Plav",
+    "value": "ME-13"
+  },
+  {
+    "label": "ME-14: Pljevlja",
+    "value": "ME-14"
+  },
+  {
+    "label": "ME-15: Plužine",
+    "value": "ME-15"
+  },
+  {
+    "label": "ME-16: Podgorica",
+    "value": "ME-16"
+  },
+  {
+    "label": "ME-17: Rožaje",
+    "value": "ME-17"
+  },
+  {
+    "label": "ME-18: Šavnik",
+    "value": "ME-18"
+  },
+  {
+    "label": "ME-19: Tivat",
+    "value": "ME-19"
+  },
+  {
+    "label": "ME-20: Ulcinj",
+    "value": "ME-20"
+  },
+  {
+    "label": "ME-21: Žabljak",
+    "value": "ME-21"
+  },
+  {
+    "label": "ME-22: Gusinje",
+    "value": "ME-22"
+  },
+  {
+    "label": "ME-23: Petnjica",
+    "value": "ME-23"
+  },
+  {
+    "label": "ME-24: Tuzi",
+    "value": "ME-24"
+  },
+  {
+    "label": "ME-25: Zeta",
+    "value": "ME-25"
+  }
+]

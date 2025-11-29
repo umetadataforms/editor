@@ -1,0 +1,58 @@
+[
+  {
+    "label": "SV-AH: Ahuachapán",
+    "value": "SV-AH"
+  },
+  {
+    "label": "SV-CA: Cabañas",
+    "value": "SV-CA"
+  },
+  {
+    "label": "SV-CH: Chalatenango",
+    "value": "SV-CH"
+  },
+  {
+    "label": "SV-CU: Cuscatlán",
+    "value": "SV-CU"
+  },
+  {
+    "label": "SV-LI: La Libertad",
+    "value": "SV-LI"
+  },
+  {
+    "label": "SV-MO: Morazán",
+    "value": "SV-MO"
+  },
+  {
+    "label": "SV-PA: La Paz",
+    "value": "SV-PA"
+  },
+  {
+    "label": "SV-SA: Santa Ana",
+    "value": "SV-SA"
+  },
+  {
+    "label": "SV-SM: San Miguel",
+    "value": "SV-SM"
+  },
+  {
+    "label": "SV-SO: Sonsonate",
+    "value": "SV-SO"
+  },
+  {
+    "label": "SV-SS: San Salvador",
+    "value": "SV-SS"
+  },
+  {
+    "label": "SV-SV: San Vicente",
+    "value": "SV-SV"
+  },
+  {
+    "label": "SV-UN: La Unión",
+    "value": "SV-UN"
+  },
+  {
+    "label": "SV-US: Usulután",
+    "value": "SV-US"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "label": "ZA-EC: Eastern Cape; Kapa Bohlabela; Kapa Botjhabela; Kapa Botlhaba; Kapa Vhubvaḓuvha; Kapa-Vuxa; Mpuma-Koloni; Mpumalanga-Kapa; Oos-Kaap; iPumalanga-Kapa",
+    "value": "ZA-EC"
+  },
+  {
+    "label": "ZA-FS: Foreisetata; Free State; Freistata; Freyistata; Fuleyisitata; Fureisitata; Vrystaat; iFreyistata",
+    "value": "ZA-FS"
+  },
+  {
+    "label": "ZA-GP: Gauteng; Kgauteng; Rhawuti; iGauteng",
+    "value": "ZA-GP"
+  },
+  {
+    "label": "ZA-KZN: GaZulu-Natala; HaZulu-Natal; Hazolo-Natala; KwaZulu-Natal; KwaZulu-Natala; KwaZulu-Natali; Kwazulu-Natal; iKwaZulu-Natal",
+    "value": "ZA-KZN"
+  },
+  {
+    "label": "ZA-LP: Limpopo; Vhembe",
+    "value": "ZA-LP"
+  },
+  {
+    "label": "ZA-MP: Mpumalanga; iMpumalanga",
+    "value": "ZA-MP"
+  },
+  {
+    "label": "ZA-NC: Kapa Bokone; Kapa Devhula; Kapa Leboya; Kapa-N'walungu; Mntla-Koloni; Noord-Kaap; Northern Cape; Nyakatho-Kapa; iTlhagwini-Kapa",
+    "value": "ZA-NC"
+  },
+  {
+    "label": "ZA-NW: Bokone Bophirima; Lebowa Bodikela; Leboya Bophirima; Mntla-Ntshona; N'walungu-Vupeladyambu; Noordwes; North-West; Nyakatho-Ntshonalanga; iTlhagwini-Tjhingalanga",
+    "value": "ZA-NW"
+  },
+  {
+    "label": "ZA-WC: Kapa Bodikela; Kapa Bophirima; Kapa Bophirimela; Kapa Vhukovhela; Kapa-Vupeladyambu; Ntshona-Koloni; Ntshonalanga-Kapa; Wes-Kaap; Western Cape; iTjhingalanga-Kapa",
+    "value": "ZA-WC"
+  }
+]

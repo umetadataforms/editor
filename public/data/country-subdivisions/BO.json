@@ -1,0 +1,38 @@
+[
+  {
+    "label": "BO-B: El Beni",
+    "value": "BO-B"
+  },
+  {
+    "label": "BO-C: Cochabamba",
+    "value": "BO-C"
+  },
+  {
+    "label": "BO-H: Chuquisaca",
+    "value": "BO-H"
+  },
+  {
+    "label": "BO-L: La Paz",
+    "value": "BO-L"
+  },
+  {
+    "label": "BO-N: Pando",
+    "value": "BO-N"
+  },
+  {
+    "label": "BO-O: Oruro",
+    "value": "BO-O"
+  },
+  {
+    "label": "BO-P: Potosí",
+    "value": "BO-P"
+  },
+  {
+    "label": "BO-S: Santa Cruz",
+    "value": "BO-S"
+  },
+  {
+    "label": "BO-T: Tarija",
+    "value": "BO-T"
+  }
+]

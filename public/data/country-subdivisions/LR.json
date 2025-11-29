@@ -1,0 +1,62 @@
+[
+  {
+    "label": "LR-BG: Bong",
+    "value": "LR-BG"
+  },
+  {
+    "label": "LR-BM: Bomi",
+    "value": "LR-BM"
+  },
+  {
+    "label": "LR-CM: Grand Cape Mount",
+    "value": "LR-CM"
+  },
+  {
+    "label": "LR-GB: Grand Bassa",
+    "value": "LR-GB"
+  },
+  {
+    "label": "LR-GG: Grand Gedeh",
+    "value": "LR-GG"
+  },
+  {
+    "label": "LR-GK: Grand Kru",
+    "value": "LR-GK"
+  },
+  {
+    "label": "LR-GP: Gbarpolu",
+    "value": "LR-GP"
+  },
+  {
+    "label": "LR-LO: Lofa",
+    "value": "LR-LO"
+  },
+  {
+    "label": "LR-MG: Margibi",
+    "value": "LR-MG"
+  },
+  {
+    "label": "LR-MO: Montserrado",
+    "value": "LR-MO"
+  },
+  {
+    "label": "LR-MY: Maryland",
+    "value": "LR-MY"
+  },
+  {
+    "label": "LR-NI: Nimba",
+    "value": "LR-NI"
+  },
+  {
+    "label": "LR-RG: River Gee",
+    "value": "LR-RG"
+  },
+  {
+    "label": "LR-RI: River Cess",
+    "value": "LR-RI"
+  },
+  {
+    "label": "LR-SI: Sinoe",
+    "value": "LR-SI"
+  }
+]
