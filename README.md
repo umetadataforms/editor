@@ -152,7 +152,7 @@ When uninstalling, you might need to delete the application support folder, prob
 
 - **Export**
 
-  The file exporter defaults to the downloads folder rater than the current
+  The file exporter defaults to the downloads folder rather than the current
   working directory.
 
 <br>
