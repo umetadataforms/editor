@@ -1,0 +1,86 @@
+[
+  {
+    "label": "SE-AB: Stockholms län",
+    "value": "SE-AB"
+  },
+  {
+    "label": "SE-AC: Västerbottens län",
+    "value": "SE-AC"
+  },
+  {
+    "label": "SE-BD: Norrbottens län",
+    "value": "SE-BD"
+  },
+  {
+    "label": "SE-C: Uppsala län",
+    "value": "SE-C"
+  },
+  {
+    "label": "SE-D: Södermanlands län",
+    "value": "SE-D"
+  },
+  {
+    "label": "SE-E: Östergötlands län",
+    "value": "SE-E"
+  },
+  {
+    "label": "SE-F: Jönköpings län",
+    "value": "SE-F"
+  },
+  {
+    "label": "SE-G: Kronobergs län",
+    "value": "SE-G"
+  },
+  {
+    "label": "SE-H: Kalmar län",
+    "value": "SE-H"
+  },
+  {
+    "label": "SE-I: Gotlands län",
+    "value": "SE-I"
+  },
+  {
+    "label": "SE-K: Blekinge län",
+    "value": "SE-K"
+  },
+  {
+    "label": "SE-M: Skåne län",
+    "value": "SE-M"
+  },
+  {
+    "label": "SE-N: Hallands län",
+    "value": "SE-N"
+  },
+  {
+    "label": "SE-O: Västra Götalands län",
+    "value": "SE-O"
+  },
+  {
+    "label": "SE-S: Värmlands län",
+    "value": "SE-S"
+  },
+  {
+    "label": "SE-T: Örebro län",
+    "value": "SE-T"
+  },
+  {
+    "label": "SE-U: Västmanlands län",
+    "value": "SE-U"
+  },
+  {
+    "label": "SE-W: Dalarnas län",
+    "value": "SE-W"
+  },
+  {
+    "label": "SE-X: Gävleborgs län",
+    "value": "SE-X"
+  },
+  {
+    "label": "SE-Y: Västernorrlands län",
+    "value": "SE-Y"
+  },
+  {
+    "label": "SE-Z: Jämtlands län",
+    "value": "SE-Z"
+  }
+]

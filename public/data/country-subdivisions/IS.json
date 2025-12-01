@@ -1,0 +1,290 @@
+[
+  {
+    "label": "IS-1: Höfuðborgarsvæði",
+    "value": "IS-1"
+  },
+  {
+    "label": "IS-2: Suðurnes",
+    "value": "IS-2"
+  },
+  {
+    "label": "IS-3: Vesturland",
+    "value": "IS-3"
+  },
+  {
+    "label": "IS-4: Vestfirðir",
+    "value": "IS-4"
+  },
+  {
+    "label": "IS-5: Norðurland vestra",
+    "value": "IS-5"
+  },
+  {
+    "label": "IS-6: Norðurland eystra",
+    "value": "IS-6"
+  },
+  {
+    "label": "IS-7: Austurland",
+    "value": "IS-7"
+  },
+  {
+    "label": "IS-8: Suðurland",
+    "value": "IS-8"
+  },
+  {
+    "label": "IS-AKN: Akraneskaupstaður",
+    "value": "IS-AKN"
+  },
+  {
+    "label": "IS-AKU: Akureyrarbær",
+    "value": "IS-AKU"
+  },
+  {
+    "label": "IS-ARN: Árneshreppur",
+    "value": "IS-ARN"
+  },
+  {
+    "label": "IS-ASA: Ásahreppur",
+    "value": "IS-ASA"
+  },
+  {
+    "label": "IS-BLA: Bláskógabyggð",
+    "value": "IS-BLA"
+  },
+  {
+    "label": "IS-BOG: Borgarbyggð",
+    "value": "IS-BOG"
+  },
+  {
+    "label": "IS-BOL: Bolungarvíkurkaupstaður",
+    "value": "IS-BOL"
+  },
+  {
+    "label": "IS-DAB: Dalabyggð",
+    "value": "IS-DAB"
+  },
+  {
+    "label": "IS-DAV: Dalvíkurbyggð",
+    "value": "IS-DAV"
+  },
+  {
+    "label": "IS-EOM: Eyja- og Miklaholtshreppur",
+    "value": "IS-EOM"
+  },
+  {
+    "label": "IS-EYF: Eyjafjarðarsveit",
+    "value": "IS-EYF"
+  },
+  {
+    "label": "IS-FJD: Fjarðabyggð",
+    "value": "IS-FJD"
+  },
+  {
+    "label": "IS-FJL: Fjallabyggð",
+    "value": "IS-FJL"
+  },
+  {
+    "label": "IS-FLA: Flóahreppur",
+    "value": "IS-FLA"
+  },
+  {
+    "label": "IS-FLR: Fljótsdalshreppur",
+    "value": "IS-FLR"
+  },
+  {
+    "label": "IS-GAR: Garðabær",
+    "value": "IS-GAR"
+  },
+  {
+    "label": "IS-GOG: Grímsnes- og Grafningshreppur",
+    "value": "IS-GOG"
+  },
+  {
+    "label": "IS-GRN: Grindavíkurbær",
+    "value": "IS-GRN"
+  },
+  {
+    "label": "IS-GRU: Grundarfjarðarbær",
+    "value": "IS-GRU"
+  },
+  {
+    "label": "IS-GRY: Grýtubakkahreppur",
+    "value": "IS-GRY"
+  },
+  {
+    "label": "IS-HAF: Hafnarfjarðarkaupstaður",
+    "value": "IS-HAF"
+  },
+  {
+    "label": "IS-HRG: Hörgársveit",
+    "value": "IS-HRG"
+  },
+  {
+    "label": "IS-HRU: Hrunamannahreppur",
+    "value": "IS-HRU"
+  },
+  {
+    "label": "IS-HUG: Húnabyggð",
+    "value": "IS-HUG"
+  },
+  {
+    "label": "IS-HUV: Húnaþing vestra",
+    "value": "IS-HUV"
+  },
+  {
+    "label": "IS-HVA: Hvalfjarðarsveit",
+    "value": "IS-HVA"
+  },
+  {
+    "label": "IS-HVE: Hveragerðisbær",
+    "value": "IS-HVE"
+  },
+  {
+    "label": "IS-ISA: Ísafjarðarbær",
+    "value": "IS-ISA"
+  },
+  {
+    "label": "IS-KAL: Kaldrananeshreppur",
+    "value": "IS-KAL"
+  },
+  {
+    "label": "IS-KJO: Kjósarhreppur",
+    "value": "IS-KJO"
+  },
+  {
+    "label": "IS-KOP: Kópavogsbær",
+    "value": "IS-KOP"
+  },
+  {
+    "label": "IS-LAN: Langanesbyggð",
+    "value": "IS-LAN"
+  },
+  {
+    "label": "IS-MOS: Mosfellsbær",
+    "value": "IS-MOS"
+  },
+  {
+    "label": "IS-MUL: Múlaþing",
+    "value": "IS-MUL"
+  },
+  {
+    "label": "IS-MYR: Mýrdalshreppur",
+    "value": "IS-MYR"
+  },
+  {
+    "label": "IS-NOR: Norðurþing",
+    "value": "IS-NOR"
+  },
+  {
+    "label": "IS-RGE: Rangárþing eystra",
+    "value": "IS-RGE"
+  },
+  {
+    "label": "IS-RGY: Rangárþing ytra",
+    "value": "IS-RGY"
+  },
+  {
+    "label": "IS-RHH: Reykhólahreppur",
+    "value": "IS-RHH"
+  },
+  {
+    "label": "IS-RKN: Reykjanesbær",
+    "value": "IS-RKN"
+  },
+  {
+    "label": "IS-RKV: Reykjavíkurborg",
+    "value": "IS-RKV"
+  },
+  {
+    "label": "IS-SBT: Svalbarðsstrandarhreppur",
+    "value": "IS-SBT"
+  },
+  {
+    "label": "IS-SDN: Suðurnesjabær",
+    "value": "IS-SDN"
+  },
+  {
+    "label": "IS-SDV: Súðavíkurhreppur",
+    "value": "IS-SDV"
+  },
+  {
+    "label": "IS-SEL: Seltjarnarnesbær",
+    "value": "IS-SEL"
+  },
+  {
+    "label": "IS-SFA: Sveitarfélagið Árborg",
+    "value": "IS-SFA"
+  },
+  {
+    "label": "IS-SHF: Sveitarfélagið Hornafjörður",
+    "value": "IS-SHF"
+  },
+  {
+    "label": "IS-SKF: Skaftárhreppur",
+    "value": "IS-SKF"
+  },
+  {
+    "label": "IS-SKG: Skagabyggð",
+    "value": "IS-SKG"
+  },
+  {
+    "label": "IS-SKO: Skorradalshreppur",
+    "value": "IS-SKO"
+  },
+  {
+    "label": "IS-SKR: Skagafjörður",
+    "value": "IS-SKR"
+  },
+  {
+    "label": "IS-SNF: Snæfellsbær",
+    "value": "IS-SNF"
+  },
+  {
+    "label": "IS-SOG: Skeiða- og Gnúpverjahreppur",
+    "value": "IS-SOG"
+  },
+  {
+    "label": "IS-SOL: Sveitarfélagið Ölfus",
+    "value": "IS-SOL"
+  },
+  {
+    "label": "IS-SSS: Sveitarfélagið Skagaströnd",
+    "value": "IS-SSS"
+  },
+  {
+    "label": "IS-STR: Strandabyggð",
+    "value": "IS-STR"
+  },
+  {
+    "label": "IS-STY: Stykkishólmsbær",
+    "value": "IS-STY"
+  },
+  {
+    "label": "IS-SVG: Sveitarfélagið Vogar",
+    "value": "IS-SVG"
+  },
+  {
+    "label": "IS-TAL: Tálknafjarðarhreppur",
+    "value": "IS-TAL"
+  },
+  {
+    "label": "IS-THG: Þingeyjarsveit",
+    "value": "IS-THG"
+  },
+  {
+    "label": "IS-TJO: Tjörneshreppur",
+    "value": "IS-TJO"
+  },
+  {
+    "label": "IS-VEM: Vestmannaeyjabær",
+    "value": "IS-VEM"
+  },
+  {
+    "label": "IS-VER: Vesturbyggð",
+    "value": "IS-VER"
+  },
+  {
+    "label": "IS-VOP: Vopnafjarðarhreppur",
+    "value": "IS-VOP"
+  }
+]

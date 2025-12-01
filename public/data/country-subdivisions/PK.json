@@ -1,0 +1,30 @@
+[
+  {
+    "label": "PK-BA: Balochistan; Balōchistān",
+    "value": "PK-BA"
+  },
+  {
+    "label": "PK-GB: Gilgit-Baltistan; Gilgit-Baltistān",
+    "value": "PK-GB"
+  },
+  {
+    "label": "PK-IS: Islamabad; Islāmābād",
+    "value": "PK-IS"
+  },
+  {
+    "label": "PK-JK: Azad Jammu and Kashmir; Āzād Jammūñ o Kashmīr",
+    "value": "PK-JK"
+  },
+  {
+    "label": "PK-KP: Khaībar Pakhtūnkhwā; Khyber Pakhtunkhwa",
+    "value": "PK-KP"
+  },
+  {
+    "label": "PK-PB: Panjāb; Punjab",
+    "value": "PK-PB"
+  },
+  {
+    "label": "PK-SD: Sindh",
+    "value": "PK-SD"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "$schema": "real-dataset-metadata/vc.json",
+  "label": "",
+  "version": "",
+  "version_date": "",
+  "version_info": "",
+  "title": "",
+  "description": "",
+  "purpose": "",
+  "disease": "",
+  "study_design": "",
+  "patient_criteria": "",
+  "target_variables": "",
+  "time_zero": "",
+  "temporal_coverage": {
+    "start_date": "",
+    "end_date": ""
+  },
+  "spatial_coverage": [],
+  "source_urls": [],
+  "acquisition_methods": "",
+  "healthcare_setting": "",
+  "documentation": [],
+  "publications": [],
+  "data_modalities": [],
+  "privacy_compliance": "",
+  "ethics_approval": {
+    "obtained": false
+  },
+  "patient_consent": {
+    "obtained": false
+  },
+  "funder": "",
+  "owner": "",
+  "licence": "",
+  "licence_url": "",
+  "doi": "",
+  "citation": "",
+  "tasks": [],
+  "keywords": []
+}

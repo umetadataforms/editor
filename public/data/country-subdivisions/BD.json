@@ -1,0 +1,290 @@
+[
+  {
+    "label": "BD-01: Bandarban",
+    "value": "BD-01"
+  },
+  {
+    "label": "BD-02: Barguna",
+    "value": "BD-02"
+  },
+  {
+    "label": "BD-03: Bogura",
+    "value": "BD-03"
+  },
+  {
+    "label": "BD-04: Brahmanbaria",
+    "value": "BD-04"
+  },
+  {
+    "label": "BD-05: Bagerhat",
+    "value": "BD-05"
+  },
+  {
+    "label": "BD-06: Barishal",
+    "value": "BD-06"
+  },
+  {
+    "label": "BD-07: Bhola",
+    "value": "BD-07"
+  },
+  {
+    "label": "BD-08: Cumilla",
+    "value": "BD-08"
+  },
+  {
+    "label": "BD-09: Chandpur",
+    "value": "BD-09"
+  },
+  {
+    "label": "BD-10: Chattogram",
+    "value": "BD-10"
+  },
+  {
+    "label": "BD-11: Cox's Bazar",
+    "value": "BD-11"
+  },
+  {
+    "label": "BD-12: Chuadanga",
+    "value": "BD-12"
+  },
+  {
+    "label": "BD-13: Dhaka",
+    "value": "BD-13"
+  },
+  {
+    "label": "BD-14: Dinajpur",
+    "value": "BD-14"
+  },
+  {
+    "label": "BD-15: Faridpur",
+    "value": "BD-15"
+  },
+  {
+    "label": "BD-16: Feni",
+    "value": "BD-16"
+  },
+  {
+    "label": "BD-17: Gopalganj",
+    "value": "BD-17"
+  },
+  {
+    "label": "BD-18: Gazipur",
+    "value": "BD-18"
+  },
+  {
+    "label": "BD-19: Gaibandha",
+    "value": "BD-19"
+  },
+  {
+    "label": "BD-20: Habiganj",
+    "value": "BD-20"
+  },
+  {
+    "label": "BD-21: Jamalpur",
+    "value": "BD-21"
+  },
+  {
+    "label": "BD-22: Jashore",
+    "value": "BD-22"
+  },
+  {
+    "label": "BD-23: Jhenaidah",
+    "value": "BD-23"
+  },
+  {
+    "label": "BD-24: Joypurhat",
+    "value": "BD-24"
+  },
+  {
+    "label": "BD-25: Jhalakathi",
+    "value": "BD-25"
+  },
+  {
+    "label": "BD-26: Kishoreganj",
+    "value": "BD-26"
+  },
+  {
+    "label": "BD-27: Khulna",
+    "value": "BD-27"
+  },
+  {
+    "label": "BD-28: Kurigram",
+    "value": "BD-28"
+  },
+  {
+    "label": "BD-29: Khagrachhari",
+    "value": "BD-29"
+  },
+  {
+    "label": "BD-30: Kushtia",
+    "value": "BD-30"
+  },
+  {
+    "label": "BD-31: Lakshmipur",
+    "value": "BD-31"
+  },
+  {
+    "label": "BD-32: Lalmonirhat",
+    "value": "BD-32"
+  },
+  {
+    "label": "BD-33: Manikganj",
+    "value": "BD-33"
+  },
+  {
+    "label": "BD-34: Mymensingh",
+    "value": "BD-34"
+  },
+  {
+    "label": "BD-35: Munshiganj",
+    "value": "BD-35"
+  },
+  {
+    "label": "BD-36: Madaripur",
+    "value": "BD-36"
+  },
+  {
+    "label": "BD-37: Magura",
+    "value": "BD-37"
+  },
+  {
+    "label": "BD-38: Moulvibazar",
+    "value": "BD-38"
+  },
+  {
+    "label": "BD-39: Meherpur",
+    "value": "BD-39"
+  },
+  {
+    "label": "BD-40: Narayanganj",
+    "value": "BD-40"
+  },
+  {
+    "label": "BD-41: Netrakona",
+    "value": "BD-41"
+  },
+  {
+    "label": "BD-42: Narsingdi",
+    "value": "BD-42"
+  },
+  {
+    "label": "BD-43: Narail",
+    "value": "BD-43"
+  },
+  {
+    "label": "BD-44: Natore",
+    "value": "BD-44"
+  },
+  {
+    "label": "BD-45: Chapai Nawabganj",
+    "value": "BD-45"
+  },
+  {
+    "label": "BD-46: Nilphamari",
+    "value": "BD-46"
+  },
+  {
+    "label": "BD-47: Noakhali",
+    "value": "BD-47"
+  },
+  {
+    "label": "BD-48: Naogaon",
+    "value": "BD-48"
+  },
+  {
+    "label": "BD-49: Pabna",
+    "value": "BD-49"
+  },
+  {
+    "label": "BD-50: Pirojpur",
+    "value": "BD-50"
+  },
+  {
+    "label": "BD-51: Patuakhali",
+    "value": "BD-51"
+  },
+  {
+    "label": "BD-52: Panchagarh",
+    "value": "BD-52"
+  },
+  {
+    "label": "BD-53: Rajbari",
+    "value": "BD-53"
+  },
+  {
+    "label": "BD-54: Rajshahi",
+    "value": "BD-54"
+  },
+  {
+    "label": "BD-55: Rangpur",
+    "value": "BD-55"
+  },
+  {
+    "label": "BD-56: Rangamati",
+    "value": "BD-56"
+  },
+  {
+    "label": "BD-57: Sherpur",
+    "value": "BD-57"
+  },
+  {
+    "label": "BD-58: Satkhira",
+    "value": "BD-58"
+  },
+  {
+    "label": "BD-59: Sirajganj",
+    "value": "BD-59"
+  },
+  {
+    "label": "BD-60: Sylhet",
+    "value": "BD-60"
+  },
+  {
+    "label": "BD-61: Sunamganj",
+    "value": "BD-61"
+  },
+  {
+    "label": "BD-62: Shariatpur",
+    "value": "BD-62"
+  },
+  {
+    "label": "BD-63: Tangail",
+    "value": "BD-63"
+  },
+  {
+    "label": "BD-64: Thakurgaon",
+    "value": "BD-64"
+  },
+  {
+    "label": "BD-A: Barishal",
+    "value": "BD-A"
+  },
+  {
+    "label": "BD-B: Chattogram",
+    "value": "BD-B"
+  },
+  {
+    "label": "BD-C: Dhaka",
+    "value": "BD-C"
+  },
+  {
+    "label": "BD-D: Khulna",
+    "value": "BD-D"
+  },
+  {
+    "label": "BD-E: Rajshahi",
+    "value": "BD-E"
+  },
+  {
+    "label": "BD-F: Rangpur",
+    "value": "BD-F"
+  },
+  {
+    "label": "BD-G: Sylhet",
+    "value": "BD-G"
+  },
+  {
+    "label": "BD-H: Mymensingh",
+    "value": "BD-H"
+  }
+]

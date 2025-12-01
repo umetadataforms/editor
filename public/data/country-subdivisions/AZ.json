@@ -1,0 +1,314 @@
+[
+  {
+    "label": "AZ-ABS: Abşeron",
+    "value": "AZ-ABS"
+  },
+  {
+    "label": "AZ-AGA: Ağstafa",
+    "value": "AZ-AGA"
+  },
+  {
+    "label": "AZ-AGC: Ağcabədi",
+    "value": "AZ-AGC"
+  },
+  {
+    "label": "AZ-AGM: Ağdam",
+    "value": "AZ-AGM"
+  },
+  {
+    "label": "AZ-AGS: Ağdaş",
+    "value": "AZ-AGS"
+  },
+  {
+    "label": "AZ-AGU: Ağsu",
+    "value": "AZ-AGU"
+  },
+  {
+    "label": "AZ-AST: Astara",
+    "value": "AZ-AST"
+  },
+  {
+    "label": "AZ-BA: Bakı",
+    "value": "AZ-BA"
+  },
+  {
+    "label": "AZ-BAB: Babək",
+    "value": "AZ-BAB"
+  },
+  {
+    "label": "AZ-BAL: Balakən",
+    "value": "AZ-BAL"
+  },
+  {
+    "label": "AZ-BAR: Bərdə",
+    "value": "AZ-BAR"
+  },
+  {
+    "label": "AZ-BEY: Beyləqan",
+    "value": "AZ-BEY"
+  },
+  {
+    "label": "AZ-BIL: Biləsuvar",
+    "value": "AZ-BIL"
+  },
+  {
+    "label": "AZ-CAB: Cəbrayıl",
+    "value": "AZ-CAB"
+  },
+  {
+    "label": "AZ-CAL: Cəlilabad",
+    "value": "AZ-CAL"
+  },
+  {
+    "label": "AZ-CUL: Culfa",
+    "value": "AZ-CUL"
+  },
+  {
+    "label": "AZ-DAS: Daşkəsən",
+    "value": "AZ-DAS"
+  },
+  {
+    "label": "AZ-FUZ: Füzuli",
+    "value": "AZ-FUZ"
+  },
+  {
+    "label": "AZ-GA: Gəncə",
+    "value": "AZ-GA"
+  },
+  {
+    "label": "AZ-GAD: Gədəbəy",
+    "value": "AZ-GAD"
+  },
+  {
+    "label": "AZ-GOR: Goranboy",
+    "value": "AZ-GOR"
+  },
+  {
+    "label": "AZ-GOY: Göyçay",
+    "value": "AZ-GOY"
+  },
+  {
+    "label": "AZ-GYG: Göygöl",
+    "value": "AZ-GYG"
+  },
+  {
+    "label": "AZ-HAC: Hacıqabul",
+    "value": "AZ-HAC"
+  },
+  {
+    "label": "AZ-IMI: İmişli",
+    "value": "AZ-IMI"
+  },
+  {
+    "label": "AZ-ISM: İsmayıllı",
+    "value": "AZ-ISM"
+  },
+  {
+    "label": "AZ-KAL: Kəlbəcər",
+    "value": "AZ-KAL"
+  },
+  {
+    "label": "AZ-KAN: Kǝngǝrli",
+    "value": "AZ-KAN"
+  },
+  {
+    "label": "AZ-KUR: Kürdəmir",
+    "value": "AZ-KUR"
+  },
+  {
+    "label": "AZ-LA: Lənkəran",
+    "value": "AZ-LA"
+  },
+  {
+    "label": "AZ-LAC: Laçın",
+    "value": "AZ-LAC"
+  },
+  {
+    "label": "AZ-LAN: Lənkəran",
+    "value": "AZ-LAN"
+  },
+  {
+    "label": "AZ-LER: Lerik",
+    "value": "AZ-LER"
+  },
+  {
+    "label": "AZ-MAS: Masallı",
+    "value": "AZ-MAS"
+  },
+  {
+    "label": "AZ-MI: Mingəçevir",
+    "value": "AZ-MI"
+  },
+  {
+    "label": "AZ-NA: Naftalan",
+    "value": "AZ-NA"
+  },
+  {
+    "label": "AZ-NEF: Neftçala",
+    "value": "AZ-NEF"
+  },
+  {
+    "label": "AZ-NV: Naxçıvan",
+    "value": "AZ-NV"
+  },
+  {
+    "label": "AZ-NX: Naxçıvan",
+    "value": "AZ-NX"
+  },
+  {
+    "label": "AZ-OGU: Oğuz",
+    "value": "AZ-OGU"
+  },
+  {
+    "label": "AZ-ORD: Ordubad",
+    "value": "AZ-ORD"
+  },
+  {
+    "label": "AZ-QAB: Qəbələ",
+    "value": "AZ-QAB"
+  },
+  {
+    "label": "AZ-QAX: Qax",
+    "value": "AZ-QAX"
+  },
+  {
+    "label": "AZ-QAZ: Qazax",
+    "value": "AZ-QAZ"
+  },
+  {
+    "label": "AZ-QBA: Quba",
+    "value": "AZ-QBA"
+  },
+  {
+    "label": "AZ-QBI: Qubadlı",
+    "value": "AZ-QBI"
+  },
+  {
+    "label": "AZ-QOB: Qobustan",
+    "value": "AZ-QOB"
+  },
+  {
+    "label": "AZ-QUS: Qusar",
+    "value": "AZ-QUS"
+  },
+  {
+    "label": "AZ-SA: Şəki",
+    "value": "AZ-SA"
+  },
+  {
+    "label": "AZ-SAB: Sabirabad",
+    "value": "AZ-SAB"
+  },
+  {
+    "label": "AZ-SAD: Sədərək",
+    "value": "AZ-SAD"
+  },
+  {
+    "label": "AZ-SAH: Şahbuz",
+    "value": "AZ-SAH"
+  },
+  {
+    "label": "AZ-SAK: Şəki",
+    "value": "AZ-SAK"
+  },
+  {
+    "label": "AZ-SAL: Salyan",
+    "value": "AZ-SAL"
+  },
+  {
+    "label": "AZ-SAR: Şərur",
+    "value": "AZ-SAR"
+  },
+  {
+    "label": "AZ-SAT: Saatlı",
+    "value": "AZ-SAT"
+  },
+  {
+    "label": "AZ-SBN: Şabran",
+    "value": "AZ-SBN"
+  },
+  {
+    "label": "AZ-SIY: Siyəzən",
+    "value": "AZ-SIY"
+  },
+  {
+    "label": "AZ-SKR: Şəmkir",
+    "value": "AZ-SKR"
+  },
+  {
+    "label": "AZ-SM: Sumqayıt",
+    "value": "AZ-SM"
+  },
+  {
+    "label": "AZ-SMI: Şamaxı",
+    "value": "AZ-SMI"
+  },
+  {
+    "label": "AZ-SMX: Samux",
+    "value": "AZ-SMX"
+  },
+  {
+    "label": "AZ-SR: Şirvan",
+    "value": "AZ-SR"
+  },
+  {
+    "label": "AZ-SUS: Şuşa",
+    "value": "AZ-SUS"
+  },
+  {
+    "label": "AZ-TAR: Tərtər",
+    "value": "AZ-TAR"
+  },
+  {
+    "label": "AZ-TOV: Tovuz",
+    "value": "AZ-TOV"
+  },
+  {
+    "label": "AZ-UCA: Ucar",
+    "value": "AZ-UCA"
+  },
+  {
+    "label": "AZ-XA: Xankəndi",
+    "value": "AZ-XA"
+  },
+  {
+    "label": "AZ-XAC: Xaçmaz",
+    "value": "AZ-XAC"
+  },
+  {
+    "label": "AZ-XCI: Xocalı",
+    "value": "AZ-XCI"
+  },
+  {
+    "label": "AZ-XIZ: Xızı",
+    "value": "AZ-XIZ"
+  },
+  {
+    "label": "AZ-XVD: Xocavənd",
+    "value": "AZ-XVD"
+  },
+  {
+    "label": "AZ-YAR: Yardımlı",
+    "value": "AZ-YAR"
+  },
+  {
+    "label": "AZ-YE: Yevlax",
+    "value": "AZ-YE"
+  },
+  {
+    "label": "AZ-YEV: Yevlax",
+    "value": "AZ-YEV"
+  },
+  {
+    "label": "AZ-ZAN: Zəngilan",
+    "value": "AZ-ZAN"
+  },
+  {
+    "label": "AZ-ZAQ: Zaqatala",
+    "value": "AZ-ZAQ"
+  },
+  {
+    "label": "AZ-ZAR: Zərdab",
+    "value": "AZ-ZAR"
+  }
+]

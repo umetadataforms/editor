@@ -1,0 +1,54 @@
+[
+  {
+    "label": "NO-03: Oslo",
+    "value": "NO-03"
+  },
+  {
+    "label": "NO-11: Rogaland",
+    "value": "NO-11"
+  },
+  {
+    "label": "NO-15: Møre og Romsdal",
+    "value": "NO-15"
+  },
+  {
+    "label": "NO-18: Nordland",
+    "value": "NO-18"
+  },
+  {
+    "label": "NO-21: Svalbard",
+    "value": "NO-21"
+  },
+  {
+    "label": "NO-22: Jan Mayen",
+    "value": "NO-22"
+  },
+  {
+    "label": "NO-30: Viken",
+    "value": "NO-30"
+  },
+  {
+    "label": "NO-34: Innlandet",
+    "value": "NO-34"
+  },
+  {
+    "label": "NO-38: Vestfold og Telemark",
+    "value": "NO-38"
+  },
+  {
+    "label": "NO-42: Agder",
+    "value": "NO-42"
+  },
+  {
+    "label": "NO-46: Vestland",
+    "value": "NO-46"
+  },
+  {
+    "label": "NO-50: Trööndelage; Trøndelag",
+    "value": "NO-50"
+  },
+  {
+    "label": "NO-54: Romssa ja Finnmárkku; Troms og Finnmark; Tromssan ja Finmarkun",
+    "value": "NO-54"
+  }
+]

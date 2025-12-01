@@ -1,0 +1,26 @@
+[
+  {
+    "label": "GM-B: Banjul",
+    "value": "GM-B"
+  },
+  {
+    "label": "GM-L: Lower River",
+    "value": "GM-L"
+  },
+  {
+    "label": "GM-M: Central River",
+    "value": "GM-M"
+  },
+  {
+    "label": "GM-N: North Bank",
+    "value": "GM-N"
+  },
+  {
+    "label": "GM-U: Upper River",
+    "value": "GM-U"
+  },
+  {
+    "label": "GM-W: Western",
+    "value": "GM-W"
+  }
+]

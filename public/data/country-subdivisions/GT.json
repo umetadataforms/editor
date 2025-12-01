@@ -1,0 +1,90 @@
+[
+  {
+    "label": "GT-01: Guatemala",
+    "value": "GT-01"
+  },
+  {
+    "label": "GT-02: El Progreso",
+    "value": "GT-02"
+  },
+  {
+    "label": "GT-03: Sacatepéquez",
+    "value": "GT-03"
+  },
+  {
+    "label": "GT-04: Chimaltenango",
+    "value": "GT-04"
+  },
+  {
+    "label": "GT-05: Escuintla",
+    "value": "GT-05"
+  },
+  {
+    "label": "GT-06: Santa Rosa",
+    "value": "GT-06"
+  },
+  {
+    "label": "GT-07: Sololá",
+    "value": "GT-07"
+  },
+  {
+    "label": "GT-08: Totonicapán",
+    "value": "GT-08"
+  },
+  {
+    "label": "GT-09: Quetzaltenango",
+    "value": "GT-09"
+  },
+  {
+    "label": "GT-10: Suchitepéquez",
+    "value": "GT-10"
+  },
+  {
+    "label": "GT-11: Retalhuleu",
+    "value": "GT-11"
+  },
+  {
+    "label": "GT-12: San Marcos",
+    "value": "GT-12"
+  },
+  {
+    "label": "GT-13: Huehuetenango",
+    "value": "GT-13"
+  },
+  {
+    "label": "GT-14: Quiché",
+    "value": "GT-14"
+  },
+  {
+    "label": "GT-15: Baja Verapaz",
+    "value": "GT-15"
+  },
+  {
+    "label": "GT-16: Alta Verapaz",
+    "value": "GT-16"
+  },
+  {
+    "label": "GT-17: Petén",
+    "value": "GT-17"
+  },
+  {
+    "label": "GT-18: Izabal",
+    "value": "GT-18"
+  },
+  {
+    "label": "GT-19: Zacapa",
+    "value": "GT-19"
+  },
+  {
+    "label": "GT-20: Chiquimula",
+    "value": "GT-20"
+  },
+  {
+    "label": "GT-21: Jalapa",
+    "value": "GT-21"
+  },
+  {
+    "label": "GT-22: Jutiapa",
+    "value": "GT-22"
+  }
+]

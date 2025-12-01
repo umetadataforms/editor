@@ -1,0 +1,66 @@
+[
+  {
+    "label": "GH-AA: Greater Accra",
+    "value": "GH-AA"
+  },
+  {
+    "label": "GH-AF: Ahafo",
+    "value": "GH-AF"
+  },
+  {
+    "label": "GH-AH: Ashanti",
+    "value": "GH-AH"
+  },
+  {
+    "label": "GH-BE: Bono East",
+    "value": "GH-BE"
+  },
+  {
+    "label": "GH-BO: Bono",
+    "value": "GH-BO"
+  },
+  {
+    "label": "GH-CP: Central",
+    "value": "GH-CP"
+  },
+  {
+    "label": "GH-EP: Eastern",
+    "value": "GH-EP"
+  },
+  {
+    "label": "GH-NE: North East",
+    "value": "GH-NE"
+  },
+  {
+    "label": "GH-NP: Northern",
+    "value": "GH-NP"
+  },
+  {
+    "label": "GH-OT: Oti",
+    "value": "GH-OT"
+  },
+  {
+    "label": "GH-SV: Savannah",
+    "value": "GH-SV"
+  },
+  {
+    "label": "GH-TV: Volta",
+    "value": "GH-TV"
+  },
+  {
+    "label": "GH-UE: Upper East",
+    "value": "GH-UE"
+  },
+  {
+    "label": "GH-UW: Upper West",
+    "value": "GH-UW"
+  },
+  {
+    "label": "GH-WN: Western North",
+    "value": "GH-WN"
+  },
+  {
+    "label": "GH-WP: Western",
+    "value": "GH-WP"
+  }
+]

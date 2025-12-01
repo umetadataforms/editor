@@ -1,0 +1,50 @@
+[
+  {
+    "label": "MU-AG: Agalega Islands",
+    "value": "MU-AG"
+  },
+  {
+    "label": "MU-BL: Black River",
+    "value": "MU-BL"
+  },
+  {
+    "label": "MU-CC: Cargados Carajos Shoals",
+    "value": "MU-CC"
+  },
+  {
+    "label": "MU-FL: Flacq",
+    "value": "MU-FL"
+  },
+  {
+    "label": "MU-GP: Grand Port",
+    "value": "MU-GP"
+  },
+  {
+    "label": "MU-MO: Moka",
+    "value": "MU-MO"
+  },
+  {
+    "label": "MU-PA: Pamplemousses",
+    "value": "MU-PA"
+  },
+  {
+    "label": "MU-PL: Port Louis",
+    "value": "MU-PL"
+  },
+  {
+    "label": "MU-PW: Plaines Wilhems",
+    "value": "MU-PW"
+  },
+  {
+    "label": "MU-RO: Rodrigues Island",
+    "value": "MU-RO"
+  },
+  {
+    "label": "MU-RR: Rivière du Rempart",
+    "value": "MU-RR"
+  },
+  {
+    "label": "MU-SA: Savanne",
+    "value": "MU-SA"
+  }
+]

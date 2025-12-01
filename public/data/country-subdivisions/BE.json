@@ -1,0 +1,54 @@
+[
+  {
+    "label": "BE-BRU: Brussels Hoofdstedelijk Gewest; Bruxelles-Capitale",
+    "value": "BE-BRU"
+  },
+  {
+    "label": "BE-VAN: Antwerpen",
+    "value": "BE-VAN"
+  },
+  {
+    "label": "BE-VBR: Vlaams-Brabant",
+    "value": "BE-VBR"
+  },
+  {
+    "label": "BE-VLG: Vlaams Gewest",
+    "value": "BE-VLG"
+  },
+  {
+    "label": "BE-VLI: Limburg",
+    "value": "BE-VLI"
+  },
+  {
+    "label": "BE-VOV: Oost-Vlaanderen",
+    "value": "BE-VOV"
+  },
+  {
+    "label": "BE-VWV: West-Vlaanderen",
+    "value": "BE-VWV"
+  },
+  {
+    "label": "BE-WAL: wallonne",
+    "value": "BE-WAL"
+  },
+  {
+    "label": "BE-WBR: Brabant wallon",
+    "value": "BE-WBR"
+  },
+  {
+    "label": "BE-WHT: Hainaut",
+    "value": "BE-WHT"
+  },
+  {
+    "label": "BE-WLG: Liège",
+    "value": "BE-WLG"
+  },
+  {
+    "label": "BE-WLX: Luxembourg",
+    "value": "BE-WLX"
+  },
+  {
+    "label": "BE-WNA: Namur",
+    "value": "BE-WNA"
+  }
+]

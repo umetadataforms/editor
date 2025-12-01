@@ -1,0 +1,38 @@
+[
+  {
+    "label": "GA-1: Estuaire",
+    "value": "GA-1"
+  },
+  {
+    "label": "GA-2: Haut-Ogooué",
+    "value": "GA-2"
+  },
+  {
+    "label": "GA-3: Moyen-Ogooué",
+    "value": "GA-3"
+  },
+  {
+    "label": "GA-4: Ngounié",
+    "value": "GA-4"
+  },
+  {
+    "label": "GA-5: Nyanga",
+    "value": "GA-5"
+  },
+  {
+    "label": "GA-6: Ogooué-Ivindo",
+    "value": "GA-6"
+  },
+  {
+    "label": "GA-7: Ogooué-Lolo",
+    "value": "GA-7"
+  },
+  {
+    "label": "GA-8: Ogooué-Maritime",
+    "value": "GA-8"
+  },
+  {
+    "label": "GA-9: Woleu-Ntem",
+    "value": "GA-9"
+  }
+]

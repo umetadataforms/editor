@@ -1,0 +1,22 @@
+[
+  {
+    "label": "RW-01: City of Kigali; Umujyi wa Kigali; Ville de Kigali",
+    "value": "RW-01"
+  },
+  {
+    "label": "RW-02: Eastern; Est; Iburasirazuba",
+    "value": "RW-02"
+  },
+  {
+    "label": "RW-03: Amajyaruguru; Nord; Northern",
+    "value": "RW-03"
+  },
+  {
+    "label": "RW-04: Iburengerazuba; Ouest; Western",
+    "value": "RW-04"
+  },
+  {
+    "label": "RW-05: Amajyepfo; Southern; Sud",
+    "value": "RW-05"
+  }
+]

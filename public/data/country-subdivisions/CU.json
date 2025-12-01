@@ -1,0 +1,66 @@
+[
+  {
+    "label": "CU-01: Pinar del Río",
+    "value": "CU-01"
+  },
+  {
+    "label": "CU-03: La Habana",
+    "value": "CU-03"
+  },
+  {
+    "label": "CU-04: Matanzas",
+    "value": "CU-04"
+  },
+  {
+    "label": "CU-05: Villa Clara",
+    "value": "CU-05"
+  },
+  {
+    "label": "CU-06: Cienfuegos",
+    "value": "CU-06"
+  },
+  {
+    "label": "CU-07: Sancti Spíritus",
+    "value": "CU-07"
+  },
+  {
+    "label": "CU-08: Ciego de Ávila",
+    "value": "CU-08"
+  },
+  {
+    "label": "CU-09: Camagüey",
+    "value": "CU-09"
+  },
+  {
+    "label": "CU-10: Las Tunas",
+    "value": "CU-10"
+  },
+  {
+    "label": "CU-11: Holguín",
+    "value": "CU-11"
+  },
+  {
+    "label": "CU-12: Granma",
+    "value": "CU-12"
+  },
+  {
+    "label": "CU-13: Santiago de Cuba",
+    "value": "CU-13"
+  },
+  {
+    "label": "CU-14: Guantánamo",
+    "value": "CU-14"
+  },
+  {
+    "label": "CU-15: Artemisa",
+    "value": "CU-15"
+  },
+  {
+    "label": "CU-16: Mayabeque",
+    "value": "CU-16"
+  },
+  {
+    "label": "CU-99: Isla de la Juventud",
+    "value": "CU-99"
+  }
+]

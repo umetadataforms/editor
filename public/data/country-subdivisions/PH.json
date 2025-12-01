@@ -1,0 +1,398 @@
+[
+  {
+    "label": "PH-00: National Capital Region; Pambansang Punong Rehiyon",
+    "value": "PH-00"
+  },
+  {
+    "label": "PH-01: Ilocos; Rehiyon ng Iloko",
+    "value": "PH-01"
+  },
+  {
+    "label": "PH-02: Cagayan Valley; Rehiyon ng Lambak ng Kagayan",
+    "value": "PH-02"
+  },
+  {
+    "label": "PH-03: Central Luzon; Rehiyon ng Gitnang Luson",
+    "value": "PH-03"
+  },
+  {
+    "label": "PH-05: Bicol; Rehiyon ng Bikol",
+    "value": "PH-05"
+  },
+  {
+    "label": "PH-06: Rehiyon ng Kanlurang Bisaya; Western Visayas",
+    "value": "PH-06"
+  },
+  {
+    "label": "PH-07: Central Visayas; Rehiyon ng Gitnang Bisaya",
+    "value": "PH-07"
+  },
+  {
+    "label": "PH-08: Eastern Visayas; Rehiyon ng Silangang Bisaya",
+    "value": "PH-08"
+  },
+  {
+    "label": "PH-09: Rehiyon ng Tangway ng Sambuwangga; Zamboanga Peninsula",
+    "value": "PH-09"
+  },
+  {
+    "label": "PH-10: Northern Mindanao; Rehiyon ng Hilagang Mindanaw",
+    "value": "PH-10"
+  },
+  {
+    "label": "PH-11: Davao; Rehiyon ng Dabaw",
+    "value": "PH-11"
+  },
+  {
+    "label": "PH-12: Rehiyon ng Soccsksargen; Soccsksargen",
+    "value": "PH-12"
+  },
+  {
+    "label": "PH-13: Caraga; Rehiyon ng Karaga",
+    "value": "PH-13"
+  },
+  {
+    "label": "PH-14: Autonomous Region in Muslim Mindanao; Nagsasariling Rehiyon ng Muslim sa Mindanaw",
+    "value": "PH-14"
+  },
+  {
+    "label": "PH-15: Cordillera Administrative Region; Rehiyon ng Administratibo ng Kordilyera",
+    "value": "PH-15"
+  },
+  {
+    "label": "PH-40: Calabarzon; Rehiyon ng Calabarzon",
+    "value": "PH-40"
+  },
+  {
+    "label": "PH-41: Mimaropa; Rehiyon ng Mimaropa",
+    "value": "PH-41"
+  },
+  {
+    "label": "PH-ABR: Abra",
+    "value": "PH-ABR"
+  },
+  {
+    "label": "PH-AGN: Agusan del Norte; Hilagang Agusan",
+    "value": "PH-AGN"
+  },
+  {
+    "label": "PH-AGS: Agusan del Sur; Timog Agusan",
+    "value": "PH-AGS"
+  },
+  {
+    "label": "PH-AKL: Aklan",
+    "value": "PH-AKL"
+  },
+  {
+    "label": "PH-ALB: Albay",
+    "value": "PH-ALB"
+  },
+  {
+    "label": "PH-ANT: Antike; Antique",
+    "value": "PH-ANT"
+  },
+  {
+    "label": "PH-APA: Apayao; Apayaw",
+    "value": "PH-APA"
+  },
+  {
+    "label": "PH-AUR: Aurora",
+    "value": "PH-AUR"
+  },
+  {
+    "label": "PH-BAN: Bataan",
+    "value": "PH-BAN"
+  },
+  {
+    "label": "PH-BAS: Basilan",
+    "value": "PH-BAS"
+  },
+  {
+    "label": "PH-BEN: Benget; Benguet",
+    "value": "PH-BEN"
+  },
+  {
+    "label": "PH-BIL: Biliran",
+    "value": "PH-BIL"
+  },
+  {
+    "label": "PH-BOH: Bohol",
+    "value": "PH-BOH"
+  },
+  {
+    "label": "PH-BTG: Batangas",
+    "value": "PH-BTG"
+  },
+  {
+    "label": "PH-BTN: Batanes",
+    "value": "PH-BTN"
+  },
+  {
+    "label": "PH-BUK: Bukidnon",
+    "value": "PH-BUK"
+  },
+  {
+    "label": "PH-BUL: Bulacan; Bulakan",
+    "value": "PH-BUL"
+  },
+  {
+    "label": "PH-CAG: Cagayan; Kagayan",
+    "value": "PH-CAG"
+  },
+  {
+    "label": "PH-CAM: Camiguin; Kamigin",
+    "value": "PH-CAM"
+  },
+  {
+    "label": "PH-CAN: Camarines Norte; Hilagang Kamarines",
+    "value": "PH-CAN"
+  },
+  {
+    "label": "PH-CAP: Capiz; Kapis",
+    "value": "PH-CAP"
+  },
+  {
+    "label": "PH-CAS: Camarines Sur; Timog Kamarines",
+    "value": "PH-CAS"
+  },
+  {
+    "label": "PH-CAT: Catanduanes; Katanduwanes",
+    "value": "PH-CAT"
+  },
+  {
+    "label": "PH-CAV: Cavite; Kabite",
+    "value": "PH-CAV"
+  },
+  {
+    "label": "PH-CEB: Cebu; Sebu",
+    "value": "PH-CEB"
+  },
+  {
+    "label": "PH-COM: Davao de Oro",
+    "value": "PH-COM"
+  },
+  {
+    "label": "PH-DAO: Davao Oriental; Silangang Dabaw",
+    "value": "PH-DAO"
+  },
+  {
+    "label": "PH-DAS: Davao del Sur; Timog Dabaw",
+    "value": "PH-DAS"
+  },
+  {
+    "label": "PH-DAV: Davao del Norte; Hilagang Dabaw",
+    "value": "PH-DAV"
+  },
+  {
+    "label": "PH-DIN: Dinagat Islands; Pulo ng Dinagat",
+    "value": "PH-DIN"
+  },
+  {
+    "label": "PH-DVO: Davao Occidental; Kanlurang Dabaw",
+    "value": "PH-DVO"
+  },
+  {
+    "label": "PH-EAS: Eastern Samar; Silangang Samar",
+    "value": "PH-EAS"
+  },
+  {
+    "label": "PH-GUI: Gimaras; Guimaras",
+    "value": "PH-GUI"
+  },
+  {
+    "label": "PH-IFU: Ifugao; Ipugaw",
+    "value": "PH-IFU"
+  },
+  {
+    "label": "PH-ILI: Iloilo",
+    "value": "PH-ILI"
+  },
+  {
+    "label": "PH-ILN: Hilagang Iloko; Ilocos Norte",
+    "value": "PH-ILN"
+  },
+  {
+    "label": "PH-ILS: Ilocos Sur; Timog Iloko",
+    "value": "PH-ILS"
+  },
+  {
+    "label": "PH-ISA: Isabela",
+    "value": "PH-ISA"
+  },
+  {
+    "label": "PH-KAL: Kalinga",
+    "value": "PH-KAL"
+  },
+  {
+    "label": "PH-LAG: Laguna",
+    "value": "PH-LAG"
+  },
+  {
+    "label": "PH-LAN: Hilagang Lanaw; Lanao del Norte",
+    "value": "PH-LAN"
+  },
+  {
+    "label": "PH-LAS: Lanao del Sur; Timog Lanaw",
+    "value": "PH-LAS"
+  },
+  {
+    "label": "PH-LEY: Leyte",
+    "value": "PH-LEY"
+  },
+  {
+    "label": "PH-LUN: La Union; La Unyon",
+    "value": "PH-LUN"
+  },
+  {
+    "label": "PH-MAD: Marinduke; Marinduque",
+    "value": "PH-MAD"
+  },
+  {
+    "label": "PH-MAS: Masbate",
+    "value": "PH-MAS"
+  },
+  {
+    "label": "PH-MDC: Kanlurang Mindoro; Mindoro Occidental",
+    "value": "PH-MDC"
+  },
+  {
+    "label": "PH-MDR: Mindoro Oriental; Silangang Mindoro",
+    "value": "PH-MDR"
+  },
+  {
+    "label": "PH-MGN: Hilagang Magindanaw; Maguindanao del Norte",
+    "value": "PH-MGN"
+  },
+  {
+    "label": "PH-MGS: Maguindanao del Sur; Timog Magindanaw",
+    "value": "PH-MGS"
+  },
+  {
+    "label": "PH-MOU: Lalawigang Bulubundukin; Mountain Province",
+    "value": "PH-MOU"
+  },
+  {
+    "label": "PH-MSC: Kanlurang Misamis; Misamis Occidental",
+    "value": "PH-MSC"
+  },
+  {
+    "label": "PH-MSR: Misamis Oriental; Silangang Misamis",
+    "value": "PH-MSR"
+  },
+  {
+    "label": "PH-NCO: Cotabato; Kotabato",
+    "value": "PH-NCO"
+  },
+  {
+    "label": "PH-NEC: Kanlurang Negros; Negros Occidental",
+    "value": "PH-NEC"
+  },
+  {
+    "label": "PH-NER: Negros Oriental; Silangang Negros",
+    "value": "PH-NER"
+  },
+  {
+    "label": "PH-NSA: Hilagang Samar; Northern Samar",
+    "value": "PH-NSA"
+  },
+  {
+    "label": "PH-NUE: Nueva Ecija; Nuweva Esiha",
+    "value": "PH-NUE"
+  },
+  {
+    "label": "PH-NUV: Nueva Vizcaya; Nuweva Biskaya",
+    "value": "PH-NUV"
+  },
+  {
+    "label": "PH-PAM: Pampanga",
+    "value": "PH-PAM"
+  },
+  {
+    "label": "PH-PAN: Pangasinan",
+    "value": "PH-PAN"
+  },
+  {
+    "label": "PH-PLW: Palawan",
+    "value": "PH-PLW"
+  },
+  {
+    "label": "PH-QUE: Keson; Quezon",
+    "value": "PH-QUE"
+  },
+  {
+    "label": "PH-QUI: Kirino; Quirino",
+    "value": "PH-QUI"
+  },
+  {
+    "label": "PH-RIZ: Risal; Rizal",
+    "value": "PH-RIZ"
+  },
+  {
+    "label": "PH-ROM: Romblon",
+    "value": "PH-ROM"
+  },
+  {
+    "label": "PH-SAR: Sarangani",
+    "value": "PH-SAR"
+  },
+  {
+    "label": "PH-SCO: South Cotabato; Timog Kotabato",
+    "value": "PH-SCO"
+  },
+  {
+    "label": "PH-SIG: Sikihor; Siquijor",
+    "value": "PH-SIG"
+  },
+  {
+    "label": "PH-SLE: Katimogang Leyte; Southern Leyte",
+    "value": "PH-SLE"
+  },
+  {
+    "label": "PH-SLU: Sulu",
+    "value": "PH-SLU"
+  },
+  {
+    "label": "PH-SOR: Sorsogon",
+    "value": "PH-SOR"
+  },
+  {
+    "label": "PH-SUK: Sultan Kudarat",
+    "value": "PH-SUK"
+  },
+  {
+    "label": "PH-SUN: Hilagang Surigaw; Surigao del Norte",
+    "value": "PH-SUN"
+  },
+  {
+    "label": "PH-SUR: Surigao del Sur; Timog Surigaw",
+    "value": "PH-SUR"
+  },
+  {
+    "label": "PH-TAR: Tarlac; Tarlak",
+    "value": "PH-TAR"
+  },
+  {
+    "label": "PH-TAW: Tawi-Tawi",
+    "value": "PH-TAW"
+  },
+  {
+    "label": "PH-WSA: Samar",
+    "value": "PH-WSA"
+  },
+  {
+    "label": "PH-ZAN: Hilagang Sambuwangga; Zamboanga del Norte",
+    "value": "PH-ZAN"
+  },
+  {
+    "label": "PH-ZAS: Timog Sambuwangga; Zamboanga del Sur",
+    "value": "PH-ZAS"
+  },
+  {
+    "label": "PH-ZMB: Sambales; Zambales",
+    "value": "PH-ZMB"
+  },
+  {
+    "label": "PH-ZSI: Sambuwangga Sibugay; Zamboanga Sibugay",
+    "value": "PH-ZSI"
+  }
+]

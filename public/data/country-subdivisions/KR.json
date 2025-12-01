@@ -1,0 +1,70 @@
+[
+  {
+    "label": "KR-11: Seoul-teukbyeolsi",
+    "value": "KR-11"
+  },
+  {
+    "label": "KR-26: Busan-gwangyeoksi",
+    "value": "KR-26"
+  },
+  {
+    "label": "KR-27: Daegu-gwangyeoksi",
+    "value": "KR-27"
+  },
+  {
+    "label": "KR-28: Incheon-gwangyeoksi",
+    "value": "KR-28"
+  },
+  {
+    "label": "KR-29: Gwangju-gwangyeoksi",
+    "value": "KR-29"
+  },
+  {
+    "label": "KR-30: Daejeon-gwangyeoksi",
+    "value": "KR-30"
+  },
+  {
+    "label": "KR-31: Ulsan-gwangyeoksi",
+    "value": "KR-31"
+  },
+  {
+    "label": "KR-41: Gyeonggi-do",
+    "value": "KR-41"
+  },
+  {
+    "label": "KR-42: Gangwon-teukbyeoljachido",
+    "value": "KR-42"
+  },
+  {
+    "label": "KR-43: Chungcheongbuk-do",
+    "value": "KR-43"
+  },
+  {
+    "label": "KR-44: Chungcheongnam-do",
+    "value": "KR-44"
+  },
+  {
+    "label": "KR-45: Jeollabuk-do",
+    "value": "KR-45"
+  },
+  {
+    "label": "KR-46: Jeollanam-do",
+    "value": "KR-46"
+  },
+  {
+    "label": "KR-47: Gyeongsangbuk-do",
+    "value": "KR-47"
+  },
+  {
+    "label": "KR-48: Gyeongsangnam-do",
+    "value": "KR-48"
+  },
+  {
+    "label": "KR-49: Jeju-teukbyeoljachido",
+    "value": "KR-49"
+  },
+  {
+    "label": "KR-50: Sejong",
+    "value": "KR-50"
+  }
+]

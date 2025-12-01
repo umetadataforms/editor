@@ -1,0 +1,42 @@
+[
+  {
+    "label": "SS-BN: Northern Bahr el Ghazal",
+    "value": "SS-BN"
+  },
+  {
+    "label": "SS-BW: Western Bahr el Ghazal",
+    "value": "SS-BW"
+  },
+  {
+    "label": "SS-EC: Central Equatoria",
+    "value": "SS-EC"
+  },
+  {
+    "label": "SS-EE: Eastern Equatoria",
+    "value": "SS-EE"
+  },
+  {
+    "label": "SS-EW: Western Equatoria",
+    "value": "SS-EW"
+  },
+  {
+    "label": "SS-JG: Jonglei",
+    "value": "SS-JG"
+  },
+  {
+    "label": "SS-LK: Lakes",
+    "value": "SS-LK"
+  },
+  {
+    "label": "SS-NU: Upper Nile",
+    "value": "SS-NU"
+  },
+  {
+    "label": "SS-UY: Unity",
+    "value": "SS-UY"
+  },
+  {
+    "label": "SS-WR: Warrap",
+    "value": "SS-WR"
+  }
+]

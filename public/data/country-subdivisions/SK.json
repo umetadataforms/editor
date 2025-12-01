@@ -1,0 +1,34 @@
+[
+  {
+    "label": "SK-BC: Banskobystrický kraj",
+    "value": "SK-BC"
+  },
+  {
+    "label": "SK-BL: Bratislavský kraj",
+    "value": "SK-BL"
+  },
+  {
+    "label": "SK-KI: Košický kraj",
+    "value": "SK-KI"
+  },
+  {
+    "label": "SK-NI: Nitriansky kraj",
+    "value": "SK-NI"
+  },
+  {
+    "label": "SK-PV: Prešovský kraj",
+    "value": "SK-PV"
+  },
+  {
+    "label": "SK-TA: Trnavský kraj",
+    "value": "SK-TA"
+  },
+  {
+    "label": "SK-TC: Trenčiansky kraj",
+    "value": "SK-TC"
+  },
+  {
+    "label": "SK-ZI: Žilinský kraj",
+    "value": "SK-ZI"
+  }
+]

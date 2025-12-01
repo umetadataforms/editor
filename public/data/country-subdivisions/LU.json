@@ -1,0 +1,50 @@
+[
+  {
+    "label": "LU-CA: Capellen; Kapellen",
+    "value": "LU-CA"
+  },
+  {
+    "label": "LU-CL: Clerf; Clervaux; Klierf",
+    "value": "LU-CL"
+  },
+  {
+    "label": "LU-DI: Diekirch; Diekrech",
+    "value": "LU-DI"
+  },
+  {
+    "label": "LU-EC: Echternach; Iechternach",
+    "value": "LU-EC"
+  },
+  {
+    "label": "LU-ES: Esch an der Alzette; Esch-Uelzecht; Esch-sur-Alzette",
+    "value": "LU-ES"
+  },
+  {
+    "label": "LU-GR: Grevenmacher; Gréivemaacher",
+    "value": "LU-GR"
+  },
+  {
+    "label": "LU-LU: Luxembourg; Luxemburg; Lëtzebuerg",
+    "value": "LU-LU"
+  },
+  {
+    "label": "LU-ME: Mersch; Miersch",
+    "value": "LU-ME"
+  },
+  {
+    "label": "LU-RD: Redange; Redingen; Réiden-Atert",
+    "value": "LU-RD"
+  },
+  {
+    "label": "LU-RM: Remich; Réimech",
+    "value": "LU-RM"
+  },
+  {
+    "label": "LU-VD: Veianen; Vianden",
+    "value": "LU-VD"
+  },
+  {
+    "label": "LU-WI: Wiltz; Wolz",
+    "value": "LU-WI"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "label": "AL-01: Berat",
+    "value": "AL-01"
+  },
+  {
+    "label": "AL-02: Durrës",
+    "value": "AL-02"
+  },
+  {
+    "label": "AL-03: Elbasan",
+    "value": "AL-03"
+  },
+  {
+    "label": "AL-04: Fier",
+    "value": "AL-04"
+  },
+  {
+    "label": "AL-05: Gjirokastër",
+    "value": "AL-05"
+  },
+  {
+    "label": "AL-06: Korçë",
+    "value": "AL-06"
+  },
+  {
+    "label": "AL-07: Kukës",
+    "value": "AL-07"
+  },
+  {
+    "label": "AL-08: Lezhë",
+    "value": "AL-08"
+  },
+  {
+    "label": "AL-09: Dibër",
+    "value": "AL-09"
+  },
+  {
+    "label": "AL-10: Shkodër",
+    "value": "AL-10"
+  },
+  {
+    "label": "AL-11: Tiranë",
+    "value": "AL-11"
+  },
+  {
+    "label": "AL-12: Vlorë",
+    "value": "AL-12"
+  }
+]

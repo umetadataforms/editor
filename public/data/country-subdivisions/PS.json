@@ -1,0 +1,66 @@
+[
+  {
+    "label": "PS-BTH: Bayt Laḩm; Bethlehem",
+    "value": "PS-BTH"
+  },
+  {
+    "label": "PS-DEB: Dayr al Balaḩ; Deir El Balah",
+    "value": "PS-DEB"
+  },
+  {
+    "label": "PS-GZA: Gaza; Ghazzah",
+    "value": "PS-GZA"
+  },
+  {
+    "label": "PS-HBN: Al Khalīl; Hebron",
+    "value": "PS-HBN"
+  },
+  {
+    "label": "PS-JEM: Al Quds; Jerusalem",
+    "value": "PS-JEM"
+  },
+  {
+    "label": "PS-JEN: Janīn; Jenin",
+    "value": "PS-JEN"
+  },
+  {
+    "label": "PS-JRH: Arīḩā wal Aghwār; Jericho and Al Aghwar",
+    "value": "PS-JRH"
+  },
+  {
+    "label": "PS-KYS: Khan Yunis; Khān Yūnis",
+    "value": "PS-KYS"
+  },
+  {
+    "label": "PS-NBS: Nablus; Nāblus",
+    "value": "PS-NBS"
+  },
+  {
+    "label": "PS-NGZ: North Gaza; Shamāl Ghazzah",
+    "value": "PS-NGZ"
+  },
+  {
+    "label": "PS-QQA: Qalqilya; Qalqīlyah",
+    "value": "PS-QQA"
+  },
+  {
+    "label": "PS-RBH: Ramallah; Rām Allāh wal Bīrah",
+    "value": "PS-RBH"
+  },
+  {
+    "label": "PS-RFH: Rafah; Rafaḩ",
+    "value": "PS-RFH"
+  },
+  {
+    "label": "PS-SLT: Salfit; Salfīt",
+    "value": "PS-SLT"
+  },
+  {
+    "label": "PS-TBS: Tubas; Ţūbās",
+    "value": "PS-TBS"
+  },
+  {
+    "label": "PS-TKM: Tulkarm; Ţūlkarm",
+    "value": "PS-TKM"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "label": "DE-BB: Brandenburg",
+    "value": "DE-BB"
+  },
+  {
+    "label": "DE-BE: Berlin",
+    "value": "DE-BE"
+  },
+  {
+    "label": "DE-BW: Baden-Württemberg",
+    "value": "DE-BW"
+  },
+  {
+    "label": "DE-BY: Bayern",
+    "value": "DE-BY"
+  },
+  {
+    "label": "DE-HB: Bremen",
+    "value": "DE-HB"
+  },
+  {
+    "label": "DE-HE: Hessen",
+    "value": "DE-HE"
+  },
+  {
+    "label": "DE-HH: Hamburg",
+    "value": "DE-HH"
+  },
+  {
+    "label": "DE-MV: Mecklenburg-Vorpommern",
+    "value": "DE-MV"
+  },
+  {
+    "label": "DE-NI: Niedersachsen",
+    "value": "DE-NI"
+  },
+  {
+    "label": "DE-NW: Nordrhein-Westfalen",
+    "value": "DE-NW"
+  },
+  {
+    "label": "DE-RP: Rheinland-Pfalz",
+    "value": "DE-RP"
+  },
+  {
+    "label": "DE-SH: Schleswig-Holstein",
+    "value": "DE-SH"
+  },
+  {
+    "label": "DE-SL: Saarland",
+    "value": "DE-SL"
+  },
+  {
+    "label": "DE-SN: Sachsen",
+    "value": "DE-SN"
+  },
+  {
+    "label": "DE-ST: Sachsen-Anhalt",
+    "value": "DE-ST"
+  },
+  {
+    "label": "DE-TH: Thüringen",
+    "value": "DE-TH"
+  }
+]

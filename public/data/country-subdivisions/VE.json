@@ -1,0 +1,102 @@
+[
+  {
+    "label": "VE-A: Distrito Capital",
+    "value": "VE-A"
+  },
+  {
+    "label": "VE-B: Anzoátegui",
+    "value": "VE-B"
+  },
+  {
+    "label": "VE-C: Apure",
+    "value": "VE-C"
+  },
+  {
+    "label": "VE-D: Aragua",
+    "value": "VE-D"
+  },
+  {
+    "label": "VE-E: Barinas",
+    "value": "VE-E"
+  },
+  {
+    "label": "VE-F: Bolívar",
+    "value": "VE-F"
+  },
+  {
+    "label": "VE-G: Carabobo",
+    "value": "VE-G"
+  },
+  {
+    "label": "VE-H: Cojedes",
+    "value": "VE-H"
+  },
+  {
+    "label": "VE-I: Falcón",
+    "value": "VE-I"
+  },
+  {
+    "label": "VE-J: Guárico",
+    "value": "VE-J"
+  },
+  {
+    "label": "VE-K: Lara",
+    "value": "VE-K"
+  },
+  {
+    "label": "VE-L: Mérida",
+    "value": "VE-L"
+  },
+  {
+    "label": "VE-M: Miranda",
+    "value": "VE-M"
+  },
+  {
+    "label": "VE-N: Monagas",
+    "value": "VE-N"
+  },
+  {
+    "label": "VE-O: Nueva Esparta",
+    "value": "VE-O"
+  },
+  {
+    "label": "VE-P: Portuguesa",
+    "value": "VE-P"
+  },
+  {
+    "label": "VE-R: Sucre",
+    "value": "VE-R"
+  },
+  {
+    "label": "VE-S: Táchira",
+    "value": "VE-S"
+  },
+  {
+    "label": "VE-T: Trujillo",
+    "value": "VE-T"
+  },
+  {
+    "label": "VE-U: Yaracuy",
+    "value": "VE-U"
+  },
+  {
+    "label": "VE-V: Zulia",
+    "value": "VE-V"
+  },
+  {
+    "label": "VE-W: Dependencias Federales",
+    "value": "VE-W"
+  },
+  {
+    "label": "VE-X: La Guaira",
+    "value": "VE-X"
+  },
+  {
+    "label": "VE-Y: Delta Amacuro",
+    "value": "VE-Y"
+  },
+  {
+    "label": "VE-Z: Amazonas",
+    "value": "VE-Z"
+  }
+]

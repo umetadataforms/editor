@@ -1,0 +1,98 @@
+[
+  {
+    "label": "CV-B: Ilhas de Barlavento",
+    "value": "CV-B"
+  },
+  {
+    "label": "CV-BR: Brava",
+    "value": "CV-BR"
+  },
+  {
+    "label": "CV-BV: Boa Vista",
+    "value": "CV-BV"
+  },
+  {
+    "label": "CV-CA: Santa Catarina",
+    "value": "CV-CA"
+  },
+  {
+    "label": "CV-CF: Santa Catarina do Fogo",
+    "value": "CV-CF"
+  },
+  {
+    "label": "CV-CR: Santa Cruz",
+    "value": "CV-CR"
+  },
+  {
+    "label": "CV-MA: Maio",
+    "value": "CV-MA"
+  },
+  {
+    "label": "CV-MO: Mosteiros",
+    "value": "CV-MO"
+  },
+  {
+    "label": "CV-PA: Paul",
+    "value": "CV-PA"
+  },
+  {
+    "label": "CV-PN: Porto Novo",
+    "value": "CV-PN"
+  },
+  {
+    "label": "CV-PR: Praia",
+    "value": "CV-PR"
+  },
+  {
+    "label": "CV-RB: Ribeira Brava",
+    "value": "CV-RB"
+  },
+  {
+    "label": "CV-RG: Ribeira Grande",
+    "value": "CV-RG"
+  },
+  {
+    "label": "CV-RS: Ribeira Grande de Santiago",
+    "value": "CV-RS"
+  },
+  {
+    "label": "CV-S: Ilhas de Sotavento",
+    "value": "CV-S"
+  },
+  {
+    "label": "CV-SD: São Domingos",
+    "value": "CV-SD"
+  },
+  {
+    "label": "CV-SF: São Filipe",
+    "value": "CV-SF"
+  },
+  {
+    "label": "CV-SL: Sal",
+    "value": "CV-SL"
+  },
+  {
+    "label": "CV-SM: São Miguel",
+    "value": "CV-SM"
+  },
+  {
+    "label": "CV-SO: São Lourenço dos Órgãos",
+    "value": "CV-SO"
+  },
+  {
+    "label": "CV-SS: São Salvador do Mundo",
+    "value": "CV-SS"
+  },
+  {
+    "label": "CV-SV: São Vicente",
+    "value": "CV-SV"
+  },
+  {
+    "label": "CV-TA: Tarrafal",
+    "value": "CV-TA"
+  },
+  {
+    "label": "CV-TS: Tarrafal de São Nicolau",
+    "value": "CV-TS"
+  }
+]

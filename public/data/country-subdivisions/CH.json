@@ -1,0 +1,106 @@
+[
+  {
+    "label": "CH-AG: Aargau",
+    "value": "CH-AG"
+  },
+  {
+    "label": "CH-AI: Appenzell Innerrhoden",
+    "value": "CH-AI"
+  },
+  {
+    "label": "CH-AR: Appenzell Ausserrhoden",
+    "value": "CH-AR"
+  },
+  {
+    "label": "CH-BE: Bern; Berne",
+    "value": "CH-BE"
+  },
+  {
+    "label": "CH-BL: Basel-Landschaft",
+    "value": "CH-BL"
+  },
+  {
+    "label": "CH-BS: Basel-Stadt",
+    "value": "CH-BS"
+  },
+  {
+    "label": "CH-FR: Freiburg; Fribourg",
+    "value": "CH-FR"
+  },
+  {
+    "label": "CH-GE: Genève",
+    "value": "CH-GE"
+  },
+  {
+    "label": "CH-GL: Glarus",
+    "value": "CH-GL"
+  },
+  {
+    "label": "CH-GR: Graubünden; Grigioni; Grischun",
+    "value": "CH-GR"
+  },
+  {
+    "label": "CH-JU: Jura",
+    "value": "CH-JU"
+  },
+  {
+    "label": "CH-LU: Luzern",
+    "value": "CH-LU"
+  },
+  {
+    "label": "CH-NE: Neuchâtel",
+    "value": "CH-NE"
+  },
+  {
+    "label": "CH-NW: Nidwalden",
+    "value": "CH-NW"
+  },
+  {
+    "label": "CH-OW: Obwalden",
+    "value": "CH-OW"
+  },
+  {
+    "label": "CH-SG: Sankt Gallen",
+    "value": "CH-SG"
+  },
+  {
+    "label": "CH-SH: Schaffhausen",
+    "value": "CH-SH"
+  },
+  {
+    "label": "CH-SO: Solothurn",
+    "value": "CH-SO"
+  },
+  {
+    "label": "CH-SZ: Schwyz",
+    "value": "CH-SZ"
+  },
+  {
+    "label": "CH-TG: Thurgau",
+    "value": "CH-TG"
+  },
+  {
+    "label": "CH-TI: Ticino",
+    "value": "CH-TI"
+  },
+  {
+    "label": "CH-UR: Uri",
+    "value": "CH-UR"
+  },
+  {
+    "label": "CH-VD: Vaud",
+    "value": "CH-VD"
+  },
+  {
+    "label": "CH-VS: Valais; Wallis",
+    "value": "CH-VS"
+  },
+  {
+    "label": "CH-ZG: Zug",
+    "value": "CH-ZG"
+  },
+  {
+    "label": "CH-ZH: Zürich",
+    "value": "CH-ZH"
+  }
+]

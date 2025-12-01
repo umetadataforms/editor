@@ -1,0 +1,54 @@
+[
+  {
+    "label": "KP-01: P'yǒngyang; Phyeongyang",
+    "value": "KP-01"
+  },
+  {
+    "label": "KP-02: P'yǒngan-namdo; Phyeongannamto",
+    "value": "KP-02"
+  },
+  {
+    "label": "KP-03: P'yǒngan-bukto; Phyeonganpukto",
+    "value": "KP-03"
+  },
+  {
+    "label": "KP-04: Chagang-do; Jakangto",
+    "value": "KP-04"
+  },
+  {
+    "label": "KP-05: Hwanghae-namdo; Hwanghainamto",
+    "value": "KP-05"
+  },
+  {
+    "label": "KP-06: Hwanghae-bukto; Hwanghaipukto",
+    "value": "KP-06"
+  },
+  {
+    "label": "KP-07: Kangweonto; Kangwǒn-do",
+    "value": "KP-07"
+  },
+  {
+    "label": "KP-08: Hamgyǒng-namdo; Hamkyeongnamto",
+    "value": "KP-08"
+  },
+  {
+    "label": "KP-09: Hamgyǒng-bukto; Hamkyeongpukto",
+    "value": "KP-09"
+  },
+  {
+    "label": "KP-10: Ryanggang-do; Ryangkangto",
+    "value": "KP-10"
+  },
+  {
+    "label": "KP-13: Raseon; Rasǒn",
+    "value": "KP-13"
+  },
+  {
+    "label": "KP-14: Nampho; Namp’o",
+    "value": "KP-14"
+  },
+  {
+    "label": "KP-15: Kaeseong; Kaesŏng",
+    "value": "KP-15"
+  }
+]

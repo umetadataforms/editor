@@ -1,0 +1,38 @@
+[
+  {
+    "label": "KG-B: Batken; Batkenskaja oblast'; Batkenskaya oblast'",
+    "value": "KG-B"
+  },
+  {
+    "label": "KG-C: Chuyskaya oblast'; Chüy; Čujskaja oblast'",
+    "value": "KG-C"
+  },
+  {
+    "label": "KG-GB: Bishkek Shaary; Gorod Bishkek; Gorod Biškek",
+    "value": "KG-GB"
+  },
+  {
+    "label": "KG-GO: Gorod Osh; Gorod Oš; Osh Shaary",
+    "value": "KG-GO"
+  },
+  {
+    "label": "KG-J: Dzhalal-Abadskaya oblast'; Džalal-Abadskaja oblast'; Jalal-Abad",
+    "value": "KG-J"
+  },
+  {
+    "label": "KG-N: Naryn; Narynskaja oblast'; Narynskaya oblast'",
+    "value": "KG-N"
+  },
+  {
+    "label": "KG-O: Osh; Oshskaya oblast'; Ošskaja oblast'",
+    "value": "KG-O"
+  },
+  {
+    "label": "KG-T: Talas; Talasskaja oblast'; Talasskaya oblast'",
+    "value": "KG-T"
+  },
+  {
+    "label": "KG-Y: Issyk-Kul'skaja oblast'; Issyk-Kul'skaya oblast'; Ysyk-Köl",
+    "value": "KG-Y"
+  }
+]

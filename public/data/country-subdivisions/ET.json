@@ -1,0 +1,54 @@
+[
+  {
+    "label": "ET-AA: Addis Ababa; Ādīs Ābeba",
+    "value": "ET-AA"
+  },
+  {
+    "label": "ET-AF: Afar; Āfar",
+    "value": "ET-AF"
+  },
+  {
+    "label": "ET-AM: Amara; Āmara",
+    "value": "ET-AM"
+  },
+  {
+    "label": "ET-BE: Benshangul-Gumaz; Bīnshangul Gumuz",
+    "value": "ET-BE"
+  },
+  {
+    "label": "ET-DD: Dire Dawa; Dirē Dawa",
+    "value": "ET-DD"
+  },
+  {
+    "label": "ET-GA: Gambela Peoples; Gambēla Hizboch",
+    "value": "ET-GA"
+  },
+  {
+    "label": "ET-HA: Harari People; Hārerī Hizb",
+    "value": "ET-HA"
+  },
+  {
+    "label": "ET-OR: Oromia; Oromīya",
+    "value": "ET-OR"
+  },
+  {
+    "label": "ET-SI: Sidama; Sīdama",
+    "value": "ET-SI"
+  },
+  {
+    "label": "ET-SN: Southern Nations; YeDebub Bihēroch Bihēreseboch na Hizboch",
+    "value": "ET-SN"
+  },
+  {
+    "label": "ET-SO: Somali; Sumalē",
+    "value": "ET-SO"
+  },
+  {
+    "label": "ET-SW: Southwest Ethiopia Peoples; YeDebub M‘irab Ītyop’iya Hizboch",
+    "value": "ET-SW"
+  },
+  {
+    "label": "ET-TI: Tigrai; Tigray",
+    "value": "ET-TI"
+  }
+]

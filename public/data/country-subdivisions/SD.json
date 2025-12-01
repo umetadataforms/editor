@@ -1,0 +1,74 @@
+[
+  {
+    "label": "SD-DC: Central Darfur; Wasaţ Dārfūr",
+    "value": "SD-DC"
+  },
+  {
+    "label": "SD-DE: East Darfur; Sharq Dārfūr",
+    "value": "SD-DE"
+  },
+  {
+    "label": "SD-DN: North Darfur; Shamāl Dārfūr",
+    "value": "SD-DN"
+  },
+  {
+    "label": "SD-DS: Janūb Dārfūr; South Darfur",
+    "value": "SD-DS"
+  },
+  {
+    "label": "SD-DW: Gharb Dārfūr; West Darfur",
+    "value": "SD-DW"
+  },
+  {
+    "label": "SD-GD: Al Qaḑārif; Gedaref",
+    "value": "SD-GD"
+  },
+  {
+    "label": "SD-GK: Gharb Kurdufān; West Kordofan",
+    "value": "SD-GK"
+  },
+  {
+    "label": "SD-GZ: Al Jazīrah; Gezira",
+    "value": "SD-GZ"
+  },
+  {
+    "label": "SD-KA: Kassala; Kassalā",
+    "value": "SD-KA"
+  },
+  {
+    "label": "SD-KH: Al Kharţūm; Khartoum",
+    "value": "SD-KH"
+  },
+  {
+    "label": "SD-KN: North Kordofan; Shamāl Kurdufān",
+    "value": "SD-KN"
+  },
+  {
+    "label": "SD-KS: Janūb Kurdufān; South Kordofan",
+    "value": "SD-KS"
+  },
+  {
+    "label": "SD-NB: An Nīl al Azraq; Blue Nile",
+    "value": "SD-NB"
+  },
+  {
+    "label": "SD-NO: Ash Shamālīyah; Northern",
+    "value": "SD-NO"
+  },
+  {
+    "label": "SD-NR: Nahr an Nīl; River Nile",
+    "value": "SD-NR"
+  },
+  {
+    "label": "SD-NW: An Nīl al Abyaḑ; White Nile",
+    "value": "SD-NW"
+  },
+  {
+    "label": "SD-RS: Al Baḩr al Aḩmar; Red Sea",
+    "value": "SD-RS"
+  },
+  {
+    "label": "SD-SI: Sennar; Sinnār",
+    "value": "SD-SI"
+  }
+]

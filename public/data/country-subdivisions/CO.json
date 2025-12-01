@@ -1,0 +1,134 @@
+[
+  {
+    "label": "CO-AMA: Amazonas",
+    "value": "CO-AMA"
+  },
+  {
+    "label": "CO-ANT: Antioquia",
+    "value": "CO-ANT"
+  },
+  {
+    "label": "CO-ARA: Arauca",
+    "value": "CO-ARA"
+  },
+  {
+    "label": "CO-ATL: Atlántico",
+    "value": "CO-ATL"
+  },
+  {
+    "label": "CO-BOL: Bolívar",
+    "value": "CO-BOL"
+  },
+  {
+    "label": "CO-BOY: Boyacá",
+    "value": "CO-BOY"
+  },
+  {
+    "label": "CO-CAL: Caldas",
+    "value": "CO-CAL"
+  },
+  {
+    "label": "CO-CAQ: Caquetá",
+    "value": "CO-CAQ"
+  },
+  {
+    "label": "CO-CAS: Casanare",
+    "value": "CO-CAS"
+  },
+  {
+    "label": "CO-CAU: Cauca",
+    "value": "CO-CAU"
+  },
+  {
+    "label": "CO-CES: Cesar",
+    "value": "CO-CES"
+  },
+  {
+    "label": "CO-CHO: Chocó",
+    "value": "CO-CHO"
+  },
+  {
+    "label": "CO-COR: Córdoba",
+    "value": "CO-COR"
+  },
+  {
+    "label": "CO-CUN: Cundinamarca",
+    "value": "CO-CUN"
+  },
+  {
+    "label": "CO-DC: Distrito Capital de Bogotá",
+    "value": "CO-DC"
+  },
+  {
+    "label": "CO-GUA: Guainía",
+    "value": "CO-GUA"
+  },
+  {
+    "label": "CO-GUV: Guaviare",
+    "value": "CO-GUV"
+  },
+  {
+    "label": "CO-HUI: Huila",
+    "value": "CO-HUI"
+  },
+  {
+    "label": "CO-LAG: La Guajira",
+    "value": "CO-LAG"
+  },
+  {
+    "label": "CO-MAG: Magdalena",
+    "value": "CO-MAG"
+  },
+  {
+    "label": "CO-MET: Meta",
+    "value": "CO-MET"
+  },
+  {
+    "label": "CO-NAR: Nariño",
+    "value": "CO-NAR"
+  },
+  {
+    "label": "CO-NSA: Norte de Santander",
+    "value": "CO-NSA"
+  },
+  {
+    "label": "CO-PUT: Putumayo",
+    "value": "CO-PUT"
+  },
+  {
+    "label": "CO-QUI: Quindío",
+    "value": "CO-QUI"
+  },
+  {
+    "label": "CO-RIS: Risaralda",
+    "value": "CO-RIS"
+  },
+  {
+    "label": "CO-SAN: Santander",
+    "value": "CO-SAN"
+  },
+  {
+    "label": "CO-SAP: San Andrés",
+    "value": "CO-SAP"
+  },
+  {
+    "label": "CO-SUC: Sucre",
+    "value": "CO-SUC"
+  },
+  {
+    "label": "CO-TOL: Tolima",
+    "value": "CO-TOL"
+  },
+  {
+    "label": "CO-VAC: Valle del Cauca",
+    "value": "CO-VAC"
+  },
+  {
+    "label": "CO-VAU: Vaupés",
+    "value": "CO-VAU"
+  },
+  {
+    "label": "CO-VID: Vichada",
+    "value": "CO-VID"
+  }
+]

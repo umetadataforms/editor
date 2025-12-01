@@ -1,0 +1,42 @@
+[
+  {
+    "label": "SB-CE: Central",
+    "value": "SB-CE"
+  },
+  {
+    "label": "SB-CH: Choiseul",
+    "value": "SB-CH"
+  },
+  {
+    "label": "SB-CT: Capital Territory",
+    "value": "SB-CT"
+  },
+  {
+    "label": "SB-GU: Guadalcanal",
+    "value": "SB-GU"
+  },
+  {
+    "label": "SB-IS: Isabel",
+    "value": "SB-IS"
+  },
+  {
+    "label": "SB-MK: Makira-Ulawa",
+    "value": "SB-MK"
+  },
+  {
+    "label": "SB-ML: Malaita",
+    "value": "SB-ML"
+  },
+  {
+    "label": "SB-RB: Rennell and Bellona",
+    "value": "SB-RB"
+  },
+  {
+    "label": "SB-TE: Temotu",
+    "value": "SB-TE"
+  },
+  {
+    "label": "SB-WE: Western",
+    "value": "SB-WE"
+  }
+]

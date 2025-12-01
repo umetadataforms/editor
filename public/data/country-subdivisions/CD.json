@@ -1,0 +1,106 @@
+[
+  {
+    "label": "CD-BC: Kongo Central",
+    "value": "CD-BC"
+  },
+  {
+    "label": "CD-BU: Bas-Uélé",
+    "value": "CD-BU"
+  },
+  {
+    "label": "CD-EQ: Équateur",
+    "value": "CD-EQ"
+  },
+  {
+    "label": "CD-HK: Haut-Katanga",
+    "value": "CD-HK"
+  },
+  {
+    "label": "CD-HL: Haut-Lomami",
+    "value": "CD-HL"
+  },
+  {
+    "label": "CD-HU: Haut-Uélé",
+    "value": "CD-HU"
+  },
+  {
+    "label": "CD-IT: Ituri",
+    "value": "CD-IT"
+  },
+  {
+    "label": "CD-KC: Kasaï Central",
+    "value": "CD-KC"
+  },
+  {
+    "label": "CD-KE: Kasaï Oriental",
+    "value": "CD-KE"
+  },
+  {
+    "label": "CD-KG: Kwango",
+    "value": "CD-KG"
+  },
+  {
+    "label": "CD-KL: Kwilu",
+    "value": "CD-KL"
+  },
+  {
+    "label": "CD-KN: Kinshasa",
+    "value": "CD-KN"
+  },
+  {
+    "label": "CD-KS: Kasaï",
+    "value": "CD-KS"
+  },
+  {
+    "label": "CD-LO: Lomami",
+    "value": "CD-LO"
+  },
+  {
+    "label": "CD-LU: Lualaba",
+    "value": "CD-LU"
+  },
+  {
+    "label": "CD-MA: Maniema",
+    "value": "CD-MA"
+  },
+  {
+    "label": "CD-MN: Mai-Ndombe",
+    "value": "CD-MN"
+  },
+  {
+    "label": "CD-MO: Mongala",
+    "value": "CD-MO"
+  },
+  {
+    "label": "CD-NK: Nord-Kivu",
+    "value": "CD-NK"
+  },
+  {
+    "label": "CD-NU: Nord-Ubangi",
+    "value": "CD-NU"
+  },
+  {
+    "label": "CD-SA: Sankuru",
+    "value": "CD-SA"
+  },
+  {
+    "label": "CD-SK: Sud-Kivu",
+    "value": "CD-SK"
+  },
+  {
+    "label": "CD-SU: Sud-Ubangi",
+    "value": "CD-SU"
+  },
+  {
+    "label": "CD-TA: Tanganyika",
+    "value": "CD-TA"
+  },
+  {
+    "label": "CD-TO: Tshopo",
+    "value": "CD-TO"
+  },
+  {
+    "label": "CD-TU: Tshuapa",
+    "value": "CD-TU"
+  }
+]

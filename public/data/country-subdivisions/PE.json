@@ -1,0 +1,106 @@
+[
+  {
+    "label": "PE-AMA: Amarumayu; Amasunu; Amazonas",
+    "value": "PE-AMA"
+  },
+  {
+    "label": "PE-ANC: Ancash; Ankashu; Anqash",
+    "value": "PE-ANC"
+  },
+  {
+    "label": "PE-APU: Apurimaq; Apurímac",
+    "value": "PE-APU"
+  },
+  {
+    "label": "PE-ARE: Arequipa; Arikipa; Ariqipa",
+    "value": "PE-ARE"
+  },
+  {
+    "label": "PE-AYA: Ayacucho; Ayakuchu; Ayaquchu",
+    "value": "PE-AYA"
+  },
+  {
+    "label": "PE-CAJ: Cajamarca; Kashamarka; Qajamarka",
+    "value": "PE-CAJ"
+  },
+  {
+    "label": "PE-CAL: El Callao; Kallao; Qallaw",
+    "value": "PE-CAL"
+  },
+  {
+    "label": "PE-CUS: Cusco; Kusku; Qusqu",
+    "value": "PE-CUS"
+  },
+  {
+    "label": "PE-HUC: Huánuco; Wanuku",
+    "value": "PE-HUC"
+  },
+  {
+    "label": "PE-HUV: Huancavelica; Wankawelika; Wankawillka",
+    "value": "PE-HUV"
+  },
+  {
+    "label": "PE-ICA: Ica; Ika",
+    "value": "PE-ICA"
+  },
+  {
+    "label": "PE-JUN: Hunin; Junin; Junín",
+    "value": "PE-JUN"
+  },
+  {
+    "label": "PE-LAL: La Libertad; Qispi kay",
+    "value": "PE-LAL"
+  },
+  {
+    "label": "PE-LAM: Lambayeque; Lampalliqi",
+    "value": "PE-LAM"
+  },
+  {
+    "label": "PE-LIM: Lima",
+    "value": "PE-LIM"
+  },
+  {
+    "label": "PE-LMA: Lima hatun llaqta; Lima llaqta suyu; Municipalidad Metropolitana de Lima",
+    "value": "PE-LMA"
+  },
+  {
+    "label": "PE-LOR: Loreto; Luritu",
+    "value": "PE-LOR"
+  },
+  {
+    "label": "PE-MDD: Madre de Dios; Mayutata",
+    "value": "PE-MDD"
+  },
+  {
+    "label": "PE-MOQ: Moquegua; Moqwegwa; Muqiwa",
+    "value": "PE-MOQ"
+  },
+  {
+    "label": "PE-PAS: Pasco; Pasqu",
+    "value": "PE-PAS"
+  },
+  {
+    "label": "PE-PIU: Piura; Piwra",
+    "value": "PE-PIU"
+  },
+  {
+    "label": "PE-PUN: Puno; Punu",
+    "value": "PE-PUN"
+  },
+  {
+    "label": "PE-SAM: San Martin; San Martín",
+    "value": "PE-SAM"
+  },
+  {
+    "label": "PE-TAC: Tacna; Takna; Taqna",
+    "value": "PE-TAC"
+  },
+  {
+    "label": "PE-TUM: Tumbes; Tumpis",
+    "value": "PE-TUM"
+  },
+  {
+    "label": "PE-UCA: Ucayali; Ukayali",
+    "value": "PE-UCA"
+  }
+]

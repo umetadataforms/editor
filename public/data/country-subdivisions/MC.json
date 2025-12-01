@@ -1,0 +1,70 @@
+[
+  {
+    "label": "MC-CL: La Colle",
+    "value": "MC-CL"
+  },
+  {
+    "label": "MC-CO: La Condamine",
+    "value": "MC-CO"
+  },
+  {
+    "label": "MC-FO: Fontvieille",
+    "value": "MC-FO"
+  },
+  {
+    "label": "MC-GA: La Gare",
+    "value": "MC-GA"
+  },
+  {
+    "label": "MC-JE: Jardin Exotique",
+    "value": "MC-JE"
+  },
+  {
+    "label": "MC-LA: Larvotto",
+    "value": "MC-LA"
+  },
+  {
+    "label": "MC-MA: Malbousquet",
+    "value": "MC-MA"
+  },
+  {
+    "label": "MC-MC: Monte-Carlo",
+    "value": "MC-MC"
+  },
+  {
+    "label": "MC-MG: Moneghetti",
+    "value": "MC-MG"
+  },
+  {
+    "label": "MC-MO: Monaco-Ville",
+    "value": "MC-MO"
+  },
+  {
+    "label": "MC-MU: Moulins",
+    "value": "MC-MU"
+  },
+  {
+    "label": "MC-PH: Port-Hercule",
+    "value": "MC-PH"
+  },
+  {
+    "label": "MC-SD: Sainte-Dévote",
+    "value": "MC-SD"
+  },
+  {
+    "label": "MC-SO: La Source",
+    "value": "MC-SO"
+  },
+  {
+    "label": "MC-SP: Spélugues",
+    "value": "MC-SP"
+  },
+  {
+    "label": "MC-SR: Saint-Roman",
+    "value": "MC-SR"
+  },
+  {
+    "label": "MC-VR: Vallon de la Rousse",
+    "value": "MC-VR"
+  }
+]

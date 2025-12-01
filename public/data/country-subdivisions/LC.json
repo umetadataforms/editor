@@ -1,0 +1,42 @@
+[
+  {
+    "label": "LC-01: Anse la Raye",
+    "value": "LC-01"
+  },
+  {
+    "label": "LC-02: Castries",
+    "value": "LC-02"
+  },
+  {
+    "label": "LC-03: Choiseul",
+    "value": "LC-03"
+  },
+  {
+    "label": "LC-05: Dennery",
+    "value": "LC-05"
+  },
+  {
+    "label": "LC-06: Gros Islet",
+    "value": "LC-06"
+  },
+  {
+    "label": "LC-07: Laborie",
+    "value": "LC-07"
+  },
+  {
+    "label": "LC-08: Micoud",
+    "value": "LC-08"
+  },
+  {
+    "label": "LC-10: Soufrière",
+    "value": "LC-10"
+  },
+  {
+    "label": "LC-11: Vieux Fort",
+    "value": "LC-11"
+  },
+  {
+    "label": "LC-12: Canaries",
+    "value": "LC-12"
+  }
+]

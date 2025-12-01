@@ -1,0 +1,66 @@
+[
+  {
+    "label": "BW-CE: Central",
+    "value": "BW-CE"
+  },
+  {
+    "label": "BW-CH: Chobe",
+    "value": "BW-CH"
+  },
+  {
+    "label": "BW-FR: Francistown",
+    "value": "BW-FR"
+  },
+  {
+    "label": "BW-GA: Gaborone",
+    "value": "BW-GA"
+  },
+  {
+    "label": "BW-GH: Ghanzi",
+    "value": "BW-GH"
+  },
+  {
+    "label": "BW-JW: Jwaneng",
+    "value": "BW-JW"
+  },
+  {
+    "label": "BW-KG: Kgalagadi",
+    "value": "BW-KG"
+  },
+  {
+    "label": "BW-KL: Kgatleng",
+    "value": "BW-KL"
+  },
+  {
+    "label": "BW-KW: Kweneng",
+    "value": "BW-KW"
+  },
+  {
+    "label": "BW-LO: Lobatse",
+    "value": "BW-LO"
+  },
+  {
+    "label": "BW-NE: North East",
+    "value": "BW-NE"
+  },
+  {
+    "label": "BW-NW: North West",
+    "value": "BW-NW"
+  },
+  {
+    "label": "BW-SE: South East",
+    "value": "BW-SE"
+  },
+  {
+    "label": "BW-SO: Southern",
+    "value": "BW-SO"
+  },
+  {
+    "label": "BW-SP: Selibe Phikwe",
+    "value": "BW-SP"
+  },
+  {
+    "label": "BW-ST: Sowa Town",
+    "value": "BW-ST"
+  }
+]

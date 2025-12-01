@@ -1,0 +1,146 @@
+[
+  {
+    "label": "IN-AN: Andaman and Nicobar Islands",
+    "value": "IN-AN"
+  },
+  {
+    "label": "IN-AP: Andhra Pradesh",
+    "value": "IN-AP"
+  },
+  {
+    "label": "IN-AR: Arunāchal Pradesh",
+    "value": "IN-AR"
+  },
+  {
+    "label": "IN-AS: Assam",
+    "value": "IN-AS"
+  },
+  {
+    "label": "IN-BR: Bihār",
+    "value": "IN-BR"
+  },
+  {
+    "label": "IN-CG: Chhattīsgarh",
+    "value": "IN-CG"
+  },
+  {
+    "label": "IN-CH: Chandīgarh",
+    "value": "IN-CH"
+  },
+  {
+    "label": "IN-DH: Dādra and Nagar Haveli and Damān and Diu",
+    "value": "IN-DH"
+  },
+  {
+    "label": "IN-DL: Delhi",
+    "value": "IN-DL"
+  },
+  {
+    "label": "IN-GA: Goa",
+    "value": "IN-GA"
+  },
+  {
+    "label": "IN-GJ: Gujarāt",
+    "value": "IN-GJ"
+  },
+  {
+    "label": "IN-HP: Himāchal Pradesh",
+    "value": "IN-HP"
+  },
+  {
+    "label": "IN-HR: Haryāna",
+    "value": "IN-HR"
+  },
+  {
+    "label": "IN-JH: Jhārkhand",
+    "value": "IN-JH"
+  },
+  {
+    "label": "IN-JK: Jammu and Kashmīr",
+    "value": "IN-JK"
+  },
+  {
+    "label": "IN-KA: Karnātaka",
+    "value": "IN-KA"
+  },
+  {
+    "label": "IN-KL: Kerala",
+    "value": "IN-KL"
+  },
+  {
+    "label": "IN-LA: Ladākh",
+    "value": "IN-LA"
+  },
+  {
+    "label": "IN-LD: Lakshadweep",
+    "value": "IN-LD"
+  },
+  {
+    "label": "IN-MH: Mahārāshtra",
+    "value": "IN-MH"
+  },
+  {
+    "label": "IN-ML: Meghālaya",
+    "value": "IN-ML"
+  },
+  {
+    "label": "IN-MN: Manipur",
+    "value": "IN-MN"
+  },
+  {
+    "label": "IN-MP: Madhya Pradesh",
+    "value": "IN-MP"
+  },
+  {
+    "label": "IN-MZ: Mizoram",
+    "value": "IN-MZ"
+  },
+  {
+    "label": "IN-NL: Nāgāland",
+    "value": "IN-NL"
+  },
+  {
+    "label": "IN-OD: Odisha",
+    "value": "IN-OD"
+  },
+  {
+    "label": "IN-PB: Punjab",
+    "value": "IN-PB"
+  },
+  {
+    "label": "IN-PY: Puducherry",
+    "value": "IN-PY"
+  },
+  {
+    "label": "IN-RJ: Rājasthān",
+    "value": "IN-RJ"
+  },
+  {
+    "label": "IN-SK: Sikkim",
+    "value": "IN-SK"
+  },
+  {
+    "label": "IN-TN: Tamil Nādu",
+    "value": "IN-TN"
+  },
+  {
+    "label": "IN-TR: Tripura",
+    "value": "IN-TR"
+  },
+  {
+    "label": "IN-TS: Telangāna",
+    "value": "IN-TS"
+  },
+  {
+    "label": "IN-UK: Uttarākhand",
+    "value": "IN-UK"
+  },
+  {
+    "label": "IN-UP: Uttar Pradesh",
+    "value": "IN-UP"
+  },
+  {
+    "label": "IN-WB: West Bengal",
+    "value": "IN-WB"
+  }
+]

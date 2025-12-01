@@ -1,0 +1,47 @@
+{
+  "$schema": "real-dataset-metadata/vc.json",
+  "label": "PTB-XL",
+  "version": "1.0.1",
+  "version_date": "2020-05-25",
+  "version_info": "Version 1.0.1 includes ECG signals in raw and filtered formats, structured metadata annotations (diagnostic, form, rhythm), and patient-level metadata.",
+  "title": "Large Publicly Available Electrocardiography Dataset (PTB-XL)",
+  "description": "PTB-XL is a large publicly available electrocardiography (ECG) dataset containing clinical 12-lead ECG signals from 21,837 records of 18,885 patients. It is designed for machine learning and deep learning research, and includes both raw signals and extensive annotations in a structured form.",
+  "purpose": "To provide a large-scale benchmark dataset for ECG analysis and machine learning-based classification, diagnosis, prognosis prediction, as well as generative tasks such as synthesis and data augmentation.",
+  "disease": "Cardiac conditions",
+  "study_design": "Retrospective observational study conducted using ECG data from routine clinical care at a tertiary care hospital.",
+  "patient_num": 18885,
+  "patient_criteria": "Inclusion: ECG recordings from patients referred to a tertiary care university hospital for suspected cardiovascular conditions. Exclusion: ECG recordings with corrupted or missing leads were excluded.",
+  "target_variables": "Diagnostic labels including myocardial infarction, bundle branch block, ST/T changes, hypertrophy, arrhythmia, and other ECG abnormalities.",
+  "time_zero": "The baseline was the date when a 10-second 12-lead ECG recording was taken for each patient.",
+  "temporal_coverage": {
+    "start_date": "1989-01-01",
+    "end_date": "1996-12-31"
+  },
+  "spatial_coverage": ["DEU"],
+  "source_urls": ["https://physionet.org/content/ptb-xl/1.0.1/"],
+  "acquisition_methods": "The PTB-XL dataset includes 12-lead clinical ECG recordings acquired using standardised medical equipment in a clinical setting. The data were collected using Schiller AG ECG devices during routine care. Each recording is 10 seconds long and has been annotated by cardiologists. Two versions are available: raw signals at 500 Hz and downsampled versions at 100 Hz.",
+  "healthcare_setting": "tertiary care",
+  "documentation": ["https://physionet.org/static/published-projects/ptb-xl/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.1.pdf"],
+  "publications": ["https://doi.org/10.1038/s41597-020-0495-6", "https://doi.org/10.1161/01.cir.101.23.e215"],
+  "data_modalities": ["TS:ECG"],
+  "privacy_compliance": "Data were fully anonymised prior to publication according to PhysioNet standards. No identifying personal data are included.",
+  "ethics_approval": {
+    "obtained": true,
+    "obtained_date": "2020-01-01",
+    "register_number": "EA1/134/19",
+    "details": "Study approved for public sharing of anonymised ECG data for research purposes."
+  },
+  "patient_consent": {
+    "obtained": true,
+    "details": "Patient consent was obtained for data use in anonymised form for research purposes."
+  },
+  "owner": "PhysioNet",
+  "licence": "Creative Commons Attribution 4.0 International Public License",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "doi": "10.13026/s6n6-xd98",
+  "citation": "Please cite all two papers: 1) Wagner P, Strodthoff N, Bousseljot RD, et al. PTB-XL, a large publicly available electrocardiography dataset. Sci Data. 2020;7(1):154.  2) Goldberger AL, Amaral LA, Glass L, et al. PhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals. Circulation. 2000;101(23):E215-E220.",
+  "tasks": ["classification", "Generation"],
+  "format": "WFDB",
+  "keywords": ["Electrocardiography", "ECG classification", "ECG Generation", "Time series", "Public dataset"]
+}
+

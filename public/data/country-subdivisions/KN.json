@@ -1,0 +1,66 @@
+[
+  {
+    "label": "KN-01: Christ Church Nichola Town",
+    "value": "KN-01"
+  },
+  {
+    "label": "KN-02: Saint Anne Sandy Point",
+    "value": "KN-02"
+  },
+  {
+    "label": "KN-03: Saint George Basseterre",
+    "value": "KN-03"
+  },
+  {
+    "label": "KN-04: Saint George Gingerland",
+    "value": "KN-04"
+  },
+  {
+    "label": "KN-05: Saint James Windward",
+    "value": "KN-05"
+  },
+  {
+    "label": "KN-06: Saint John Capisterre",
+    "value": "KN-06"
+  },
+  {
+    "label": "KN-07: Saint John Figtree",
+    "value": "KN-07"
+  },
+  {
+    "label": "KN-08: Saint Mary Cayon",
+    "value": "KN-08"
+  },
+  {
+    "label": "KN-09: Saint Paul Capisterre",
+    "value": "KN-09"
+  },
+  {
+    "label": "KN-10: Saint Paul Charlestown",
+    "value": "KN-10"
+  },
+  {
+    "label": "KN-11: Saint Peter Basseterre",
+    "value": "KN-11"
+  },
+  {
+    "label": "KN-12: Saint Thomas Lowland",
+    "value": "KN-12"
+  },
+  {
+    "label": "KN-13: Saint Thomas Middle Island",
+    "value": "KN-13"
+  },
+  {
+    "label": "KN-15: Trinity Palmetto Point",
+    "value": "KN-15"
+  },
+  {
+    "label": "KN-K: Saint Kitts",
+    "value": "KN-K"
+  },
+  {
+    "label": "KN-N: Nevis",
+    "value": "KN-N"
+  }
+]

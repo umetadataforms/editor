@@ -1,0 +1,230 @@
+[
+  {
+    "label": "US-AK: Alaska",
+    "value": "US-AK"
+  },
+  {
+    "label": "US-AL: Alabama",
+    "value": "US-AL"
+  },
+  {
+    "label": "US-AR: Arkansas",
+    "value": "US-AR"
+  },
+  {
+    "label": "US-AS: American Samoa",
+    "value": "US-AS"
+  },
+  {
+    "label": "US-AZ: Arizona",
+    "value": "US-AZ"
+  },
+  {
+    "label": "US-CA: California",
+    "value": "US-CA"
+  },
+  {
+    "label": "US-CO: Colorado",
+    "value": "US-CO"
+  },
+  {
+    "label": "US-CT: Connecticut",
+    "value": "US-CT"
+  },
+  {
+    "label": "US-DC: District of Columbia",
+    "value": "US-DC"
+  },
+  {
+    "label": "US-DE: Delaware",
+    "value": "US-DE"
+  },
+  {
+    "label": "US-FL: Florida",
+    "value": "US-FL"
+  },
+  {
+    "label": "US-GA: Georgia",
+    "value": "US-GA"
+  },
+  {
+    "label": "US-GU: Guam",
+    "value": "US-GU"
+  },
+  {
+    "label": "US-HI: Hawaii",
+    "value": "US-HI"
+  },
+  {
+    "label": "US-IA: Iowa",
+    "value": "US-IA"
+  },
+  {
+    "label": "US-ID: Idaho",
+    "value": "US-ID"
+  },
+  {
+    "label": "US-IL: Illinois",
+    "value": "US-IL"
+  },
+  {
+    "label": "US-IN: Indiana",
+    "value": "US-IN"
+  },
+  {
+    "label": "US-KS: Kansas",
+    "value": "US-KS"
+  },
+  {
+    "label": "US-KY: Kentucky",
+    "value": "US-KY"
+  },
+  {
+    "label": "US-LA: Louisiana",
+    "value": "US-LA"
+  },
+  {
+    "label": "US-MA: Massachusetts",
+    "value": "US-MA"
+  },
+  {
+    "label": "US-MD: Maryland",
+    "value": "US-MD"
+  },
+  {
+    "label": "US-ME: Maine",
+    "value": "US-ME"
+  },
+  {
+    "label": "US-MI: Michigan",
+    "value": "US-MI"
+  },
+  {
+    "label": "US-MN: Minnesota",
+    "value": "US-MN"
+  },
+  {
+    "label": "US-MO: Missouri",
+    "value": "US-MO"
+  },
+  {
+    "label": "US-MP: Northern Mariana Islands",
+    "value": "US-MP"
+  },
+  {
+    "label": "US-MS: Mississippi",
+    "value": "US-MS"
+  },
+  {
+    "label": "US-MT: Montana",
+    "value": "US-MT"
+  },
+  {
+    "label": "US-NC: North Carolina",
+    "value": "US-NC"
+  },
+  {
+    "label": "US-ND: North Dakota",
+    "value": "US-ND"
+  },
+  {
+    "label": "US-NE: Nebraska",
+    "value": "US-NE"
+  },
+  {
+    "label": "US-NH: New Hampshire",
+    "value": "US-NH"
+  },
+  {
+    "label": "US-NJ: New Jersey",
+    "value": "US-NJ"
+  },
+  {
+    "label": "US-NM: New Mexico",
+    "value": "US-NM"
+  },
+  {
+    "label": "US-NV: Nevada",
+    "value": "US-NV"
+  },
+  {
+    "label": "US-NY: New York",
+    "value": "US-NY"
+  },
+  {
+    "label": "US-OH: Ohio",
+    "value": "US-OH"
+  },
+  {
+    "label": "US-OK: Oklahoma",
+    "value": "US-OK"
+  },
+  {
+    "label": "US-OR: Oregon",
+    "value": "US-OR"
+  },
+  {
+    "label": "US-PA: Pennsylvania",
+    "value": "US-PA"
+  },
+  {
+    "label": "US-PR: Puerto Rico",
+    "value": "US-PR"
+  },
+  {
+    "label": "US-RI: Rhode Island",
+    "value": "US-RI"
+  },
+  {
+    "label": "US-SC: South Carolina",
+    "value": "US-SC"
+  },
+  {
+    "label": "US-SD: South Dakota",
+    "value": "US-SD"
+  },
+  {
+    "label": "US-TN: Tennessee",
+    "value": "US-TN"
+  },
+  {
+    "label": "US-TX: Texas",
+    "value": "US-TX"
+  },
+  {
+    "label": "US-UM: United States Minor Outlying Islands",
+    "value": "US-UM"
+  },
+  {
+    "label": "US-UT: Utah",
+    "value": "US-UT"
+  },
+  {
+    "label": "US-VA: Virginia",
+    "value": "US-VA"
+  },
+  {
+    "label": "US-VI: Virgin Islands",
+    "value": "US-VI"
+  },
+  {
+    "label": "US-VT: Vermont",
+    "value": "US-VT"
+  },
+  {
+    "label": "US-WA: Washington",
+    "value": "US-WA"
+  },
+  {
+    "label": "US-WI: Wisconsin",
+    "value": "US-WI"
+  },
+  {
+    "label": "US-WV: West Virginia",
+    "value": "US-WV"
+  },
+  {
+    "label": "US-WY: Wyoming",
+    "value": "US-WY"
+  }
+]

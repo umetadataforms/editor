@@ -1,0 +1,90 @@
+[
+  {
+    "label": "TW-CHA: Changhua",
+    "value": "TW-CHA"
+  },
+  {
+    "label": "TW-CYI: Chiayi",
+    "value": "TW-CYI"
+  },
+  {
+    "label": "TW-CYQ: Chiayi",
+    "value": "TW-CYQ"
+  },
+  {
+    "label": "TW-HSQ: Hsinchu",
+    "value": "TW-HSQ"
+  },
+  {
+    "label": "TW-HSZ: Hsinchu",
+    "value": "TW-HSZ"
+  },
+  {
+    "label": "TW-HUA: Hualien",
+    "value": "TW-HUA"
+  },
+  {
+    "label": "TW-ILA: Yilan",
+    "value": "TW-ILA"
+  },
+  {
+    "label": "TW-KEE: Keelung",
+    "value": "TW-KEE"
+  },
+  {
+    "label": "TW-KHH: Kaohsiung",
+    "value": "TW-KHH"
+  },
+  {
+    "label": "TW-KIN: Kinmen",
+    "value": "TW-KIN"
+  },
+  {
+    "label": "TW-LIE: Lienchiang",
+    "value": "TW-LIE"
+  },
+  {
+    "label": "TW-MIA: Miaoli",
+    "value": "TW-MIA"
+  },
+  {
+    "label": "TW-NAN: Nantou",
+    "value": "TW-NAN"
+  },
+  {
+    "label": "TW-NWT: New Taipei",
+    "value": "TW-NWT"
+  },
+  {
+    "label": "TW-PEN: Penghu",
+    "value": "TW-PEN"
+  },
+  {
+    "label": "TW-PIF: Pingtung",
+    "value": "TW-PIF"
+  },
+  {
+    "label": "TW-TAO: Taoyuan",
+    "value": "TW-TAO"
+  },
+  {
+    "label": "TW-TNN: Tainan",
+    "value": "TW-TNN"
+  },
+  {
+    "label": "TW-TPE: Taipei",
+    "value": "TW-TPE"
+  },
+  {
+    "label": "TW-TTT: Taitung",
+    "value": "TW-TTT"
+  },
+  {
+    "label": "TW-TXG: Taichung",
+    "value": "TW-TXG"
+  },
+  {
+    "label": "TW-YUN: Yunlin",
+    "value": "TW-YUN"
+  }
+]

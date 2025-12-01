@@ -1,0 +1,174 @@
+[
+  {
+    "label": "HU-BA: Baranya",
+    "value": "HU-BA"
+  },
+  {
+    "label": "HU-BC: Békéscsaba",
+    "value": "HU-BC"
+  },
+  {
+    "label": "HU-BE: Békés",
+    "value": "HU-BE"
+  },
+  {
+    "label": "HU-BK: Bács-Kiskun",
+    "value": "HU-BK"
+  },
+  {
+    "label": "HU-BU: Budapest",
+    "value": "HU-BU"
+  },
+  {
+    "label": "HU-BZ: Borsod-Abaúj-Zemplén",
+    "value": "HU-BZ"
+  },
+  {
+    "label": "HU-CS: Csongrád-Csanád",
+    "value": "HU-CS"
+  },
+  {
+    "label": "HU-DE: Debrecen",
+    "value": "HU-DE"
+  },
+  {
+    "label": "HU-DU: Dunaújváros",
+    "value": "HU-DU"
+  },
+  {
+    "label": "HU-EG: Eger",
+    "value": "HU-EG"
+  },
+  {
+    "label": "HU-ER: Érd",
+    "value": "HU-ER"
+  },
+  {
+    "label": "HU-FE: Fejér",
+    "value": "HU-FE"
+  },
+  {
+    "label": "HU-GS: Győr-Moson-Sopron",
+    "value": "HU-GS"
+  },
+  {
+    "label": "HU-GY: Győr",
+    "value": "HU-GY"
+  },
+  {
+    "label": "HU-HB: Hajdú-Bihar",
+    "value": "HU-HB"
+  },
+  {
+    "label": "HU-HE: Heves",
+    "value": "HU-HE"
+  },
+  {
+    "label": "HU-HV: Hódmezővásárhely",
+    "value": "HU-HV"
+  },
+  {
+    "label": "HU-JN: Jász-Nagykun-Szolnok",
+    "value": "HU-JN"
+  },
+  {
+    "label": "HU-KE: Komárom-Esztergom",
+    "value": "HU-KE"
+  },
+  {
+    "label": "HU-KM: Kecskemét",
+    "value": "HU-KM"
+  },
+  {
+    "label": "HU-KV: Kaposvár",
+    "value": "HU-KV"
+  },
+  {
+    "label": "HU-MI: Miskolc",
+    "value": "HU-MI"
+  },
+  {
+    "label": "HU-NK: Nagykanizsa",
+    "value": "HU-NK"
+  },
+  {
+    "label": "HU-NO: Nógrád",
+    "value": "HU-NO"
+  },
+  {
+    "label": "HU-NY: Nyíregyháza",
+    "value": "HU-NY"
+  },
+  {
+    "label": "HU-PE: Pest",
+    "value": "HU-PE"
+  },
+  {
+    "label": "HU-PS: Pécs",
+    "value": "HU-PS"
+  },
+  {
+    "label": "HU-SD: Szeged",
+    "value": "HU-SD"
+  },
+  {
+    "label": "HU-SF: Székesfehérvár",
+    "value": "HU-SF"
+  },
+  {
+    "label": "HU-SH: Szombathely",
+    "value": "HU-SH"
+  },
+  {
+    "label": "HU-SK: Szolnok",
+    "value": "HU-SK"
+  },
+  {
+    "label": "HU-SN: Sopron",
+    "value": "HU-SN"
+  },
+  {
+    "label": "HU-SO: Somogy",
+    "value": "HU-SO"
+  },
+  {
+    "label": "HU-SS: Szekszárd",
+    "value": "HU-SS"
+  },
+  {
+    "label": "HU-ST: Salgótarján",
+    "value": "HU-ST"
+  },
+  {
+    "label": "HU-SZ: Szabolcs-Szatmár-Bereg",
+    "value": "HU-SZ"
+  },
+  {
+    "label": "HU-TB: Tatabánya",
+    "value": "HU-TB"
+  },
+  {
+    "label": "HU-TO: Tolna",
+    "value": "HU-TO"
+  },
+  {
+    "label": "HU-VA: Vas",
+    "value": "HU-VA"
+  },
+  {
+    "label": "HU-VE: Veszprém",
+    "value": "HU-VE"
+  },
+  {
+    "label": "HU-VM: Veszprém",
+    "value": "HU-VM"
+  },
+  {
+    "label": "HU-ZA: Zala",
+    "value": "HU-ZA"
+  },
+  {
+    "label": "HU-ZE: Zalaegerszeg",
+    "value": "HU-ZE"
+  }
+]

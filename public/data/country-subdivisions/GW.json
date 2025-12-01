@@ -1,0 +1,50 @@
+[
+  {
+    "label": "GW-BA: Bafatá",
+    "value": "GW-BA"
+  },
+  {
+    "label": "GW-BL: Bolama / Bijagós",
+    "value": "GW-BL"
+  },
+  {
+    "label": "GW-BM: Biombo",
+    "value": "GW-BM"
+  },
+  {
+    "label": "GW-BS: Bissau",
+    "value": "GW-BS"
+  },
+  {
+    "label": "GW-CA: Cacheu",
+    "value": "GW-CA"
+  },
+  {
+    "label": "GW-GA: Gabú",
+    "value": "GW-GA"
+  },
+  {
+    "label": "GW-L: Leste",
+    "value": "GW-L"
+  },
+  {
+    "label": "GW-N: Norte",
+    "value": "GW-N"
+  },
+  {
+    "label": "GW-OI: Oio",
+    "value": "GW-OI"
+  },
+  {
+    "label": "GW-QU: Quinara",
+    "value": "GW-QU"
+  },
+  {
+    "label": "GW-S: Sul",
+    "value": "GW-S"
+  },
+  {
+    "label": "GW-TO: Tombali",
+    "value": "GW-TO"
+  }
+]

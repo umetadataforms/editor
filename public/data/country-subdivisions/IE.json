@@ -1,0 +1,122 @@
+[
+  {
+    "label": "IE-C: Connacht; Connaught",
+    "value": "IE-C"
+  },
+  {
+    "label": "IE-CE: An Clár; Clare",
+    "value": "IE-CE"
+  },
+  {
+    "label": "IE-CN: An Cabhán; Cavan",
+    "value": "IE-CN"
+  },
+  {
+    "label": "IE-CO: Corcaigh; Cork",
+    "value": "IE-CO"
+  },
+  {
+    "label": "IE-CW: Carlow; Ceatharlach",
+    "value": "IE-CW"
+  },
+  {
+    "label": "IE-D: Baile Átha Cliath; Dublin",
+    "value": "IE-D"
+  },
+  {
+    "label": "IE-DL: Donegal; Dún na nGall",
+    "value": "IE-DL"
+  },
+  {
+    "label": "IE-G: Gaillimh; Galway",
+    "value": "IE-G"
+  },
+  {
+    "label": "IE-KE: Cill Dara; Kildare",
+    "value": "IE-KE"
+  },
+  {
+    "label": "IE-KK: Cill Chainnigh; Kilkenny",
+    "value": "IE-KK"
+  },
+  {
+    "label": "IE-KY: Ciarraí; Kerry",
+    "value": "IE-KY"
+  },
+  {
+    "label": "IE-L: Laighin; Leinster",
+    "value": "IE-L"
+  },
+  {
+    "label": "IE-LD: An Longfort; Longford",
+    "value": "IE-LD"
+  },
+  {
+    "label": "IE-LH: Louth; Lú",
+    "value": "IE-LH"
+  },
+  {
+    "label": "IE-LK: Limerick; Luimneach",
+    "value": "IE-LK"
+  },
+  {
+    "label": "IE-LM: Leitrim; Liatroim",
+    "value": "IE-LM"
+  },
+  {
+    "label": "IE-LS: Laois",
+    "value": "IE-LS"
+  },
+  {
+    "label": "IE-M: An Mhumhain; Munster",
+    "value": "IE-M"
+  },
+  {
+    "label": "IE-MH: An Mhí; Meath",
+    "value": "IE-MH"
+  },
+  {
+    "label": "IE-MN: Monaghan; Muineachán",
+    "value": "IE-MN"
+  },
+  {
+    "label": "IE-MO: Maigh Eo; Mayo",
+    "value": "IE-MO"
+  },
+  {
+    "label": "IE-OY: Offaly; Uíbh Fhailí",
+    "value": "IE-OY"
+  },
+  {
+    "label": "IE-RN: Ros Comáin; Roscommon",
+    "value": "IE-RN"
+  },
+  {
+    "label": "IE-SO: Sligeach; Sligo",
+    "value": "IE-SO"
+  },
+  {
+    "label": "IE-TA: Tiobraid Árann; Tipperary",
+    "value": "IE-TA"
+  },
+  {
+    "label": "IE-U: Ulaidh; Ulster",
+    "value": "IE-U"
+  },
+  {
+    "label": "IE-WD: Port Láirge; Waterford",
+    "value": "IE-WD"
+  },
+  {
+    "label": "IE-WH: An Iarmhí; Westmeath",
+    "value": "IE-WH"
+  },
+  {
+    "label": "IE-WW: Cill Mhantáin; Wicklow",
+    "value": "IE-WW"
+  },
+  {
+    "label": "IE-WX: Loch Garman; Wexford",
+    "value": "IE-WX"
+  }
+]

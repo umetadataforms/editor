@@ -1,0 +1,70 @@
+[
+  {
+    "label": "CF-AC: Ouham; Wâmo",
+    "value": "CF-AC"
+  },
+  {
+    "label": "CF-BB: Bamingui-Bangoran; Bamïngï-Bangoran",
+    "value": "CF-BB"
+  },
+  {
+    "label": "CF-BGF: Bangui; Bangî",
+    "value": "CF-BGF"
+  },
+  {
+    "label": "CF-BK: Basse-Kotto; Do-Kötö",
+    "value": "CF-BK"
+  },
+  {
+    "label": "CF-HK: Haute-Kotto; Tö-Kötö",
+    "value": "CF-HK"
+  },
+  {
+    "label": "CF-HM: Haut-Mbomou; Tö-Mbömü",
+    "value": "CF-HM"
+  },
+  {
+    "label": "CF-HS: Haute-Sangha / Mambéré-Kadéï; Tö-Sangä / Mbaere-Kadeï",
+    "value": "CF-HS"
+  },
+  {
+    "label": "CF-KB: Gribingui; Gïrïbïngï",
+    "value": "CF-KB"
+  },
+  {
+    "label": "CF-KG: Kemö-Gïrïbïngï; Kémo-Gribingui",
+    "value": "CF-KG"
+  },
+  {
+    "label": "CF-LB: Lobaye; Lobâye",
+    "value": "CF-LB"
+  },
+  {
+    "label": "CF-MB: Mbomou; Mbömü",
+    "value": "CF-MB"
+  },
+  {
+    "label": "CF-MP: Ombella-Mpoko; Ömbëlä-Pökö",
+    "value": "CF-MP"
+  },
+  {
+    "label": "CF-NM: Nana-Mambéré; Nanä-Mbaere",
+    "value": "CF-NM"
+  },
+  {
+    "label": "CF-OP: Ouham-Pendé; Wâmo-Pendë",
+    "value": "CF-OP"
+  },
+  {
+    "label": "CF-SE: Sangha; Sangä",
+    "value": "CF-SE"
+  },
+  {
+    "label": "CF-UK: Ouaka; Wäkä",
+    "value": "CF-UK"
+  },
+  {
+    "label": "CF-VK: Vakaga",
+    "value": "CF-VK"
+  }
+]

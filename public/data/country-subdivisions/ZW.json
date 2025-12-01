@@ -1,0 +1,42 @@
+[
+  {
+    "label": "ZW-BU: Bulawayo",
+    "value": "ZW-BU"
+  },
+  {
+    "label": "ZW-HA: Harare",
+    "value": "ZW-HA"
+  },
+  {
+    "label": "ZW-MA: Manicaland",
+    "value": "ZW-MA"
+  },
+  {
+    "label": "ZW-MC: Mashonaland Central",
+    "value": "ZW-MC"
+  },
+  {
+    "label": "ZW-ME: Mashonaland East",
+    "value": "ZW-ME"
+  },
+  {
+    "label": "ZW-MI: Midlands",
+    "value": "ZW-MI"
+  },
+  {
+    "label": "ZW-MN: Matabeleland North",
+    "value": "ZW-MN"
+  },
+  {
+    "label": "ZW-MS: Matabeleland South",
+    "value": "ZW-MS"
+  },
+  {
+    "label": "ZW-MV: Masvingo",
+    "value": "ZW-MV"
+  },
+  {
+    "label": "ZW-MW: Mashonaland West",
+    "value": "ZW-MW"
+  }
+]

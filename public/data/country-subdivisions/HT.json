@@ -1,0 +1,42 @@
+[
+  {
+    "label": "HT-AR: Artibonite; Latibonit",
+    "value": "HT-AR"
+  },
+  {
+    "label": "HT-CE: Centre; Sant",
+    "value": "HT-CE"
+  },
+  {
+    "label": "HT-GA: Grandans; Grande’Anse",
+    "value": "HT-GA"
+  },
+  {
+    "label": "HT-ND: Nord; Nò",
+    "value": "HT-ND"
+  },
+  {
+    "label": "HT-NE: Nord-Est; Nòdès",
+    "value": "HT-NE"
+  },
+  {
+    "label": "HT-NI: Nip; Nippes",
+    "value": "HT-NI"
+  },
+  {
+    "label": "HT-NO: Nord-Ouest; Nòdwès",
+    "value": "HT-NO"
+  },
+  {
+    "label": "HT-OU: Lwès; Ouest",
+    "value": "HT-OU"
+  },
+  {
+    "label": "HT-SD: Sid; Sud",
+    "value": "HT-SD"
+  },
+  {
+    "label": "HT-SE: Sidès; Sud-Est",
+    "value": "HT-SE"
+  }
+]

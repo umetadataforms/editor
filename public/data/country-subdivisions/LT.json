@@ -1,0 +1,282 @@
+[
+  {
+    "label": "LT-01: Akmenė",
+    "value": "LT-01"
+  },
+  {
+    "label": "LT-02: Alytaus miestas",
+    "value": "LT-02"
+  },
+  {
+    "label": "LT-03: Alytus",
+    "value": "LT-03"
+  },
+  {
+    "label": "LT-04: Anykščiai",
+    "value": "LT-04"
+  },
+  {
+    "label": "LT-05: Birštonas",
+    "value": "LT-05"
+  },
+  {
+    "label": "LT-06: Biržai",
+    "value": "LT-06"
+  },
+  {
+    "label": "LT-07: Druskininkai",
+    "value": "LT-07"
+  },
+  {
+    "label": "LT-08: Elektrėnai",
+    "value": "LT-08"
+  },
+  {
+    "label": "LT-09: Ignalina",
+    "value": "LT-09"
+  },
+  {
+    "label": "LT-10: Jonava",
+    "value": "LT-10"
+  },
+  {
+    "label": "LT-11: Joniškis",
+    "value": "LT-11"
+  },
+  {
+    "label": "LT-12: Jurbarkas",
+    "value": "LT-12"
+  },
+  {
+    "label": "LT-13: Kaišiadorys",
+    "value": "LT-13"
+  },
+  {
+    "label": "LT-14: Kalvarija",
+    "value": "LT-14"
+  },
+  {
+    "label": "LT-15: Kauno miestas",
+    "value": "LT-15"
+  },
+  {
+    "label": "LT-16: Kaunas",
+    "value": "LT-16"
+  },
+  {
+    "label": "LT-17: Kazlų Rūdos",
+    "value": "LT-17"
+  },
+  {
+    "label": "LT-18: Kėdainiai",
+    "value": "LT-18"
+  },
+  {
+    "label": "LT-19: Kelmė",
+    "value": "LT-19"
+  },
+  {
+    "label": "LT-20: Klaipėdos miestas",
+    "value": "LT-20"
+  },
+  {
+    "label": "LT-21: Klaipėda",
+    "value": "LT-21"
+  },
+  {
+    "label": "LT-22: Kretinga",
+    "value": "LT-22"
+  },
+  {
+    "label": "LT-23: Kupiškis",
+    "value": "LT-23"
+  },
+  {
+    "label": "LT-24: Lazdijai",
+    "value": "LT-24"
+  },
+  {
+    "label": "LT-25: Marijampolė",
+    "value": "LT-25"
+  },
+  {
+    "label": "LT-26: Mažeikiai",
+    "value": "LT-26"
+  },
+  {
+    "label": "LT-27: Molėtai",
+    "value": "LT-27"
+  },
+  {
+    "label": "LT-28: Neringa",
+    "value": "LT-28"
+  },
+  {
+    "label": "LT-29: Pagėgiai",
+    "value": "LT-29"
+  },
+  {
+    "label": "LT-30: Pakruojis",
+    "value": "LT-30"
+  },
+  {
+    "label": "LT-31: Palangos miestas",
+    "value": "LT-31"
+  },
+  {
+    "label": "LT-32: Panevėžio miestas",
+    "value": "LT-32"
+  },
+  {
+    "label": "LT-33: Panevėžys",
+    "value": "LT-33"
+  },
+  {
+    "label": "LT-34: Pasvalys",
+    "value": "LT-34"
+  },
+  {
+    "label": "LT-35: Plungė",
+    "value": "LT-35"
+  },
+  {
+    "label": "LT-36: Prienai",
+    "value": "LT-36"
+  },
+  {
+    "label": "LT-37: Radviliškis",
+    "value": "LT-37"
+  },
+  {
+    "label": "LT-38: Raseiniai",
+    "value": "LT-38"
+  },
+  {
+    "label": "LT-39: Rietavas",
+    "value": "LT-39"
+  },
+  {
+    "label": "LT-40: Rokiškis",
+    "value": "LT-40"
+  },
+  {
+    "label": "LT-41: Šakiai",
+    "value": "LT-41"
+  },
+  {
+    "label": "LT-42: Šalčininkai",
+    "value": "LT-42"
+  },
+  {
+    "label": "LT-43: Šiaulių miestas",
+    "value": "LT-43"
+  },
+  {
+    "label": "LT-44: Šiauliai",
+    "value": "LT-44"
+  },
+  {
+    "label": "LT-45: Šilalė",
+    "value": "LT-45"
+  },
+  {
+    "label": "LT-46: Šilutė",
+    "value": "LT-46"
+  },
+  {
+    "label": "LT-47: Širvintos",
+    "value": "LT-47"
+  },
+  {
+    "label": "LT-48: Skuodas",
+    "value": "LT-48"
+  },
+  {
+    "label": "LT-49: Švenčionys",
+    "value": "LT-49"
+  },
+  {
+    "label": "LT-50: Tauragė",
+    "value": "LT-50"
+  },
+  {
+    "label": "LT-51: Telšiai",
+    "value": "LT-51"
+  },
+  {
+    "label": "LT-52: Trakai",
+    "value": "LT-52"
+  },
+  {
+    "label": "LT-53: Ukmergė",
+    "value": "LT-53"
+  },
+  {
+    "label": "LT-54: Utena",
+    "value": "LT-54"
+  },
+  {
+    "label": "LT-55: Varėna",
+    "value": "LT-55"
+  },
+  {
+    "label": "LT-56: Vilkaviškis",
+    "value": "LT-56"
+  },
+  {
+    "label": "LT-57: Vilniaus miestas",
+    "value": "LT-57"
+  },
+  {
+    "label": "LT-58: Vilnius",
+    "value": "LT-58"
+  },
+  {
+    "label": "LT-59: Visaginas",
+    "value": "LT-59"
+  },
+  {
+    "label": "LT-60: Zarasai",
+    "value": "LT-60"
+  },
+  {
+    "label": "LT-AL: Alytaus apskritis",
+    "value": "LT-AL"
+  },
+  {
+    "label": "LT-KL: Klaipėdos apskritis",
+    "value": "LT-KL"
+  },
+  {
+    "label": "LT-KU: Kauno apskritis",
+    "value": "LT-KU"
+  },
+  {
+    "label": "LT-MR: Marijampolės apskritis",
+    "value": "LT-MR"
+  },
+  {
+    "label": "LT-PN: Panevėžio apskritis",
+    "value": "LT-PN"
+  },
+  {
+    "label": "LT-SA: Šiaulių apskritis",
+    "value": "LT-SA"
+  },
+  {
+    "label": "LT-TA: Tauragės apskritis",
+    "value": "LT-TA"
+  },
+  {
+    "label": "LT-TE: Telšių apskritis",
+    "value": "LT-TE"
+  },
+  {
+    "label": "LT-UT: Utenos apskritis",
+    "value": "LT-UT"
+  },
+  {
+    "label": "LT-VL: Vilniaus apskritis",
+    "value": "LT-VL"
+  }
+]

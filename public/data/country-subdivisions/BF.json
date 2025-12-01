@@ -1,0 +1,234 @@
+[
+  {
+    "label": "BF-01: Boucle du Mouhoun",
+    "value": "BF-01"
+  },
+  {
+    "label": "BF-02: Cascades",
+    "value": "BF-02"
+  },
+  {
+    "label": "BF-03: Centre",
+    "value": "BF-03"
+  },
+  {
+    "label": "BF-04: Centre-Est",
+    "value": "BF-04"
+  },
+  {
+    "label": "BF-05: Centre-Nord",
+    "value": "BF-05"
+  },
+  {
+    "label": "BF-06: Centre-Ouest",
+    "value": "BF-06"
+  },
+  {
+    "label": "BF-07: Centre-Sud",
+    "value": "BF-07"
+  },
+  {
+    "label": "BF-08: Est",
+    "value": "BF-08"
+  },
+  {
+    "label": "BF-09: Hauts-Bassins",
+    "value": "BF-09"
+  },
+  {
+    "label": "BF-10: Nord",
+    "value": "BF-10"
+  },
+  {
+    "label": "BF-11: Plateau-Central",
+    "value": "BF-11"
+  },
+  {
+    "label": "BF-12: Sahel",
+    "value": "BF-12"
+  },
+  {
+    "label": "BF-13: Sud-Ouest",
+    "value": "BF-13"
+  },
+  {
+    "label": "BF-BAL: Balé",
+    "value": "BF-BAL"
+  },
+  {
+    "label": "BF-BAM: Bam",
+    "value": "BF-BAM"
+  },
+  {
+    "label": "BF-BAN: Banwa",
+    "value": "BF-BAN"
+  },
+  {
+    "label": "BF-BAZ: Bazèga",
+    "value": "BF-BAZ"
+  },
+  {
+    "label": "BF-BGR: Bougouriba",
+    "value": "BF-BGR"
+  },
+  {
+    "label": "BF-BLG: Boulgou",
+    "value": "BF-BLG"
+  },
+  {
+    "label": "BF-BLK: Boulkiemdé",
+    "value": "BF-BLK"
+  },
+  {
+    "label": "BF-COM: Comoé",
+    "value": "BF-COM"
+  },
+  {
+    "label": "BF-GAN: Ganzourgou",
+    "value": "BF-GAN"
+  },
+  {
+    "label": "BF-GNA: Gnagna",
+    "value": "BF-GNA"
+  },
+  {
+    "label": "BF-GOU: Gourma",
+    "value": "BF-GOU"
+  },
+  {
+    "label": "BF-HOU: Houet",
+    "value": "BF-HOU"
+  },
+  {
+    "label": "BF-IOB: Ioba",
+    "value": "BF-IOB"
+  },
+  {
+    "label": "BF-KAD: Kadiogo",
+    "value": "BF-KAD"
+  },
+  {
+    "label": "BF-KEN: Kénédougou",
+    "value": "BF-KEN"
+  },
+  {
+    "label": "BF-KMD: Komondjari",
+    "value": "BF-KMD"
+  },
+  {
+    "label": "BF-KMP: Kompienga",
+    "value": "BF-KMP"
+  },
+  {
+    "label": "BF-KOP: Koulpélogo",
+    "value": "BF-KOP"
+  },
+  {
+    "label": "BF-KOS: Kossi",
+    "value": "BF-KOS"
+  },
+  {
+    "label": "BF-KOT: Kouritenga",
+    "value": "BF-KOT"
+  },
+  {
+    "label": "BF-KOW: Kourwéogo",
+    "value": "BF-KOW"
+  },
+  {
+    "label": "BF-LER: Léraba",
+    "value": "BF-LER"
+  },
+  {
+    "label": "BF-LOR: Loroum",
+    "value": "BF-LOR"
+  },
+  {
+    "label": "BF-MOU: Mouhoun",
+    "value": "BF-MOU"
+  },
+  {
+    "label": "BF-NAM: Namentenga",
+    "value": "BF-NAM"
+  },
+  {
+    "label": "BF-NAO: Nahouri",
+    "value": "BF-NAO"
+  },
+  {
+    "label": "BF-NAY: Nayala",
+    "value": "BF-NAY"
+  },
+  {
+    "label": "BF-NOU: Noumbiel",
+    "value": "BF-NOU"
+  },
+  {
+    "label": "BF-OUB: Oubritenga",
+    "value": "BF-OUB"
+  },
+  {
+    "label": "BF-OUD: Oudalan",
+    "value": "BF-OUD"
+  },
+  {
+    "label": "BF-PAS: Passoré",
+    "value": "BF-PAS"
+  },
+  {
+    "label": "BF-PON: Poni",
+    "value": "BF-PON"
+  },
+  {
+    "label": "BF-SEN: Séno",
+    "value": "BF-SEN"
+  },
+  {
+    "label": "BF-SIS: Sissili",
+    "value": "BF-SIS"
+  },
+  {
+    "label": "BF-SMT: Sanmatenga",
+    "value": "BF-SMT"
+  },
+  {
+    "label": "BF-SNG: Sanguié",
+    "value": "BF-SNG"
+  },
+  {
+    "label": "BF-SOM: Soum",
+    "value": "BF-SOM"
+  },
+  {
+    "label": "BF-SOR: Sourou",
+    "value": "BF-SOR"
+  },
+  {
+    "label": "BF-TAP: Tapoa",
+    "value": "BF-TAP"
+  },
+  {
+    "label": "BF-TUI: Tuy",
+    "value": "BF-TUI"
+  },
+  {
+    "label": "BF-YAG: Yagha",
+    "value": "BF-YAG"
+  },
+  {
+    "label": "BF-YAT: Yatenga",
+    "value": "BF-YAT"
+  },
+  {
+    "label": "BF-ZIR: Ziro",
+    "value": "BF-ZIR"
+  },
+  {
+    "label": "BF-ZON: Zondoma",
+    "value": "BF-ZON"
+  },
+  {
+    "label": "BF-ZOU: Zoundwéogo",
+    "value": "BF-ZOU"
+  }
+]

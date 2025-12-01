@@ -1,0 +1,42 @@
+[
+  {
+    "label": "CM-AD: Adamaoua",
+    "value": "CM-AD"
+  },
+  {
+    "label": "CM-CE: Centre",
+    "value": "CM-CE"
+  },
+  {
+    "label": "CM-EN: Extrême-Nord; Far North",
+    "value": "CM-EN"
+  },
+  {
+    "label": "CM-ES: East; Est",
+    "value": "CM-ES"
+  },
+  {
+    "label": "CM-LT: Littoral",
+    "value": "CM-LT"
+  },
+  {
+    "label": "CM-NO: Nord; North",
+    "value": "CM-NO"
+  },
+  {
+    "label": "CM-NW: Nord-Ouest; North-West",
+    "value": "CM-NW"
+  },
+  {
+    "label": "CM-OU: Ouest; West",
+    "value": "CM-OU"
+  },
+  {
+    "label": "CM-SU: South; Sud",
+    "value": "CM-SU"
+  },
+  {
+    "label": "CM-SW: South-West; Sud-Ouest",
+    "value": "CM-SW"
+  }
+]

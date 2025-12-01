@@ -1,0 +1,150 @@
+[
+  {
+    "label": "MD-AN: Anenii Noi",
+    "value": "MD-AN"
+  },
+  {
+    "label": "MD-BA: Bălți",
+    "value": "MD-BA"
+  },
+  {
+    "label": "MD-BD: Bender",
+    "value": "MD-BD"
+  },
+  {
+    "label": "MD-BR: Briceni",
+    "value": "MD-BR"
+  },
+  {
+    "label": "MD-BS: Basarabeasca",
+    "value": "MD-BS"
+  },
+  {
+    "label": "MD-CA: Cahul",
+    "value": "MD-CA"
+  },
+  {
+    "label": "MD-CL: Călărași",
+    "value": "MD-CL"
+  },
+  {
+    "label": "MD-CM: Cimișlia",
+    "value": "MD-CM"
+  },
+  {
+    "label": "MD-CR: Criuleni",
+    "value": "MD-CR"
+  },
+  {
+    "label": "MD-CS: Căușeni",
+    "value": "MD-CS"
+  },
+  {
+    "label": "MD-CT: Cantemir",
+    "value": "MD-CT"
+  },
+  {
+    "label": "MD-CU: Chișinău",
+    "value": "MD-CU"
+  },
+  {
+    "label": "MD-DO: Dondușeni",
+    "value": "MD-DO"
+  },
+  {
+    "label": "MD-DR: Drochia",
+    "value": "MD-DR"
+  },
+  {
+    "label": "MD-DU: Dubăsari",
+    "value": "MD-DU"
+  },
+  {
+    "label": "MD-ED: Edineț",
+    "value": "MD-ED"
+  },
+  {
+    "label": "MD-FA: Fălești",
+    "value": "MD-FA"
+  },
+  {
+    "label": "MD-FL: Florești",
+    "value": "MD-FL"
+  },
+  {
+    "label": "MD-GA: Găgăuzia",
+    "value": "MD-GA"
+  },
+  {
+    "label": "MD-GL: Glodeni",
+    "value": "MD-GL"
+  },
+  {
+    "label": "MD-HI: Hîncești",
+    "value": "MD-HI"
+  },
+  {
+    "label": "MD-IA: Ialoveni",
+    "value": "MD-IA"
+  },
+  {
+    "label": "MD-LE: Leova",
+    "value": "MD-LE"
+  },
+  {
+    "label": "MD-NI: Nisporeni",
+    "value": "MD-NI"
+  },
+  {
+    "label": "MD-OC: Ocnița",
+    "value": "MD-OC"
+  },
+  {
+    "label": "MD-OR: Orhei",
+    "value": "MD-OR"
+  },
+  {
+    "label": "MD-RE: Rezina",
+    "value": "MD-RE"
+  },
+  {
+    "label": "MD-RI: Rîșcani",
+    "value": "MD-RI"
+  },
+  {
+    "label": "MD-SD: Șoldănești",
+    "value": "MD-SD"
+  },
+  {
+    "label": "MD-SI: Sîngerei",
+    "value": "MD-SI"
+  },
+  {
+    "label": "MD-SN: Stînga Nistrului",
+    "value": "MD-SN"
+  },
+  {
+    "label": "MD-SO: Soroca",
+    "value": "MD-SO"
+  },
+  {
+    "label": "MD-ST: Strășeni",
+    "value": "MD-ST"
+  },
+  {
+    "label": "MD-SV: Ștefan Vodă",
+    "value": "MD-SV"
+  },
+  {
+    "label": "MD-TA: Taraclia",
+    "value": "MD-TA"
+  },
+  {
+    "label": "MD-TE: Telenești",
+    "value": "MD-TE"
+  },
+  {
+    "label": "MD-UN: Ungheni",
+    "value": "MD-UN"
+  }
+]

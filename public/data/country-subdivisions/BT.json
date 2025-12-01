@@ -1,0 +1,82 @@
+[
+  {
+    "label": "BT-11: Paro",
+    "value": "BT-11"
+  },
+  {
+    "label": "BT-12: Chhukha",
+    "value": "BT-12"
+  },
+  {
+    "label": "BT-13: Haa",
+    "value": "BT-13"
+  },
+  {
+    "label": "BT-14: Samtse",
+    "value": "BT-14"
+  },
+  {
+    "label": "BT-15: Thimphu",
+    "value": "BT-15"
+  },
+  {
+    "label": "BT-21: Tsirang",
+    "value": "BT-21"
+  },
+  {
+    "label": "BT-22: Dagana",
+    "value": "BT-22"
+  },
+  {
+    "label": "BT-23: Punakha",
+    "value": "BT-23"
+  },
+  {
+    "label": "BT-24: Wangdue Phodrang",
+    "value": "BT-24"
+  },
+  {
+    "label": "BT-31: Sarpang",
+    "value": "BT-31"
+  },
+  {
+    "label": "BT-32: Trongsa",
+    "value": "BT-32"
+  },
+  {
+    "label": "BT-33: Bumthang",
+    "value": "BT-33"
+  },
+  {
+    "label": "BT-34: Zhemgang",
+    "value": "BT-34"
+  },
+  {
+    "label": "BT-41: Trashigang",
+    "value": "BT-41"
+  },
+  {
+    "label": "BT-42: Monggar",
+    "value": "BT-42"
+  },
+  {
+    "label": "BT-43: Pema Gatshel",
+    "value": "BT-43"
+  },
+  {
+    "label": "BT-44: Lhuentse",
+    "value": "BT-44"
+  },
+  {
+    "label": "BT-45: Samdrup Jongkhar",
+    "value": "BT-45"
+  },
+  {
+    "label": "BT-GA: Gasa",
+    "value": "BT-GA"
+  },
+  {
+    "label": "BT-TY: Trashi Yangtse",
+    "value": "BT-TY"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "label": "MR-01: Hodh ech Chargui",
+    "value": "MR-01"
+  },
+  {
+    "label": "MR-02: Hodh el Gharbi",
+    "value": "MR-02"
+  },
+  {
+    "label": "MR-03: Assaba",
+    "value": "MR-03"
+  },
+  {
+    "label": "MR-04: Gorgol",
+    "value": "MR-04"
+  },
+  {
+    "label": "MR-05: Brakna",
+    "value": "MR-05"
+  },
+  {
+    "label": "MR-06: Trarza",
+    "value": "MR-06"
+  },
+  {
+    "label": "MR-07: Adrar",
+    "value": "MR-07"
+  },
+  {
+    "label": "MR-08: Dakhlet Nouâdhibou",
+    "value": "MR-08"
+  },
+  {
+    "label": "MR-09: Tagant",
+    "value": "MR-09"
+  },
+  {
+    "label": "MR-10: Guidimaka",
+    "value": "MR-10"
+  },
+  {
+    "label": "MR-11: Tiris Zemmour",
+    "value": "MR-11"
+  },
+  {
+    "label": "MR-12: Inchiri",
+    "value": "MR-12"
+  },
+  {
+    "label": "MR-13: Nouakchott Ouest; Nuwākshūţ al Gharbīyah",
+    "value": "MR-13"
+  },
+  {
+    "label": "MR-14: Nouakchott Nord; Nuwākshūţ ash Shamālīyah",
+    "value": "MR-14"
+  },
+  {
+    "label": "MR-15: Nouakchott Sud; Nuwākshūţ al Janūbīyah",
+    "value": "MR-15"
+  }
+]

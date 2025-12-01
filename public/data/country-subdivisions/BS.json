@@ -1,0 +1,130 @@
+[
+  {
+    "label": "BS-AK: Acklins",
+    "value": "BS-AK"
+  },
+  {
+    "label": "BS-BI: Bimini",
+    "value": "BS-BI"
+  },
+  {
+    "label": "BS-BP: Black Point",
+    "value": "BS-BP"
+  },
+  {
+    "label": "BS-BY: Berry Islands",
+    "value": "BS-BY"
+  },
+  {
+    "label": "BS-CE: Central Eleuthera",
+    "value": "BS-CE"
+  },
+  {
+    "label": "BS-CI: Cat Island",
+    "value": "BS-CI"
+  },
+  {
+    "label": "BS-CK: Crooked Island and Long Cay",
+    "value": "BS-CK"
+  },
+  {
+    "label": "BS-CO: Central Abaco",
+    "value": "BS-CO"
+  },
+  {
+    "label": "BS-CS: Central Andros",
+    "value": "BS-CS"
+  },
+  {
+    "label": "BS-EG: East Grand Bahama",
+    "value": "BS-EG"
+  },
+  {
+    "label": "BS-EX: Exuma",
+    "value": "BS-EX"
+  },
+  {
+    "label": "BS-FP: City of Freeport",
+    "value": "BS-FP"
+  },
+  {
+    "label": "BS-GC: Grand Cay",
+    "value": "BS-GC"
+  },
+  {
+    "label": "BS-HI: Harbour Island",
+    "value": "BS-HI"
+  },
+  {
+    "label": "BS-HT: Hope Town",
+    "value": "BS-HT"
+  },
+  {
+    "label": "BS-IN: Inagua",
+    "value": "BS-IN"
+  },
+  {
+    "label": "BS-LI: Long Island",
+    "value": "BS-LI"
+  },
+  {
+    "label": "BS-MC: Mangrove Cay",
+    "value": "BS-MC"
+  },
+  {
+    "label": "BS-MG: Mayaguana",
+    "value": "BS-MG"
+  },
+  {
+    "label": "BS-MI: Moore's Island",
+    "value": "BS-MI"
+  },
+  {
+    "label": "BS-NE: North Eleuthera",
+    "value": "BS-NE"
+  },
+  {
+    "label": "BS-NO: North Abaco",
+    "value": "BS-NO"
+  },
+  {
+    "label": "BS-NP: New Providence",
+    "value": "BS-NP"
+  },
+  {
+    "label": "BS-NS: North Andros",
+    "value": "BS-NS"
+  },
+  {
+    "label": "BS-RC: Rum Cay",
+    "value": "BS-RC"
+  },
+  {
+    "label": "BS-RI: Ragged Island",
+    "value": "BS-RI"
+  },
+  {
+    "label": "BS-SA: South Andros",
+    "value": "BS-SA"
+  },
+  {
+    "label": "BS-SE: South Eleuthera",
+    "value": "BS-SE"
+  },
+  {
+    "label": "BS-SO: South Abaco",
+    "value": "BS-SO"
+  },
+  {
+    "label": "BS-SS: San Salvador",
+    "value": "BS-SS"
+  },
+  {
+    "label": "BS-SW: Spanish Wells",
+    "value": "BS-SW"
+  },
+  {
+    "label": "BS-WG: West Grand Bahama",
+    "value": "BS-WG"
+  }
+]

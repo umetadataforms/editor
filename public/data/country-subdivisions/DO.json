@@ -1,0 +1,170 @@
+[
+  {
+    "label": "DO-01: Distrito Nacional",
+    "value": "DO-01"
+  },
+  {
+    "label": "DO-02: Azua",
+    "value": "DO-02"
+  },
+  {
+    "label": "DO-03: Baoruco",
+    "value": "DO-03"
+  },
+  {
+    "label": "DO-04: Barahona",
+    "value": "DO-04"
+  },
+  {
+    "label": "DO-05: Dajabón",
+    "value": "DO-05"
+  },
+  {
+    "label": "DO-06: Duarte",
+    "value": "DO-06"
+  },
+  {
+    "label": "DO-07: Elías Piña",
+    "value": "DO-07"
+  },
+  {
+    "label": "DO-08: El Seibo",
+    "value": "DO-08"
+  },
+  {
+    "label": "DO-09: Espaillat",
+    "value": "DO-09"
+  },
+  {
+    "label": "DO-10: Independencia",
+    "value": "DO-10"
+  },
+  {
+    "label": "DO-11: La Altagracia",
+    "value": "DO-11"
+  },
+  {
+    "label": "DO-12: La Romana",
+    "value": "DO-12"
+  },
+  {
+    "label": "DO-13: La Vega",
+    "value": "DO-13"
+  },
+  {
+    "label": "DO-14: María Trinidad Sánchez",
+    "value": "DO-14"
+  },
+  {
+    "label": "DO-15: Monte Cristi",
+    "value": "DO-15"
+  },
+  {
+    "label": "DO-16: Pedernales",
+    "value": "DO-16"
+  },
+  {
+    "label": "DO-17: Peravia",
+    "value": "DO-17"
+  },
+  {
+    "label": "DO-18: Puerto Plata",
+    "value": "DO-18"
+  },
+  {
+    "label": "DO-19: Hermanas Mirabal",
+    "value": "DO-19"
+  },
+  {
+    "label": "DO-20: Samaná",
+    "value": "DO-20"
+  },
+  {
+    "label": "DO-21: San Cristóbal",
+    "value": "DO-21"
+  },
+  {
+    "label": "DO-22: San Juan",
+    "value": "DO-22"
+  },
+  {
+    "label": "DO-23: San Pedro de Macorís",
+    "value": "DO-23"
+  },
+  {
+    "label": "DO-24: Sánchez Ramírez",
+    "value": "DO-24"
+  },
+  {
+    "label": "DO-25: Santiago",
+    "value": "DO-25"
+  },
+  {
+    "label": "DO-26: Santiago Rodríguez",
+    "value": "DO-26"
+  },
+  {
+    "label": "DO-27: Valverde",
+    "value": "DO-27"
+  },
+  {
+    "label": "DO-28: Monseñor Nouel",
+    "value": "DO-28"
+  },
+  {
+    "label": "DO-29: Monte Plata",
+    "value": "DO-29"
+  },
+  {
+    "label": "DO-30: Hato Mayor",
+    "value": "DO-30"
+  },
+  {
+    "label": "DO-31: San José de Ocoa",
+    "value": "DO-31"
+  },
+  {
+    "label": "DO-32: Santo Domingo",
+    "value": "DO-32"
+  },
+  {
+    "label": "DO-33: Cibao Nordeste",
+    "value": "DO-33"
+  },
+  {
+    "label": "DO-34: Cibao Noroeste",
+    "value": "DO-34"
+  },
+  {
+    "label": "DO-35: Cibao Norte",
+    "value": "DO-35"
+  },
+  {
+    "label": "DO-36: Cibao Sur",
+    "value": "DO-36"
+  },
+  {
+    "label": "DO-37: El Valle",
+    "value": "DO-37"
+  },
+  {
+    "label": "DO-38: Enriquillo",
+    "value": "DO-38"
+  },
+  {
+    "label": "DO-39: Higuamo",
+    "value": "DO-39"
+  },
+  {
+    "label": "DO-40: Ozama",
+    "value": "DO-40"
+  },
+  {
+    "label": "DO-41: Valdesia",
+    "value": "DO-41"
+  },
+  {
+    "label": "DO-42: Yuma",
+    "value": "DO-42"
+  }
+]

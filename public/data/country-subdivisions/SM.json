@@ -1,0 +1,38 @@
+[
+  {
+    "label": "SM-01: Acquaviva",
+    "value": "SM-01"
+  },
+  {
+    "label": "SM-02: Chiesanuova",
+    "value": "SM-02"
+  },
+  {
+    "label": "SM-03: Domagnano",
+    "value": "SM-03"
+  },
+  {
+    "label": "SM-04: Faetano",
+    "value": "SM-04"
+  },
+  {
+    "label": "SM-05: Fiorentino",
+    "value": "SM-05"
+  },
+  {
+    "label": "SM-06: Borgo Maggiore",
+    "value": "SM-06"
+  },
+  {
+    "label": "SM-07: Città di San Marino",
+    "value": "SM-07"
+  },
+  {
+    "label": "SM-08: Montegiardino",
+    "value": "SM-08"
+  },
+  {
+    "label": "SM-09: Serravalle",
+    "value": "SM-09"
+  }
+]

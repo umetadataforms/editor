@@ -1,0 +1,46 @@
+[
+  {
+    "label": "MZ-A: Niassa",
+    "value": "MZ-A"
+  },
+  {
+    "label": "MZ-B: Manica",
+    "value": "MZ-B"
+  },
+  {
+    "label": "MZ-G: Gaza",
+    "value": "MZ-G"
+  },
+  {
+    "label": "MZ-I: Inhambane",
+    "value": "MZ-I"
+  },
+  {
+    "label": "MZ-L: Maputo",
+    "value": "MZ-L"
+  },
+  {
+    "label": "MZ-MPM: Maputo",
+    "value": "MZ-MPM"
+  },
+  {
+    "label": "MZ-N: Nampula",
+    "value": "MZ-N"
+  },
+  {
+    "label": "MZ-P: Cabo Delgado",
+    "value": "MZ-P"
+  },
+  {
+    "label": "MZ-Q: Zambézia",
+    "value": "MZ-Q"
+  },
+  {
+    "label": "MZ-S: Sofala",
+    "value": "MZ-S"
+  },
+  {
+    "label": "MZ-T: Tete",
+    "value": "MZ-T"
+  }
+]

@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+.content-wrap {
+  width: 50vw;          /* 50% of the viewport */
+  margin: 0 auto;       /* centre it */
+}
+
+/* .is-dark .field.field-object fieldset, */
+/* .is-dark .field.field-array fieldset { */
+.field.field-object fieldset,
+.field.field-array fieldset {
+  border: 1px solid gray !important;
+  padding: 12px;
+}
+
+/* Don't display the submit button */
+.ant-btn-submit {
+  display: none !important;
+}
+
+/* Raise AntD message z-index */
+:where(.ant-message) {
+  z-index: 5000;
+}
+
+.x-top-level-anchor {
+  margin-top: 18px !important;
+}
+
+.x-h1 {
+  padding-top: 1rem !important;
+}
+
+.ant-form-item-label > label {
+  display: block;
+  width: 100%;
+}
+
+.ant-form-item-label > label > h2.x-h2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+fieldset#root {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* This span wraps all the buttons, and the auto margin pushes it right */
+.ant-form-item-label > label > h2.x-h2 .x-field-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 0.5rem;  /* space between buttons */
+}
+
+.x-list-items .ant-form-item {
+  margin-bottom: 12px !important;
+}
+
+.x-rich-text-editor-content .ProseMirror {
+  outline: none;
+}
+/* When editing, don't let anchors receive clicks */
+.ProseMirror[contenteditable="true"] a {
+  pointer-events: none;
+}
+/* When read-only, links work normally */
+/* .ProseMirror[contenteditable="false"] a { */
+/*   pointer-events: auto; */
+/* } */
+
+.ant-alert-error {
+  margin-bottom: 24px !important;
+}

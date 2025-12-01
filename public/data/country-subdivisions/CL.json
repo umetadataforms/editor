@@ -1,0 +1,66 @@
+[
+  {
+    "label": "CL-AI: Aisén del General Carlos Ibañez del Campo",
+    "value": "CL-AI"
+  },
+  {
+    "label": "CL-AN: Antofagasta",
+    "value": "CL-AN"
+  },
+  {
+    "label": "CL-AP: Arica y Parinacota",
+    "value": "CL-AP"
+  },
+  {
+    "label": "CL-AR: La Araucanía",
+    "value": "CL-AR"
+  },
+  {
+    "label": "CL-AT: Atacama",
+    "value": "CL-AT"
+  },
+  {
+    "label": "CL-BI: Biobío",
+    "value": "CL-BI"
+  },
+  {
+    "label": "CL-CO: Coquimbo",
+    "value": "CL-CO"
+  },
+  {
+    "label": "CL-LI: Libertador General Bernardo O'Higgins",
+    "value": "CL-LI"
+  },
+  {
+    "label": "CL-LL: Los Lagos",
+    "value": "CL-LL"
+  },
+  {
+    "label": "CL-LR: Los Ríos",
+    "value": "CL-LR"
+  },
+  {
+    "label": "CL-MA: Magallanes",
+    "value": "CL-MA"
+  },
+  {
+    "label": "CL-ML: Maule",
+    "value": "CL-ML"
+  },
+  {
+    "label": "CL-NB: Ñuble",
+    "value": "CL-NB"
+  },
+  {
+    "label": "CL-RM: Región Metropolitana de Santiago",
+    "value": "CL-RM"
+  },
+  {
+    "label": "CL-TA: Tarapacá",
+    "value": "CL-TA"
+  },
+  {
+    "label": "CL-VS: Valparaíso",
+    "value": "CL-VS"
+  }
+]

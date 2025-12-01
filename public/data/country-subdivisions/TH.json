@@ -1,0 +1,314 @@
+[
+  {
+    "label": "TH-10: Krung Thep Maha Nakhon",
+    "value": "TH-10"
+  },
+  {
+    "label": "TH-11: Samut Prakan",
+    "value": "TH-11"
+  },
+  {
+    "label": "TH-12: Nonthaburi",
+    "value": "TH-12"
+  },
+  {
+    "label": "TH-13: Pathum Thani",
+    "value": "TH-13"
+  },
+  {
+    "label": "TH-14: Phra Nakhon Si Ayutthaya",
+    "value": "TH-14"
+  },
+  {
+    "label": "TH-15: Ang Thong",
+    "value": "TH-15"
+  },
+  {
+    "label": "TH-16: Lop Buri",
+    "value": "TH-16"
+  },
+  {
+    "label": "TH-17: Sing Buri",
+    "value": "TH-17"
+  },
+  {
+    "label": "TH-18: Chai Nat",
+    "value": "TH-18"
+  },
+  {
+    "label": "TH-19: Saraburi",
+    "value": "TH-19"
+  },
+  {
+    "label": "TH-20: Chon Buri",
+    "value": "TH-20"
+  },
+  {
+    "label": "TH-21: Rayong",
+    "value": "TH-21"
+  },
+  {
+    "label": "TH-22: Chanthaburi",
+    "value": "TH-22"
+  },
+  {
+    "label": "TH-23: Trat",
+    "value": "TH-23"
+  },
+  {
+    "label": "TH-24: Chachoengsao",
+    "value": "TH-24"
+  },
+  {
+    "label": "TH-25: Prachin Buri",
+    "value": "TH-25"
+  },
+  {
+    "label": "TH-26: Nakhon Nayok",
+    "value": "TH-26"
+  },
+  {
+    "label": "TH-27: Sa Kaeo",
+    "value": "TH-27"
+  },
+  {
+    "label": "TH-30: Nakhon Ratchasima",
+    "value": "TH-30"
+  },
+  {
+    "label": "TH-31: Buri Ram",
+    "value": "TH-31"
+  },
+  {
+    "label": "TH-32: Surin",
+    "value": "TH-32"
+  },
+  {
+    "label": "TH-33: Si Sa Ket",
+    "value": "TH-33"
+  },
+  {
+    "label": "TH-34: Ubon Ratchathani",
+    "value": "TH-34"
+  },
+  {
+    "label": "TH-35: Yasothon",
+    "value": "TH-35"
+  },
+  {
+    "label": "TH-36: Chaiyaphum",
+    "value": "TH-36"
+  },
+  {
+    "label": "TH-37: Amnat Charoen",
+    "value": "TH-37"
+  },
+  {
+    "label": "TH-38: Bueng Kan",
+    "value": "TH-38"
+  },
+  {
+    "label": "TH-39: Nong Bua Lam Phu",
+    "value": "TH-39"
+  },
+  {
+    "label": "TH-40: Khon Kaen",
+    "value": "TH-40"
+  },
+  {
+    "label": "TH-41: Udon Thani",
+    "value": "TH-41"
+  },
+  {
+    "label": "TH-42: Loei",
+    "value": "TH-42"
+  },
+  {
+    "label": "TH-43: Nong Khai",
+    "value": "TH-43"
+  },
+  {
+    "label": "TH-44: Maha Sarakham",
+    "value": "TH-44"
+  },
+  {
+    "label": "TH-45: Roi Et",
+    "value": "TH-45"
+  },
+  {
+    "label": "TH-46: Kalasin",
+    "value": "TH-46"
+  },
+  {
+    "label": "TH-47: Sakon Nakhon",
+    "value": "TH-47"
+  },
+  {
+    "label": "TH-48: Nakhon Phanom",
+    "value": "TH-48"
+  },
+  {
+    "label": "TH-49: Mukdahan",
+    "value": "TH-49"
+  },
+  {
+    "label": "TH-50: Chiang Mai",
+    "value": "TH-50"
+  },
+  {
+    "label": "TH-51: Lamphun",
+    "value": "TH-51"
+  },
+  {
+    "label": "TH-52: Lampang",
+    "value": "TH-52"
+  },
+  {
+    "label": "TH-53: Uttaradit",
+    "value": "TH-53"
+  },
+  {
+    "label": "TH-54: Phrae",
+    "value": "TH-54"
+  },
+  {
+    "label": "TH-55: Nan",
+    "value": "TH-55"
+  },
+  {
+    "label": "TH-56: Phayao",
+    "value": "TH-56"
+  },
+  {
+    "label": "TH-57: Chiang Rai",
+    "value": "TH-57"
+  },
+  {
+    "label": "TH-58: Mae Hong Son",
+    "value": "TH-58"
+  },
+  {
+    "label": "TH-60: Nakhon Sawan",
+    "value": "TH-60"
+  },
+  {
+    "label": "TH-61: Uthai Thani",
+    "value": "TH-61"
+  },
+  {
+    "label": "TH-62: Kamphaeng Phet",
+    "value": "TH-62"
+  },
+  {
+    "label": "TH-63: Tak",
+    "value": "TH-63"
+  },
+  {
+    "label": "TH-64: Sukhothai",
+    "value": "TH-64"
+  },
+  {
+    "label": "TH-65: Phitsanulok",
+    "value": "TH-65"
+  },
+  {
+    "label": "TH-66: Phichit",
+    "value": "TH-66"
+  },
+  {
+    "label": "TH-67: Phetchabun",
+    "value": "TH-67"
+  },
+  {
+    "label": "TH-70: Ratchaburi",
+    "value": "TH-70"
+  },
+  {
+    "label": "TH-71: Kanchanaburi",
+    "value": "TH-71"
+  },
+  {
+    "label": "TH-72: Suphan Buri",
+    "value": "TH-72"
+  },
+  {
+    "label": "TH-73: Nakhon Pathom",
+    "value": "TH-73"
+  },
+  {
+    "label": "TH-74: Samut Sakhon",
+    "value": "TH-74"
+  },
+  {
+    "label": "TH-75: Samut Songkhram",
+    "value": "TH-75"
+  },
+  {
+    "label": "TH-76: Phetchaburi",
+    "value": "TH-76"
+  },
+  {
+    "label": "TH-77: Prachuap Khiri Khan",
+    "value": "TH-77"
+  },
+  {
+    "label": "TH-80: Nakhon Si Thammarat",
+    "value": "TH-80"
+  },
+  {
+    "label": "TH-81: Krabi",
+    "value": "TH-81"
+  },
+  {
+    "label": "TH-82: Phangnga",
+    "value": "TH-82"
+  },
+  {
+    "label": "TH-83: Phuket",
+    "value": "TH-83"
+  },
+  {
+    "label": "TH-84: Surat Thani",
+    "value": "TH-84"
+  },
+  {
+    "label": "TH-85: Ranong",
+    "value": "TH-85"
+  },
+  {
+    "label": "TH-86: Chumphon",
+    "value": "TH-86"
+  },
+  {
+    "label": "TH-90: Songkhla",
+    "value": "TH-90"
+  },
+  {
+    "label": "TH-91: Satun",
+    "value": "TH-91"
+  },
+  {
+    "label": "TH-92: Trang",
+    "value": "TH-92"
+  },
+  {
+    "label": "TH-93: Phatthalung",
+    "value": "TH-93"
+  },
+  {
+    "label": "TH-94: Pattani",
+    "value": "TH-94"
+  },
+  {
+    "label": "TH-95: Yala",
+    "value": "TH-95"
+  },
+  {
+    "label": "TH-96: Narathiwat",
+    "value": "TH-96"
+  },
+  {
+    "label": "TH-S: Phatthaya",
+    "value": "TH-S"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "label": "TT-ARI: Arima",
+    "value": "TT-ARI"
+  },
+  {
+    "label": "TT-CHA: Chaguanas",
+    "value": "TT-CHA"
+  },
+  {
+    "label": "TT-CTT: Couva-Tabaquite-Talparo",
+    "value": "TT-CTT"
+  },
+  {
+    "label": "TT-DMN: Diego Martin",
+    "value": "TT-DMN"
+  },
+  {
+    "label": "TT-MRC: Mayaro-Rio Claro",
+    "value": "TT-MRC"
+  },
+  {
+    "label": "TT-PED: Penal-Debe",
+    "value": "TT-PED"
+  },
+  {
+    "label": "TT-POS: Port of Spain",
+    "value": "TT-POS"
+  },
+  {
+    "label": "TT-PRT: Princes Town",
+    "value": "TT-PRT"
+  },
+  {
+    "label": "TT-PTF: Point Fortin",
+    "value": "TT-PTF"
+  },
+  {
+    "label": "TT-SFO: San Fernando",
+    "value": "TT-SFO"
+  },
+  {
+    "label": "TT-SGE: Sangre Grande",
+    "value": "TT-SGE"
+  },
+  {
+    "label": "TT-SIP: Siparia",
+    "value": "TT-SIP"
+  },
+  {
+    "label": "TT-SJL: San Juan-Laventille",
+    "value": "TT-SJL"
+  },
+  {
+    "label": "TT-TOB: Tobago",
+    "value": "TT-TOB"
+  },
+  {
+    "label": "TT-TUP: Tunapuna-Piarco",
+    "value": "TT-TUP"
+  }
+]

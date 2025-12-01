@@ -1,0 +1,74 @@
+[
+  {
+    "label": "SO-AW: Awdal",
+    "value": "SO-AW"
+  },
+  {
+    "label": "SO-BK: Bakool",
+    "value": "SO-BK"
+  },
+  {
+    "label": "SO-BN: Banaadir",
+    "value": "SO-BN"
+  },
+  {
+    "label": "SO-BR: Bari",
+    "value": "SO-BR"
+  },
+  {
+    "label": "SO-BY: Bay",
+    "value": "SO-BY"
+  },
+  {
+    "label": "SO-GA: Galguduud",
+    "value": "SO-GA"
+  },
+  {
+    "label": "SO-GE: Gedo",
+    "value": "SO-GE"
+  },
+  {
+    "label": "SO-HI: Hiiraan",
+    "value": "SO-HI"
+  },
+  {
+    "label": "SO-JD: Jubbada Dhexe",
+    "value": "SO-JD"
+  },
+  {
+    "label": "SO-JH: Jubbada Hoose",
+    "value": "SO-JH"
+  },
+  {
+    "label": "SO-MU: Mudug",
+    "value": "SO-MU"
+  },
+  {
+    "label": "SO-NU: Nugaal",
+    "value": "SO-NU"
+  },
+  {
+    "label": "SO-SA: Sanaag",
+    "value": "SO-SA"
+  },
+  {
+    "label": "SO-SD: Shabeellaha Dhexe",
+    "value": "SO-SD"
+  },
+  {
+    "label": "SO-SH: Shabeellaha Hoose",
+    "value": "SO-SH"
+  },
+  {
+    "label": "SO-SO: Sool",
+    "value": "SO-SO"
+  },
+  {
+    "label": "SO-TO: Togdheer",
+    "value": "SO-TO"
+  },
+  {
+    "label": "SO-WO: Woqooyi Galbeed",
+    "value": "SO-WO"
+  }
+]

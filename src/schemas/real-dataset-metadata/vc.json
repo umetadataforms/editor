@@ -1,0 +1,410 @@
+{
+  "$id": "real-dataset-metadata/vc.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Real Dataset Metadata (AISym4Med)",
+  "description": "Dataset description for datasets containing data from real subjects only.\n\nThis form provides a structured metada framework for detailed and comprehensive description of a health dataset to support decisions about its suitability for specific analytical and modelling purposes, its compatibility with other datasets, and its compliance with legal and ethical requirements. The form is designed to capture the information necessary to understand the clinical context, cohort selection, and the collection or mining, quantification, and processing of the underlying data.\n\nComplete all applicable fields based on available documentation and knowledge of the dataset. Use rich text formatting where needed; the raw text will be stored in HTML format.\n\nEach form field is accompanied by a structured description:\n- requirement status — an indication of whether the field is required or optional,\n- summary sentence — a single, clear sentence that defines what the field is,\n- use — explaination of how the provided information could be used,\n- guidelines — specific instructions on how to fill in the field correctly, where needed,\n- constraints — character or list size limits, where relevant,\n- missing information — clarification of missing and not applicable cases, where needed,\n- examples — |-separated field content examples, provided only if the examples are short.\n\nNote, this is initial draft version of the dataset metada schema for the AISym4Med platform.\n",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "title": "Schema Specification",
+      "description": "**Required**. Unique Resource Identifier (URI) for the schema that defines the structure of this metadata record.\n\n**Use**: Used for automated content validation.\n\n**Guidelines**: Use the appropriate type and version of the required schema.",
+      "type": "string",
+      "const": "real-dataset-metadata/vc.json"
+    },
+    "label": {
+      "title": "Label",
+      "description": "**Required**. A short, user-friendly identifier for the dataset.\n\n**Use**: Used as a concise handle for the dataset in user interfaces, logs, URLs, and references where a full title would be too long.\n\n**Guidelines**: Choose a memorable label that clearly distinguishes this dataset from others, such as an existing public identifier, internal code, or commonly used short name.\n\n**Constraints**: *Length*: 2–30 characters.\n\n**Examples**: `PTB-XL` | `ds003844`.",
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 30,
+      "examples": [
+        "PTB-XL",
+        "ds003844"
+      ]
+    },
+    "version": {
+      "title": "Version",
+      "description": "**Required**. The version identifier for this dataset.\n\n**Use**: Used to track and distinguish between different releases or revisions of the same dataset.\n\n**Guidelines**: Use a three-part numeric version in the form `MAJOR.MINOR.PATCH` (e.g. `1.0.0`). Increment the version when you make changes to the dataset (such as adding new records, correcting errors, or changing preprocessing).\n\n**Constraints**: Must match the pattern `<digits>.<digits>.<digits>`, for example `0.1.2`.\n\n**Examples**: `0.1.2` | `2025.1.24` | `2.0.0`.",
+      "type": "string",
+      "pattern": "^(\\d+\\.\\d+\\.\\d+)$",
+      "examples": [
+        "0.1.2",
+        "2025.1.24",
+        "2.0.0"
+      ]
+    },
+    "version_date": {
+      "title": "Version Date",
+      "description": "**Required**. The calendar date on which this version of the dataset was released or last updated.\n\n**Use**: Used to track the update history of the dataset and support version control and reproducibility.\n\n**Guidelines**: Provide the date when this version became available to users. Use the ISO 8601 date format `YYYY-MM-DD`.\n\n**Constraints**: Must be a valid date string with format `YYYY-MM-DD`.\n\n**Example**: `2023-01-01`.",
+      "type": "string",
+      "format": "date",
+      "minLength": 10,
+      "maxLength": 10,
+      "examples": [
+        "2023-01-01"
+      ],
+      "$comment": "Date should by in %Y-%m-%d format."
+    },
+    "version_info": {
+      "title": "Version Information",
+      "description": "**Optional**. Additional human-readable information about this dataset version.\n\n**Use**: Used to summarise changes between versions, such as added records, corrected values, updated annotations, or format changes.\n\n**Guidelines**: Briefly describe what changed compared with the previous version of the dataset. Focus on differences that matter for analysis, reproducibility, or compatibility with earlier versions.",
+      "type": "string",
+      "format": "text",
+      "default": ""
+    },
+    "title": {
+      "title": "Title",
+      "description": "**Required**. A short, descriptive, user-friendly title for the dataset.\n\n**Use**: Displayed as the main heading in interfaces, catalogues, and documentation.\n\n**Guidelines**: Use clear, specific wording so that a reader can understand what the dataset is about at a glance. Capitalise main words where appropriate, and avoid overly generic titles.\n\n**Constraints**: *Length*: 5–100 characters.\n\n**Example**: `Large Publicly Available Electrocardiography Dataset`",
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 100
+    },
+    "description": {
+      "title": "Description",
+      "description": "**Required**. A brief narrative description of the dataset, similar to an abstract in a journal article.\n\n**Use**: Used in dataset previews, search results, and documentation to provide a quick understanding of the dataset content and context.\n\n**Guidelines**: Summarise what the dataset contains, how and why it was collected, and any distinguishing characteristics. Aim for a concise but informative description that can be read independently of the rest of the metadata.",
+      "type": "string",
+      "minLength": 1,
+      "format": "text"
+    },
+    "purpose": {
+      "title": "Purpose",
+      "description": "**Required**. Detailed explanation of the purpose for which the dataset was created.\n\n**Use**: Used to understand the intended use, primary research questions, and potential sources of bias linked to the dataset’s original purpose.\n\n**Guidelines**: Describe the main clinical, scientific, or operational objectives behind data collection. For example, developing a risk prediction model, monitoring treatment outcomes, or benchmarking algorithms. If there are multiple purposes, list the primary one first and briefly describe others.",
+      "type": "string",
+      "minLength": 1,
+      "format": "text"
+    },
+    "disease": {
+      "title": "Disease",
+      "description": "**Required**. Name of the primary disease or condition that the dataset focuses on.\n\n**Use**: Used for dataset discovery, filtering, and assessment of relevance for disease-specific analyses.\n\n**Guidelines**: Use clear and standard terminology for the disease (for example, “hypertension”, “heart failure”).\n\n**Examples**: `hypertension` | `heart failure`.",
+      "type": "string",
+      "minLength": 1,
+      "examples": [
+        "hypertension",
+        "heart failure"
+      ],
+      "$comment": "TODO: Define controlled vocabulary."
+    },
+    "study_design": {
+      "title": "Study Design",
+      "description": "**Required**. Description of the underlying study design or data collection framework.\n\n**Use**: Used to understand the methodological context in which the data were generated (for example, observational vs randomised trial) and to assess potential biases and generalisability.\n\n**Guidelines**: Specify the study design using standard terms where possible (for example, 'randomised controlled trial', 'RCT', 'retrospective observational study', 'case-control study').\n\n**Examples**: `RCT` | `observational`.",
+      "type": "string",
+      "minLength": 1,
+      "examples": [
+        "RCT",
+        "observational"
+      ],
+      "$comment": "TODO: Define controlled vocabulary."
+    },
+    "patient_num": {
+      "title": "Number of Patients",
+      "description": "**Required**. Total number of unique patients represented in the dataset.\n\n**Use**: Used to assess dataset scale, potential statistical power, and suitability for different types of analysis or modelling.\n\n**Guidelines**: Provide the exact count of distinct patients whose data are included, not the number of records or files. This value should be consistent with the underlying data files.\n\n**Constraints**: Must be an integer strictly greater than 0.\n",
+      "type": "integer",
+      "$comment": "Validate this against the number of patients in the data files.",
+      "exclusiveMinimum": 0
+    },
+    "patient_criteria": {
+      "title": "Patient Inclusion/Exclusion Criteria",
+      "description": "**Required**. Detailed description of the criteria used to include or exclude patients in the dataset.\n\n**Use**: Used to assess cohort definition, selection bias, and comparability with other datasets or studies.\n\n**Guidelines**: Clearly describe inclusion and exclusion criteria in clinical, demographic, or operational terms (for example, age ranges, diagnoses, procedures, time windows). Indicate how the criteria were applied (e.g. based on clinical codes). Where relevant, separate inclusion and exclusion criteria using headings or bullet lists.",
+      "type": "string",
+      "minLength": 1,
+      "format": "text",
+      "$comment": "TODO: Should this be split into two fields?"
+    },
+    "target_variables": {
+      "title": "Outcome Variables",
+      "description": "**Optional**. Description of the primary and secondary outcome variables (targets) represented in the dataset.\n\n**Use**: Used to understand which outcomes the dataset is designed to support and how they are defined.\n\n**Guidelines**: List and briefly describe each outcome variable or group of variables. Clarify how each target is derived or measured.",
+      "type": "string",
+      "format": "text",
+      "default": ""
+    },
+    "time_zero": {
+      "title": "Measurement Index Time",
+      "description": "**Required**. Description of the index time (baseline or reference event) used to anchor measurements and outcomes.\n\n**Use**: Used to interpret time-based variables correctly and to align analyses across datasets.\n\n**Guidelines**: Describe the clinical or temporal event chosen as the index time (for example, date of diagnosis, hospital admission, or procedure). If different index times are used for different cohorts or tasks, explain this clearly.",
+      "type": "string",
+      "minLength": 1,
+      "examples": [
+        "diabetes T2 diagnosis date",
+        "heart failure hospitalisation date"
+      ]
+    },
+    "temporal_coverage": {
+      "title": "Temporal Coverage",
+      "description": "**Required**. Time period over which the dataset’s data were collected.\n\n**Use**: Used to assess the recency and temporal relevance of the dataset, and to support analyses that depend on calendar time.\n\n**Guidelines**: Provide start and end dates that reflect when data collection begins and ends for this dataset.\n\n**Examples**: `start_date: 2010-01-01`, `end_date: 2020-12-31`.",
+      "type": "object",
+      "properties": {
+        "start_date": {
+          "title": "Start Date",
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 10,
+          "format": "date"
+        },
+        "end_date": {
+          "title": "End Date",
+          "minLength": 10,
+          "maxLength": 10,
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "examples": [
+        {
+          "start_date": "2010-01-01",
+          "end_date": "2020-12-31"
+        }
+      ],
+      "$comment": "Dates should by in %Y-%m-%d format."
+    },
+    "spatial_coverage": {
+      "title": "Spatial Coverage",
+      "description": "**Required**. Geographic areas from which the dataset’s patients originate.\n\n**Use**: Used to assess the geographic representativeness of the dataset and to support location-based analyses, filtering, and bias assessment.\n\n**Guidelines**: List each country or region represented in the dataset. Use standard ISO 3166 country codes.\n\n**Examples**: `GBR` | `ESP` | `PRT`.\n\n**Constraints**: Values should be unique within the list.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "minItems": 1,
+      "examples": [
+        "GBR",
+        "ESP",
+        "PRT"
+      ],
+      "$comment": "Controlled vocabulary: ISO 3166 Alpha-3 country codes."
+    },
+    "source_urls": {
+      "title": "Source URLs",
+      "description": "**Optional**. List of URLs to the original data sources used to construct this dataset.\n\n**Use**: Supports transparency, traceability, and verification of data provenance.\n\n**Guidelines**: Provide stable links to original repositories, registries of the source data. Use fully-qualified URLs where available. Avoid duplicate entries and links that do not directly relate to the dataset’s source material.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "acquisition_methods": {
+      "title": "Acquisition Methods",
+      "description": "**Optional**. Description of the methods used to collect or derive the data in this dataset.\n\n**Use**: Used to understand how data were obtained, including potential sources of variability, measurement error, or bias.\n\n**Guidelines**: Summarise key aspects of data acquisition, such as data sources (e.g. electronic health records, registries, sensors), devices, sampling frequencies, and any important protocols. If multiple modalities are present (for example, tabular and time series data), use headings to describe methods for each modality separately.",
+      "type": "string",
+      "format": "text",
+      "default": "",
+      "examples": [
+        "The data were collected using phone interviews."
+      ]
+    },
+    "healthcare_setting": {
+      "title": "Healthcare Setting",
+      "description": "**Required**. Description of the healthcare setting(s) in which the data were collected.\n\n**Use**: Used to understand the clinical context of the dataset and to support filtering by care setting.\n\n**Guidelines**: Use clear setting terms such as 'primary care', 'secondary care', or 'tertiary care'.\n\n**Examples**: `primary care` | `secondary care`.",
+      "type": "string",
+      "minLength": 1,
+      "examples": [
+        "primary care",
+        "secondary care"
+      ]
+    },
+    "documentation": {
+      "title": "Documentation",
+      "description": "**Optional**. Links to documentation resources that provide further information about the dataset.\n\n**Use**: Used to give users direct access to supporting materials, such as user guides, codebooks, data dictionaries, protocols, or reports.\n\n**Guidelines**: Provide valid URIs to documentation that is stable and intended to be shared. Avoid duplicate links and ensure that each item is relevant to understanding or using the dataset.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "uniqueItems": true
+    },
+    "publications": {
+      "title": "Publications",
+      "description": "**Optional**. List of external publications related to the dataset.\n\n**Use**: Used for academic context, citation, and understanding of how the dataset has been used or evaluated.\n\n**Guidelines**: Provide persistent links where possible, such as DOIs or publisher URLs. Each entry should point to a publication that directly describes, uses, or analyses this dataset.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "data_modalities": {
+      "title": "Data Modalities",
+      "description": "**Required**. List of data modalities included in the dataset.\n\n**Use**: Used to drive modality-specific handling, validation, visualisation, and discovery.\n\n**Guidelines**: Select one or more modality labels from the predefined set.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "tabular",
+          "image",
+          "TS:tabular",
+          "TS:ECG",
+          "TS:iEEG",
+          "TS:accelerometer",
+          "TS:other",
+          "text"
+        ]
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "privacy_compliance": {
+      "title": "Privacy Compliance",
+      "description": "**Required**. Description of how the dataset complies with anonymisation or de-identification requirements.\n\n**Use**: Used to assess whether and how the dataset can be used or shared under relevant legal and ethical frameworks.\n\n**Guidelines**: Describe the privacy frameworks, policies, and techniques applied (for example, de-identification, pseudonymisation, aggregation, suppression, or masking). Mention any formal assessments or standards followed (e.g. GDPR compliance, HIPAA de-identification guidance) where applicable.",
+      "type": "string",
+      "minLength": 1,
+      "format": "text"
+    },
+    "ethics_approval": {
+      "title": "Ethics Approval",
+      "description": "**Required**. Details of ethics approval relevant to the dataset.\n\n**Use**: Used to evaluate the ethical governance of data collection and use, and to document approvals from relevant ethics committees or institutional review boards.\n\n**Guidelines**: For each applicable approval, record whether approval was obtained, when it was granted, the register or reference number, and any important details or conditions. If ethics approval was not required, explain why.",
+      "type": "object",
+      "properties": {
+        "obtained": {
+          "title": "Approval Obtained",
+          "type": "boolean",
+          "enum": [
+            false,
+            true
+          ]
+        },
+        "obtained_date": {
+          "title": "Approval Date",
+          "type": "string",
+          "format": "date"
+        },
+        "register_number": {
+          "title": "Approval Number",
+          "type": "string"
+        },
+        "details": {
+          "title": "Approval Details",
+          "type": "string",
+          "format": "text"
+        }
+      },
+      "additionalProperties": false,
+      "requied": [
+        "obtained"
+      ]
+    },
+    "patient_consent": {
+      "title": "Patient Consent",
+      "description": "**Required**. Description of how patient consent was handled for data collection, use, and sharing.\n\n**Use**: Used to assess compliance with data protection and ethics requirements, and to understand any constraints on downstream use.\n\n**Guidelines**: Indicate whether consent was obtained, what type of consent, and any restrictions it imposes. If consent was not required, clearly explain the justification in the details field.",
+      "type": "object",
+      "properties": {
+        "obtained": {
+          "title": "Patient Consent Obtained",
+          "type": "boolean",
+          "enum": [
+            false,
+            true
+          ]
+        },
+        "obtained_date": {
+          "title": "Patient Consent Date",
+          "type": "string",
+          "format": "date"
+        },
+        "details": {
+          "title": "Patient Consent Details",
+          "type": "string",
+          "format": "text"
+        }
+      },
+      "additionalProperties": false,
+      "requied": [
+        "obtained"
+      ]
+    },
+    "funder": {
+      "title": "Funder",
+      "description": "**Optional**. Organisation(s) that provided funding for collecting or preparing the dataset.\n\n**Use**: Used for transparency, acknowledgement, and understanding of potential funding-related influences or conflicts of interest.\n\n**Guidelines**: Provide the official names of the funding bodies or programmes. For example, a research council, charity, or industry sponsor.",
+      "type": "string",
+      "default": ""
+    },
+    "owner": {
+      "title": "Owner",
+      "description": "**Required**. Legal owner of the dataset.\n\n**Use**: Used to establish who holds legal rights and responsibilities for the dataset, supporting licensing, governance, and contact routing.\n\n**Guidelines**: Provide the official name of the organisation that legally owns the dataset. If ownership is shared, describe the primary owner and clarify shared arrangements.\n\n**Constraints**: Must not be empty.\n",
+      "type": "string",
+      "minLength": 1
+    },
+    "licence": {
+      "title": "Licence",
+      "description": "**Required**. Licence under which the dataset may be used.\n\n**Use**: Used to determine permitted uses, distribution conditions, and obligations.\n\n**Guidelines**: Provide a clear licence name or identifier. Where possible, use standard, well-documented licences rather than ad hoc wording. If a custom licence is used, ensure that all details are provided.\n\n**Constraints**: Must not be empty.",
+      "type": "string",
+      "$comment": "TODO: This should be a controlled vocabulary.",
+      "minLength": 1
+    },
+    "licence_url": {
+      "title": "Licence URL",
+      "description": "**Optional**. URL pointing to the full text of the dataset’s licence.\n\n**Use**: Used to give users direct access to the legal terms governing dataset use and redistribution.\n\n**Guidelines**: Provide a stable URL where the licence text can be accessed.",
+      "type": "string",
+      "format": "uri",
+      "default": ""
+    },
+    "doi": {
+      "title": "DOI",
+      "description": "**Optional**. Digital Object Identifier (DOI) assigned to the dataset.\n\n**Use**: Used for persistent identification and citation of the dataset.\n\n**Guidelines**: Provide a valid DOI string if one has been registered for this dataset. The DOI should typically begin with `10.` and follow the standard DOI syntax.",
+      "type": "string",
+      "default": ""
+    },
+    "citation": {
+      "title": "Citation",
+      "description": "**Required**. Description of how the dataset should be cited.\n\n**Use**: Provides a standard reference format for users when acknowledging the dataset in publications, reports, or software.\n\n**Guidelines**: Provide a complete citation string, including authors (or organisation), title, year, dataset version, and publisher or hosting platform.",
+      "type": "string",
+      "minLength": 1,
+      "format": "text",
+      "$comment": "TODO: Should this be a BibTeX object or DataCite object?"
+    },
+    "tasks": {
+      "title": "ML Tasks",
+      "description": "**Optional**. List of machine learning or analytical tasks for which the dataset is intended.\n\n**Use**: Used to support discovery and selection of datasets based on intended use. For example, classification, regression, segmentation.\n\n**Guidelines**: Provide short, standardised task names such as 'binary classification”, 'multiclass classification”, 'regression”, 'survival analysis”, or similar. Use one item per task and avoid redundant wording.\n\n**Constraints**: The list must be unique.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "format": {
+      "title": "Dataset Format",
+      "description": "**Optional**. Dataset Format.\n\nThis field seems to have issues, it allows only one format, and the formats are not exhaustive.\n",
+      "type": "string",
+      "enum": [
+        "WFDB",
+        "AISym4Med-Targets",
+        "AISym4Med-RM",
+        "iEEG-BIDS",
+        "HDF5"
+      ],
+      "uniqueItems": true
+    },
+    "keywords": {
+      "title": "Keywords",
+      "description": "**Required**. List of keywords that improve dataset discoverability.\n\n**Use**: Used for search, filtering, and grouping of datasets in catalogues and tools.\n\n**Guidelines**: Provide short, meaningful terms that describe important aspects of the dataset. For example, disease area, data modality, population, or task. Use one concept per keyword and avoid duplicates. Where possible, align with controlled vocabularies or commonly used terms.\n\n**Constraints**: Keywords must be non-empty strings and should be unique within the list.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "minItems": 1,
+      "$comment": "TODO: This should be a semi-controlled vocablary."
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "label",
+    "version",
+    "version_date",
+    "title",
+    "description",
+    "purpose",
+    "disease",
+    "study_design",
+    "patient_num",
+    "patient_criteria",
+    "time_zero",
+    "temporal_coverage",
+    "spatial_coverage",
+    "healthcare_setting",
+    "data_modalities",
+    "privacy_compliance",
+    "ethics_approval",
+    "patient_consent",
+    "owner",
+    "licence",
+    "citation",
+    "keywords"
+  ]
+}

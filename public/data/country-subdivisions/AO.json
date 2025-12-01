@@ -1,0 +1,74 @@
+[
+  {
+    "label": "AO-BGO: Bengo",
+    "value": "AO-BGO"
+  },
+  {
+    "label": "AO-BGU: Benguela",
+    "value": "AO-BGU"
+  },
+  {
+    "label": "AO-BIE: Bié",
+    "value": "AO-BIE"
+  },
+  {
+    "label": "AO-CAB: Cabinda",
+    "value": "AO-CAB"
+  },
+  {
+    "label": "AO-CCU: Cuando Cubango",
+    "value": "AO-CCU"
+  },
+  {
+    "label": "AO-CNN: Cunene",
+    "value": "AO-CNN"
+  },
+  {
+    "label": "AO-CNO: Cuanza-Norte",
+    "value": "AO-CNO"
+  },
+  {
+    "label": "AO-CUS: Cuanza-Sul",
+    "value": "AO-CUS"
+  },
+  {
+    "label": "AO-HUA: Huambo",
+    "value": "AO-HUA"
+  },
+  {
+    "label": "AO-HUI: Huíla",
+    "value": "AO-HUI"
+  },
+  {
+    "label": "AO-LNO: Lunda-Norte",
+    "value": "AO-LNO"
+  },
+  {
+    "label": "AO-LSU: Lunda-Sul",
+    "value": "AO-LSU"
+  },
+  {
+    "label": "AO-LUA: Luanda",
+    "value": "AO-LUA"
+  },
+  {
+    "label": "AO-MAL: Malange",
+    "value": "AO-MAL"
+  },
+  {
+    "label": "AO-MOX: Moxico",
+    "value": "AO-MOX"
+  },
+  {
+    "label": "AO-NAM: Namibe",
+    "value": "AO-NAM"
+  },
+  {
+    "label": "AO-UIG: Uíge",
+    "value": "AO-UIG"
+  },
+  {
+    "label": "AO-ZAI: Zaire",
+    "value": "AO-ZAI"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "label": "PL-02: Dolnośląskie",
+    "value": "PL-02"
+  },
+  {
+    "label": "PL-04: Kujawsko-Pomorskie",
+    "value": "PL-04"
+  },
+  {
+    "label": "PL-06: Lubelskie",
+    "value": "PL-06"
+  },
+  {
+    "label": "PL-08: Lubuskie",
+    "value": "PL-08"
+  },
+  {
+    "label": "PL-10: Łódzkie",
+    "value": "PL-10"
+  },
+  {
+    "label": "PL-12: Małopolskie",
+    "value": "PL-12"
+  },
+  {
+    "label": "PL-14: Mazowieckie",
+    "value": "PL-14"
+  },
+  {
+    "label": "PL-16: Opolskie",
+    "value": "PL-16"
+  },
+  {
+    "label": "PL-18: Podkarpackie",
+    "value": "PL-18"
+  },
+  {
+    "label": "PL-20: Podlaskie",
+    "value": "PL-20"
+  },
+  {
+    "label": "PL-22: Pomorskie",
+    "value": "PL-22"
+  },
+  {
+    "label": "PL-24: Śląskie",
+    "value": "PL-24"
+  },
+  {
+    "label": "PL-26: Świętokrzyskie",
+    "value": "PL-26"
+  },
+  {
+    "label": "PL-28: Warmińsko-Mazurskie",
+    "value": "PL-28"
+  },
+  {
+    "label": "PL-30: Wielkopolskie",
+    "value": "PL-30"
+  },
+  {
+    "label": "PL-32: Zachodniopomorskie",
+    "value": "PL-32"
+  }
+]

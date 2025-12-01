@@ -1,0 +1,86 @@
+[
+  {
+    "label": "MV-00: Ariatholhu Dhekunuburi; South Ari Atoll",
+    "value": "MV-00"
+  },
+  {
+    "label": "MV-01: Addu; Addu City",
+    "value": "MV-01"
+  },
+  {
+    "label": "MV-02: Ariatholhu Uthuruburi; North Ari Atoll",
+    "value": "MV-02"
+  },
+  {
+    "label": "MV-03: Faadhippolhu",
+    "value": "MV-03"
+  },
+  {
+    "label": "MV-04: Felidheatholhu; Felidhu Atoll",
+    "value": "MV-04"
+  },
+  {
+    "label": "MV-05: Hahdhunmathi",
+    "value": "MV-05"
+  },
+  {
+    "label": "MV-07: North Thiladhunmathi; Thiladhunmathee Uthuruburi",
+    "value": "MV-07"
+  },
+  {
+    "label": "MV-08: Kolhumadulu",
+    "value": "MV-08"
+  },
+  {
+    "label": "MV-12: Mulakatholhu; Mulaku Atoll",
+    "value": "MV-12"
+  },
+  {
+    "label": "MV-13: Maalhosmadulu Uthuruburi; North Maalhosmadulu",
+    "value": "MV-13"
+  },
+  {
+    "label": "MV-14: Nilandheatholhu Uthuruburi; North Nilandhe Atoll",
+    "value": "MV-14"
+  },
+  {
+    "label": "MV-17: Nilandheatholhu Dhekunuburi; South Nilandhe Atoll",
+    "value": "MV-17"
+  },
+  {
+    "label": "MV-20: Maalhosmadulu Dhekunuburi; South Maalhosmadulu",
+    "value": "MV-20"
+  },
+  {
+    "label": "MV-23: South Thiladhunmathi; Thiladhunmathee Dhekunuburi",
+    "value": "MV-23"
+  },
+  {
+    "label": "MV-24: Miladhunmadulu Uthuruburi; North Miladhunmadulu",
+    "value": "MV-24"
+  },
+  {
+    "label": "MV-25: Miladhunmadulu Dhekunuburi; South Miladhunmadulu",
+    "value": "MV-25"
+  },
+  {
+    "label": "MV-26: Maaleatholhu; Male Atoll",
+    "value": "MV-26"
+  },
+  {
+    "label": "MV-27: Huvadhuatholhu Uthuruburi; North Huvadhu Atoll",
+    "value": "MV-27"
+  },
+  {
+    "label": "MV-28: Huvadhuatholhu Dhekunuburi; South Huvadhu Atoll",
+    "value": "MV-28"
+  },
+  {
+    "label": "MV-29: Fuvammulah",
+    "value": "MV-29"
+  },
+  {
+    "label": "MV-MLE: Maale; Male",
+    "value": "MV-MLE"
+  }
+]

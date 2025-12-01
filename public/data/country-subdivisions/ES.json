@@ -1,0 +1,278 @@
+[
+  {
+    "label": "ES-A: Alacant; Alicante",
+    "value": "ES-A"
+  },
+  {
+    "label": "ES-AB: Albacete",
+    "value": "ES-AB"
+  },
+  {
+    "label": "ES-AL: Almería",
+    "value": "ES-AL"
+  },
+  {
+    "label": "ES-AN: Andalucía",
+    "value": "ES-AN"
+  },
+  {
+    "label": "ES-AR: Aragón",
+    "value": "ES-AR"
+  },
+  {
+    "label": "ES-AS: Asturias",
+    "value": "ES-AS"
+  },
+  {
+    "label": "ES-AV: Ávila",
+    "value": "ES-AV"
+  },
+  {
+    "label": "ES-B: Barcelona",
+    "value": "ES-B"
+  },
+  {
+    "label": "ES-BA: Badajoz",
+    "value": "ES-BA"
+  },
+  {
+    "label": "ES-BI: Bizkaia",
+    "value": "ES-BI"
+  },
+  {
+    "label": "ES-BU: Burgos",
+    "value": "ES-BU"
+  },
+  {
+    "label": "ES-C: A Coruña",
+    "value": "ES-C"
+  },
+  {
+    "label": "ES-CA: Cádiz",
+    "value": "ES-CA"
+  },
+  {
+    "label": "ES-CB: Cantabria",
+    "value": "ES-CB"
+  },
+  {
+    "label": "ES-CC: Cáceres",
+    "value": "ES-CC"
+  },
+  {
+    "label": "ES-CE: Ceuta",
+    "value": "ES-CE"
+  },
+  {
+    "label": "ES-CL: Castilla y León",
+    "value": "ES-CL"
+  },
+  {
+    "label": "ES-CM: Castilla-La Mancha",
+    "value": "ES-CM"
+  },
+  {
+    "label": "ES-CN: Canarias",
+    "value": "ES-CN"
+  },
+  {
+    "label": "ES-CO: Córdoba",
+    "value": "ES-CO"
+  },
+  {
+    "label": "ES-CR: Ciudad Real",
+    "value": "ES-CR"
+  },
+  {
+    "label": "ES-CS: Castelló; Castellón",
+    "value": "ES-CS"
+  },
+  {
+    "label": "ES-CT: Catalunya",
+    "value": "ES-CT"
+  },
+  {
+    "label": "ES-CU: Cuenca",
+    "value": "ES-CU"
+  },
+  {
+    "label": "ES-EX: Extremadura",
+    "value": "ES-EX"
+  },
+  {
+    "label": "ES-GA: Galicia",
+    "value": "ES-GA"
+  },
+  {
+    "label": "ES-GC: Las Palmas",
+    "value": "ES-GC"
+  },
+  {
+    "label": "ES-GI: Girona",
+    "value": "ES-GI"
+  },
+  {
+    "label": "ES-GR: Granada",
+    "value": "ES-GR"
+  },
+  {
+    "label": "ES-GU: Guadalajara",
+    "value": "ES-GU"
+  },
+  {
+    "label": "ES-H: Huelva",
+    "value": "ES-H"
+  },
+  {
+    "label": "ES-HU: Huesca",
+    "value": "ES-HU"
+  },
+  {
+    "label": "ES-IB: Illes Balears",
+    "value": "ES-IB"
+  },
+  {
+    "label": "ES-J: Jaén",
+    "value": "ES-J"
+  },
+  {
+    "label": "ES-L: Lleida",
+    "value": "ES-L"
+  },
+  {
+    "label": "ES-LE: León",
+    "value": "ES-LE"
+  },
+  {
+    "label": "ES-LO: La Rioja",
+    "value": "ES-LO"
+  },
+  {
+    "label": "ES-LU: Lugo",
+    "value": "ES-LU"
+  },
+  {
+    "label": "ES-M: Madrid",
+    "value": "ES-M"
+  },
+  {
+    "label": "ES-MA: Málaga",
+    "value": "ES-MA"
+  },
+  {
+    "label": "ES-MC: Murcia",
+    "value": "ES-MC"
+  },
+  {
+    "label": "ES-MD: Madrid",
+    "value": "ES-MD"
+  },
+  {
+    "label": "ES-ML: Melilla",
+    "value": "ES-ML"
+  },
+  {
+    "label": "ES-MU: Murcia",
+    "value": "ES-MU"
+  },
+  {
+    "label": "ES-NA: Nafarroa; Navarra",
+    "value": "ES-NA"
+  },
+  {
+    "label": "ES-NC: Nafarroako Foru Komunitatea; Navarra",
+    "value": "ES-NC"
+  },
+  {
+    "label": "ES-O: Asturias",
+    "value": "ES-O"
+  },
+  {
+    "label": "ES-OR: Ourense",
+    "value": "ES-OR"
+  },
+  {
+    "label": "ES-P: Palencia",
+    "value": "ES-P"
+  },
+  {
+    "label": "ES-PM: Illes Balears",
+    "value": "ES-PM"
+  },
+  {
+    "label": "ES-PO: Pontevedra",
+    "value": "ES-PO"
+  },
+  {
+    "label": "ES-PV: Euskal Herria; País Vasco",
+    "value": "ES-PV"
+  },
+  {
+    "label": "ES-RI: La Rioja",
+    "value": "ES-RI"
+  },
+  {
+    "label": "ES-S: Cantabria",
+    "value": "ES-S"
+  },
+  {
+    "label": "ES-SA: Salamanca",
+    "value": "ES-SA"
+  },
+  {
+    "label": "ES-SE: Sevilla",
+    "value": "ES-SE"
+  },
+  {
+    "label": "ES-SG: Segovia",
+    "value": "ES-SG"
+  },
+  {
+    "label": "ES-SO: Soria",
+    "value": "ES-SO"
+  },
+  {
+    "label": "ES-SS: Gipuzkoa",
+    "value": "ES-SS"
+  },
+  {
+    "label": "ES-T: Tarragona",
+    "value": "ES-T"
+  },
+  {
+    "label": "ES-TE: Teruel",
+    "value": "ES-TE"
+  },
+  {
+    "label": "ES-TF: Santa Cruz de Tenerife",
+    "value": "ES-TF"
+  },
+  {
+    "label": "ES-TO: Toledo",
+    "value": "ES-TO"
+  },
+  {
+    "label": "ES-V: Valencia; València",
+    "value": "ES-V"
+  },
+  {
+    "label": "ES-VA: Valladolid",
+    "value": "ES-VA"
+  },
+  {
+    "label": "ES-VC: Valenciana",
+    "value": "ES-VC"
+  },
+  {
+    "label": "ES-VI: Araba; Álava",
+    "value": "ES-VI"
+  },
+  {
+    "label": "ES-Z: Zaragoza",
+    "value": "ES-Z"
+  },
+  {
+    "label": "ES-ZA: Zamora",
+    "value": "ES-ZA"
+  }
+]

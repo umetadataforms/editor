@@ -1,0 +1,234 @@
+[
+  {
+    "label": "DZ-01: Adrar",
+    "value": "DZ-01"
+  },
+  {
+    "label": "DZ-02: Chlef",
+    "value": "DZ-02"
+  },
+  {
+    "label": "DZ-03: Laghouat",
+    "value": "DZ-03"
+  },
+  {
+    "label": "DZ-04: Oum el Bouaghi",
+    "value": "DZ-04"
+  },
+  {
+    "label": "DZ-05: Batna",
+    "value": "DZ-05"
+  },
+  {
+    "label": "DZ-06: Béjaïa",
+    "value": "DZ-06"
+  },
+  {
+    "label": "DZ-07: Biskra",
+    "value": "DZ-07"
+  },
+  {
+    "label": "DZ-08: Béchar",
+    "value": "DZ-08"
+  },
+  {
+    "label": "DZ-09: Blida",
+    "value": "DZ-09"
+  },
+  {
+    "label": "DZ-10: Bouira",
+    "value": "DZ-10"
+  },
+  {
+    "label": "DZ-11: Tamanrasset",
+    "value": "DZ-11"
+  },
+  {
+    "label": "DZ-12: Tébessa",
+    "value": "DZ-12"
+  },
+  {
+    "label": "DZ-13: Tlemcen",
+    "value": "DZ-13"
+  },
+  {
+    "label": "DZ-14: Tiaret",
+    "value": "DZ-14"
+  },
+  {
+    "label": "DZ-15: Tizi Ouzou",
+    "value": "DZ-15"
+  },
+  {
+    "label": "DZ-16: Alger",
+    "value": "DZ-16"
+  },
+  {
+    "label": "DZ-17: Djelfa",
+    "value": "DZ-17"
+  },
+  {
+    "label": "DZ-18: Jijel",
+    "value": "DZ-18"
+  },
+  {
+    "label": "DZ-19: Sétif",
+    "value": "DZ-19"
+  },
+  {
+    "label": "DZ-20: Saïda",
+    "value": "DZ-20"
+  },
+  {
+    "label": "DZ-21: Skikda",
+    "value": "DZ-21"
+  },
+  {
+    "label": "DZ-22: Sidi Bel Abbès",
+    "value": "DZ-22"
+  },
+  {
+    "label": "DZ-23: Annaba",
+    "value": "DZ-23"
+  },
+  {
+    "label": "DZ-24: Guelma",
+    "value": "DZ-24"
+  },
+  {
+    "label": "DZ-25: Constantine",
+    "value": "DZ-25"
+  },
+  {
+    "label": "DZ-26: Médéa",
+    "value": "DZ-26"
+  },
+  {
+    "label": "DZ-27: Mostaganem",
+    "value": "DZ-27"
+  },
+  {
+    "label": "DZ-28: M'sila",
+    "value": "DZ-28"
+  },
+  {
+    "label": "DZ-29: Mascara",
+    "value": "DZ-29"
+  },
+  {
+    "label": "DZ-30: Ouargla",
+    "value": "DZ-30"
+  },
+  {
+    "label": "DZ-31: Oran",
+    "value": "DZ-31"
+  },
+  {
+    "label": "DZ-32: El Bayadh",
+    "value": "DZ-32"
+  },
+  {
+    "label": "DZ-33: Illizi",
+    "value": "DZ-33"
+  },
+  {
+    "label": "DZ-34: Bordj Bou Arréridj",
+    "value": "DZ-34"
+  },
+  {
+    "label": "DZ-35: Boumerdès",
+    "value": "DZ-35"
+  },
+  {
+    "label": "DZ-36: El Tarf",
+    "value": "DZ-36"
+  },
+  {
+    "label": "DZ-37: Tindouf",
+    "value": "DZ-37"
+  },
+  {
+    "label": "DZ-38: Tissemsilt",
+    "value": "DZ-38"
+  },
+  {
+    "label": "DZ-39: El Oued",
+    "value": "DZ-39"
+  },
+  {
+    "label": "DZ-40: Khenchela",
+    "value": "DZ-40"
+  },
+  {
+    "label": "DZ-41: Souk Ahras",
+    "value": "DZ-41"
+  },
+  {
+    "label": "DZ-42: Tipaza",
+    "value": "DZ-42"
+  },
+  {
+    "label": "DZ-43: Mila",
+    "value": "DZ-43"
+  },
+  {
+    "label": "DZ-44: Aïn Defla",
+    "value": "DZ-44"
+  },
+  {
+    "label": "DZ-45: Naama",
+    "value": "DZ-45"
+  },
+  {
+    "label": "DZ-46: Aïn Témouchent",
+    "value": "DZ-46"
+  },
+  {
+    "label": "DZ-47: Ghardaïa",
+    "value": "DZ-47"
+  },
+  {
+    "label": "DZ-48: Relizane",
+    "value": "DZ-48"
+  },
+  {
+    "label": "DZ-49: Timimoun",
+    "value": "DZ-49"
+  },
+  {
+    "label": "DZ-50: Bordj Badji Mokhtar",
+    "value": "DZ-50"
+  },
+  {
+    "label": "DZ-51: Ouled Djellal",
+    "value": "DZ-51"
+  },
+  {
+    "label": "DZ-52: Béni Abbès",
+    "value": "DZ-52"
+  },
+  {
+    "label": "DZ-53: In Salah",
+    "value": "DZ-53"
+  },
+  {
+    "label": "DZ-54: In Guezzam",
+    "value": "DZ-54"
+  },
+  {
+    "label": "DZ-55: Touggourt",
+    "value": "DZ-55"
+  },
+  {
+    "label": "DZ-56: Djanet",
+    "value": "DZ-56"
+  },
+  {
+    "label": "DZ-57: El Meghaier",
+    "value": "DZ-57"
+  },
+  {
+    "label": "DZ-58: El Meniaa",
+    "value": "DZ-58"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "label": "ID-AC: Aceh",
+    "value": "ID-AC"
+  },
+  {
+    "label": "ID-BA: Bali",
+    "value": "ID-BA"
+  },
+  {
+    "label": "ID-BB: Kepulauan Bangka Belitung",
+    "value": "ID-BB"
+  },
+  {
+    "label": "ID-BE: Bengkulu",
+    "value": "ID-BE"
+  },
+  {
+    "label": "ID-BT: Banten",
+    "value": "ID-BT"
+  },
+  {
+    "label": "ID-GO: Gorontalo",
+    "value": "ID-GO"
+  },
+  {
+    "label": "ID-JA: Jambi",
+    "value": "ID-JA"
+  },
+  {
+    "label": "ID-JB: Jawa Barat",
+    "value": "ID-JB"
+  },
+  {
+    "label": "ID-JI: Jawa Timur",
+    "value": "ID-JI"
+  },
+  {
+    "label": "ID-JK: Jakarta Raya",
+    "value": "ID-JK"
+  },
+  {
+    "label": "ID-JT: Jawa Tengah",
+    "value": "ID-JT"
+  },
+  {
+    "label": "ID-JW: Jawa",
+    "value": "ID-JW"
+  },
+  {
+    "label": "ID-KA: Kalimantan",
+    "value": "ID-KA"
+  },
+  {
+    "label": "ID-KB: Kalimantan Barat",
+    "value": "ID-KB"
+  },
+  {
+    "label": "ID-KI: Kalimantan Timur",
+    "value": "ID-KI"
+  },
+  {
+    "label": "ID-KR: Kepulauan Riau",
+    "value": "ID-KR"
+  },
+  {
+    "label": "ID-KS: Kalimantan Selatan",
+    "value": "ID-KS"
+  },
+  {
+    "label": "ID-KT: Kalimantan Tengah",
+    "value": "ID-KT"
+  },
+  {
+    "label": "ID-KU: Kalimantan Utara",
+    "value": "ID-KU"
+  },
+  {
+    "label": "ID-LA: Lampung",
+    "value": "ID-LA"
+  },
+  {
+    "label": "ID-MA: Maluku",
+    "value": "ID-MA"
+  },
+  {
+    "label": "ID-ML: Maluku",
+    "value": "ID-ML"
+  },
+  {
+    "label": "ID-MU: Maluku Utara",
+    "value": "ID-MU"
+  },
+  {
+    "label": "ID-NB: Nusa Tenggara Barat",
+    "value": "ID-NB"
+  },
+  {
+    "label": "ID-NT: Nusa Tenggara Timur",
+    "value": "ID-NT"
+  },
+  {
+    "label": "ID-NU: Nusa Tenggara",
+    "value": "ID-NU"
+  },
+  {
+    "label": "ID-PA: Papua",
+    "value": "ID-PA"
+  },
+  {
+    "label": "ID-PB: Papua Barat",
+    "value": "ID-PB"
+  },
+  {
+    "label": "ID-PD: Papua Barat Daya",
+    "value": "ID-PD"
+  },
+  {
+    "label": "ID-PE: Papua Pengunungan",
+    "value": "ID-PE"
+  },
+  {
+    "label": "ID-PP: Papua",
+    "value": "ID-PP"
+  },
+  {
+    "label": "ID-PS: Papua Selatan",
+    "value": "ID-PS"
+  },
+  {
+    "label": "ID-PT: Papua Tengah",
+    "value": "ID-PT"
+  },
+  {
+    "label": "ID-RI: Riau",
+    "value": "ID-RI"
+  },
+  {
+    "label": "ID-SA: Sulawesi Utara",
+    "value": "ID-SA"
+  },
+  {
+    "label": "ID-SB: Sumatera Barat",
+    "value": "ID-SB"
+  },
+  {
+    "label": "ID-SG: Sulawesi Tenggara",
+    "value": "ID-SG"
+  },
+  {
+    "label": "ID-SL: Sulawesi",
+    "value": "ID-SL"
+  },
+  {
+    "label": "ID-SM: Sumatera",
+    "value": "ID-SM"
+  },
+  {
+    "label": "ID-SN: Sulawesi Selatan",
+    "value": "ID-SN"
+  },
+  {
+    "label": "ID-SR: Sulawesi Barat",
+    "value": "ID-SR"
+  },
+  {
+    "label": "ID-SS: Sumatera Selatan",
+    "value": "ID-SS"
+  },
+  {
+    "label": "ID-ST: Sulawesi Tengah",
+    "value": "ID-ST"
+  },
+  {
+    "label": "ID-SU: Sumatera Utara",
+    "value": "ID-SU"
+  },
+  {
+    "label": "ID-YO: Yogyakarta",
+    "value": "ID-YO"
+  }
+]

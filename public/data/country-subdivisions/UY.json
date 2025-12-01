@@ -1,0 +1,78 @@
+[
+  {
+    "label": "UY-AR: Artigas",
+    "value": "UY-AR"
+  },
+  {
+    "label": "UY-CA: Canelones",
+    "value": "UY-CA"
+  },
+  {
+    "label": "UY-CL: Cerro Largo",
+    "value": "UY-CL"
+  },
+  {
+    "label": "UY-CO: Colonia",
+    "value": "UY-CO"
+  },
+  {
+    "label": "UY-DU: Durazno",
+    "value": "UY-DU"
+  },
+  {
+    "label": "UY-FD: Florida",
+    "value": "UY-FD"
+  },
+  {
+    "label": "UY-FS: Flores",
+    "value": "UY-FS"
+  },
+  {
+    "label": "UY-LA: Lavalleja",
+    "value": "UY-LA"
+  },
+  {
+    "label": "UY-MA: Maldonado",
+    "value": "UY-MA"
+  },
+  {
+    "label": "UY-MO: Montevideo",
+    "value": "UY-MO"
+  },
+  {
+    "label": "UY-PA: Paysandú",
+    "value": "UY-PA"
+  },
+  {
+    "label": "UY-RN: Río Negro",
+    "value": "UY-RN"
+  },
+  {
+    "label": "UY-RO: Rocha",
+    "value": "UY-RO"
+  },
+  {
+    "label": "UY-RV: Rivera",
+    "value": "UY-RV"
+  },
+  {
+    "label": "UY-SA: Salto",
+    "value": "UY-SA"
+  },
+  {
+    "label": "UY-SJ: San José",
+    "value": "UY-SJ"
+  },
+  {
+    "label": "UY-SO: Soriano",
+    "value": "UY-SO"
+  },
+  {
+    "label": "UY-TA: Tacuarembó",
+    "value": "UY-TA"
+  },
+  {
+    "label": "UY-TT: Treinta y Tres",
+    "value": "UY-TT"
+  }
+]

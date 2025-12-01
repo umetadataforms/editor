@@ -1,0 +1,53 @@
+{
+  "schema": "https://github.com/umetadataforms/schemas/raw/main/modular/real-dataset-metadata/v0.0.1.json",
+  "label": "",
+  "version": "",
+  "versionDate": "",
+  "versionInfo": null,
+  "title": "",
+  "summary": "",
+  "purpose": "",
+  "baseline": "",
+  "inclusionCriteria": "",
+  "exclusionCriteria": "",
+  "targets": "",
+  "studyDesign": "",
+  "temporalCoverage": {
+    "startDate": "",
+    "endDate": ""
+  },
+  "geographicCoverage": {
+    "geographicInfo": "",
+    "geographicAreas": []
+  },
+  "dataSampling": "",
+  "acquisitionMethods": "",
+  "annotationMethods": "",
+  "limitations": "",
+  "dataPreprocessing": "",
+  "healthcareSettings": [
+    ""
+  ],
+  "dataSources": [],
+  "additionalDocumentation": [],
+  "dataModalities": [],
+  "dataFormats": [],
+  "privacyCompliance": "",
+  "ethicsApproval": [],
+  "patientConsent": "",
+  "acknowledgements": "",
+  "funding": "",
+  "owners": [],
+  "doi": "",
+  "howToCite": {
+    "instructions": "",
+    "citations": []
+  },
+  "references": "",
+  "modellingTasks": [],
+  "keywords": [],
+  "licence": {
+    "url": "",
+    "title": ""
+  }
+}
