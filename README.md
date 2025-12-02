@@ -66,7 +66,7 @@ remove all application settings.
 
 Download `uMetadataFormsEditor-<version>.AppImage` from latest test [release].
 
-You need FUSE to run app images:
+You need FUSE to run App Images:
 ```bash
 sudo apt install libfuse2
 ```
