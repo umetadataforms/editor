@@ -1,58 +1,35 @@
-import { useMemo, useRef, useState, useCallback, useEffect } from 'react';
-
-import type { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { useRef, useState, useCallback } from 'react';
+import type { ErrorSchema, RJSFValidationError } from '@rjsf/utils';
+import { createErrorHandler, toErrorList, toErrorSchema, unwrapErrorHandler } from '@rjsf/utils';
 import { customizeValidator } from '@rjsf/validator-ajv8';
+import { Box } from '@mantine/core';
 
-// Theme imports
-import Form from '@rjsf/antd';
-import { Layout, ConfigProvider, theme, message } from 'antd';
-
-// Tempalte imports
-import TitleFieldTemplate from './templates/TitleFieldTemplate';
-import DescriptionFieldTemplate from './templates/DescriptionFieldTemplate';
-import FieldTemplate from './templates/FieldTemplate';
-import ArrayFieldTemplate from './templates/ArrayFieldTemplate';
-import ObjectFieldTemplate from './templates/ObjectFieldTemplate';
-
-// Field imports
-import NullField from './fields/NullField';
-import MultiSchemaField from './fields/MultiSchemaField';
-
-// Widget imports
-import StringFieldWidget from './widgets/StringFieldWidgetDebounce';
-import TextAreaWidget from './widgets/TextAreaWidget/TextAreaWidget';
-import CountryWidget from './widgets/CountryWidget';
-import CountryWidgetTempAlpha3 from './widgets/CountryWidgetTempAlpha3';
-import CountrySubdivisionWidget from './widgets/CountrySubdivisionWidget';
-
-// Custom panel imports
 import ToolbarPanel from './components/ToolbarPanel';
+import { useImportJsonHandler } from './components/toolbar-panel-import';
 import NavigationPanel from './components/NavigationPanel';
-import { usePreviewPanel, PreviewProvider } from './components/PreviewPanel';
-import {
-  useExamplesPanel,
-  ExamplesProvider,
-} from './components/ExamplesPanel';
-import Modeline, { type SaveStatus } from './components/Modeline';
+import { usePanelRegistry } from './components/Panels/panel-registry';
+import PanelProviders from './components/Panels/PanelProviders';
+import { PanelsProvider } from './components/Panels/Panels';
+import Modeline, { useModelineState } from './components/Modeline';
+import FormShell, { type FormData, type FormRef } from './components/FormShell';
 
-// Hook imports
 import useSchemaSwitcher from './hooks/useSchemaSwitcher';
+import useGenerateFromFile from './hooks/useGenerateFromFile';
+import useLabelVersions from './hooks/useLabelVersions';
+import type { CollapseController } from './types/collapse-controller';
+import type { ItemReorderController } from './types/item-reorder-controller';
+import type { TabularPager } from './types/tabular-pager';
 
-// Custom validators
-import customValidator from './utils/custom-validators';
-import transformErrors from './utils/transform-errors';
+import customValidator from './validation/custom-validators';
+import transformErrors from './validation/transform-errors';
 
-// Schema registry
-import SCHEMAREG, { DEFAULT_SCHEMA_KEY, type SchemaKey } from './utils/schema-registry';
+import useValidationHandler from './validation/useValidationHandler';
 
-// Initial form data. FIXME: Fix this to work without the initial data.
-import INITIAL_FORM_DATA from './utils/initial-form-data';
+import { DEFAULT_SCHEMA_KEY } from './registries/schema-registry';
+
+import INITIAL_FORM_DATA from './registries/initial-form-data-registry';
 
 import './App.css';
-
-/* -------------------------------------------------------------------------- */
-
-const { Content } = Layout;
 
 const validator = customizeValidator({
   ajvOptionsOverrides: {
@@ -66,143 +43,50 @@ const validator = customizeValidator({
   },
 });
 
-const TEMPLATES = {
-  TitleFieldTemplate,
-  DescriptionFieldTemplate,
-  FieldTemplate,
-  ObjectFieldTemplate,
-  ArrayFieldTemplate,
-} as const;
-
-const FIELDS = {
-  OneOfField: MultiSchemaField,
-  AnyOfField: MultiSchemaField,
-  NullField,
-} as const;
-
-const WIDGETS = {
-  TextAreaWidget,
-  CountryWidget,
-  CountryWidgetTempAlpha3, // FIXME
-  CountrySubdivisionWidget,
-  TextWidget: StringFieldWidget,
-  EmailWidget: StringFieldWidget, // FIXME
-  URLWidget: StringFieldWidget, // FIXME
-} as const;
-
-/** Keep latest formData in a ref so Toolbar/Preview/etc can read without causing rerenders */
-const latestFormDataRef: { current: any } = { current: null };
-
-/** Form Component */
-function FormShell({
-  formRef,
-  formData,
-  schema,
-  uiSchema,
-  notifyFormMounted,
-  onSubmit,
-  onError
-}: {
-  formRef: any;
-  formData: any;
-  schema: RJSFSchema;
-  uiSchema: UiSchema;
-  notifyFormMounted: () => void;
-  onSubmit: (ev: any) => void;
-  onError: (errors: any[]) => void;
-}) {
-  const { openExamplesForField } = useExamplesPanel();
-
-  const {
-    openPreviewForField,
-    setLatestFromChange
-  } = usePreviewPanel();
-
-  useEffect(() => {
-    notifyFormMounted();
-  }, [notifyFormMounted]);
-
-  const formContextRef = useRef({
-    openExamplesForField,
-    openPreviewForField,
-    currentFormDataRef: latestFormDataRef,
+const mergeErrorSchemas = (base?: ErrorSchema, extra?: ErrorSchema): ErrorSchema | undefined => {
+  if (!base) return extra;
+  if (!extra) return base;
+  const merged: ErrorSchema = { ...base };
+  const extraKeys = Object.keys(extra);
+  extraKeys.forEach((key) => {
+    if (key === '__errors') {
+      const baseErrors = Array.isArray(base.__errors) ? base.__errors : [];
+      const extraErrors = Array.isArray(extra.__errors) ? extra.__errors : [];
+      merged.__errors = [...baseErrors, ...extraErrors];
+      return;
+    }
+    merged[key] = mergeErrorSchemas(base[key] as ErrorSchema | undefined, extra[key] as ErrorSchema | undefined);
   });
+  return merged;
+};
 
-  // keep callbacks up to date on each render
-  formContextRef.current.openExamplesForField = openExamplesForField;
-  formContextRef.current.openPreviewForField = openPreviewForField;
-
-  // initial sync
-  if (!latestFormDataRef.current) {
-    latestFormDataRef.current = formData;
-  }
-
-  const handleChange = useCallback((ev: any) => {
-    latestFormDataRef.current = ev.formData;
-    setLatestFromChange({ formData: ev.formData, errors: ev.errors });
-  }, [setLatestFromChange]);
-
-  return (
-    <Form
-      ref={formRef}
-      schema={schema}
-      formData={formData}
-      validator={validator}
-      customValidate={customValidator}
-      liveValidate={false}
-      transformErrors={transformErrors}
-      showErrorList="top"
-      uiSchema={uiSchema}
-      templates={TEMPLATES}
-      fields={FIELDS}
-      widgets={WIDGETS}
-      onChange={handleChange}
-      formContext={formContextRef.current}
-      onSubmit={onSubmit}
-      onError={onError}
-    />
-  );
-}
+/* -------------------------------------------------------------------------- */
 
 export default function App() {
 
-  const [isDarkMode, setDarkMode] = useState(true);
-  const antdTheme = useMemo(() => ({
-    algorithm: isDarkMode ? theme.darkAlgorithm : theme.defaultAlgorithm,
-    cssVar: true,
-  }), [isDarkMode]);
-
-  const [messageApi, contextHolder] = message.useMessage();
-
-  const formRef = useRef<any>(null);
-
-  const [formData, setFormData] = useState<Record<string, any>>(
+  const [formSeed, setFormSeed] = useState<FormData>(
     INITIAL_FORM_DATA[DEFAULT_SCHEMA_KEY]
   );
-  // const [formData, setFormData] = useState<Record<string, any>>({});
-  const getFormData = () => latestFormDataRef.current ?? formData;
+  const [navFormData, setNavFormData] = useState<FormData>(
+    INITIAL_FORM_DATA[DEFAULT_SCHEMA_KEY]
+  );
+  const [extraErrors, setExtraErrors] = useState<ErrorSchema | undefined>(undefined);
 
-  const [lastValidationErrors, setLastValidationErrors] = useState<any[] | null>(null);
+  const formRef = useRef<FormRef | null>(null);
+  const latestFormDataRef = useRef<FormData | null>(null);
+  const tabularPagerRef = useRef<TabularPager | null>(null);
+  const collapseControllerRef = useRef<CollapseController | null>(null);
+  const itemReorderRef = useRef<ItemReorderController | null>(null);
+  const getFormData = useCallback(
+    () => latestFormDataRef.current ?? formSeed,
+    [formSeed]
+  );
 
-  const handleFormSubmit = useCallback((ev: any) => {
-    // no errors
-    setLastValidationErrors([]);
+  const setFormSeedAndNav = useCallback((next: FormData) => {
+    setFormSeed(next);
+    setNavFormData(next);
+    setExtraErrors(undefined);
   }, []);
-
-  const handleFormError = useCallback((errors: any[]) => {
-    // errors present
-    setLastValidationErrors(errors);
-  }, []);
-
-  useEffect(() => {
-    if (lastValidationErrors == null) return;   // nothing validated yet
-
-    if (lastValidationErrors.length === 0) {
-      messageApi.success('Validation: OK.');
-    } else {
-      messageApi.error(`Validation failed. See the full list of errors at the top.`);
-    }
-  }, [lastValidationErrors, messageApi]);
 
   const {
     schema,
@@ -215,103 +99,147 @@ export default function App() {
     formInstanceId,
   } = useSchemaSwitcher({
     formDataRef: latestFormDataRef,
-    setFormData,
+    setInitialFormData: setFormSeedAndNav,
   });
 
   const [navOpen, setNavOpen] = useState(false);
   const toggleNav = () => setNavOpen((v) => !v);
 
-  // JSON data file import
-  const handleImportJson = useCallback(
-    (data: any) => {
-      const rawSchemaKey = data?.schema || data?.$schema;
+  const { handleFormSubmit, handleFormError } = useValidationHandler();
+  const { labelVersion, fileLabelVersion, handleBlur } = useLabelVersions();
+  const refreshNavData = useCallback((next?: FormData) => {
+    setNavFormData(next ?? latestFormDataRef.current ?? formSeed);
+  }, [formSeed]);
 
-      if (!rawSchemaKey || typeof rawSchemaKey !== 'string') {
-        messageApi.error('Imported JSON is missing a valid "schema" key.');
-        throw new Error('handle-import-json-no-schema-key');
-      }
+  const handleBlurWithNav = useCallback((id: string) => {
+    handleBlur(id);
+    if (
+      (id.includes('_fields_') || id.includes('_variables_'))
+      && id.endsWith('_label')
+    ) {
+      refreshNavData();
+    }
+  }, [handleBlur, refreshNavData]);
 
-      if (!(rawSchemaKey in SCHEMAREG)) {
-        messageApi.error(`Unknown schema "${rawSchemaKey}" in imported JSON. Data not loaded.`);
-        throw new Error('handle-import-json-unknown-schema-key');
-      }
+  const handleImportJson = useImportJsonHandler(selectSchemaImmediate);
 
-      const schemaKey = rawSchemaKey as SchemaKey;
+  const {
+    fileName: modelineFileName,
+    handleFileNameChange,
+    handleSaveStatusChange,
+  } = useModelineState();
 
-      void selectSchemaImmediate(schemaKey);
-      setFormData(data);
-      latestFormDataRef.current = data;
-      messageApi.success('Data loaded.')
-    },
-    [selectSchemaImmediate, setFormData, messageApi]
-  );
+  const panelRegistry = usePanelRegistry({
+    selectedSchemaKey,
+    getFormData,
+  });
 
-  // Modeline
-  const [modelineFileName, setModelineFileName] =
-    useState<string>('unnamed');
+  const {
+    generateConfirmModal,
+    handleGenerateFromFile,
+    isGeneratingFromFile,
+  } = useGenerateFromFile({
+    onImportJson: handleImportJson,
+    onFileNameChange: handleFileNameChange,
+    onSaveStatusChange: handleSaveStatusChange,
+  });
 
-  const [, setModelineStatus] = useState<SaveStatus>('ready');
+  const handleValidateFull = useCallback(() => {
+    const data = latestFormDataRef.current;
+    if (!data) {
+      handleFormError([]);
+      setExtraErrors(undefined);
+      return;
+    }
 
-  const handleFileNameChange = (name: string) =>
-    setModelineFileName(name || 'metadata.json');
+    const result = validator.validateFormData(data, schema);
+    const ajvErrors = transformErrors(
+      (result?.errors ?? []) as RJSFValidationError[],
+      data,
+      schema?.$id,
+    );
+    const ajvSchema = toErrorSchema(ajvErrors);
 
-  const handleStatusChange = (status: SaveStatus) =>
-    setModelineStatus(status);
+    const customErrorHandler = createErrorHandler(data);
+    const customErrors = customValidator(data, customErrorHandler);
+    const customSchema = unwrapErrorHandler(customErrors) as ErrorSchema | undefined;
+
+    const mergedSchema = mergeErrorSchemas(ajvSchema, customSchema);
+    const errorList = toErrorList(mergedSchema ?? {});
+
+    setExtraErrors(mergedSchema && errorList.length > 0 ? mergedSchema : undefined);
+    handleFormError(errorList);
+  }, [handleFormError, schema]);
 
   return (
-    <ConfigProvider theme={antdTheme}>
-      {contextHolder}
-      <div className={isDarkMode ? 'is-dark' : undefined}>
-        <Layout style={{ minHeight: '100vh' }}>
-          <Content style={{ padding: 24, paddingLeft: 56 + 24 }}>
-            {schemaSwitchConfirmModal}
-            <ToolbarPanel
-              isDark={isDarkMode}
-              setDarkMode={setDarkMode}
-              formRef={formRef}
-              navOpen={navOpen}
-              onToggleNav={toggleNav}
-              selectedSchemaKey={selectedSchemaKey}
-              onSelectSchema={onSelectSchema}
-              getFormData={getFormData}
-              onImportJson={handleImportJson}
-              onFileNameChange={handleFileNameChange}
-              onStatusChange={handleStatusChange}
-              message={messageApi}
-            />
+    <Box style={{ minHeight: '100vh' }}>
+      {schemaSwitchConfirmModal}
+      {generateConfirmModal}
+      <PanelsProvider
+        renderers={panelRegistry.renderers}
+        headerActions={panelRegistry.headerActions}
+      >
+        <Box style={{ padding: 24, paddingLeft: 56 + 24 }}>
+          <ToolbarPanel
+            formRef={formRef}
+            navOpen={navOpen}
+            onToggleNav={toggleNav}
+            selectedSchemaKey={selectedSchemaKey}
+            onSelectSchema={onSelectSchema}
+            getFormData={getFormData}
+            onImportJson={handleImportJson}
+            onFileNameChange={handleFileNameChange}
+            onSaveStatusChange={handleSaveStatusChange}
+            onGenerateFromFile={handleGenerateFromFile}
+            isGeneratingFromFile={isGeneratingFromFile}
+            onValidateFull={handleValidateFull}
+          />
             <NavigationPanel
+              key={selectedSchemaKey}
               schema={schema}
               navOpen={navOpen}
+              navFormData={navFormData}
+              tabularPagerRef={tabularPagerRef}
+              collapseControllerRef={collapseControllerRef}
+              itemReorderRef={itemReorderRef}
+              onNavDataRefresh={refreshNavData}
             />
-            <div className="content-wrap">
-              <div id="anchor_root" className="x-top-level-root-anchor" />
-              <ExamplesProvider
+          <div className="content-wrap">
+            <div id="anchor_root" className="umfe-top-level-root-anchor" />
+            <div className="umfe-form-spacer-top" />
+            <PanelProviders
+              key={selectedSchemaKey}
+              schema={schema}
+              selectedSchemaKey={selectedSchemaKey}
+              formDataRef={latestFormDataRef}
+            >
+              <FormShell
+                key={`${selectedSchemaKey}-${formInstanceId}`}
+                initialFormData={formSeed}
+                formRef={formRef}
                 schema={schema}
-                selectedSchemaKey={selectedSchemaKey}
-              >
-                <PreviewProvider
-                  schema={schema}
-                  initialFormData={getFormData()}
-                >
-                  <FormShell
-                    key={`${selectedSchemaKey}-${formInstanceId}`}
-                    formData={formData}
-                    formRef={formRef}
-                    schema={schema}
-                    uiSchema={uiSchema}
-                    notifyFormMounted={notifyFormMounted}
-                    onSubmit={handleFormSubmit}
-                    onError={handleFormError}
-                  />
-                </PreviewProvider>
-              </ExamplesProvider>
-            </div>
-          </Content>
-          <Modeline
-            fileName={modelineFileName}
-          />
-        </Layout>
-      </div>
-    </ConfigProvider>
+                uiSchema={uiSchema}
+                formDataRef={latestFormDataRef}
+                labelVersion={labelVersion}
+                fileLabelVersion={fileLabelVersion}
+                handleBlur={handleBlurWithNav}
+                tabularPagerRef={tabularPagerRef}
+                collapseControllerRef={collapseControllerRef}
+                itemReorderRef={itemReorderRef}
+                extraErrors={extraErrors}
+                notifyFormMounted={notifyFormMounted}
+                onNavDataRefresh={refreshNavData}
+                onSubmit={handleFormSubmit}
+                onError={handleFormError}
+              />
+            </PanelProviders>
+            <div className="umfe-form-spacer-bottom" />
+          </div>
+        </Box>
+      </PanelsProvider>
+      <Modeline
+        fileName={modelineFileName}
+      />
+    </Box>
   );
 }

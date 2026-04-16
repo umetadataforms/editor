@@ -12,11 +12,7 @@ Built with:
 - [React](https://react.dev/) |
 [React JSON Schema Form](https://github.com/rjsf-team/react-jsonschema-form)
 - [Electron](https://electron.atom.io/) |
-[TipTap](https://github.com/ueberdosis/tiptap) |
-[Ant Design](https://github.com/ant-design/ant-design)
-
-This project’s releases are automatically compiled and packaged using GitHub
-Actions. See the [build file](./.github/workflows/build.yml).
+[TipTap](https://github.com/ueberdosis/tiptap)
 
 <br>
 
@@ -107,29 +103,7 @@ where `<username>` is your Windows user name.
 
 <br>
 
-### MacOS
-
-**WARNING**: The Mac version hasn't been tested properly and seems to run very
-slowly, and as such, practically not usable at the moment.
-
-**Important**: The application is not signed or notarised. MacOS will show
-a security warning when you try to open it because it comes from an
-unidentified developer.
-
-If you still want to test the Mac version, download the appropriate MacOS
-installer from the latest test [release].
-
-When uninstalling, you might need to delete the application support folder, probably:  
-`~/Library/Application Support/uMetadataFormsEditor`.
-
-<br>
-
 ## Known Issues
-
-- **MacOS support**
-
-  The MacOS version is currently experimental, has poor performance, and may be
-  unstable. It is not recommended for real use at this time.
 
 - **Form validation messages**
 
@@ -144,11 +118,6 @@ When uninstalling, you might need to delete the application support folder, prob
   Typing in text fields is debounced: changes are committed 1.8 seconds after
   the last keystroke. When typing slowly or pausing between words, this can make
   the interface feel a bit jerky.
-
-- **UI performance**
-
-  The Ant Design component library is relatively heavy and contributes to the
-  application feeling slower than it should be.
 
 - **Export**
 

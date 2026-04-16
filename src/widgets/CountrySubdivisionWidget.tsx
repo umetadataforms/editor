@@ -3,7 +3,7 @@
  * CountrySubdivisionWidget
  *
  * An RJSF widget for selecting ISO 3166-2 subdivisions.
- * - Reads the current country code from formContext.formDataRef.current
+ * - Reads the current country code from formContext.currentFormDataRef (or registry formContext)
  * - Caches and de-dupes subdivision fetches
  * - Guards against no-op state updates
  * - Keeps UI responsive during option updates
@@ -12,9 +12,10 @@
  * getWidget() rejects memoised components (typeof === 'object').
  */
 
-import { useState, useRef, useCallback, useTransition } from 'react';
+import { useEffect, useState, useRef, useCallback, useTransition } from 'react';
 import type { WidgetProps } from '@rjsf/utils';
-import { Select } from 'antd';
+import { Loader, Select } from '@mantine/core';
+import type { UmfeFormContext } from '../types/form-context';
 
 type Option = { label: string; value: string };
 
@@ -65,6 +66,7 @@ export default function CountrySubdivisionWidget(props: WidgetProps) {
     readonly,
     autofocus,
     formContext,
+    registry,
   } = props;
 
   const [opts, setOpts] = useState<Option[]>([]);
@@ -76,11 +78,18 @@ export default function CountrySubdivisionWidget(props: WidgetProps) {
   const getCountryCode = useCallback(() => {
     // expects id like: root_geographicCoverage_geographicAreas_0_subdivisionCode
     const parts = id.split('_');
-    const idx = Number(parts[3]);
+    const areasIndex = parts.findIndex((part) => part === 'geographicAreas');
+    if (areasIndex < 0 || areasIndex + 1 >= parts.length) return '';
+    const idx = Number(parts[areasIndex + 1]);
     if (Number.isNaN(idx)) return '';
-    const formData = (formContext as any)?.currentFormDataRef?.current as any;
+    const effectiveFormContext = (formContext as UmfeFormContext | undefined)
+      ?? (registry?.formContext as UmfeFormContext | undefined);
+    const formData = (effectiveFormContext?.currentFormDataRef?.current as
+      | { geographicCoverage?: { geographicAreas?: Array<{ countryCode?: string }> } }
+      | null
+      | undefined);
     return formData?.geographicCoverage?.geographicAreas?.[idx]?.countryCode ?? '';
-  }, [id, formContext]);
+  }, [formContext, id, registry]);
 
   /** Avoid setState if the options haven't changed */
   const setOptsIfChanged = useCallback((list: Option[]) => {
@@ -107,7 +116,7 @@ export default function CountrySubdivisionWidget(props: WidgetProps) {
     // No country selected → clear options & value only if needed
     if (!countryCode) {
       if (opts.length) setOpts([]);
-      if (value !== undefined) onChange(undefined);
+      if (value !== undefined && lastCountryCodeRef.current) onChange(undefined);
       lastCountryCodeRef.current = '';
       return;
     }
@@ -135,30 +144,53 @@ export default function CountrySubdivisionWidget(props: WidgetProps) {
       .finally(() => setLoading(false));
   }, [getCountryCode, opts.length, setOptsIfChanged, value, onChange]);
 
+  useEffect(() => {
+    if (!value || opts.length) return;
+    const countryCode = getCountryCode();
+    if (!countryCode) return;
+
+    let active = true;
+    loadSubdivisions(countryCode)
+      .then((list) => {
+        if (!active) return;
+        startTransition(() => {
+          setOptsIfChanged(list);
+          if (value && !list.some((o) => o.value === value)) onChange(undefined);
+          lastCountryCodeRef.current = countryCode;
+        });
+      })
+      .catch((err) => {
+        if (!active) return;
+        console.error(err);
+        if (opts.length) setOpts([]);
+        if (value !== undefined) onChange(undefined);
+        lastCountryCodeRef.current = '';
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [getCountryCode, onChange, opts.length, setOptsIfChanged, startTransition, value]);
+
   return (
     <Select
       id={id}
-      value={value ?? undefined}
-      showSearch
-      allowClear
-      virtual
-      listHeight={256}
+      value={value ?? null}
+      searchable
+      clearable
       disabled={disabled || readonly}
       autoFocus={autofocus}
       placeholder="Pick subdivision"
-      loading={loading || isPending}
-      options={opts}
-      optionFilterProp="label"
-      filterOption={true}
+      rightSection={loading || isPending ? <Loader size="xs" /> : undefined}
+      rightSectionPointerEvents="none"
+      data={opts}
       onChange={(val) => onChange(val ?? undefined)}
       onFocus={() => {
         maybePrefetch();
         onFocus?.(id, value);
       }}
       onBlur={() => onBlur?.(id, value)}
-      onOpenChange={(open) => {
-        if (open) updateOpts();
-      }}
+      onDropdownOpen={updateOpts}
       style={{ width: '100%' }}
     />
   );

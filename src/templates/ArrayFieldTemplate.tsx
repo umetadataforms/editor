@@ -1,146 +1,90 @@
-/*!
- * SPDX-License-Identifier: Apache-2.0
- * @license Apache-2.
- *
- * Based on: @rjsf/antd ArrayFieldTemplate (v5.24.12)
- * Source repository: https://github.com/rjsf-team/react-jsonschema-form.git
- * Source file: packages/antd/src/templates/ArrayFieldTemplate.tsx
- * Upstream commit: 41d2d5553
- *
- * Changes: modified by Artur Akbarov.
- */
-
-import {
-  getTemplate,
-  getUiOptions,
+import type {
   ArrayFieldTemplateProps,
-  ArrayFieldTemplateItemType,
   FormContextType,
-  GenericObjectType,
   RJSFSchema,
   StrictRJSFSchema,
 } from '@rjsf/utils';
-import classNames from 'classnames';
-import { Col, Row, ConfigProvider } from 'antd';
-import { useContext } from 'react';
+import { buttonId, getUiOptions } from '@rjsf/utils';
+import { Box, Fieldset, Group } from '@mantine/core';
+import FieldHeader from '../components/FieldHeader';
 
-const DESCRIPTION_COL_STYLE = {
-  paddingBottom: '8px',
-};
-
-/** The `ArrayFieldTemplate` component is the template used to render all items in an array.
+/** The `ArrayFieldTemplate` component renders array headers, items, and the add control.
  *
- * @param props - The `ArrayFieldTemplateItemType` props for the component
+ * Changes from upstream: uses `FieldHeader` for consistent labels, supports
+ * `ui:options.noFieldset`, and uses the custom `AddButton` template.
+ *
+ * @param props - The `ArrayFieldTemplateProps` props for the component
  */
 export default function ArrayFieldTemplate<
-  T = any,
+  T = unknown,
   S extends StrictRJSFSchema = RJSFSchema,
-  F extends FormContextType = any
+  F extends FormContextType = FormContextType,
 >(props: ArrayFieldTemplateProps<T, S, F>) {
-
   const {
     canAdd,
     className,
     disabled,
-    formContext,
-    idSchema,
+    fieldPathId,
     items,
+    optionalDataControl,
     onAddClick,
     readonly,
-    registry,
-    required,
     schema,
-    title,
     uiSchema,
+    title,
+    required,
+    registry,
   } = props;
 
-  const globalUiOptions = registry.globalUiOptions;
-  const localUiOptions = getUiOptions<T, S, F>(uiSchema);
-  const uiOptions = { ...globalUiOptions, ...localUiOptions } as any;
-
-  const xArrayDescriptionDisplay = (uiOptions as any)?.xArrayDescriptionDisplay;
-
-  const ArrayFieldDescriptionTemplate = getTemplate<'ArrayFieldDescriptionTemplate', T, S, F>(
-    'ArrayFieldDescriptionTemplate',
-    registry,
-    uiOptions
-  );
-  const ArrayFieldItemTemplate = getTemplate<'ArrayFieldItemTemplate', T, S, F>(
-    'ArrayFieldItemTemplate',
-    registry,
-    uiOptions
-  );
-  const ArrayFieldTitleTemplate = getTemplate<'ArrayFieldTitleTemplate', T, S, F>(
-    'ArrayFieldTitleTemplate',
-    registry,
-    uiOptions
-  );
+  const uiOptions = getUiOptions<T, S, F>(uiSchema);
+  const showOptionalDataControlInTitle = !readonly && !disabled;
   // Button templates are not overridden in the uiSchema
   const {
     ButtonTemplates: { AddButton },
   } = registry.templates;
-  const { labelAlign = 'right', rowGutter = 24 } = formContext as GenericObjectType;
 
-  const { getPrefixCls } = useContext(ConfigProvider.ConfigContext);
-  const prefixCls = getPrefixCls('form');
-  const labelClsBasic = `${prefixCls}-item-label`;
-  const labelColClassName = classNames(
-    labelClsBasic,
-    labelAlign === 'left' && `${labelClsBasic}-left`
-    // labelCol.className,
-  );
+  const rawDescription = typeof uiOptions.description === 'string'
+    ? uiOptions.description
+    : typeof schema.description === 'string'
+      ? schema.description
+      : undefined;
+
+  const { noFieldset } = uiOptions as { noFieldset?: boolean };
+  const Wrapper = noFieldset ? Box : Fieldset;
+
+  const showHeader = Boolean(title) && uiOptions.label !== false;
 
   return (
-    <>
-      {(uiOptions.title || title) && (
-        <Col className={labelColClassName} span={24}>
-          <ArrayFieldTitleTemplate
-            idSchema={idSchema}
+    <Wrapper className={className} id={fieldPathId.$id}>
+      {showHeader ? (
+        <Box mb="xs">
+          <FieldHeader
+            label={uiOptions.title || title}
+            rawDescription={rawDescription}
+            fieldPathId={fieldPathId}
+            optionalDataControl={showOptionalDataControlInTitle ? optionalDataControl : undefined}
+            formContext={registry.formContext}
             required={required}
-            title={uiOptions.title || title}
-            schema={schema}
+          />
+        </Box>
+      ) : null}
+      <Box className='row rjsf-array-item-list'>
+        {!showOptionalDataControlInTitle ? optionalDataControl : undefined}
+        {items}
+      </Box>
+      {canAdd && (
+        <Group justify='flex-end'>
+          <AddButton
+            id={buttonId(fieldPathId, 'add')}
+            className='rjsf-array-item-add'
+            disabled={disabled || readonly}
+            onClick={onAddClick}
             uiSchema={uiSchema}
             registry={registry}
+            iconType='md'
           />
-        </Col>
+        </Group>
       )}
-      <fieldset className={className} id={idSchema.$id}>
-        <Row gutter={rowGutter}>
-          {xArrayDescriptionDisplay && (uiOptions.description || schema.description) && (
-            <Col span={24} style={DESCRIPTION_COL_STYLE}>
-              <ArrayFieldDescriptionTemplate
-                description={(uiOptions.description || schema.description)}
-                idSchema={idSchema}
-                schema={schema}
-                uiSchema={uiSchema}
-                registry={registry}
-              />
-            </Col>
-          )}
-          <Col className='row array-item-list' span={24}>
-            {items &&
-              items.map(({ key, ...itemProps }: ArrayFieldTemplateItemType<T, S, F>) => (
-                <ArrayFieldItemTemplate key={key} {...itemProps} />
-              ))}
-          </Col>
-
-          {canAdd && (
-            <Col span={24}>
-              <Row gutter={rowGutter} justify='end'>
-                <Col flex='192px'>
-                  <AddButton
-                    className='array-item-add'
-                    disabled={disabled || readonly}
-                    onClick={onAddClick}
-                    uiSchema={uiSchema}
-                    registry={registry}
-                  />
-                </Col>
-              </Row>
-            </Col>
-          )}
-        </Row>
-      </fieldset>
-    </>
+    </Wrapper>
   );
 }

@@ -1,48 +1,70 @@
-import { useCallback, useRef, useState, RefObject, ChangeEvent } from 'react';
-import { Dropdown, Spin } from 'antd';
-import type { MessageInstance } from 'antd/es/message/interface';
-import type { MenuProps } from 'antd';
+import { useCallback, useRef, useState } from 'react';
+import type { RefObject, ChangeEvent } from 'react';
+import { Menu, useMantineColorScheme } from '@mantine/core';
+import { notifications } from '@mantine/notifications';
 import {
-  MenuOutlined,
-  MenuUnfoldOutlined,
-  FolderOpenOutlined,
-  ExportOutlined,
-  CheckOutlined,
-  SaveOutlined,
-  FileAddOutlined,
-  SunOutlined,
-  MoonOutlined,
-  AppstoreOutlined
-} from '@ant-design/icons';
+  IconApps,
+  IconCheck,
+  IconChevronRight,
+  IconDeviceFloppy,
+  IconFileExport,
+  IconFileImport,
+  IconFilePlus,
+  IconFileText,
+  IconLayoutSidebarLeftCollapse,
+  IconLayoutSidebarLeftExpand,
+  IconMoon,
+  IconSun,
+  IconTable,
+} from '@tabler/icons-react';
 
 import ToolbarButton from './ToolbarButton';
 import { jsonIO } from '../services/jsonIO/jsonIO';
 import { type SaveStatus } from './Modeline';
-import type { SchemaKey, RegistryEntry } from '../utils/schema-registry';
-import SCHEMAREG, { DEFAULT_SCHEMA_KEY } from '../utils/schema-registry';
+import type { SchemaKey, RegistryEntry } from '../registries/schema-registry';
+import SCHEMAREG, { DEFAULT_SCHEMA_KEY } from '../registries/schema-registry';
+import EXAMPLESREG from '../registries/example-registry';
+import type { Example } from '../registries/example-registry';
 
 /* -------------------------------------------------------------------------- */
 
 const TICK_WIDTH = 14;
+const ICON_SIZE = 25;
+type FormData = Record<string, unknown>;
+const EXAMPLE_TOP_MENU_STYLE = { width: 'max-content' } as const;
+const EXAMPLE_MENU_STYLE = { width: 'max-content', minWidth: 280 } as const;
+
+const REAL_DATASET_KEYS: SchemaKey[] = [
+  'https://github.com/umetadataforms/schemas/raw/main/modular/real-dataset-metadata/v0.0.2.json',
+  'dataset-metadata-schema-real.json',
+];
+
+const TABULAR_DATASET_KEYS: SchemaKey[] = [
+  'https://github.com/umetadataforms/schemas/raw/main/modular/tabular-data-metadata/v0.0.2.json',
+  'tabular-data-metadata-schema.json',
+];
+
 
 type Props = {
-  isDark: boolean;
-  formRef: RefObject<any>;
+  formRef: RefObject<{ submit?: () => void } | null>;
   navOpen: boolean;
   onToggleNav: () => void;
-  getFormData: () => any | null | undefined;
+  getFormData: () => FormData | null | undefined;
   fileName?: string;
-  onImportJson: (data: any) => void;
+  onImportJson: (data: FormData) => Promise<void>;
   onFileNameChange: (name: string) => void;
-  onStatusChange: (status: SaveStatus) => void;
-  setDarkMode: (value: boolean) => void;
+  onSaveStatusChange: (status: SaveStatus) => void;
   selectedSchemaKey: SchemaKey;
   onSelectSchema: (k: SchemaKey) => void;
-  message: MessageInstance
+  onGenerateFromFile: (format: 'v0.0.2' | 'vc') => void;
+  isGeneratingFromFile: boolean;
+  onValidateFull?: () => void;
 };
 
+/**
+ * Left rail toolbar with schema selection, import/export, and validation actions.
+ */
 export default function ToolbarPanel({
-  isDark,
   formRef,
   navOpen,
   onToggleNav,
@@ -50,21 +72,29 @@ export default function ToolbarPanel({
   fileName = jsonIO.DEFAULT_FILE_NAME,
   onImportJson,
   onFileNameChange,
-  onStatusChange,
-  setDarkMode,
+  onSaveStatusChange,
   selectedSchemaKey = DEFAULT_SCHEMA_KEY,
   onSelectSchema,
-  message
+  onGenerateFromFile,
+  isGeneratingFromFile,
+  onValidateFull,
 }: Props) {
+  const { colorScheme, setColorScheme } = useMantineColorScheme();
+  const isDark = colorScheme === 'dark';
 
   // Validate button handler
   const handleValidate = useCallback(() => {
+    if (onValidateFull) {
+      onValidateFull();
+      return;
+    }
     if (formRef?.current?.submit) formRef.current.submit();
-    else message.warning('Validation handler not connected.');
-  }, [formRef, message]);
+    else notifications.show({ color: 'yellow', message: 'Validation handler not connected.' });
+  }, [formRef, onValidateFull]);
 
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   const [importing, setImporting] = useState(false);
+  const [loadingExample, setLoadingExample] = useState(false);
 
   const triggerUpload = useCallback(() => fileInputRef.current?.click(), []);
 
@@ -75,80 +105,96 @@ export default function ToolbarPanel({
       if (file) {
         try {
           setImporting(true);
-          const hide = message.loading('Importing JSON…', 0);
+          const id = `import-${Date.now()}`;
+          notifications.show({
+            id,
+            message: 'Importing JSON…',
+            loading: true,
+            autoClose: false,
+            withCloseButton: false,
+          });
           await new Promise(r => setTimeout(r, 300));
 
           try {
-            const data = await jsonIO.importJsonFromFile(file);
-            onImportJson(data);
-            onFileNameChange?.(file.name);
-            onStatusChange?.('ready');
-            message.success('File imported.');
-          } catch (err) {
-            message.error('Import error: invalid JSON.');
+          const data = await jsonIO.importJsonFromFile(file);
+          await onImportJson(data);
+          onFileNameChange?.(file.name);
+          onSaveStatusChange?.('ready');
+          notifications.show({ color: 'green', message: 'File imported.' });
+          } catch {
+            notifications.show({ color: 'red', message: 'Import error: invalid JSON.' });
           }
-          hide();
-        } catch (err) {
-          message.error('Failed to import JSON.');
+          notifications.hide(id);
+        } catch {
+          notifications.show({ color: 'red', message: 'Failed to import JSON.' });
         } finally {
           setImporting(false);
         }
       }
     },
-    [onImportJson, onFileNameChange, onStatusChange, message]
+    [onImportJson, onFileNameChange, onSaveStatusChange]
   );
 
   const currentData = useCallback(() => {
     const data = getFormData?.();
     if (data == null) {
-      message.warning('No data available.');
+      notifications.show({ color: 'yellow', message: 'No data available.' });
       return null;
     }
     return data;
-  }, [getFormData, message]);
+  }, [getFormData]);
 
-  const exportMenu: MenuProps = {
-    items: [
-      // {
-      //   key: 'json-html',
-      //   label: 'JSON (HTML)',
-      //   onClick: () => {
-      //     const data = currentData();
-      //     if (!data) return;
-      //     jsonIO.exportJson(data, fileName);
-      //   },
-      // },
-      // { type: 'divider' },
-      {
-        key: 'json-plain',
-        label: 'JSON with Plain Text',
-        onClick: () => {
-          const data = currentData();
-          if (!data) return;
-          const ensured = fileName.replace(/\.json$/i, '') + '.json';
-          jsonIO.exportJsonWithHtmlStripped(data, ensured);
-        },
+  const handleLoadExample = useCallback(
+    async (example: Example) => {
+      setLoadingExample(true);
+      try {
+        const cloned = typeof structuredClone === 'function'
+          ? structuredClone(example.data)
+          : JSON.parse(JSON.stringify(example.data)) as Record<string, unknown>;
+        await onImportJson(cloned);
+        onFileNameChange?.(`${example.key}.json`);
+        onSaveStatusChange?.('ready');
+        notifications.show({ color: 'green', message: `Loaded example: ${example.label}.` });
+      } catch {
+        notifications.show({ color: 'red', message: 'Failed to load example.' });
+      } finally {
+        setLoadingExample(false);
       }
-    ],
-  };
+    },
+    [onImportJson, onFileNameChange, onSaveStatusChange]
+  );
 
-  const schemaItems: MenuProps['items'] = (
+  const schemaItems = (
     Object.entries(SCHEMAREG) as [SchemaKey, RegistryEntry][]
   ).map(([key, entry]) => ({
     key,
-    label: (
-      <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-        {/* Tick or phantom tick */}
-        {key === selectedSchemaKey ? (
-          <CheckOutlined style={{ fontSize: 12, width: TICK_WIDTH }} />
-        ) : (
-          <span style={{ display: 'inline-block', width: TICK_WIDTH }} />
-        )}
-
-        <span>{entry.label}</span>
-      </span>
-    ),
+    label: entry.label,
+    selected: key === selectedSchemaKey,
   }));
+
+  const realExamples = REAL_DATASET_KEYS.flatMap(
+    (key) => (EXAMPLESREG as Record<SchemaKey, Example[]>)[key] ?? []
+  );
+  const tabularExamples = TABULAR_DATASET_KEYS.flatMap(
+    (key) => (EXAMPLESREG as Record<SchemaKey, Example[]>)[key] ?? []
+  );
+
+  const renderExampleItems = (items: Example[], disabled: boolean) => (
+    items.length === 0
+      ? <Menu.Item disabled>No examples available</Menu.Item>
+      : items.map((example) => (
+        <Menu.Item
+          key={example.key}
+          onClick={() => handleLoadExample(example)}
+          disabled={disabled}
+          title={example.label}
+        >
+          <span style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>
+            {example.label}
+          </span>
+        </Menu.Item>
+      ))
+  );
 
   return (
     <div
@@ -163,7 +209,7 @@ export default function ToolbarPanel({
         alignItems: 'center',
         paddingTop: 8,
         zIndex: 11,
-        cursor: importing ? 'progress' : undefined
+        cursor: importing || isGeneratingFromFile ? 'progress' : undefined
       }}
     >
       <input
@@ -177,32 +223,47 @@ export default function ToolbarPanel({
       <ToolbarButton
         title={isDark ? 'Light Mode' : 'Dark Mode'}
         ariaLabel="Toggle Theme"
-        icon={isDark ? <SunOutlined /> : <MoonOutlined />}
-        onClick={() => setDarkMode(!isDark)}
+        icon={isDark ? <IconSun size={ICON_SIZE} /> : <IconMoon size={ICON_SIZE} />}
+        onClick={() => setColorScheme(isDark ? 'light' : 'dark')}
       />
 
-      <Dropdown
-        trigger={['click']}
-        menu={{
-          items: schemaItems,
-          onClick: ({ key }) => onSelectSchema?.(key as SchemaKey),
-        }}
-      >
-        <div>
-          <ToolbarButton
-            key="schema"
-            title={SCHEMAREG[selectedSchemaKey].label}
-            ariaLabel="Choose schema"
-            icon={<AppstoreOutlined />}
-          />
-        </div>
-      </Dropdown>
+      <Menu position="right-start" shadow="md">
+        <Menu.Target>
+          <div>
+            <ToolbarButton
+              key="schema"
+              title="Choose schema"
+              ariaLabel="Choose schema"
+              icon={<IconApps size={ICON_SIZE} />}
+            />
+          </div>
+        </Menu.Target>
+        <Menu.Dropdown style={{ width: 'max-content' }}>
+          {schemaItems.map((item) => (
+            <Menu.Item
+              key={item.key}
+              leftSection={
+                item.selected ? (
+                  <IconCheck size={14} />
+                ) : (
+                  <span style={{ display: 'inline-block', width: TICK_WIDTH }} />
+                )
+              }
+              onClick={() => onSelectSchema?.(item.key as SchemaKey)}
+            >
+              <span style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>
+                {item.label}
+              </span>
+            </Menu.Item>
+          ))}
+        </Menu.Dropdown>
+      </Menu>
 
       <ToolbarButton
         key="toggle"
         title={navOpen ? 'Hide Navigation' : 'Show Navigation'}
         ariaLabel="Toggle navigation"
-        icon={navOpen ? <MenuOutlined /> : <MenuUnfoldOutlined />}
+        icon={navOpen ? <IconLayoutSidebarLeftCollapse size={ICON_SIZE} /> : <IconLayoutSidebarLeftExpand size={ICON_SIZE} />}
         onClick={onToggleNav}
       />
 
@@ -210,41 +271,118 @@ export default function ToolbarPanel({
         key="validate"
         title="Validate form"
         ariaLabel="Validate form"
-        icon={<CheckOutlined />}
+        icon={<IconCheck size={ICON_SIZE} />}
         onClick={handleValidate}
       />
 
-      <Spin spinning={importing} size="small">
-        <div>
-          <ToolbarButton
-            key="open"
-            title={importing ? 'In progress…' : 'Import JSON'}
-            ariaLabel="Import JSON"
-            icon={<FolderOpenOutlined />}
-            onClick={importing ? undefined : triggerUpload}
-          />
-        </div>
-      </Spin>
+      <Menu position="right-start" shadow="md">
+        <Menu.Target>
+          <div>
+            <ToolbarButton
+              key="loadExample"
+              title="Load example"
+              ariaLabel="Load example"
+              icon={<IconFileText size={ICON_SIZE} />}
+              loading={loadingExample}
+              disabled={loadingExample}
+            />
+          </div>
+        </Menu.Target>
+        <Menu.Dropdown style={EXAMPLE_TOP_MENU_STYLE}>
+          <Menu trigger="hover" position="right-start" withinPortal shadow="md">
+            <Menu.Target>
+              <Menu.Item rightSection={<IconChevronRight size={14} />}>
+                Real dataset metadata
+              </Menu.Item>
+            </Menu.Target>
+            <Menu.Dropdown style={EXAMPLE_MENU_STYLE}>
+              {renderExampleItems(realExamples, loadingExample)}
+            </Menu.Dropdown>
+          </Menu>
+          <Menu trigger="hover" position="right-start" withinPortal shadow="md">
+            <Menu.Target>
+              <Menu.Item rightSection={<IconChevronRight size={14} />}>
+                Tabular dataset metadata
+              </Menu.Item>
+            </Menu.Target>
+            <Menu.Dropdown style={EXAMPLE_MENU_STYLE}>
+              {renderExampleItems(tabularExamples, loadingExample)}
+            </Menu.Dropdown>
+          </Menu>
+        </Menu.Dropdown>
+      </Menu>
 
-      <Dropdown
-        trigger={['click']}
-        menu={exportMenu}
-      >
-        <div>
-          <ToolbarButton
-            key="export"
-            title="Export"
-            ariaLabel="Export"
-            icon={<ExportOutlined />}
-          />
-        </div>
-      </Dropdown>
+      <Menu position="right-start" shadow="md">
+        <Menu.Target>
+          <div>
+            <ToolbarButton
+              key="generate"
+              title={isGeneratingFromFile ? 'Generating…' : 'Generate from file'}
+              ariaLabel="Generate from file"
+              icon={<IconTable size={ICON_SIZE} />}
+              loading={isGeneratingFromFile}
+              disabled={isGeneratingFromFile}
+            />
+          </div>
+        </Menu.Target>
+        <Menu.Dropdown>
+          <Menu.Item
+            onClick={() => onGenerateFromFile('v0.0.2')}
+            disabled={isGeneratingFromFile}
+          >
+            Generate from tabular data file (v0.0.2)
+          </Menu.Item>
+          <Menu.Item
+            onClick={() => onGenerateFromFile('vc')}
+            disabled={isGeneratingFromFile}
+          >
+            Generate from tabular data file (AISym4Med)
+          </Menu.Item>
+        </Menu.Dropdown>
+      </Menu>
+
+      <div>
+        <ToolbarButton
+          key="open"
+          title={importing ? 'In progress…' : 'Import JSON'}
+          ariaLabel="Import JSON"
+          icon={<IconFileImport size={ICON_SIZE} />}
+          onClick={importing ? undefined : triggerUpload}
+          loading={importing}
+          disabled={importing}
+        />
+      </div>
+
+      <Menu position="right-start" shadow="md" width={220}>
+        <Menu.Target>
+          <div>
+            <ToolbarButton
+              key="export"
+              title="Export"
+              ariaLabel="Export"
+              icon={<IconFileExport size={ICON_SIZE} />}
+            />
+          </div>
+        </Menu.Target>
+        <Menu.Dropdown>
+          <Menu.Item
+            onClick={() => {
+              const data = currentData();
+              if (!data) return;
+              const ensured = fileName.replace(/\.json$/i, '') + '.json';
+              jsonIO.exportJsonWithHtmlStripped(data, ensured);
+            }}
+          >
+            JSON with Plain Text
+          </Menu.Item>
+        </Menu.Dropdown>
+      </Menu>
 
       <ToolbarButton
         key="saveAs"
         title="Save As…"
         ariaLabel="Save As JSON"
-        icon={<FileAddOutlined />}
+        icon={<IconFilePlus size={ICON_SIZE} />}
         onClick={async () => {
           const data = currentData();
           if (!data) return;
@@ -252,10 +390,10 @@ export default function ToolbarPanel({
           if (ok) {
             const effectiveName = jsonIO.getCurrentSaveFileName(fileName);
             onFileNameChange?.(effectiveName);
-            onStatusChange?.('saved');
-            message.success(`Saved to "${effectiveName}".`);
+            onSaveStatusChange?.('saved');
+            notifications.show({ color: 'green', message: `Saved to "${effectiveName}".` });
           } else {
-            message.error('Failed to save.');
+            notifications.show({ color: 'red', message: 'Failed to save.' });
           }
         }}
       />
@@ -264,7 +402,7 @@ export default function ToolbarPanel({
         key="save"
         title="Save"
         ariaLabel="Save JSON"
-        icon={<SaveOutlined />}
+        icon={<IconDeviceFloppy size={ICON_SIZE} />}
         onClick={async () => {
           const data = currentData();
           if (!data) return;
@@ -272,10 +410,10 @@ export default function ToolbarPanel({
           if (ok) {
             const effectiveName = jsonIO.getCurrentSaveFileName(fileName);
             onFileNameChange?.(effectiveName);
-            onStatusChange?.('saved');
-            message.success(`Saved to "${effectiveName}".`);
+            onSaveStatusChange?.('saved');
+            notifications.show({ color: 'green', message: `Saved to "${effectiveName}".` });
           } else {
-            message.error('Failed to save.');
+            notifications.show({ color: 'red', message: 'Failed to save.' });
           }
         }}
       />

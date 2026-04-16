@@ -1,15 +1,15 @@
 {
-  "$id": "real-dataset-metadata/vc.json",
+  "$id": "dataset-metadata-schema-real.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Real Dataset Metadata (AISym4Med)",
-  "description": "Dataset description for datasets containing data from real subjects only.\n\nThis form provides a structured metada framework for detailed and comprehensive description of a health dataset to support decisions about its suitability for specific analytical and modelling purposes, its compatibility with other datasets, and its compliance with legal and ethical requirements. The form is designed to capture the information necessary to understand the clinical context, cohort selection, and the collection or mining, quantification, and processing of the underlying data.\n\nComplete all applicable fields based on available documentation and knowledge of the dataset. Use rich text formatting where needed; the raw text will be stored in HTML format.\n\nEach form field is accompanied by a structured description:\n- requirement status — an indication of whether the field is required or optional,\n- summary sentence — a single, clear sentence that defines what the field is,\n- use — explaination of how the provided information could be used,\n- guidelines — specific instructions on how to fill in the field correctly, where needed,\n- constraints — character or list size limits, where relevant,\n- missing information — clarification of missing and not applicable cases, where needed,\n- examples — |-separated field content examples, provided only if the examples are short.\n\nNote, this is initial draft version of the dataset metada schema for the AISym4Med platform.\n",
+  "description": "Current AISym4Med platform implementation of real dataset metadata.\n\nDataset description for datasets containing data from real subjects only.\n\nThis form provides a structured metadata framework for detailed and comprehensive description of a health dataset to support decisions about its suitability for specific analytical and modelling purposes, its compatibility with other datasets, and its compliance with legal and ethical requirements. The form is designed to capture the information necessary to understand the clinical context, cohort selection, and the collection or mining, quantification, and processing of the underlying data.\n\nComplete all applicable fields based on available documentation and knowledge of the dataset.\n\nEach form field is accompanied by a structured description:\n- requirement status — an indication of whether the field is required or optional,\n- summary sentence — a single, clear sentence that defines what the field is,\n- use — explanation of how the provided information could be used,\n- guidelines — specific instructions on how to fill in the field correctly, where needed,\n- constraints — character or list size limits, where relevant,\n- missing information — clarification of missing and not applicable cases, where needed,\n- examples — |-separated field content examples, provided only if the examples are short.\n\nNote, this is initial draft version of the dataset metadata schema for the AISym4Med platform.\n\nFor the AISym4Med platform, use 'Export -> JSON with Plain Text' to export the metadata.\n\nUse 'Control' + 'Mouse Right Click' on the form area to bring up app-specific context menu. It provides menu for current item preview, and displaying move up/down buttons for list items.",
   "type": "object",
   "properties": {
     "$schema": {
       "title": "Schema Specification",
       "description": "**Required**. Unique Resource Identifier (URI) for the schema that defines the structure of this metadata record.\n\n**Use**: Used for automated content validation.\n\n**Guidelines**: Use the appropriate type and version of the required schema.",
       "type": "string",
-      "const": "real-dataset-metadata/vc.json"
+      "const": "dataset-metadata-schema-real.json"
     },
     "label": {
       "title": "Label",
@@ -358,7 +358,7 @@
     },
     "format": {
       "title": "Dataset Format",
-      "description": "**Optional**. Dataset Format.\n\nThis field seems to have issues, it allows only one format, and the formats are not exhaustive.\n",
+      "description": "**Optional**. Dataset Format.\n\nThis field seems to have issues, it allows only one format, and the formats are not exhaustive.",
       "type": "string",
       "enum": [
         "WFDB",

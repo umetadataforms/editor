@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
-import { theme } from 'antd';
+/* eslint-disable react-refresh/only-export-components */
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 export type SaveStatus = 'saved' | 'modified' | 'ready';
 
@@ -25,16 +25,38 @@ export function showModelineInlineMessage(message: string, durationMs = 2000) {
 }
 
 /**
+ * Manages modeline state and update handlers.
+ */
+export function useModelineState() {
+  const [fileName, setFileName] = useState<string>('unnamed');
+  const [, setStatus] = useState<SaveStatus>('ready');
+
+  const handleFileNameChange = useCallback(
+    (name: string) => setFileName(name || 'metadata.json'),
+    []
+  );
+
+  const handleSaveStatusChange = useCallback(
+    (status: SaveStatus) => setStatus(status),
+    []
+  );
+
+  return {
+    fileName,
+    handleFileNameChange,
+    handleSaveStatusChange,
+  };
+}
+
+/**
  * Single-line modeline fixed to the bottom.
  * Left side: shows a transient message if active, otherwise the file name.
- * Colours adapt to the current Ant Design theme via tokens.
+ * Colours adapt to the current theme via tokens.
  */
 export default function Modeline({
   fileName = 'unnamed',
   zIndex = 12,
 }: ModelineProps) {
-  const { token } = theme.useToken();
-
   // When non-null, this message replaces the filename temporarily.
   const [leftMsg, setLeftMsg] = useState<string | null>(null);
   const timerRef = useRef<number | null>(null);
@@ -79,9 +101,9 @@ export default function Modeline({
           'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
         fontSize: 12,
         lineHeight: '28px',
-        background: token.colorBgContainer,
-        borderTop: `1px solid ${token.colorBorderSecondary}`,
-        color: token.colorText,
+        background: 'var(--mantine-color-body)',
+        borderTop: '1px solid var(--mantine-color-default-border)',
+        color: 'var(--mantine-color-text)',
         whiteSpace: 'nowrap',
         overflow: 'hidden',
         textOverflow: 'ellipsis',

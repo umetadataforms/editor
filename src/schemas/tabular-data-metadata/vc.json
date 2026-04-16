@@ -1,0 +1,174 @@
+{
+  "$id": "tabular-data-metadata-schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tabular Data Metadata (AISym4Med)",
+  "description": "Current AISym4Med platform implementation of tabular data metadata.\n\nThe JSON metadata file should be provided along with the tabular data file in TSV, tab-delimited values, format.\n\n**Required Fields**:\n\nNote, the following field requirements logic has some issues, but it seems that's how it is implemented at the moment. So, to work with the current implementation, you might want to adhere to the following rules explicitly. These rules are not fully enforced in this app.\n\n- Always required for all variables: Label (`label`), Description (`description`), Variable Type (`variable_type`).  \n- If Variable Type (`variable_type`) is 'id': no additional required fields.  \n- If Variable Type (`variable_type`) is not 'id':\n  - Data Type (`data_type`) and a single UMLS Code (`umls_codes`, defaults to 'unknown') are required, and  \n  - you must satisfy one of the following:  \n    1) provide Language (`language`), or  \n    2) provide Statistical Type (`statistical_type`), and if Data Type (`data_type`) is not 'datetime', also provide one of:  \n       - literal Categories (`categories`),  \n       - coded Categories (`categories_coded`), or  \n       - measurement Units (`units`).\n\nThis logic is not what should be implemented, e.g. categories can have units but the logic doesn't allow for it. Since the app doesn't enforce all the field requirement rules, this may not validate on the platform unless you explicitly follow the verbal descriptions of the rules above.\n\nUse coded categories; literal categories (`categories`) field has been removed. Set `newKey` to the category label, and `New Value` to its integer code in the data file.\n\nTwo fields are hidden in the form: `identifier` – for platform use only, `snomdect_codes` – not needed.\n\nThis implementation is not to the latest specification of the tabular data metadata.\n\nFor the AISym4Med platform, use 'Export -> JSON with Plain Text' to export the metadata.\n\nUse 'Control' + 'Mouse Right Click' on the form area to bring up app-specific context menu. It provides menu for expanding/collapsing variables, current item preview, and displaying move up/down buttons for variables.",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "title": "Schema URI",
+      "description": "Reference to the schema used.",
+      "type": "string",
+      "const": "tabular-data-metadata-schema.json"
+    },
+    "variables": {
+      "title": "Variables",
+      "description": "Variables in the tabular data file.",
+      "type": "array",
+      "items": {
+        "title": "Tabular Data Field Metadata",
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "title": "UUID",
+            "description": "Internal, universal unique variable ID set by the platform.",
+            "type": "string",
+            "format": "uuid"
+          },
+          "label": {
+            "title": "Label",
+            "description": "Global, unique variable label in PascalCase. If possible, composed from a UMLS term or a preferred SNOMED CT term.",
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 50
+          },
+          "description": {
+            "title": "Description",
+            "description": "Brief description of the variable.",
+            "type": "string",
+            "format": "text",
+            "minLength": 3
+          },
+          "data_type": {
+            "title": "Data Type",
+            "description": "Data type of the variable.",
+            "type": "string",
+            "enum": [
+              "integer",
+              "float",
+              "string",
+              "datetime",
+              "timedelta",
+              "any"
+            ]
+          },
+          "variable_type": {
+            "title": "Variable Type",
+            "description": "Type of the variable.",
+            "type": "string",
+            "enum": [
+              "id",
+              "feature",
+              "target"
+            ]
+          },
+          "statistical_type": {
+            "title": "Statistical Type",
+            "description": "Statistical type of the variable.",
+            "type": "string",
+            "enum": [
+              "continuous",
+              "count",
+              "binary",
+              "nominal",
+              "ordinal"
+            ]
+          },
+          "units": {
+            "title": "Measurement Units",
+            "description": "UCUM Measurement units of the variable, if applicable.\n",
+            "type": "string"
+          },
+          "language": {
+            "title": "Language",
+            "description": "Language.",
+            "type": "string",
+            "oneOf": [
+              {
+                "title": "English: en",
+                "const": "en"
+              },
+              {
+                "title": "Spanish: es",
+                "const": "es"
+              }
+            ]
+          },
+          "categories_coded": {
+            "title": "Coded Categories",
+            "description": "Codes for the labels of a categorical variable.",
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "$comment": "semi-controlled vocabulary"
+          },
+          "ordered": {
+            "title": "Ordered Categories?",
+            "description": "Are the categories ordered?",
+            "type": "boolean",
+            "enum": [
+              true,
+              false
+            ]
+          },
+          "umls_codes": {
+            "title": "UMLS Code",
+            "description": "UMLS concept codes that represent the variable.",
+            "type": "array",
+            "maxItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "snomdect_codes": {
+            "title": "SNOMED CT Codes",
+            "description": "SNOMED CT concept codes that represent the variable.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "na_strings": {
+            "title": "Missing Value Codes",
+            "description": "A list of missing value codes.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "measurment_method": {
+            "title": "Measurement Methods",
+            "description": "Brief description of measurement methods",
+            "type": "string",
+            "format": "text",
+            "minLength": 2,
+            "maxLength": 1000
+          },
+          "references": {
+            "title": "References",
+            "description": "List of links to relevant references.",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            },
+            "uniqueItems": true
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "description",
+          "data_type",
+          "variable_type"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "variables"
+  ]
+}

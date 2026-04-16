@@ -1,0 +1,200 @@
+{
+  "$schema": "tabular-data-metadata-schema.json",
+  "variables": [
+    {
+      "label": "SubjectID",
+      "description": "<p>Subject identification number (sequential identifier in this processed file; not present as a direct identifier in the original UCI files).</p>",
+      "data_type": "integer",
+      "variable_type": "id"
+    },
+    {
+      "label": "Age",
+      "description": "<p>Age in years.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "continuous",
+      "units": "a",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "Sex",
+      "description": "<p>Sex.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "binary",
+      "umls_codes": [
+        "unknown"
+      ],
+      "categories_coded": {
+        "female": 0,
+        "male": 1
+      }
+    },
+    {
+      "label": "ChestPainType",
+      "description": "<p>Chest pain type.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "nominal",
+      "umls_codes": [
+        "unknown"
+      ],
+      "categories_coded": {
+        "typical_angina": 1,
+        "atypical_angina": 2,
+        "non_anginal_pain": 3,
+        "asymptomatic": 4
+      }
+    },
+    {
+      "label": "RestingBloodPressure",
+      "description": "<p>Resting blood pressure on admission to hospital.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "continuous",
+      "units": "mm[Hg]",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "SerumCholesterol",
+      "description": "<p>Serum cholesterol.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "continuous",
+      "units": "mg/dL",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "FastingBloodSugarHigh",
+      "description": "<p>Fasting blood sugar &gt; 120 mg/dL.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "binary",
+      "umls_codes": [
+        "unknown"
+      ],
+      "categories_coded": {
+        "no": 0,
+        "yes": 1
+      }
+    },
+    {
+      "label": "RestingECG",
+      "description": "<p>Resting electrocardiographic results.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "nominal",
+      "umls_codes": [
+        "unknown"
+      ],
+      "categories_coded": {
+        "normal": 0,
+        "ST_T_wave_abnormality": 1,
+        "left_ventricular_hypertrophy_Estes": 2
+      }
+    },
+    {
+      "label": "MaxHeartRate",
+      "description": "<p>Maximum heart rate achieved.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "continuous",
+      "units": "{beats}/min",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "ExerciseInducedAngina",
+      "description": "<p>Exercise induced angina.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "binary",
+      "umls_codes": [
+        "unknown"
+      ],
+      "categories_coded": {
+        "no": 0,
+        "yes": 1
+      }
+    },
+    {
+      "label": "STDepression",
+      "description": "<p>ST depression induced by exercise relative to rest (oldpeak).</p>",
+      "data_type": "float",
+      "variable_type": "feature",
+      "statistical_type": "continuous",
+      "units": "mm",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "STSegmentSlope",
+      "description": "<p>Slope of the peak exercise ST segment. Not sure if this an ordinal or nominal variable. Set to nominal.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "nominal",
+      "umls_codes": [
+        "unknown"
+      ],
+      "categories_coded": {
+        "upsloping": 1,
+        "flat": 2,
+        "downsloping": 3
+      }
+    },
+    {
+      "label": "NumMajorVesselsFluoroscopy",
+      "description": "<p>Number of major vessels (0–3) coloured by fluoroscopy. -1 is missing value code.</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "count",
+      "units": "1{count}",
+      "umls_codes": [
+        "unknown"
+      ],
+      "na_strings": [
+        "-1"
+      ]
+    },
+    {
+      "label": "ThalliumStressTest",
+      "description": "<p>Thallium scintigraphy result (thal).</p>",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "nominal",
+      "umls_codes": [
+        "unknown"
+      ],
+      "na_strings": [
+        "0"
+      ],
+      "categories_coded": {
+        "normal": 3,
+        "fixed_defect": 6,
+        "reversible_defect": 7
+      }
+    },
+    {
+      "label": "CAD",
+      "description": "<p>Angiographic coronary artery disease (CAD) presence.</p>",
+      "data_type": "integer",
+      "variable_type": "target",
+      "statistical_type": "binary",
+      "umls_codes": [
+        "unknown"
+      ],
+      "categories_coded": {
+        "no": 0,
+        "yes": 1
+      }
+    }
+  ]
+}

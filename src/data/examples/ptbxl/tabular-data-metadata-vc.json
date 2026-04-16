@@ -1,0 +1,84 @@
+{
+  "$schema": "tabular-data-metadata-schema.json",
+  "variables": [
+    {
+      "label": "ECGId",
+      "description": "Unique ECG record identifier.",
+      "data_type": "integer",
+      "variable_type": "id"
+    },
+    {
+      "label": "PatientId",
+      "description": "Unique patient identifier.",
+      "data_type": "integer",
+      "variable_type": "id"
+    },
+    {
+      "label": "Age",
+      "description": "Age in years.",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "continuous",
+      "units": "a",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "Sex",
+      "description": "Biological sex.",
+      "data_type": "integer",
+      "variable_type": "feature",
+      "statistical_type": "binary",
+      "categories_coded": {
+        "female": 0,
+        "male": 1
+      },
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "Height",
+      "description": "Height in centimeters.",
+      "data_type": "float",
+      "variable_type": "feature",
+      "statistical_type": "continuous",
+      "units": "cm",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "Weight",
+      "description": "Weight in kilograms.",
+      "data_type": "float",
+      "variable_type": "feature",
+      "statistical_type": "continuous",
+      "units": "kg",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "RecordingDate",
+      "description": "Date of ECG recording.",
+      "data_type": "datetime",
+      "variable_type": "feature",
+      "language": "en",
+      "umls_codes": [
+        "unknown"
+      ]
+    },
+    {
+      "label": "SCPCodes",
+      "description": "SCP diagnostic codes assigned to the ECG.",
+      "data_type": "string",
+      "variable_type": "feature",
+      "language": "en",
+      "umls_codes": [
+        "unknown"
+      ]
+    }
+  ]
+}

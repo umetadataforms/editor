@@ -1,0 +1,45 @@
+{
+  "$schema": "dataset-metadata-schema-real.json",
+  "title": "RESPect iEEG ECoG Dataset of Epilepsy Surgery Patients",
+  "label": "RESPect",
+  "version": "1.0.3",
+  "version_date": "2021-10-26",
+  "version_info": "OpenNeuro snapshot version 1.0.3",
+  "description": "Intracranial EEG recordings of 6 epilepsy surgery patients with acute intraoperative ECoG organized in BIDS RESPect dataset.",
+  "purpose": "Collected to tailor epilepsy surgery.",
+  "disease": "epilepsy",
+  "study_design": "observational",
+  "patient_num": 6,
+  "patient_criteria": "Epilepsy surgery patients in Utrecht UMC undergoing intraoperative ECoG.",
+  "target_variables": "iEEG signal features tied to seizure localization and surgical resection boundaries.",
+  "time_zero": "surgery start date",
+  "temporal_coverage": {
+    "start_date": "2008-01-01",
+    "endDate": "2021-10-26"
+  },
+  "spatial_coverage": ["NLD"],
+  "source_urls": ["https://openneuro.org/datasets/ds003844/versions/1.0.3"],
+  "acquisition_methods": "Data collected via MicroMed SD64 or Flexi EEG amplifiers",
+  "healthcare_setting": "tertiary care / surgical theatre",
+  "documentation": ["https://openneuro.org/datasets/ds003844/versions/1.0.3"],
+  "publications": [],
+  "data_modalities": ["tabular", "TS:iEEG"],
+  "privacy_compliance": "De-identified per OpenNeuro and BIDS iEEG standards.",
+  "ethics_approval": {
+    "obtained": true,
+    "details": "Clinical ethics approval obtained at UMC Utrecht."
+  },
+  "patient_consent": {
+    "obtained": true,
+    "details": "Informed consent obtained per clinical protocol."
+  },
+  "funder": "University Medical Center Utrecht",
+  "owner": "University Medical Center Utrecht",
+  "licence": "CC0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "doi": "doi:10.18112/openneuro.ds003844.v1.0.3",
+  "citation": "Demuru et al. (2021) A Practical Workflow for Organizing Clinical Intraoperative and Long‑Term iEEG data in BIDS. Submitted to Neuroinformatics.",
+  "tasks": ["classification"],
+  "format": "iEEG-BIDS",
+  "keywords": ["iEEG","ECoG","epilepsy","RESPect","clinical","surgery"]
+}

@@ -9,7 +9,7 @@ export interface JsonIO {
   readonly DEFAULT_FILE_NAME: string;
 
   /** Import a JSON file chosen by the user. */
-  importJsonFromFile(file: File): Promise<boolean>;
+  importJsonFromFile(file: File): Promise<Record<string, unknown>>;
 
   /** Always prompt for a destination (and remember the handle if supported). */
   saveJsonAs(data: unknown, suggestedName?: string): Promise<boolean>;

@@ -1,8 +1,18 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# dependencies
-/node_modules
+node_modules
+dist
+electron-dist
+release
 
-# production
-/build
-/dist
+.ruff_cache/
+
+# Python
+python/.venv
+python/tests/output/
+python/scripts/__pycache__/
+
+local/

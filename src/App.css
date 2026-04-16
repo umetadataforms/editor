@@ -1,13 +1,38 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--mantine-color-body);
+  color: var(--mantine-color-text);
+}
+
+#root {
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
 }
+
 .content-wrap {
-  width: 50vw;          /* 50% of the viewport */
+  width: 53vw;
   margin: 0 auto;       /* centre it */
 }
 
-/* .is-dark .field.field-object fieldset, */
-/* .is-dark .field.field-array fieldset { */
+.umfe-form-spacer-top {
+  height: 8px;
+}
+
+.umfe-form-spacer-bottom {
+  height: 24px;
+}
+
 .field.field-object fieldset,
 .field.field-array fieldset {
   border: 1px solid gray !important;
@@ -15,33 +40,23 @@
 }
 
 /* Don't display the submit button */
-.ant-btn-submit {
+.rjsf button[type="submit"] {
   display: none !important;
 }
 
-/* Raise AntD message z-index */
-:where(.ant-message) {
-  z-index: 5000;
+.umfe-field .mantine-InputWrapper-label,
+.umfe-field .mantine-Checkbox-label,
+.umfe-field .mantine-Radio-label,
+.umfe-field .mantine-RadioGroup-label,
+.umfe-field .mantine-Switch-label,
+.umfe-field .mantine-Group-root .mantine-InputWrapper-label {
+  display: none;
 }
 
-.x-top-level-anchor {
-  margin-top: 18px !important;
-}
-
-.x-h1 {
-  padding-top: 1rem !important;
-}
-
-.ant-form-item-label > label {
-  display: block;
-  width: 100%;
-}
-
-.ant-form-item-label > label > h2.x-h2 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin-top: 10px;
+.umfe-field-required::after {
+  content: '*';
+  margin-left: 4px;
+  color: var(--mantine-color-red-6);
 }
 
 fieldset#root {
@@ -49,18 +64,201 @@ fieldset#root {
   padding-top: 0 !important;
 }
 
+.umfe-label {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+}
+
+.umfe-label-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.umfe-label-block {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.umfe-label-block-h2 {
+  margin-top: var(--mantine-spacing-lg);
+}
+
+.umfe-label-block-h3 {
+  margin-top: var(--mantine-spacing-md);
+}
+
+.umfe-label-block-h4 {
+  margin-top: var(--mantine-spacing-sm);
+}
+
+.umfe-label-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.umfe-label-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+
+.umfe-description-inline {
+  margin-top: 6px;
+}
+
+.umfe-description em,
+.umfe-description i {
+  font-style: italic !important;
+}
+
+.umfe-description-panel em,
+.umfe-description-panel i {
+  font-style: italic !important;
+}
+
+.umfe-description,
+.umfe-description-panel {
+  font-synthesis: style;
+}
+
+.umfe-description-inline code,
+.umfe-description-panel code {
+  color: #777;
+}
+
 /* This span wraps all the buttons, and the auto margin pushes it right */
-.ant-form-item-label > label > h2.x-h2 .x-field-actions {
+.umfe-h2.umfe-label .umfe-field-actions,
+.umfe-h3.umfe-label .umfe-field-actions,
+.umfe-h4.umfe-label .umfe-field-actions {
   margin-left: auto;
   display: flex;
   gap: 0.5rem;  /* space between buttons */
 }
 
-.x-list-items .ant-form-item {
-  margin-bottom: 12px !important;
+.umfe-field-header {
+  margin-top: 10px;
 }
 
-.x-rich-text-editor-content .ProseMirror {
+.umfe-field-context-label {
+  margin-left: 4px;
+  color: var(--mantine-color-dimmed);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.umfe-collapsible-array-toggle {
+  margin-left: 4px;
+}
+
+.umfe-info-icon {
+  align-self: center;
+  color: var(--mantine-color-dimmed);
+}
+
+.umfe-inline-label-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.umfe-inline-label-title {
+  white-space: nowrap;
+}
+
+.umfe-inline-label-input {
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.umfe-radio-option-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.umfe-radio-option-text {
+  line-height: 1.2;
+}
+
+.umfe-radio-option .mantine-Radio-label {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.umfe-radio-group {
+  margin-bottom: 8px;
+}
+
+.umfe-null-input {
+  opacity: 0.85;
+}
+
+.umfe-null-input input,
+.umfe-null-input textarea {
+  color: var(--mantine-color-dimmed);
+}
+
+.umfe-panel {
+  background: var(--mantine-color-body);
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: 8px;
+  box-shadow: var(--mantine-shadow-md);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.umfe-panel-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.umfe-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--mantine-color-default-border);
+  background: var(--mantine-color-body);
+  cursor: move;
+  user-select: none;
+}
+
+.umfe-panel-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.umfe-panel-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+}
+
+.umfe-panel-body {
+  flex: 1;
+  overflow: auto;
+  padding: 12px;
+}
+
+.umfe-panel-minimized .umfe-panel-body {
+  display: none;
+}
+
+.umfe-rich-text-editor-content .ProseMirror {
   outline: none;
 }
 /* When editing, don't let anchors receive clicks */
@@ -72,6 +270,132 @@ fieldset#root {
 /*   pointer-events: auto; */
 /* } */
 
-.ant-alert-error {
-  margin-bottom: 24px !important;
+.umfe-collapsible-object-item {
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: 8px;
+  padding: 6px 8px;
+  background: var(--mantine-color-body);
+}
+
+.umfe-collapsible-object-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.umfe-collapsible-object-toggle {
+  flex: 1 1 auto;
+  cursor: pointer;
+}
+
+.umfe-collapsible-object-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.umfe-collapsible-object-header-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+
+.umfe-collapsible-object-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.umfe-collapsible-object-body {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.umfe-collapsible-object-grid {
+  margin-top: 4px;
+}
+
+.umfe-object-field-prop,
+.umfe-collapsible-object-block {
+  padding-right: var(--mantine-spacing-xs);
+}
+
+.umfe-collapsible-object-grid .umfe-collapsible-object-measurementType {
+  grid-column: 1 / -1;
+}
+
+.umfe-tabular-category-item {
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: 6px;
+  padding: 6px 8px;
+  background: var(--mantine-color-body);
+}
+
+.umfe-tabular-category-item .mantine-SimpleGrid-root {
+  padding-right: 6px;
+  box-sizing: border-box;
+}
+
+.umfe-tabular-category-item .umfe-object-field-tags {
+  margin-left: 2ch;
+  grid-column: 1 / -1;
+}
+
+.umfe-clinical-concept-code .umfe-object-field-code,
+.umfe-clinical-concept-code .umfe-object-field-name {
+  grid-column: 1 / -1;
+}
+
+.umfe-clinical-vocab-grid {
+  grid-template-columns: 70% 30% !important;
+}
+
+.umfe-tag-item {
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: 6px;
+  padding: 6px 8px;
+  background: var(--mantine-color-body);
+}
+
+.umfe-tabular-resource-item {
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: 6px;
+  padding: 6px 8px;
+  background: var(--mantine-color-body);
+}
+
+.umfe-tag-label {
+  margin: 2px 0 6px;
+}
+
+.umfe-inline-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.umfe-inline-checkbox-title {
+  color: var(--mantine-color-text);
+  font-size: var(--mantine-font-size-md);
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.umfe-tag-item .umfe-object-field-isPrimary .umfe-inline-checkbox {
+  padding-top: calc(var(--mantine-font-size-sm) + 4px);
+}
+
+.umfe-tag-item .umfe-object-field-code,
+.umfe-tag-item .umfe-object-field-name {
+  grid-column: 1 / -1;
+}
+
+.umfe-list-items {
+  margin-bottom: 12px !important;
 }

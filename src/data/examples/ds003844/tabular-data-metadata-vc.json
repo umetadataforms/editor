@@ -1,0 +1,82 @@
+{
+  "$schema": "tabular-data-metadata-schema.json",
+  "variables": [
+    {
+      "label": "Id",
+      "description": "Record Id",
+      "data_type": "string",
+      "variable_type": "id",
+      "statistical_type": "nominal",
+      "units": "",
+      "na_strings": [
+        ""
+      ]
+    },
+    {
+      "label": "sex",
+      "description": "Sex",
+      "data_type": "string",
+      "variable_type": "feature",
+      "statistical_type": "nominal",
+      "categories_coded": {
+        "Female": 1,
+        "Male": 2
+      },
+      "ordered": false,
+      "na_strings": [
+        "NA"
+      ],
+      "measurment_method": "Dervied from electronic health records"
+    },
+    {
+      "label": "Lobe",
+      "description": "The lobe the resection was performed",
+      "data_type": "string",
+      "variable_type": "feature",
+      "statistical_type": "nominal",
+      "categories_coded": {
+        "Temporal": 1,
+        "Frontal": 2,
+        "Occipital": 3,
+        "Parieto-occipital": 4
+      },
+      "ordered": false,
+      "na_strings": [
+        "NA"
+      ],
+      "measurment_method": "Dervied from electronic health records"
+    },
+    {
+      "label": "Hemisphere",
+      "description": "The hemisphere the resection was performed",
+      "data_type": "string",
+      "variable_type": "feature",
+      "statistical_type": "nominal",
+      "categories_coded": {
+        "Right": 1,
+        "Left": 2
+      },
+      "ordered": false,
+      "na_strings": [
+        "NA"
+      ],
+      "measurment_method": "Dervied from electronic health records"
+    },
+    {
+      "label": "Adult_child",
+      "description": "Adult (18+) or child",
+      "data_type": "string",
+      "variable_type": "feature",
+      "statistical_type": "nominal",
+      "categories_coded": {
+        "Adult": 1,
+        "Child": 2
+      },
+      "ordered": false,
+      "na_strings": [
+        "NA"
+      ],
+      "measurment_method": "Dervied from electronic health records"
+    }
+  ]
+}

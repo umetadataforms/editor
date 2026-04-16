@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { WidgetProps } from '@rjsf/utils';
-import { Select } from 'antd';
+import { Loader, Select } from '@mantine/core';
 
 type Option = { label: string; value: string };
 
@@ -31,12 +31,11 @@ export default function CountryWidget(props: WidgetProps) {
     autofocus
   } = props;
 
-  const [opts, setOpts] = useState<Option[]>([]);
-  const [loading, setLoading] = useState(false);
+  const [opts, setOpts] = useState<Option[]>(() => cache ?? []);
+  const [loading, setLoading] = useState(() => !cache);
 
   useEffect(() => {
     let active = true;
-    setLoading(true);
 
     loadCountries()
       .then(data => active && setOpts(data))
@@ -49,19 +48,18 @@ export default function CountryWidget(props: WidgetProps) {
   return (
     <Select
       id={id}
-      value={value ?? undefined}
-      showSearch
-      allowClear
-      virtual
+      value={value ?? null}
+      searchable
+      clearable
       disabled={disabled || readonly}
       autoFocus={autofocus}
       placeholder='Select Country'
-      loading={loading}
+      rightSection={loading ? <Loader size="xs" /> : undefined}
+      rightSectionPointerEvents="none"
       onChange={(val) => onChange(val ?? undefined)}
       onFocus={() => onFocus?.(id, value)}
       onBlur={() => onBlur?.(id, value)}
-      options={opts}
-      optionFilterProp='label'
+      data={opts}
       style={{ width: '100%' }}
     />
   );

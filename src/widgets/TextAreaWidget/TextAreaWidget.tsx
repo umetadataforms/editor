@@ -1,36 +1,51 @@
 import { memo, useState, useCallback, useEffect, useRef } from 'react';
+import type { MouseEvent } from 'react';
 import { useEditor, EditorContent } from '@tiptap/react';
+import type { Editor } from '@tiptap/react';
 import { getMarkRange } from '@tiptap/core';
 import StarterKit from '@tiptap/starter-kit';
 import Underline from '@tiptap/extension-underline';
 import Link from '@tiptap/extension-link';
+import type { WidgetProps } from '@rjsf/utils';
 
-import { Button, Select, Tooltip, Divider, Space, theme } from 'antd';
+import { ActionIcon, Divider, Group, Select, Tooltip, useMantineColorScheme, useMantineTheme } from '@mantine/core';
 import {
-  BoldOutlined,
-  ItalicOutlined,
-  UnderlineOutlined,
-  CodeOutlined,
-  LinkOutlined,
-  ClearOutlined,
-  DoubleRightOutlined,
-  ArrowRightOutlined,
-  ArrowLeftOutlined
-} from '@ant-design/icons';
+  IconArrowLeft,
+  IconArrowRight,
+  IconBold,
+  IconClearFormatting,
+  IconCode,
+  IconItalic,
+  IconLink,
+  IconList,
+  IconListNumbers,
+  IconQuote,
+  IconUnderline,
+} from '@tabler/icons-react';
 
 import LinkPrompt from './LinkPrompt';
 
-const { useToken } = theme;
+const DEFAULT_DEBOUNCE_MS = 180;
+const COMMIT_ON_BLUR = false;
 
 /* -----------------------------------------------------------------------------
  * Toolbar
  * -------------------------------------------------------------------------- */
 
 const Toolbar = memo(function Toolbar(
-  { editor, disabled }: { editor: any; disabled?: boolean }
+  { editor, disabled }: { editor: Editor | null; disabled?: boolean }
 ) {
-  const { token } = useToken();
   const [askLink, linkModal] = LinkPrompt();
+  const theme = useMantineTheme();
+  const { colorScheme } = useMantineColorScheme();
+  const isDark = colorScheme === 'dark';
+  const iconColor = isDark ? theme.colors.gray[0] : theme.black;
+  const activeBg = isDark ? theme.colors.dark[5] : theme.colors.gray[1];
+
+  const actionStyle = (active: boolean) => ({
+    color: iconColor,
+    backgroundColor: active ? activeBg : 'transparent',
+  });
 
   const [uiState, setUiState] = useState({
     heading: 'normal',
@@ -55,8 +70,6 @@ const Toolbar = memo(function Toolbar(
       const sel = editor.state.selection;
       const nextState = {
         heading:
-          (editor.isActive('heading', { level: 1 }) && '1') ||
-          (editor.isActive('heading', { level: 2 }) && '2') ||
           (editor.isActive('heading', { level: 3 }) && '3') ||
           (editor.isActive('heading', { level: 4 }) && '4') ||
           'normal',
@@ -72,10 +85,10 @@ const Toolbar = memo(function Toolbar(
         canSink: editor.can().chain().sinkListItem('listItem').run(),
         canLift: editor.can().chain().liftListItem('listItem').run(),
       };
-      setUiState(prev => {
-        for (const k in nextState) {
-          // @ts-ignore shallow compare
-          if (prev[k] !== nextState[k]) return nextState;
+      setUiState((prev) => {
+        const keys = Object.keys(nextState) as Array<keyof typeof nextState>;
+        for (const key of keys) {
+          if (prev[key] !== nextState[key]) return nextState;
         }
         return prev;
       });
@@ -102,7 +115,7 @@ const Toolbar = memo(function Toolbar(
     };
   }, [editor]);
 
-  const btnType = (active: boolean) => (active ? 'primary' : 'default');
+  const btnVariant = () => 'subtle';
 
   function looksLikeUrl(s: string): boolean {
     const t = (s || '').trim();
@@ -129,92 +142,105 @@ const Toolbar = memo(function Toolbar(
   }
 
   return (
-    <Space
-      wrap
+    <Group
+      wrap="wrap"
       align="center"
+      gap="xs"
       style={{
         width: '100%',
         padding: '8px 8px',
-        borderBottom: `1px solid ${token.colorBorderSecondary}`,
-        background: token.colorBgContainer
+        borderBottom: '1px solid var(--mantine-color-default-border)',
+        background: 'var(--mantine-color-body)'
       }}
     >
       <Select
-        size="small"
-        style={{ width: 100 }}
+        size="xs"
+        style={{ width: 110 }}
         value={uiState.heading}
-        onChange={(val) =>
-          val === 'normal'
-            ? editor?.chain().focus().setParagraph().run()
-            : editor?.chain().focus().setHeading({ level: parseInt(val, 10) }).run()
-        }
-        options={[
+        onChange={(val) => {
+          const next = val || 'normal';
+          if (next === 'normal') {
+            editor?.chain().focus().setParagraph().run();
+          } else {
+            const level = next === '3' ? 3 : 4;
+            editor?.chain().focus().setHeading({ level }).run();
+          }
+        }}
+        data={[
           { label: 'Normal', value: 'normal' },
-          { label: 'H1', value: '1' },
-          { label: 'H2', value: '2' },
           { label: 'H3', value: '3' },
           { label: 'H4', value: '4' }
         ]}
         disabled={disabled}
       />
 
-      <Divider type="vertical" style={{ padding: 0, margin: 2 }} />
+      <Divider orientation="vertical" />
 
-      <Tooltip title="Bold (Ctrl+B)">
-        <Button
-          size="small"
-          icon={<BoldOutlined />}
-          type={btnType(uiState.bold)}
+      <Tooltip label="Bold (Ctrl+B)" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(uiState.bold)}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().toggleBold().run(); }}
           disabled={disabled}
-        />
+        >
+          <IconBold size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Tooltip title="Italic (Ctrl+I)">
-        <Button
-          size="small"
-          icon={<ItalicOutlined />}
-          type={btnType(uiState.italic)}
+      <Tooltip label="Italic (Ctrl+I)" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(uiState.italic)}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().toggleItalic().run(); }}
           disabled={disabled}
-        />
+        >
+          <IconItalic size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Tooltip title="Underline (Ctrl+U)">
-        <Button
-          size="small"
-          icon={<UnderlineOutlined />}
-          type={btnType(uiState.underline)}
+      <Tooltip label="Underline (Ctrl+U)" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(uiState.underline)}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().toggleUnderline().run(); }}
           disabled={disabled}
-        />
+        >
+          <IconUnderline size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Tooltip title="Inline code">
-        <Button
-          size="small"
-          icon={<CodeOutlined />}
-          type={btnType(uiState.code)}
+      <Tooltip label="Inline code" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(uiState.code)}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().toggleCode().run(); }}
           disabled={disabled}
-        />
+        >
+          <IconCode size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Tooltip title="Block quote">
-        <Button
-          size="small"
-          icon={<DoubleRightOutlined />}
-          type={btnType(uiState.blockquote)}
+      <Tooltip label="Block quote" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(uiState.blockquote)}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().toggleBlockquote().run(); }}
           disabled={disabled}
-        />
+        >
+          <IconQuote size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Tooltip title="Insert/Edit link">
-        <Button
-          size="small"
-          icon={<LinkOutlined />}
-          type={btnType(uiState.link)}
+      <Tooltip label="Insert/Edit link" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(uiState.link)}
           disabled={disabled}
           onMouseDown={async (e) => {
             e.preventDefault();
@@ -289,74 +315,75 @@ const Toolbar = memo(function Toolbar(
               .unsetMark('link')
               .run();
           }}
-        />
+        >
+          <IconLink size={16} />
+        </ActionIcon>
       </Tooltip>
 
       {linkModal}
 
-      <Tooltip title="Clear formatting">
-        <Button
-          size="small"
-          icon={<ClearOutlined />}
+      <Tooltip label="Clear formatting" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(false)}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().unsetAllMarks().clearNodes().run(); }}
           disabled={disabled}
-        />
+        >
+          <IconClearFormatting size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Divider type="vertical" style={{ padding: 0, margin: 2 }} />
+      <Divider orientation="vertical" />
 
-      <Tooltip title="Bulleted list">
-        <Button
-          size="small"
-          type={btnType(uiState.bulletList)}
+      <Tooltip label="Bulleted list" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(uiState.bulletList)}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().toggleBulletList().run(); }}
           disabled={disabled}
-          icon={
-            <svg width="1em" height="1em" viewBox="0 0 17 17" fill="currentColor" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden focusable="false">
-              <circle cx="3" cy="5" r="1.8" />
-              <circle cx="3" cy="13" r="1.8" />
-              <line x1="7" y1="5" x2="15" y2="5" />
-              <line x1="7" y1="13" x2="15" y2="13" />
-            </svg>
-          }
-        />
+        >
+          <IconList size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Tooltip title="Numbered list">
-        <Button
-          size="small"
-          type={btnType(uiState.numberedList)}
+      <Tooltip label="Numbered list" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(uiState.numberedList)}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().toggleOrderedList().run(); }}
           disabled={disabled}
-          icon={
-            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" stroke="currentColor" strokeWidth="1">
-              <text x="1" y="8" fontSize="6" fontFamily="monospace">1</text>
-              <text x="1" y="15" fontSize="6" fontFamily="monospace">2</text>
-              <line x1="7" y1="5" x2="15" y2="5" />
-              <line x1="7" y1="13" x2="15" y2="13" />
-            </svg>
-          }
-        />
+        >
+          <IconListNumbers size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Tooltip title="Increase item indent">
-        <Button
-          size="small"
-          icon={<ArrowRightOutlined />}
+      <Tooltip label="Increase item indent" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(false)}
           disabled={!uiState.canSink}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().sinkListItem('listItem').run(); }}
-        />
+        >
+          <IconArrowRight size={16} />
+        </ActionIcon>
       </Tooltip>
 
-      <Tooltip title="Decrease item indent">
-        <Button
-          size="small"
-          icon={<ArrowLeftOutlined />}
+      <Tooltip label="Decrease item indent" withArrow>
+        <ActionIcon
+          size="sm"
+          variant={btnVariant()}
+          style={actionStyle(false)}
           disabled={!uiState.canLift}
           onMouseDown={(e) => { e.preventDefault(); editor?.chain().focus().liftListItem('listItem').run(); }}
-        />
+        >
+          <IconArrowLeft size={16} />
+        </ActionIcon>
       </Tooltip>
-    </Space>
+    </Group>
   );
 });
 
@@ -365,30 +392,30 @@ const Toolbar = memo(function Toolbar(
  *  Editor
  * -------------------------------------------------------------------------- */
 
-export interface TextAreaWidgetProps {
-  id?: string;
-  value?: string;
-  onChange: (html: string) => void;
-  disabled?: boolean;
-  readonly?: boolean;
-  resizable?: boolean;
-  minHeight?: number | string;
-  maxHeight?: number | string;
-  debouncems?: number;
-}
-
-export default function TextAreaWidget(props: TextAreaWidgetProps) {
+export default function TextAreaWidget(props: WidgetProps) {
   const {
-    id, value, onChange, disabled, readonly,
-    resizable = true, minHeight = 150, maxHeight = '80vh', debouncems = 180
+    id,
+    value,
+    onChange,
+    disabled,
+    readonly,
+    options,
   } = props;
 
-  const isLocked = !!(disabled || readonly);
-  const { token } = theme.useToken();
+  const optionsRecord = options as Record<string, unknown> | undefined;
+  const resizable = typeof optionsRecord?.resizable === 'boolean' ? optionsRecord.resizable : true;
+  const minHeight = typeof optionsRecord?.minHeight === 'number' ? optionsRecord.minHeight : 150;
+  const maxHeight = typeof optionsRecord?.maxHeight === 'number' || typeof optionsRecord?.maxHeight === 'string'
+    ? optionsRecord.maxHeight
+    : '80vh';
 
+  const debouncems = DEFAULT_DEBOUNCE_MS;
+  const commitOnBlur = COMMIT_ON_BLUR;
+
+  const isLocked = !!(disabled || readonly);
   const editor = useEditor({
     extensions: [
-      StarterKit.configure({ codeBlock: false }),
+      StarterKit.configure({ heading: { levels: [3, 4] }, codeBlock: false }),
       Underline,
       Link.configure({
         autolink: true,
@@ -399,7 +426,9 @@ export default function TextAreaWidget(props: TextAreaWidgetProps) {
     ],
     editable: !isLocked,
     content: value || '',
-    onUpdate: ({ editor }) => scheduleChangeFlush(editor),
+    onUpdate: commitOnBlur
+      ? undefined
+      : ({ editor }: { editor: Editor }) => scheduleChangeFlush(editor),
   });
 
   const lastSentRef = useRef<string>(value || '');
@@ -413,7 +442,7 @@ export default function TextAreaWidget(props: TextAreaWidgetProps) {
   //   }
   // }, [onChange]);
 
-  const flushChange = useCallback((editor: any) => {
+  const flushChange = useCallback((editor: Editor) => {
     const html = editor.getHTML();
     const normalised = editor.isEmpty ? '' : html;
 
@@ -424,7 +453,7 @@ export default function TextAreaWidget(props: TextAreaWidgetProps) {
   }, [onChange]);
 
 
-  const scheduleChangeFlush = useCallback((editor: any) => {
+  const scheduleChangeFlush = useCallback((editor: Editor) => {
     if (debounceRef.current) window.clearTimeout(debounceRef.current);
     debounceRef.current = window.setTimeout(() => flushChange(editor), debouncems);
   }, [flushChange, debouncems]);
@@ -454,7 +483,7 @@ export default function TextAreaWidget(props: TextAreaWidgetProps) {
   }, [isLocked, editor]);
 
 
-  const activateOnEmptyAreaClick = (e: React.MouseEvent<HTMLDivElement>) => {
+  const activateOnEmptyAreaClick = (e: MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
       editor.chain().focus('end').run();
     }
@@ -465,12 +494,12 @@ export default function TextAreaWidget(props: TextAreaWidgetProps) {
   return (
     <div
       id={id}
-      className="x-rich-text-editor"
-      style={{ border: `1px solid ${token.colorBorder}`, background: token.colorBgContainer }}
+      className="umfe-rich-text-editor"
+      style={{ border: '1px solid var(--mantine-color-default-border)', background: 'var(--mantine-color-body)' }}
     >
       <Toolbar editor={editor} disabled={isLocked} />
       <div
-        className="x-rich-text-editor-content"
+        className="umfe-rich-text-editor-content"
         onClick={activateOnEmptyAreaClick}
         style={{
           outline: 'none',

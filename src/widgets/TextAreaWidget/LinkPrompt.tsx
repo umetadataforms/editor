@@ -1,48 +1,48 @@
-import { useState, useRef, useCallback } from 'react';
-import { Modal, Input, Form } from 'antd';
-import type { InputRef } from 'antd';
+import { useState, useRef, useCallback, useEffect } from 'react';
+import { Button, Group, Modal, TextInput } from '@mantine/core';
 
 type Initial = { url?: string; title?: string };
 type Result = { url: string; title: string } | null;
 
 export default function LinkPrompt() {
   const [open, setOpen] = useState(false);
-  const [initial, setInitial] = useState<Initial>({ url: '', title: '' });
-  const resolverRef = useRef<(v: Result) => void>(() => {});
-  const [form] = Form.useForm();
+  const [values, setValues] = useState<Required<Initial>>({ url: '', title: '' });
+  const [urlError, setUrlError] = useState<string | null>(null);
 
-  const urlFocusRef = useRef<InputRef>(null);
-  const titleFocusRef = useRef<InputRef>(null);
+  const resolverRef = useRef<(v: Result) => void>(() => {});
+  const urlFocusRef = useRef<HTMLInputElement>(null);
+  const titleFocusRef = useRef<HTMLInputElement>(null);
 
   const ask = useCallback((init: Initial = {}) => {
-    setInitial({ url: init.url ?? '', title: init.title ?? '' });
-    form.setFieldsValue({ url: init.url ?? '', title: init.title ?? '' });
+    const next = { url: init.url ?? '', title: init.title ?? '' };
+    setValues(next);
+    setUrlError(null);
     setOpen(true);
     return new Promise<Result>((resolve) => {
       resolverRef.current = resolve;
     });
-  }, [form]);
+  }, []);
 
-  const handleOk = useCallback(async () => {
-    try {
-      const values = await form.validateFields();
-      setOpen(false);
-      resolverRef.current(values as { url: string; title: string });
-    } catch {
-      // keep open
+  const handleOk = useCallback(() => {
+    const url = values.url.trim();
+    if (!url) {
+      setUrlError('Please enter a URL');
+      return;
     }
-  }, [form]);
+    setOpen(false);
+    resolverRef.current({ url, title: values.title.trim() });
+  }, [values]);
 
   const handleCancel = useCallback(() => {
     setOpen(false);
     resolverRef.current(null);
   }, []);
 
-  const handleFormKeyDown = useCallback(
-    (e: React.KeyboardEvent<HTMLFormElement>) => {
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLDivElement>) => {
       if (e.key === 'Enter') {
         e.preventDefault();
-        void handleOk();
+        handleOk();
       } else if (e.key === 'Escape') {
         e.preventDefault();
         handleCancel();
@@ -51,55 +51,51 @@ export default function LinkPrompt() {
     [handleOk, handleCancel]
   );
 
+  useEffect(() => {
+    if (!open) return;
+    const urlHas = !!values.url.trim();
+    const titleHas = !!values.title.trim();
+    const focusUrl = urlHas === titleHas ? true : !urlHas;
+    const target = focusUrl ? urlFocusRef.current : titleFocusRef.current;
+    requestAnimationFrame(() => target?.focus());
+  }, [open, values]);
+
   const modal = (
     <Modal
-      open={open}
+      opened={open}
+      onClose={handleCancel}
       title="Insert/Edit Link"
-      okText="OK"
-      cancelText="Cancel"
-      onOk={handleOk}
-      onCancel={handleCancel}
-      afterClose={() => form.resetFields()}
-      keyboard
-      closable={false}
-      maskClosable={false}
-      afterOpenChange={(opened) => {
-        if (!opened) return;
-        // Read live values from the form, not from `initial`
-        const { url = '', title = '' } = form.getFieldsValue(['url', 'title']) as {
-          url?: string; title?: string;
-        };
-        const urlHas = !!url?.trim();
-        const titleHas = !!title?.trim();
-
-        // If both same (both empty or both filled) → focus URL; else focus the empty one
-        const focusUrl = urlHas === titleHas ? true : !urlHas;
-        const target = focusUrl ? urlFocusRef.current : titleFocusRef.current;
-
-        // Allow the DOM to settle before focusing
-        requestAnimationFrame(() => {
-          // AntD InputRef exposes .focus(); this covers both Input and legacy wrappers
-          target?.focus?.();
-        });
-      }}
+      centered
+      closeOnClickOutside={false}
+      closeOnEscape={false}
+      withCloseButton={false}
     >
-      <Form
-        form={form}
-        layout="vertical"
-        initialValues={{ url: initial.url ?? '', title: initial.title ?? '' }}
-        onKeyDown={handleFormKeyDown}
-      >
-        <Form.Item
-          name="url"
+      <div onKeyDown={handleKeyDown}>
+        <TextInput
+          ref={urlFocusRef}
           label="URL"
-          rules={[{ required: true, message: 'Please enter a URL' }]}
-        >
-          <Input ref={urlFocusRef} placeholder="https://example.com" />
-        </Form.Item>
-        <Form.Item name="title" label="Title (optional)">
-          <Input ref={titleFocusRef} placeholder="Visible Label" />
-        </Form.Item>
-      </Form>
+          placeholder="https://example.com"
+          value={values.url}
+          error={urlError}
+          onChange={(e) => {
+            setUrlError(null);
+            setValues((prev) => ({ ...prev, url: e.currentTarget.value }));
+          }}
+          required
+        />
+        <TextInput
+          ref={titleFocusRef}
+          mt="sm"
+          label="Title (optional)"
+          placeholder="Visible Label"
+          value={values.title}
+          onChange={(e) => setValues((prev) => ({ ...prev, title: e.currentTarget.value }))}
+        />
+        <Group justify="flex-end" mt="md">
+          <Button variant="default" onClick={handleCancel}>Cancel</Button>
+          <Button onClick={handleOk}>OK</Button>
+        </Group>
+      </div>
     </Modal>
   );
 

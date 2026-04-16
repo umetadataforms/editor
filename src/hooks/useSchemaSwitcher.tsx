@@ -5,7 +5,7 @@
  * It provides:
  *   - The currently selected schema and UI schema
  *   - A confirmation modal for switching/resetting schemas
- *   - Automatic form clearing
+ *   - Resetting form data to the initial seed
  *   - Forced remounting of the form component to ensure clean resets
  *   - A promise-based system that waits for the form to fully mount
  *
@@ -16,24 +16,30 @@
  *   • The caller can wait until the newly mounted form signals it is ready.
  */
 
-import React, { useCallback, useMemo, useRef, useState } from 'react';
-import { Modal } from 'antd';
-import { WarningOutlined } from '@ant-design/icons';
+import { useCallback, useMemo, useRef, useState } from 'react';
+import type { RefObject } from 'react';
+import { Button, Group, Modal, Text, ThemeIcon } from '@mantine/core';
+import { IconAlertTriangle } from '@tabler/icons-react';
 
-import SCHEMAREG, { DEFAULT_SCHEMA_KEY, type SchemaKey } from '../utils/schema-registry';
-import INITIAL_FORM_DATA from '../utils/initial-form-data';
+import { requestCloseAllPanels } from '../components/Panels/Panels';
+import SCHEMAREG, { DEFAULT_SCHEMA_KEY, type SchemaKey } from '../registries/schema-registry';
+import INITIAL_FORM_DATA from '../registries/initial-form-data-registry';
 
 /* -------------------------------------------------------------------------- */
 
 type Options = {
-  formDataRef: React.RefObject<any>;
-  setFormData: (next: any) => void;
+  formDataRef: RefObject<Record<string, unknown> | null>;
+  setInitialFormData: (next: Record<string, unknown>) => void;
 };
 
 export default function useSchemaSwitcher({
   formDataRef,
-  setFormData
+  setInitialFormData
 }: Options) {
+
+  // Marks the ref as intentionally used to avoid unused parameter warnings.
+  // `void` evaluates the expression but discards its value.
+  void formDataRef;
 
   /**
    * Tracks which schema is currently selected.
@@ -81,14 +87,6 @@ export default function useSchemaSwitcher({
   );
 
   /**
-   * Clears the current form data. Used when switching schemas or resetting.
-   */
-  // const clearForm = useCallback(() => {
-  //   setFormData({});
-  //   if (formDataRef.current) formDataRef.current = {};
-  // }, [setFormData, formDataRef]);
-
-  /**
    * A ref that stores a resolver function for the next form mount event.
    * When the FormShell calls `notifyFormMounted`, the promise resolves.
    */
@@ -130,17 +128,18 @@ export default function useSchemaSwitcher({
    * @param {SchemaKey} key - The schema key to switch to.
    */
   const selectSchemaImmediate = useCallback(
-    async (key: SchemaKey) => {
+    async (key: SchemaKey, nextData?: Record<string, unknown>) => {
+      requestCloseAllPanels();
+
       // Change schema key
       setSelectedSchemaKey(key);
 
       // Force remount by incrementing instance counter
       setFormInstanceId((id) => id + 1);
 
-      setFormData(INITIAL_FORM_DATA[key]);
-      // Reset data
-      // clearForm();
-
+      const seed = typeof nextData !== 'undefined' ? nextData : INITIAL_FORM_DATA[key];
+      setInitialFormData(seed);
+      formDataRef.current = seed;
       // Optional UX scroll
       requestAnimationFrame(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -152,7 +151,7 @@ export default function useSchemaSwitcher({
       // Close the modal
       setConfirmOpen(false);
     },
-    [waitForNextFormMount, setFormData]
+    [formDataRef, setInitialFormData, waitForNextFormMount]
   );
 
   /**
@@ -191,30 +190,34 @@ export default function useSchemaSwitcher({
   );
 
   /**
-   * Prebuilt Ant Design Modal JSX element used by the host UI.
+   * Prebuilt modal JSX element used by the host UI.
    * Consumer simply renders `schemaSwitchConfirmModal` in the component tree.
    */
   const schemaSwitchConfirmModal = (
     <Modal
-      open={isConfirmOpen}
+      opened={isConfirmOpen}
+      onClose={handleConfirmCancel}
       title={
-        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-          <WarningOutlined style={{ fontSize: 22, color: 'red' }} />
-          Switch/Reset Schema?
-        </span>
+        <Group gap="xs">
+          <ThemeIcon color="red" variant="light" size="sm">
+            <IconAlertTriangle size={16} />
+          </ThemeIcon>
+          <span>Switch/Reset Schema?</span>
+        </Group>
       }
-      okText="Switch/Reset Schema"
-      okButtonProps={{ danger: true, loading: loading }}
-      cancelText="Cancel"
-      onOk={handleConfirmOk}
-      onCancel={handleConfirmCancel}
-      keyboard
-      closable={false}
-      maskClosable={false}
+      closeOnClickOutside={false}
+      closeOnEscape={false}
       centered
+      withCloseButton={false}
     >
-      If you switch or reset the current schema, all unsaved data will be lost.<br />
-      Do you want to continue?
+      <Text size="sm">
+        If you switch or reset the current schema, all unsaved data will be lost.
+        Do you want to continue?
+      </Text>
+      <Group justify="flex-end" mt="md">
+        <Button variant="default" onClick={handleConfirmCancel}>Cancel</Button>
+        <Button color="red" loading={loading} onClick={handleConfirmOk}>Switch/Reset Schema</Button>
+      </Group>
     </Modal>
   );
 

@@ -1,0 +1,4 @@
+SubjectID	Age	VisitDate	HasCondition	Notes
+2001	62	2024-02-10	0	baseline visit
+2002	54	2024-02-13	1	screening
+2003	48	2024-02-16	0	follow-up

@@ -1,20 +1,40 @@
-import { JsonIO } from './jsonIO.typs';
+import type { JsonIO } from './jsonIO.typs';
 
 const DEFAULT_FILE_NAME = 'metadata.json';
 
-let lastFileHandle: any | undefined;
+type FileSystemWritable = {
+  write: (data: Blob) => Promise<void>;
+  close: () => Promise<void>;
+};
+
+type FileSystemFileHandle = {
+  name: string;
+  createWritable: () => Promise<FileSystemWritable>;
+};
+
+type SaveFilePickerOptions = {
+  suggestedName: string;
+  types: Array<{ description: string; accept: Record<string, string[]> }>;
+  excludeAcceptAllOption?: boolean;
+};
+
+type WindowWithFSAccess = Window & {
+  showSaveFilePicker?: (options: SaveFilePickerOptions) => Promise<FileSystemFileHandle>;
+};
+
+let lastFileHandle: FileSystemFileHandle | undefined;
 
 /**
  * Imports a JSON file selected by the user.
  */
 async function importJsonFromFile(
   file: File
-): Promise<any> {
+): Promise<Record<string, unknown>> {
   try {
     const text = await file.text();
-    const data = JSON.parse(text);
+    const data = JSON.parse(text) as Record<string, unknown>;
     return data;
-  } catch (err: any) {
+  } catch {
     throw new Error('json-import-error');
   } finally {
     lastFileHandle = undefined;
@@ -44,7 +64,8 @@ function ensureJsonExt(name: string): string {
  * secure (https/localhost).
  */
 function hasFSAccess(): boolean {
-  return typeof (window as any).showSaveFilePicker === 'function' && isSecureContext;
+  const win = window as WindowWithFSAccess;
+  return typeof win.showSaveFilePicker === 'function' && isSecureContext;
 }
 
 /**
@@ -64,7 +85,7 @@ function downloadJson(json: string, fileName: string): void {
 /**
  * Write a JSON string to a file using a previously obtained File System Access handle.
  */
-async function writeWithHandle(handle: any, json: string): Promise<void> {
+async function writeWithHandle(handle: FileSystemFileHandle, json: string): Promise<void> {
   const writable = await handle.createWritable();
   await writable.write(new Blob([json], { type: 'application/json' }));
   await writable.close();
@@ -92,7 +113,6 @@ function exportJson(data: unknown, fileName: string = DEFAULT_FILE_NAME): boolea
     downloadJson(json, fileName);
     return true;
   } catch (e) {
-    // eslint-disable-next-line no-console
     console.error(e);
     throw new Error('export-json-error');
   }
@@ -151,19 +171,20 @@ async function saveJsonAs(
   if (hasFSAccess()) {
     try {
       const ensured = ensureJsonExt(suggestedName);
-      const handle = await (window as any).showSaveFilePicker({
+      const handle = await (window as WindowWithFSAccess).showSaveFilePicker?.({
         suggestedName: ensured,
         types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }],
         excludeAcceptAllOption: false,
       });
+      if (!handle) throw new Error('save-json-as-no-handle');
       await writeWithHandle(handle, json);
       lastFileHandle = handle;
       return true;
-    } catch (err: any) {
-      if (err?.name === 'AbortError') {
+    } catch (err: unknown) {
+      const error = err as { name?: string } | undefined;
+      if (error?.name === 'AbortError') {
         return false;
       }
-      // eslint-disable-next-line no-console
       console.error(err);
       throw new Error('save-json-as-error');
     }
@@ -239,7 +260,6 @@ function exportJsonWithHtmlStripped(
     downloadJson(json, fileName);
     return true;
   } catch (e) {
-    // eslint-disable-next-line no-console
     console.error(e);
     throw new Error('export-json-html-error');
   }
