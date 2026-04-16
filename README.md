@@ -130,4 +130,4 @@ where `<username>` is your Windows user name.
 
 This work was funded by AISym4Med project number 101095387.
 
-[release]: https://github.com/umetadataforms/editor/releases/tag/v0.0.1
+[release]: https://github.com/umetadataforms/editor/releases/tag/v0.0.2
